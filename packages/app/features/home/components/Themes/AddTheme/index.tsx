@@ -10,7 +10,12 @@ import {
 } from 'tamagui'
 import React, {useState} from "react";
 import axios from "axios";
-import { Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, ScrollView } from '@my/ui'
+import { Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, isWeb } from '@my/ui'
+
+const cardSize = {
+    width: isWeb ? 250 : '50%',
+    height: 250
+}
 
 export const AddTheme = ({ onCreate }) => {
     const [title, setTitle] = useState('');
@@ -45,8 +50,8 @@ export const AddTheme = ({ onCreate }) => {
                 <Card
                     animation="bouncy"
                     size="$4"
-                    w={'50%'}
-                    h={250}
+                    w={cardSize.width}
+                    h={cardSize.height}
                     scale={0.9}
                     hoverStyle={{ scale: 0.925, cursor: 'pointer' }}
                     pressStyle={{ scale: 0.875, borderWidth: 3, borderColor: '$color' }}

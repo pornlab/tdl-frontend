@@ -1,4 +1,4 @@
-import { Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, ScrollView} from '@my/ui'
+import {Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, ScrollView, isWeb} from '@my/ui'
 import React, { useState } from 'react'
 import { ListChecks, Star, AlarmClock, Info, Slash } from '@tamagui/lucide-icons'
 import axios from "axios";
@@ -24,7 +24,7 @@ const Buttons = [
     }];
 
 const cardSize = {
-    width: '50%',
+    width: isWeb ? 250 : '50%',
     height: 250
 }
 
