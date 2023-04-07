@@ -1,8 +1,8 @@
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
+import axios, {AxiosHeaders, AxiosInstance, AxiosRequestConfig, HeadersDefaults, RawAxiosRequestHeaders} from 'axios';
 
 export interface CustomAxiosInstance extends AxiosInstance {
     config?: AxiosRequestConfig;
-    header?: any;
+    headers?: RawAxiosRequestHeaders | AxiosHeaders | Partial<HeadersDefaults>;
 }
 
 let axiosInstance: CustomAxiosInstance;
@@ -20,8 +20,7 @@ export const createInstance = (config: AxiosRequestConfig): CustomAxiosInstance 
 };
 
 export const setHeadersForInstance = (
-    // headers: { [index: string]: string } = {},
-    headers = {},
+    headers: RawAxiosRequestHeaders | AxiosHeaders | Partial<HeadersDefaults> = {},
     instance: CustomAxiosInstance,
 ): CustomAxiosInstance => {
     const targetHeaders = { ...instance.config?.headers, ...headers };

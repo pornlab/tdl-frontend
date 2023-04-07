@@ -1,9 +1,11 @@
-import {Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, ScrollView, isWeb} from '@my/ui'
-import React, { useState } from 'react'
+import {Button, XStack, XGroup, YStack, Card, H4, H5, Paragraph, Text, ScrollView, isWeb, Spinner} from '@my/ui'
+import React, {useEffect, useRef, useState} from 'react'
 import { ListChecks, Star, AlarmClock, Info, Slash } from '@tamagui/lucide-icons'
-import axios from "axios";
-import {Spinner} from "tamagui";
+import { observer } from 'mobx-react';
+import {defaultThemesSnapshot, Themes} from "../../../business-logic/stores/theme";
 import {AddTheme} from "app/features/home/components/Themes/AddTheme";
+import serviceInitializer from "../../../api/serviceInitializer";
+import {ThemeService} from "../../../api/theme";
 
 const Buttons = [
     {
@@ -28,28 +30,20 @@ const cardSize = {
     height: 250
 }
 
-export function HomeScreen() {
-    const [active, setActive] = useState(0);
-    const [themes, setThemes] = useState([]);
-    const [isLoading, setLoading] = useState(false);
+export const HomeScreen = observer(() => {
+    const scrollViewRef = useRef();
+    const [store, setStore] = useState(defaultThemesSnapshot);
+    useEffect(() => setStore(Themes.create(defaultThemesSnapshot, {
+        themeService: serviceInitializer<ThemeService>(ThemeService),
+    })), []);
 
-    const getThemes = async () => {
-        try {
-            const savedThemes = await axios.get('http://192.168.1.79:3000/api/theme/getList', {
-                headers: {
-                    Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjBiOWM1NzQxZThlYTI0NDFmOWY0YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTY3NzcyNDM4MywiZXhwIjoxNjc3ODEwNzgzfQ.8wG2H1P46WCHdQvk7SnxFAodqeZyeN_lyYkestbOgSI'
-                },
-                params: {
-                    year: 2022
-                }
-            }).then(res => res.data);
+    const isLoading = store.indicators.isLoading.value;
 
-            setThemes(savedThemes);
-        }
-        catch (err) {
-            console.log(err)
-        }
-    };
+    const onCreate = async () => {
+        //@ts-ignore
+        scrollViewRef.current?.scrollToEnd({ animated: true });
+        await store.getList();
+    }
 
     return (
         <>
@@ -57,17 +51,19 @@ export function HomeScreen() {
                 w="100%"
                 h="100%"
                 bc="$background"
+                ref={scrollViewRef}
             >
-                {/*{isLoading &&*/}
-                {/*    <YStack p="$3" space="$4" ai="center" jc={'center'} h={'100%'}>*/}
-                {/*        <Spinner size="large" color="$orange10" />*/}
-                {/*    </YStack>*/}
-                {/*}*/}
-                {(
-                    <YStack f={1} jc="space-between" ai="center" p="$4" pb={'$7'} mb={100} fd={'row'} fw={'wrap'}>
-                        {themes.map((item) => {
+                {isLoading &&
+                    <YStack p="$3" space="$4" ai="center" jc={'center'} h={'100vw'}>
+                        <Spinner size="large" color="$orange10" />
+                    </YStack>
+                }
+                {store.list && (
+                    <YStack f={1} jc="center" ai="center" p="$4" pb={'$7'} mb={100} fd={'row'} fw={'wrap'}>
+                        {store.list.map((item, index) => {
                             return (
                                 <Card
+                                    key={index}
                                     animation="bouncy"
                                     size="$4"
                                     w={cardSize.width}
@@ -86,34 +82,36 @@ export function HomeScreen() {
                                     <Card.Background />
                                 </Card>)
                         })}
-                        <AddTheme onCreate={getThemes} />
+                        <AddTheme onCreate={onCreate} />
                     </YStack>
                 )}
             </ScrollView>
-            <XStack ai={'center'} jc={'center'} bc="$background" position={'fixed'} bottom={0} w={'100%'} pb={36}>
-                <XGroup
-                    size="$6"
-                    $gtSm={{ size: '$5' }}
-                    space={false}
-                    bordered={1}
-                >
-                    {Buttons.map((item, index) => (
-                        <Button
-                            key={index}
-                            size="$6"
-                            padding={20}
-                            // themeInverse
-                            icon={item.icon}
-                            scaleIcon={active === index ? 1.6 : 1.4}
-                            onPress={() => {
-                                setActive(index);
-                                getThemes();
-                            }}
-                            animation={'quick'}
-                        />
-                    ))}
-                </XGroup>
-            </XStack>
+            {/*<XStack ai={'center'} jc={'center'} bc="$background" position={'fixed'} bottom={0} w={'100%'} pb={36}>*/}
+            {/*    <XGroup*/}
+            {/*        size="$6"*/}
+            {/*        $gtSm={{ size: '$5' }}*/}
+            {/*        space={false}*/}
+            {/*        bordered={1}*/}
+            {/*    >*/}
+            {/*        {Buttons.map((item, index) => (*/}
+            {/*            <Button*/}
+            {/*                key={index}*/}
+            {/*                size="$6"*/}
+            {/*                padding={20}*/}
+            {/*                // themeInverse*/}
+            {/*                icon={item.icon}*/}
+            {/*                scaleIcon={active === index ? 1.6 : 1.4}*/}
+            {/*                borderBottomColor={active === index ? 'palevioletred' : 0}*/}
+            {/*                borderBottomWidth={active === index ? 4 : 0}*/}
+            {/*                onPress={() => {*/}
+            {/*                    setActive(index);*/}
+            {/*                    getThemes();*/}
+            {/*                }}*/}
+            {/*                animation={'quick'}*/}
+            {/*            />*/}
+            {/*        ))}*/}
+            {/*    </XGroup>*/}
+            {/*</XStack>*/}
         </>
     )
-}
+});
