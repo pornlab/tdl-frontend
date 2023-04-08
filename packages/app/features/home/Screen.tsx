@@ -24,7 +24,8 @@ const Buttons = [
     },{
         icon: Info,
         link: '/info',
-    }];
+    }
+    ];
 
 const cardSize = {
     width: isWeb ? 250 : '50%',
@@ -53,8 +54,8 @@ export const HomeScreen = observer(() => {
                     </YStack>
                 }
                 {!isLoading && store.list && (
-                    <YStack f={1} jc="center" ai="center" p="$4" pb={'$7'} mb={100} fd={'row'} fw={'wrap'}>
-                        {store.list.map((item, index) => <ThemeCard item={item} index={index} />)}
+                    <YStack f={1} ai="center" p="$4" pb={'$7'} mb={100} fd={'row'} fw={'wrap'}>
+                        {store.list.map((item, index) => <ThemeCard key={item._id} item={item} index={index} />)}
                         <AddTheme onCreate={store.getList} />
                     </YStack>
                 )}

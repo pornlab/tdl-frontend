@@ -8,13 +8,9 @@ import { ThemeService } from "../../../api/theme";
 import { defaultThemeViewSnapshot, ThemeView } from "../../../business-logic/stores/theme/theme";
 import {observer} from "mobx-react";
 
-const { useParam } = createParam<{ id: string }>()
-
 export const ThemeDetailScreen = observer(() => {
-    const [id] = useParam('id');
     const [store, setStore] = useState(defaultThemeViewSnapshot);
     useEffect(() => setStore(ThemeView.create(defaultThemeViewSnapshot, {
-        id,
         themeService: serviceInitializer<ThemeService>(ThemeService),
     })), []);
 
@@ -43,8 +39,6 @@ export const ThemeDetailScreen = observer(() => {
         </ScrollView>
         <XStack position={'fixed'} bottom={0} space pb={48} w={'100%'} ai={'center'} jc={'center'} bc="$background">
             <Button size={'$6'} bc={'#FF9669'} color={'white'}>Вопросы по теме</Button>
-            {/*<Button size={'$6'} theme={'orange'}>Вопросы по теме</Button>*/}
-            <Button size={'$6'} theme={'green'}>Добавить</Button>
         </XStack>
     </>
   )

@@ -55,7 +55,7 @@ export const AddTheme = observer(({ onCreate }) => {
                     }}
                 >
                     <Card.Header>
-                        <Text fontSize={180} ta={'center'}>+</Text>
+                        <Text fontSize={180} ta={'center'} color={'#555'}>+</Text>
                     </Card.Header>
                     <Card.Background />
                 </Card>
@@ -95,7 +95,7 @@ export const AddTheme = observer(({ onCreate }) => {
                     exitStyle={{ x: 0, y: 10, opacity: 0, scale: 0.95 }}
                     space
                 >
-                    <Dialog.Title>Добавление темы</Dialog.Title>
+                    <Dialog.Title letterSpacing={-0.5}>Добавление темы</Dialog.Title>
                     <Dialog.Description>
                         Заполните поля и сохраните данные
                     </Dialog.Description>
