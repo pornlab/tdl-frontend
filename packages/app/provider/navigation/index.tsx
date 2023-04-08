@@ -1,5 +1,6 @@
 import { NavigationContainer, DarkTheme, DefaultTheme } from '@react-navigation/native'
 import * as Linking from 'expo-linking'
+import * as React from 'react'
 import { useMemo } from 'react'
 import { useColorScheme } from 'react-native'
 
@@ -16,6 +17,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
             screens: {
               home: '',
               'user-detail': 'user/:id',
+              'theme-detail': 'theme/:id',
             },
           },
         }),

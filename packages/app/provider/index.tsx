@@ -1,4 +1,5 @@
 import config from '../tamagui.config'
+import * as React from 'react';
 import { NavigationProvider } from './navigation'
 import { TamaguiProvider, TamaguiProviderProps } from '@my/ui'
 import { useColorScheme } from 'react-native';

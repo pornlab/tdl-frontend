@@ -6,6 +6,7 @@ import {defaultThemesSnapshot, Themes} from "../../../business-logic/stores/them
 import {AddTheme} from "app/features/home/components/Themes/AddTheme";
 import serviceInitializer from "../../../api/serviceInitializer";
 import {ThemeService} from "../../../api/theme";
+import {useLink} from "solito/link";
 
 const Buttons = [
     {
@@ -31,7 +32,6 @@ const cardSize = {
 }
 
 export const HomeScreen = observer(() => {
-    const scrollViewRef = useRef();
     const [store, setStore] = useState(defaultThemesSnapshot);
     useEffect(() => setStore(Themes.create(defaultThemesSnapshot, {
         themeService: serviceInitializer<ThemeService>(ThemeService),
@@ -39,11 +39,9 @@ export const HomeScreen = observer(() => {
 
     const isLoading = store.indicators.isLoading.value;
 
-    const onCreate = async () => {
-        //@ts-ignore
-        scrollViewRef.current?.scrollToEnd({ animated: true });
-        await store.getList();
-    }
+    const link = useLink({
+        href: '/theme/78',
+    })
 
     return (
         <>
@@ -51,7 +49,6 @@ export const HomeScreen = observer(() => {
                 w="100%"
                 h="100%"
                 bc="$background"
-                ref={scrollViewRef}
             >
                 {isLoading &&
                     <YStack p="$3" space="$4" ai="center" jc={'center'} h={'100vw'}>
@@ -74,6 +71,7 @@ export const HomeScreen = observer(() => {
                                     style={{
                                         borderWidth: 1
                                     }}
+                                    {...link}
                                 >
                                     <Card.Header >
                                         <H5 pb={16}>{item.title}</H5>
@@ -82,7 +80,7 @@ export const HomeScreen = observer(() => {
                                     <Card.Background />
                                 </Card>)
                         })}
-                        <AddTheme onCreate={onCreate} />
+                        <AddTheme onCreate={store.getList} />
                     </YStack>
                 )}
             </ScrollView>
