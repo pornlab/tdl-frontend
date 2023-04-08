@@ -17,6 +17,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
             screens: {
               home: '',
               'theme-detail': 'theme/:id',
+              'admin-panel': 'admin-panel',
             },
           },
         }),

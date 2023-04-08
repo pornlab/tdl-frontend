@@ -4,6 +4,8 @@ import * as React from 'react'
 import { HomeScreen } from '../../features/home/Screen'
 import { UserDetailScreen } from '../../features/user/detail-screen'
 import {ThemeDetailScreen} from "app/features/theme/detail-screen";
+import {Text, Button} from "@my/ui";
+import { ListChecks, Star, AlarmClock, Info, MoreVertical } from '@tamagui/lucide-icons'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
@@ -20,15 +22,32 @@ export function NativeNavigation() {
         component={HomeScreen}
         options={{
           title: 'Темы для изучения',
+            // headerStyle: {
+            //     backgroundColor: '#f4511e',
+            // },
+            // headerTintColor: '#fff',
+            // headerTitleStyle: {
+            //     fontWeight: 'bold',
+            // },
         }}
       />
-      <Stack.Screen
-        name="theme-detail"
-        component={ThemeDetailScreen}
-        options={{
-          title: 'Тема',
-        }}
-      />
+        <Stack.Screen
+            name="theme-detail"
+            component={ThemeDetailScreen}
+            options={{
+                title: 'Тема',
+                headerRight: () => (
+                    <Button backgroundColor={'transparent'} pr={0} onPress={() => alert('MoreVertical')}><MoreVertical /></Button>
+                ),
+            }}
+        />
+        <Stack.Screen
+            name="admin-panel"
+            component={ThemeDetailScreen}
+            options={{
+                title: 'Панель администратора',
+            }}
+        />
     </Stack.Navigator>
   )
 }
