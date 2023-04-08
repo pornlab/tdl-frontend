@@ -3,12 +3,10 @@ import * as React from 'react'
 
 import { HomeScreen } from '../../features/home/Screen'
 import { UserDetailScreen } from '../../features/user/detail-screen'
+import {ThemeDetailScreen} from "app/features/theme/detail-screen";
 
 const Stack = createNativeStackNavigator<{
   home: undefined
-  'user-detail': {
-    id: string
-  }
   'theme-detail': {
     id: string
   }
@@ -25,17 +23,10 @@ export function NativeNavigation() {
         }}
       />
       <Stack.Screen
-        name="user-detail"
-        component={UserDetailScreen}
-        options={{
-          title: 'User1',
-        }}
-      />
-      <Stack.Screen
         name="theme-detail"
-        component={UserDetailScreen}
+        component={ThemeDetailScreen}
         options={{
-          title: 'Theme1',
+          title: 'Тема',
         }}
       />
     </Stack.Navigator>
