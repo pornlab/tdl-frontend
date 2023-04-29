@@ -26,7 +26,6 @@ export const ThemeView = types.model({
     });
 
     const afterCreate = flow(function*() {
-        console.log('themeSericec', themeService);
         yield get(id);
     })
 

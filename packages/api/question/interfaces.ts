@@ -1,10 +1,9 @@
 export interface Question {
     _id: string;
     value: string;
-    testId: string;
-    themeId: string;
-    imageId: string;
     points: number;
+    themeId: string;
+    imageId: string | null;
 }
 
 export type Questions = Question[];

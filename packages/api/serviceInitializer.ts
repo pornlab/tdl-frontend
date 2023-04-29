@@ -8,7 +8,7 @@ import {
 // import env from 'configs/environment';
 
 const config = {
-    baseURL: 'http://10.0.1.123:3000',
+    baseURL: 'http://192.168.18.184:3000',
 };
 
 const instance: CustomAxiosInstance = createInstance(config);
@@ -24,7 +24,7 @@ export const setToken = (token: string) =>
         instance,
     );
 
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjBiOWM1NzQxZThlYTI0NDFmOWY0YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTY4MDk0MjgzNiwiZXhwIjoxNjgxMDI5MjM2fQ.qCFt-BaAI-iWOPMv5o5g93isyRZ2el6DAmaDIbx8O7E';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjBiOWM1NzQxZThlYTI0NDFmOWY0YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTY4Mjc3MjI0MCwiZXhwIjoxNjgyODU4NjQwfQ.gfMy23r3X3123mX1ltHbUabe6wExiKNmcywyFJvnkqM';
 // setToken(get(getCookieKey()));
 setToken(token);
 

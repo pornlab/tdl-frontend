@@ -5,7 +5,8 @@ import { HomeScreen } from '../../features/home/Screen'
 import { UserDetailScreen } from '../../features/user/detail-screen'
 import {ThemeDetailScreen} from "app/features/theme/detail-screen";
 import {Text, Button} from "@my/ui";
-import { ListChecks, Star, AlarmClock, Info, MoreVertical } from '@tamagui/lucide-icons'
+import { ListChecks, Star, AlarmClock, Info, Plus } from '@tamagui/lucide-icons'
+import {CreateQuestionScreen} from "app/features/question/Create";
 
 const Stack = createNativeStackNavigator<{
   home: undefined
@@ -36,16 +37,14 @@ export function NativeNavigation() {
             component={ThemeDetailScreen}
             options={{
                 title: 'Тема',
-                headerRight: () => (
-                    <Button backgroundColor={'transparent'} pr={0} onPress={() => alert('MoreVertical')}><MoreVertical /></Button>
-                ),
+                headerBackTitle: 'Back'
             }}
         />
         <Stack.Screen
-            name="admin-panel"
-            component={ThemeDetailScreen}
+            name="create-question"
+            component={CreateQuestionScreen}
             options={{
-                title: 'Панель администратора',
+                title: 'Добавление вопроса',
             }}
         />
     </Stack.Navigator>

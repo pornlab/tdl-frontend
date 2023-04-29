@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Button, Paragraph, YStack, XStack, Spinner, H2, H1, Image, ScrollView} from '@my/ui'
-import { ChevronLeft } from '@tamagui/lucide-icons'
+import {ChevronLeft, Plus} from '@tamagui/lucide-icons'
 import { createParam } from 'solito'
 import { useLink } from 'solito/link'
 import serviceInitializer from "../../../api/serviceInitializer";
@@ -10,7 +10,7 @@ import {observer} from "mobx-react";
 
 const { useParam } = createParam<{ id: string }>()
 
-export const ThemeDetailScreen = observer(() => {
+export const ThemeDetailScreen = observer(({ navigation }) => {
     const [id] = useParam('id');
     const [store, setStore] = useState(defaultThemeViewSnapshot);
     useEffect(() => setStore(ThemeView.create(defaultThemeViewSnapshot, {
@@ -18,11 +18,19 @@ export const ThemeDetailScreen = observer(() => {
         themeService: serviceInitializer<ThemeService>(ThemeService),
     })), []);
 
-    const isLoading = store.isLoading.value;
-
-    const link = useLink({
-        href: '/',
+    const createQuestionLink = useLink({
+        href: `/theme/${id}/question/create`,
     });
+
+    // React.useEffect(() => {
+    //     navigation.setOptions({
+    //         headerRight: () => (
+    //             <Button backgroundColor={'transparent'} pr={0} {...createQuestionLink}><Plus /></Button>
+    //         ),
+    //     });
+    // }, [navigation]);
+
+    const isLoading = store.isLoading.value;
 
     if (isLoading) {
         return (
@@ -44,7 +52,7 @@ export const ThemeDetailScreen = observer(() => {
         <XStack position={'fixed'} bottom={0} space pb={48} w={'100%'} ai={'center'} jc={'center'} bc="$background">
             <Button size={'$6'} bc={'#FF9669'} color={'white'}>Вопросы по теме</Button>
             {/*<Button size={'$6'} theme={'orange'}>Вопросы по теме</Button>*/}
-            <Button size={'$6'} theme={'green'}>Добавить</Button>
+            {/*<Button size={'$6'} theme={'green'} {...createQuestionLink}>Добавить</Button>*/}
         </XStack>
     </>
   )
