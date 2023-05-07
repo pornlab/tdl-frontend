@@ -57,7 +57,7 @@ export const CreateQuestionScreen = observer(() => {
                     )}
                 </YStack>
             </ScrollView>
-            <XStack position={'fixed'} bottom={0} space pb={48} w={'100%'} ai={'center'} jc={'center'} bc="$background">
+            <XStack position={'fixed'} bottom={'auto'} space pb={48} w={'100%'} ai={'center'} jc={'center'} bc="$background">
                 <Button size={'$6'} theme={'orange'}>Добавить вопрос</Button>
             </XStack>
         </>

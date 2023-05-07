@@ -16,9 +16,8 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
                     initialRouteName: 'home',
                     screens: {
                         home: '',
-                        'theme-detail': 'theme/:id',
-                        'create-question': 'theme/:id/question/create',
-                        'admin-panel': 'admin-panel',
+                        themes: 'themes',
+                        // 'user-detail': 'user/:id',
                     },
                 },
             }),

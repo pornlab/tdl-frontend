@@ -8,7 +8,7 @@ import {
 // import env from 'configs/environment';
 
 const config = {
-    baseURL: 'http://192.168.18.184:3000',
+    baseURL: 'http://192.168.110.247:3000',
 };
 
 const instance: CustomAxiosInstance = createInstance(config);
