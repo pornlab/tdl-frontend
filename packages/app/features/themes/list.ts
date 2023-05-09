@@ -1,12 +1,9 @@
-import VehicleLaw from './icons/vehicleLaw.png';
-import RoadTrafficLaw from './icons/roadTrafficLaw.png';
-import TrafficSigns from './icons/trafficSigns.png';
-import SafeDriving from './icons/safeDriving.png';
-import VehicleMaintenance from './icons/vehicleMaintenance.png';
-import TechniquesOfSafeDriving from './icons/techniquesOfSafeDriving.png';
-
-// techniques of safe driving
-// vehicle maintenance
+import VehicleLaw from '../components/icons/vehicleLaw.png';
+import RoadTrafficLaw from '../components/icons/roadTrafficLaw.png';
+import TrafficSigns from '../components/icons/trafficSigns.png';
+import SafeDriving from '../components/icons/safeDriving.png';
+import VehicleMaintenance from '../components/icons/vehicleMaintenance.png';
+import TechniquesOfSafeDriving from '../components/icons/techniquesOfSafeDriving.png';
 
 import {ListItem} from "app/features/components/List/helpers";
 
@@ -16,21 +13,24 @@ export const themesList: ListItem[] = [
         description: '87 вопросов',
         color: '#FFDFD1',
         iconColor: '#FFA6A6',
-        icon: VehicleLaw
+        icon: VehicleLaw,
+        link: `/question/2`,
     },
     {
         title: 'Road Traffic Law',
         description: '23 вопроса',
         color: '#FFDFD1',
         iconColor: '#FFA6A6',
-        icon: RoadTrafficLaw
+        icon: RoadTrafficLaw,
+        // link: `/questions/2`,
     },
     {
         title: 'Traffic Signs',
         description: '167 вопросов',
         color: '#FFDFD1',
         iconColor: '#FFA6A6',
-        icon: TrafficSigns
+        icon: TrafficSigns,
+        link: `/question-list/2`,
     },
     {
         title: 'Safe Driving',

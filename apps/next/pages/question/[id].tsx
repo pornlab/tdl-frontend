@@ -1,3 +1,3 @@
-import { CreateQuestionScreen } from 'app/features/question/Create'
+import { QuestionView } from 'app/features/question'
 
-export default CreateQuestionScreen
+export default QuestionView

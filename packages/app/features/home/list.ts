@@ -1,7 +1,7 @@
-import Themes from './icons/themes.png';
-import Exam from './icons/exam.png';
-import Maraphon from './icons/maraphon.png';
-import Favourite from './icons/favourite.png';
+import Themes from '../components/icons/themes.png';
+import Exam from '../components/icons/exam.png';
+import Maraphon from '../components/icons/maraphon.png';
+import Favourite from '../components/icons/favourite.png';
 import { ListItem } from "app/features/components/List/helpers";
 
 export const listItems: ListItem[] = [

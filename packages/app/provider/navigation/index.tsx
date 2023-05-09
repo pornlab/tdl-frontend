@@ -17,6 +17,8 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
                     screens: {
                         home: '',
                         themes: 'themes',
+                        question: 'question/:id',
+                        questionList: 'question-list/:id',
                         // 'user-detail': 'user/:id',
                     },
                 },

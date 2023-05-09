@@ -13,8 +13,9 @@ export const Content: React.FC<Props> = ({ children }) => {
             bc="$background"
             contentContainerStyle={{
                 display: 'flex',
-                alignItems: 'center'
+                alignItems: 'center',
             }}
+            pt={'$4'}
         >
             {children}
         </ScrollView>
