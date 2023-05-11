@@ -8,6 +8,7 @@ import {H2, H4, isWeb, Paragraph, XStack, YStack} from '@my/ui'
 import {NotFoundQuestion} from "app/features/question/notFound";
 import {Counter} from "app/features/questionList/components/Counter";
 import {StatusBar} from "app/features/questionList/components/StatusBar";
+import {Carousel} from "app/features/questionList/components/Carousel";
 
 interface Props {
     data: Questions;
@@ -16,9 +17,9 @@ interface Props {
 export const QuestionList: React.FC<Props> = ({ data }) => {
     return (
         <Content>
-            {/*<H2>QuestionList</H2>*/}
             <StatusBar />
             <Counter />
+            <Carousel />
         </Content>
     )
 }
