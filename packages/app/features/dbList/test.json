@@ -1,0 +1,136 @@
+{
+  "10": {
+    "title": { "en": { "value": "What is the purpose of an anti-lock braking system (ABS)?" } },
+    "answers": [
+      {
+        "value": { "en": { "value": "To prevent the wheels from locking up during braking" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "antiLockBrakingSystem"
+  },
+  "11": {
+    "title": {
+      "en": {
+        "value": "What is the function of a catalytic converter in a vehicle's exhaust system?"
+      }
+    },
+    "answers": [
+      {
+        "value": { "en": { "value": "To reduce harmful emissions from the exhaust gases" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleExhaustSystem"
+  },
+  "12": {
+    "title": {
+      "en": { "value": "What does the term 'horsepower' measure in a vehicle's engine?" }
+    },
+    "answers": [
+      {
+        "value": { "en": { "value": "The power or work output of the engine" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "enginePower"
+  },
+  "13": {
+    "title": {
+      "en": { "value": "What is the purpose of a differential in a vehicle's drivetrain?" }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": { "value": "To allow the wheels to rotate at different speeds while turning" }
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleDrivetrain"
+  },
+  "14": {
+    "title": {
+      "en": { "value": "What is the function of a radiator in a vehicle's cooling system?" }
+    },
+    "answers": [
+      {
+        "value": { "en": { "value": "To dissipate heat from the engine coolant" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleCoolingSystem"
+  },
+  "15": {
+    "title": {
+      "en": { "value": "What is the purpose of a clutch in a manual transmission vehicle?" }
+    },
+    "answers": [
+      {
+        "value": { "en": { "value": "To engage or disengage the engine from the transmission" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "manualTransmission"
+  },
+  "16": {
+    "title": { "en": { "value": "What is the function of a power steering system in a vehicle?" } },
+    "answers": [
+      {
+        "value": { "en": { "value": "To assist the driver in turning the steering wheel" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "powerSteering"
+  },
+  "17": {
+    "title": { "en": { "value": "What is the purpose of a timing belt in a vehicle's engine?" } },
+    "answers": [
+      {
+        "value": {
+          "en": { "value": "To synchronize the opening and closing of the engine's valves" }
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "engineTiming"
+  },
+  "18": {
+    "title": {
+      "en": { "value": "What is the function of an airbag in a vehicle's safety system?" }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": {
+            "value": "To provide cushioning and protection to the occupants in the event of a collision"
+          }
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleSafetySystem"
+  },
+  "19": {
+    "title": {
+      "en": { "value": "What is the purpose of a fuel pump in a vehicle's fuel system?" }
+    },
+    "answers": [
+      {
+        "value": { "en": { "value": "To pump fuel from the tank to the engine" } },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "fuelSystem"
+  }
+}

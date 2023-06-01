@@ -14,6 +14,7 @@ export const Content: React.FC<Props> = ({ children }) => {
             contentContainerStyle={{
                 display: 'flex',
                 alignItems: 'center',
+                justifyContent: 'center'
             }}
             pt={'$4'}
         >

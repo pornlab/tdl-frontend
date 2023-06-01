@@ -1,0 +1,632 @@
+[
+  {
+    "title": {
+      "en": {
+        "value": "While driving, the driver must have any documents used with the driving license"
+      },
+      "ru": {
+        "value": "Во время вождения у водителя должны быть какие-либо документы, используемые с водительскими правами"
+      },
+      "de": {
+        "value": "Während der Fahrt muss der Fahrer über alle mit dem Führerschein verwendeten Dokumente verfügen"
+      },
+      "es": {
+        "value": "Mientras conduce, el conductor debe tener todos los documentos utilizados con el permiso de conducir"
+      },
+      "fr": {
+        "value": "Pendant la conduite, le conducteur doit avoir tous les documents utilisés avec le permis de conduire"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "National Identification Card",
+          "ru": "Национальное удостоверение личности",
+          "de": "Nationaler Personalausweis ",
+          "es": "DNI",
+          "fr": "Carte d'identité nationale"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Copy of house registration",
+          "ru": "Копия оформления дома",
+          "de": "Kopie der Hausregistrierung",
+          "es": "Copia del registro de la casa",
+          "fr": "Copie de l'enregistrement de la maison"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Copy of car registration",
+          "ru": "Копия регистрации автомобиля",
+          "de": "Kopie der Fahrzeugregistrierung",
+          "es": "Copia del registro del auto",
+          "fr": "Copie de l'immatriculation de la voiture"
+        },
+        "isAnswer": "true"
+      },
+      {
+        "value": {
+          "en": "Social Security Card",
+          "ru": "Карточка социального обеспечения",
+          "de": "Sozialversicherungsausweis",
+          "es": "Tarjeta de seguro Social",
+          "fr": "Carte de sécurité sociale"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "The driver violates the road traffic law and receives a ticket from the traffic officer, how many days must he contact to pay the fine?"
+      },
+      "ru": {
+        "value": "Водитель нарушает правила дорожного движения и получает билет от сотрудника ГИБДД, сколько дней он должен связаться, чтобы заплатить штраф?"
+      },
+      "de": {
+        "value": "Der Fahrer verstößt gegen das Straßenverkehrsgesetz und erhält vom Verkehrsbeamten ein Ticket. Wie viele Tage muss er kontaktieren, um die Geldstrafe zu zahlen?"
+      },
+      "es": {
+        "value": "El conductor viola la ley de tránsito y recibe una multa del oficial de tránsito, ¿cuántos días debe contactar para pagar la multa?"
+      },
+      "fr": {
+        "value": "Le conducteur enfreint le code de la route et reçoit un ticket de l'agent de la circulation, combien de jours doit-il contacter pour payer l'amende?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "10 days",
+          "ru": "10 дней",
+          "de": "10 Tage",
+          "es": "10 días",
+          "fr": "10 jours"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "7 days",
+          "ru": "7 дней",
+          "de": "7 Tage",
+          "es": "7 días",
+          "fr": "7 jours"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "30 days",
+          "ru": "30 дней",
+          "de": "30 Tage",
+          "es": "30 días",
+          "fr": "30 jours"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "15 days",
+          "ru": "15 дней",
+          "de": "15 Tage",
+          "es": "15 días",
+          "fr": "15 jours"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What is the legal blood alcohol concentration limit for drivers in your country?"
+      },
+      "ru": {
+        "value": "Какой предельный легальный уровень содержания алкоголя в крови у водителей в вашей стране?"
+      },
+      "de": {
+        "value": "Was ist die gesetzlich zulässige Blutalkoholkonzentration für Fahrer in Ihrem Land?"
+      },
+      "es": {
+        "value": "¿Cuál es el límite legal de concentración de alcohol en sangre para los conductores en tu país?"
+      },
+      "fr": {
+        "value": "Quelle est la limite légale de concentration d'alcool dans le sang pour les conducteurs dans votre pays?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "0.08%",
+          "ru": "0.08%",
+          "de": "0,08%",
+          "es": "0.08%",
+          "fr": "0,08%"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "0.05%",
+          "ru": "0.05%",
+          "de": "0,05%",
+          "es": "0.05%",
+          "fr": "0,05%"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "0.02%",
+          "ru": "0.02%",
+          "de": "0,02%",
+          "es": "0.02%",
+          "fr": "0,02%"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "0.00%",
+          "ru": "0.00%",
+          "de": "0,00%",
+          "es": "0.00%",
+          "fr": "0,00%"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What is the meaning of a yellow traffic light?"
+      },
+      "ru": {
+        "value": "Что означает желтый сигнал светофора?"
+      },
+      "de": {
+        "value": "Was bedeutet eine gelbe Ampel?"
+      },
+      "es": {
+        "value": "¿Qué significa una luz amarilla de tránsito?"
+      },
+      "fr": {
+        "value": "Que signifie un feu de signalisation jaune?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Prepare to stop",
+          "ru": "Готовиться к остановке",
+          "de": "Bereitschaft zum Anhalten",
+          "es": "Prepararse para detenerse",
+          "fr": "Préparez-vous à vous arrêter"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Proceed with caution",
+          "ru": "Проезжать с осторожностью",
+          "de": "Mit Vorsicht fortfahren",
+          "es": "Continuar con precaución",
+          "fr": "Continuer avec prudence"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Stop if safe to do so",
+          "ru": "Остановиться, если это безопасно",
+          "de": "Anhalten, wenn es sicher ist",
+          "es": "Detenerse si es seguro hacerlo",
+          "fr": "Arrêtez-vous si cela est possible en toute sécurité"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Clear the intersection",
+          "ru": "Очистить перекресток",
+          "de": "Den Kreuzungsbereich räumen",
+          "es": "Despejar la intersección",
+          "fr": "Libérer l'intersection"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "RoadTrafficLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What does a solid white line on the road mean?"
+      },
+      "ru": {
+        "value": "Что означает сплошная белая линия на дороге?"
+      },
+      "de": {
+        "value": "Was bedeutet eine durchgehende weiße Linie auf der Straße?"
+      },
+      "es": {
+        "value": "¿Qué significa una línea blanca continua en la carretera?"
+      },
+      "fr": {
+        "value": "Que signifie une ligne blanche continue sur la route?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Do not cross the line",
+          "ru": "Не пересекать линию",
+          "de": "Die Linie nicht überqueren",
+          "es": "No cruzar la línea",
+          "fr": "Ne pas traverser la ligne"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Lane change is allowed",
+          "ru": "Разрешено перестраиваться",
+          "de": "Spurwechsel ist erlaubt",
+          "es": "Se permite cambiar de carril",
+          "fr": "Changement de voie autorisé"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Follow the direction of the arrow",
+          "ru": "Следовать направлению стрелки",
+          "de": "Der Pfeilrichtung folgen",
+          "es": "Seguir la dirección de la flecha",
+          "fr": "Suivre la direction de la flèche"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Keep right",
+          "ru": "Держитесь правее",
+          "de": "Rechts halten",
+          "es": "Mantenerse a la derecha",
+          "fr": "Restez à droite"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "RoadTrafficLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What does a circular traffic sign with a red border indicate?"
+      },
+      "ru": {
+        "value": "Что указывает круглый дорожный знак с красной рамкой?"
+      },
+      "de": {
+        "value": "Was zeigt ein rundes Verkehrsschild mit rotem Rand an?"
+      },
+      "es": {
+        "value": "¿Qué indica una señal de tránsito circular con borde rojo?"
+      },
+      "fr": {
+        "value": "Que signifie un panneau de signalisation circulaire avec une bordure rouge?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stop",
+          "ru": "Стоп",
+          "de": "Stop",
+          "es": "Alto",
+          "fr": "Arrêt"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "No entry",
+          "ru": "Запрещено въезжать",
+          "de": "Einfahrt verboten",
+          "es": "Prohibido el paso",
+          "fr": "Interdiction de circuler"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Give way",
+          "ru": "Уступить дорогу",
+          "de": "Vorfahrt gewähren",
+          "es": "Dar paso",
+          "fr": "Cédez le passage"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Roundabout ahead",
+          "ru": "Поворот на кольцо",
+          "de": "Kreisverkehr voraus",
+          "es": "Rotonda adelante",
+          "fr": "Giratoire à venir"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "TechniquesOfSafeDriving"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What should you do when approaching a railroad crossing with flashing lights?"
+      },
+      "ru": {
+        "value": "Что следует делать при приближении к железнодорожному переезду с мигающими огнями?"
+      },
+      "de": {
+        "value": "Was sollten Sie tun, wenn Sie sich einem Bahnübergang mit blinkenden Lichtern nähern?"
+      },
+      "es": {
+        "value": "¿Qué debes hacer al acercarte a un cruce de ferrocarril con luces intermitentes?"
+      },
+      "fr": {
+        "value": "Que devez-vous faire lorsque vous approchez d'un passage à niveau avec des feux clignotants?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stop and wait for the train to pass",
+          "ru": "Остановиться и ждать, пока пройдет поезд",
+          "de": "Anhalten und auf den Zug warten",
+          "es": "Detenerse y esperar a que pase el tren",
+          "fr": "Arrêtez-vous et attendez que le train passe"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Slow down and proceed with caution",
+          "ru": "Замедлиться и продолжить движение с осторожностью",
+          "de": "Langsam fahren und vorsichtig weiterfahren",
+          "es": "Disminuir la velocidad y proceder con precaución",
+          "fr": "Ralentissez et avancez avec prudence"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Change lanes to avoid the crossing",
+          "ru": "Перестроиться, чтобы избежать переезда",
+          "de": "Die Fahrspur wechseln, um den Übergang zu umgehen",
+          "es": "Cambiar de carril para evitar el cruce",
+          "fr": "Changez de voie pour éviter le passage à niveau"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Proceed at normal speed",
+          "ru": "Продолжать движение со стандартной скоростью",
+          "de": "Mit normaler Geschwindigkeit weiterfahren",
+          "es": "Continuar a velocidad normal",
+          "fr": "Poursuivez à vitesse normale"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "SafeDriving"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What is the maximum speed limit on highways in your country?"
+      },
+      "ru": {
+        "value": "Каково максимальное ограничение скорости на автомагистралях в вашей стране?"
+      },
+      "de": {
+        "value": "Wie hoch ist die Höchstgeschwindigkeit auf Autobahnen in Ihrem Land?"
+      },
+      "es": {
+        "value": "¿Cuál es el límite máximo de velocidad en las autopistas de tu país?"
+      },
+      "fr": {
+        "value": "Quelle est la limite de vitesse maximale sur les autoroutes de votre pays?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "120 km/h",
+          "ru": "120 км/ч",
+          "de": "120 km/h",
+          "es": "120 km/h",
+          "fr": "120 km/h"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "100 km/h",
+          "ru": "100 км/ч",
+          "de": "100 km/h",
+          "es": "100 km/h",
+          "fr": "100 km/h"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "80 km/h",
+          "ru": "80 км/ч",
+          "de": "80 km/h",
+          "es": "80 km/h",
+          "fr": "80 km/h"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "60 km/h",
+          "ru": "60 км/ч",
+          "de": "60 km/h",
+          "es": "60 km/h",
+          "fr": "60 km/h"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "SafeDriving"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What should you do if you see a pedestrian crossing the road ahead?"
+      },
+      "ru": {
+        "value": "Что следует делать, если вы видите пешехода, переходящего дорогу впереди?"
+      },
+      "de": {
+        "value": "Was sollten Sie tun, wenn Sie einen Fußgänger sehen, der die Straße überquert?"
+      },
+      "es": {
+        "value": "¿Qué debes hacer si ves a un peatón cruzando la carretera por delante?"
+      },
+      "fr": {
+        "value": "Que devez-vous faire si vous voyez un piéton traverser la route devant vous?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Slow down and yield to the pedestrian",
+          "ru": "Замедлиться и уступить дорогу пешеходу",
+          "de": "Langsam fahren und dem Fußgänger den Vorrang geben",
+          "es": "Disminuir la velocidad y ceder el paso al peatón",
+          "fr": "Ralentissez et cédez le passage au piéton"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Honk your horn to alert the pedestrian",
+          "ru": "Сигналить гудком, чтобы предупредить пешехода",
+          "de": "Hupen, um den Fußgänger zu warnen",
+          "es": "Pitar el claxon para alertar al peatón",
+          "fr": "Klaxonnez pour alerter le piéton"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Speed up to pass the pedestrian quickly",
+          "ru": "Ускориться, чтобы быстро обогнать пешехода",
+          "de": "Beschleunigen, um den Fußgänger schnell zu überholen",
+          "es": "Acelerar para pasar rápidamente al peatón",
+          "fr": "Accélérez pour dépasser rapidement le piéton"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "Continue driving without paying attention to the pedestrian",
+          "ru": "Продолжить движение, не обращая внимания на пешехода",
+          "de": "Weiterfahren, ohne auf den Fußgänger zu achten",
+          "es": "Continuar conduciendo sin prestar atención al peatón",
+          "fr": "Continuez à conduire sans prêter attention au piéton"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "SafeDriving"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "What is the purpose of an anti-lock braking system (ABS)?"
+      },
+      "ru": {
+        "value": "Какова цель антиблокировочной системы (ABS)?"
+      },
+      "de": {
+        "value": "Was ist der Zweck eines Antiblockiersystems (ABS)?"
+      },
+      "es": {
+        "value": "¿Cuál es el propósito de un sistema de frenos antibloqueo (ABS)?"
+      },
+      "fr": {
+        "value": "Quel est le but d'un système de freinage antiblocage (ABS)?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "To prevent the wheels from locking up during braking",
+          "ru": "Предотвращение блокировки колес во время торможения",
+          "de": "Verhindern, dass die Räder während des Bremsens blockieren",
+          "es": "Prevenir el bloqueo de las ruedas durante el frenado",
+          "fr": "Empêcher le blocage des roues pendant le freinage"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "To increase the braking distance",
+          "ru": "Увеличение тормозного пути",
+          "de": "Erhöhen des Bremswegs",
+          "es": "Aumentar la distancia de frenado",
+          "fr": "Augmenter la distance de freinage"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "To improve fuel efficiency",
+          "ru": "Улучшение топливной эффективности",
+          "de": "Verbesserung der Kraftstoffeffizienz",
+          "es": "Mejorar la eficiencia del combustible",
+          "fr": "Améliorer l'efficacité énergétique"
+        },
+        "isAnswer": "false"
+      },
+      {
+        "value": {
+          "en": "To assist in steering the vehicle",
+          "ru": "Помощь в управлении автомобилем",
+          "de": "Unterstützung bei der Lenkung des Fahrzeugs",
+          "es": "Ayudar en la dirección del vehículo",
+          "fr": "Aider à la direction du véhicule"
+        },
+        "isAnswer": "false"
+      }
+    ],
+    "isFavourite": "false",
+    "theme": "SafeDriving"
+  }
+]

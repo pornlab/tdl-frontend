@@ -22,7 +22,7 @@ export const themesList: ListItem[] = [
         color: '#FFDFD1',
         iconColor: '#FFA6A6',
         icon: RoadTrafficLaw,
-        // link: `/questions/2`,
+        link: `/questions/2`,
     },
     {
         title: 'Traffic Signs',

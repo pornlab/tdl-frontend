@@ -14,6 +14,7 @@
     "web:prod": "yarn workspace next-app build",
     "web:prod:serve": "yarn workspace next-app serve",
     "fix": "manypkg fix",
+    "prettier": "prettier --write './packages/app/*.{ts,tsx,js}'",
     "postinstall": "yarn build",
     "build": "yarn workspaces foreach --exclude next-app -pi run build",
     "upgrade:tamagui": "manypkg upgrade tamagui && manypkg upgrade @tamagui && manypkg upgrade tamagui-loader && manypkg upgrade react-native-web-lite"
@@ -39,6 +40,7 @@
   },
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
-    "mobx-react": "^7.6.0"
+    "mobx-react": "^7.6.0",
+    "prettier": "^2.8.8"
   }
 }
