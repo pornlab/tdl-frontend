@@ -5,12 +5,14 @@ import { Stack, Button, ScrollView } from '@my/ui'
 import { QuestionView } from 'app/features/question'
 import { useRef, useState } from 'react'
 import { Question } from 'app/features/dbList/interfaces'
+import { Instance } from 'mobx-state-tree'
+import { Questions } from '../../../../../business-logic/stores/Question'
 
 const width = Dimensions.get('window')
 const height = 700
 
 interface Props {
-  data: Question[]
+  data: Instance<typeof Questions>
 }
 
 export const Carousel: React.FC<Props> = ({ data: questions }) => {
@@ -18,7 +20,6 @@ export const Carousel: React.FC<Props> = ({ data: questions }) => {
   // const scrollRef = useRef<typeof ScrollView>(null);
   //
   // const setActQ = (val: string) => {
-  //     const el = document.getElementsByClassName('question');
   //     if (!el) return;
   //     const elQuest = el[+val-1];
   //     if (!elQuest) return;
@@ -43,7 +44,6 @@ export const Carousel: React.FC<Props> = ({ data: questions }) => {
         scrollEventThrottle={200}
         w={'100%'}
         directionalLockEnabled
-        onScrollToTop={(e) => console.log(e)}
         // ref={scrollRef}
       >
         {questions.map((question, index) => (

@@ -26,26 +26,36 @@ const AnswerValue = types.model({
     [Languages.Franch]: types.string,
 })
 
-const Answer = types.model({
+export const Answer = types.model({
     value: AnswerValue,
     isAnswer: types.boolean,
     isUserAnswer: types.optional(types.boolean, false)
+});
+
+export const Question = types.model({
+    title: Title,
+    answers: types.array(Answer),
+    isFavourite: types.boolean,
+    theme: types.string,
+    mode: types.enumeration([ ModeTypes.QUESTION, ModeTypes.SHOW_ANSWER ])
 }).actions(self => {
-    const setUserAnswer = () => {
-        self.isUserAnswer = true;
+    const isUserAnswered = () => {
+        const answers = self.answers;
+        debugger;
+        return self.answers.filter(answer => answer.isUserAnswer).length;
+    }
+
+    const setUserAnswer = (index: number) => {
+        if (isUserAnswered() || !self.answers[index]) return;
+        if (self.answers[index]) {
+            self.answers[index].isUserAnswer = true;
+            self.mode = ModeTypes.SHOW_ANSWER;
+        }
     }
     return {
+        isUserAnswered,
         setUserAnswer
     }
 })
 
-export const Question = types.model({
-    title: Title,
-    answer: types.array(Answer),
-    isFavourite: types.boolean,
-    theme: types.string,
-    mode: types.enumeration([ ModeTypes.QUESTION, ModeTypes.SHOW_ANSWER ])
-});
-
-
-
+export const Questions = types.array(Question);

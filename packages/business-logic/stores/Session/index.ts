@@ -1,6 +1,5 @@
-import {getEnv, Instance, SnapshotIn, types} from "mobx-state-tree";
-import {ModeTypes, Question as QuestionModel} from "../Question";
-import {Bar} from "./models";
+import {getEnv, SnapshotIn, types} from "mobx-state-tree";
+import {ModeTypes, Questions} from "../Question";
 import {Question} from "app/features/dbList/interfaces";
 
 export interface SessionEnvironment {
@@ -8,27 +7,48 @@ export interface SessionEnvironment {
 }
 
 export const Session = types.model({
-    questions: types.array(QuestionModel),
-    bar: Bar,
+    questions: Questions,
+    totalCount: types.number,
+    current: types.number,
+    bar: types.number,
 }).actions(self => {
     const { questions } = getEnv<SessionEnvironment>(self);
+
+    const setTotalCount = (totalCount: number) => {
+        self.totalCount = totalCount;
+        self.current = Number(Boolean(totalCount));
+    }
+
     const afterCreate = () => {
         self.questions.push(...questions.reduce((arr, question, index) =>
             [...arr, {...question, mode: ModeTypes.QUESTION}], []
         ));
-        self.bar.setTotalCount(self.questions.length);
+        setTotalCount(self.questions.length);
     }
+
+    const setCurrent = (value: number) => {
+        self.current = value;
+    }
+
     return {
-        afterCreate
+        afterCreate,
+        setTotalCount,
+        setCurrent
     }
 }).volatile(self => ({
-    isEmpty: !Boolean(self.questions.length)
+    isEmptyQuestionList: !Boolean(self.questions.length),
+    percent: () => {
+        const countAnsweredQuestions = self.questions.reduce((arr, question, index) => {
+            const isUserAnswered = question.answers.filter(answer => answer.isUserAnswer).length
+            return arr + isUserAnswered;
+        }, 0);
+        return countAnsweredQuestions * 100 / self.totalCount;
+    }
 }));
 
 export const defaultSessionSnapshot: SnapshotIn<typeof Session> = {
     questions: [],
-    bar: {
-        current: 0,
-        totalCount: 0
-    }
+    bar: 0,
+    totalCount: 0,
+    current: 0
 }

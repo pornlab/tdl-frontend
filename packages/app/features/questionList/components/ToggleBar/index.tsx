@@ -17,12 +17,22 @@ export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange }) =>
       style={{
         width: '100%',
       }}
-      scrollEventThrottle={2000}
-      br={10}
+      scrollEventThrottle={200}
     >
       {numbers.map((questionNumber) => {
+        const isFirst = questionNumber === 1
+        const isLast = questionNumber === totalCount
         if (questionNumber === current)
-          return <Cell value={current} key={current} onClick={onChange} type={CellType.Active} />
+          return (
+            <Cell
+              value={current}
+              key={current}
+              onClick={onChange}
+              type={CellType.Active}
+              isFirst={isFirst}
+              isLast={isLast}
+            />
+          )
         else
           return (
             <Cell
@@ -30,6 +40,8 @@ export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange }) =>
               key={questionNumber}
               onClick={onChange}
               type={CellType.Base}
+              isFirst={isFirst}
+              isLast={isLast}
             />
           )
       })}

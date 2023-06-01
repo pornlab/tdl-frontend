@@ -5,25 +5,30 @@ import { Content } from 'app/features/components/Content'
 import { H3, Stack, Paragraph, XStack, YStack } from '@my/ui'
 import { NotFoundQuestion } from 'app/features/question/notFound'
 import { Dimensions } from 'react-native'
-import { Question } from 'app/features/dbList/interfaces'
 import { useState } from 'react'
+import { Instance } from 'mobx-state-tree'
+import { Answer, ModeTypes, Question } from '../../../business-logic/stores/Question'
 
 interface Props {
-  data: Question
+  data: Instance<typeof Question>
 }
 
 const { width, height } = Dimensions.get('window')
 
 export const QuestionView: React.FC<Props> = ({ data }) => {
-  const [answerMode, setAnswerMode] = useState(false)
-  const [userAnswer, setUserAnswer] = useState(0)
-  if (!data) return <NotFoundQuestion />
-  const { title, answers } = data
+  const { title, answers, mode } = data
 
-  const onPress = (e) => {
-    !answerMode && setUserAnswer(e)
-    setAnswerMode(true)
+  const getBackground = (answer: Instance<typeof Answer>) => {
+    console.log('answer', answer.value.en, answer.isUserAnswer, answer.isAnswer)
+    if (mode === ModeTypes.SHOW_ANSWER) {
+      const rightAnswer = Boolean(answer.isAnswer)
+      const wrongAnswer = Boolean(answer.isUserAnswer) && !Boolean(answer.isAnswer)
+      if (rightAnswer) return '#8bc166'
+      if (wrongAnswer) return '#FF5959'
+      return '$colorTransparent'
+    }
   }
+
   return (
     <Content>
       <YStack width={width > 700 ? 668 : width - 32} height={height} p={10}>
@@ -41,14 +46,8 @@ export const QuestionView: React.FC<Props> = ({ data }) => {
             key={index}
             bw={1}
             borderColor={'#c5c5c5'}
-            onPress={() => onPress(index)}
-            backgroundColor={
-              answer.isAnswer === 'true' && answerMode
-                ? '#8bc166'
-                : answerMode && userAnswer === index
-                ? '#FF5959'
-                : '$colorTransparent'
-            }
+            onPress={() => data.setUserAnswer(index)}
+            backgroundColor={getBackground(answer)}
           >
             <Paragraph lh={30} p={'$3'} fontSize={17}>
               {answer.value.en}

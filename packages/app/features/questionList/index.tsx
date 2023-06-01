@@ -24,13 +24,12 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
 
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
-      questions: getQuestionsByTheme('VehicleLaw'),
+      // questions: id ? getQuestionsByTheme('VehicleLaw'),
+      questions: id ? getQuestionsByTheme(id) : [],
     })
   )
-  const { bar } = sessionStore
 
-  console.log(sessionStore.bar.percent())
-
+  const { questions, current, totalCount, percent, setCurrent } = sessionStore
   return (
     <Content>
       <Stack
@@ -43,10 +42,10 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
         pl={16}
         pr={16}
       >
-        <StatusBar value={sessionStore.bar.percent()} />
-        <TitleCounter title={id || ''} current={bar.current} totalCount={bar.totalCount} />
-        <ToggleBar current={bar.current} totalCount={bar.totalCount} onChange={bar.setCurrent} />
-        {/*  <Carousel data={questions} />*/}
+        <StatusBar value={percent()} />
+        <TitleCounter title={id || ''} current={current} totalCount={totalCount} />
+        <ToggleBar current={current} totalCount={totalCount} onChange={setCurrent} />
+        <Carousel data={questions} />
       </Stack>
     </Content>
   )
