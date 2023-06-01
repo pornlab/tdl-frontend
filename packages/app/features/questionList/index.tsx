@@ -1,22 +1,36 @@
 import * as React from 'react'
-
-import { Questions } from '../../../business-logic/tests/interfaces'
+import { useEffect, useState } from 'react'
 import { Content } from 'app/features/components/Content'
 import { Stack } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
 import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
-import { getQuestionsByTheme, ThemeTypes } from '../dbList/helpers/getTheme'
-import { useState } from 'react'
+import { getQuestionsByTheme } from '../dbList/helpers/getTheme'
+import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
+import { createParam } from 'solito'
+import { NotFoundQuestion } from 'app/features/question/notFound'
+import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
+import { observer } from 'mobx-react'
 
 interface Props {
-  data: Questions
+  theme: ThemeTypes
 }
 
-export const QuestionList: React.FC<Props> = ({ data }) => {
-  const [questions, setQuestionList] = useState(getQuestionsByTheme(ThemeTypes.RoadTrafficLaw))
-  console.log('questions', questions)
+const { useParam } = createParam<{ id: string }>()
+
+export const QuestionList: React.FC<Props> = observer(({ theme }) => {
+  const [id] = useParam('id')
+
+  const [sessionStore, setSessionStore] = useState(
+    Session.create(defaultSessionSnapshot, {
+      questions: getQuestionsByTheme('VehicleLaw'),
+    })
+  )
+  const { bar } = sessionStore
+
+  console.log(sessionStore.bar.percent())
+
   return (
     <Content>
       <Stack
@@ -29,11 +43,11 @@ export const QuestionList: React.FC<Props> = ({ data }) => {
         pl={16}
         pr={16}
       >
-        <StatusBar value={30} />
-        <TitleCounter title={'Road Traffic Law'} />
-        <ToggleBar />
-        <Carousel />
+        <StatusBar value={sessionStore.bar.percent()} />
+        <TitleCounter title={id || ''} current={bar.current} totalCount={bar.totalCount} />
+        <ToggleBar current={bar.current} totalCount={bar.totalCount} onChange={bar.setCurrent} />
+        {/*  <Carousel data={questions} />*/}
       </Stack>
     </Content>
   )
-}
+})

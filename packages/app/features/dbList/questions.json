@@ -26,7 +26,7 @@
           "es": "DNI",
           "fr": "Carte d'identité nationale"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -36,7 +36,7 @@
           "es": "Copia del registro de la casa",
           "fr": "Copie de l'enregistrement de la maison"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -46,7 +46,7 @@
           "es": "Copia del registro del auto",
           "fr": "Copie de l'immatriculation de la voiture"
         },
-        "isAnswer": "true"
+        "isAnswer": true
       },
       {
         "value": {
@@ -56,11 +56,11 @@
           "es": "Tarjeta de seguro Social",
           "fr": "Carte de sécurité sociale"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "vehicleLaw"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -89,7 +89,7 @@
           "es": "10 días",
           "fr": "10 jours"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -99,7 +99,7 @@
           "es": "7 días",
           "fr": "7 jours"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -109,7 +109,7 @@
           "es": "30 días",
           "fr": "30 jours"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -119,11 +119,11 @@
           "es": "15 días",
           "fr": "15 jours"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       }
     ],
-    "isFavourite": "false",
-    "theme": "vehicleLaw"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -152,7 +152,7 @@
           "es": "0.08%",
           "fr": "0,08%"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -162,7 +162,7 @@
           "es": "0.05%",
           "fr": "0,05%"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -172,7 +172,7 @@
           "es": "0.02%",
           "fr": "0,02%"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -182,11 +182,11 @@
           "es": "0.00%",
           "fr": "0,00%"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "vehicleLaw"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -215,7 +215,7 @@
           "es": "Prepararse para detenerse",
           "fr": "Préparez-vous à vous arrêter"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -225,7 +225,7 @@
           "es": "Continuar con precaución",
           "fr": "Continuer avec prudence"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -235,7 +235,7 @@
           "es": "Detenerse si es seguro hacerlo",
           "fr": "Arrêtez-vous si cela est possible en toute sécurité"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -245,11 +245,11 @@
           "es": "Despejar la intersección",
           "fr": "Libérer l'intersection"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "RoadTrafficLaw"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -278,7 +278,7 @@
           "es": "No cruzar la línea",
           "fr": "Ne pas traverser la ligne"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -288,7 +288,7 @@
           "es": "Se permite cambiar de carril",
           "fr": "Changement de voie autorisé"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -298,7 +298,7 @@
           "es": "Seguir la dirección de la flecha",
           "fr": "Suivre la direction de la flèche"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -308,11 +308,11 @@
           "es": "Mantenerse a la derecha",
           "fr": "Restez à droite"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "RoadTrafficLaw"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -341,7 +341,7 @@
           "es": "Alto",
           "fr": "Arrêt"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -351,7 +351,7 @@
           "es": "Prohibido el paso",
           "fr": "Interdiction de circuler"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -361,7 +361,7 @@
           "es": "Dar paso",
           "fr": "Cédez le passage"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -371,11 +371,11 @@
           "es": "Rotonda adelante",
           "fr": "Giratoire à venir"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "TechniquesOfSafeDriving"
+    "isFavourite": false,
+    "theme": "VehicleLaw"
   },
   {
     "title": {
@@ -404,7 +404,7 @@
           "es": "Detenerse y esperar a que pase el tren",
           "fr": "Arrêtez-vous et attendez que le train passe"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -414,7 +414,7 @@
           "es": "Disminuir la velocidad y proceder con precaución",
           "fr": "Ralentissez et avancez avec prudence"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -424,7 +424,7 @@
           "es": "Cambiar de carril para evitar el cruce",
           "fr": "Changez de voie pour éviter le passage à niveau"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -434,11 +434,11 @@
           "es": "Continuar a velocidad normal",
           "fr": "Poursuivez à vitesse normale"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "SafeDriving"
+    "isFavourite": false,
+    "theme": "RoadTrafficLaw"
   },
   {
     "title": {
@@ -467,7 +467,7 @@
           "es": "120 km/h",
           "fr": "120 km/h"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -477,7 +477,7 @@
           "es": "100 km/h",
           "fr": "100 km/h"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -487,7 +487,7 @@
           "es": "80 km/h",
           "fr": "80 km/h"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -497,11 +497,11 @@
           "es": "60 km/h",
           "fr": "60 km/h"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "SafeDriving"
+    "isFavourite": false,
+    "theme": "RoadTrafficLaw"
   },
   {
     "title": {
@@ -530,7 +530,7 @@
           "es": "Disminuir la velocidad y ceder el paso al peatón",
           "fr": "Ralentissez et cédez le passage au piéton"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -540,7 +540,7 @@
           "es": "Pitar el claxon para alertar al peatón",
           "fr": "Klaxonnez pour alerter le piéton"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -550,7 +550,7 @@
           "es": "Acelerar para pasar rápidamente al peatón",
           "fr": "Accélérez pour dépasser rapidement le piéton"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -560,10 +560,10 @@
           "es": "Continuar conduciendo sin prestar atención al peatón",
           "fr": "Continuez à conduire sans prêter attention au piéton"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
+    "isFavourite": false,
     "theme": "SafeDriving"
   },
   {
@@ -593,7 +593,7 @@
           "es": "Prevenir el bloqueo de las ruedas durante el frenado",
           "fr": "Empêcher le blocage des roues pendant le freinage"
         },
-        "isAnswer": "false"
+        "isAnswer": true
       },
       {
         "value": {
@@ -603,7 +603,7 @@
           "es": "Aumentar la distancia de frenado",
           "fr": "Augmenter la distance de freinage"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -613,7 +613,7 @@
           "es": "Mejorar la eficiencia del combustible",
           "fr": "Améliorer l'efficacité énergétique"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       },
       {
         "value": {
@@ -623,10 +623,10 @@
           "es": "Ayudar en la dirección del vehículo",
           "fr": "Aider à la direction du véhicule"
         },
-        "isAnswer": "false"
+        "isAnswer": false
       }
     ],
-    "isFavourite": "false",
-    "theme": "SafeDriving"
+    "isFavourite": false,
+    "theme": "RoadTrafficLaw"
   }
 ]

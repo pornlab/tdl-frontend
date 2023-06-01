@@ -1,28 +1,12 @@
+import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
 import questions from '../questions.json'
 
-export enum ThemeTypes {
-    VehicleLaw = 'VehicleLaw',
-    RoadTrafficLaw = 'RoadTrafficLaw',
-    TrafficSigns = 'TrafficSigns',
-    SafeDriving = 'SafeDriving',
-    TechniquesOfSafeDriving = 'TechniquesOfSafeDriving',
-    VehicleMaintenance = 'VehicleMaintenance'
-}
+export const getQuestionsByTheme = (theme: ThemeTypes | string): Question[] =>
+  questions.filter((question) => question.theme === theme)
 
-export interface Languages {
+export const sortRandom = (arr: Question[]) => arr.sort(() => Math.random() - 0.5)
 
-}
+export const getQuestionsAndSortByTheme = (theme: ThemeTypes | string): Question[] =>
+  getQuestionsByTheme(theme).sort(() => Math.random() - 0.5)
 
-
-export interface Question {
-    title: {
-
-    };
-    answers: string
-    isFavourite: string
-    theme: string
-}
-
-export const getQuestionsByTheme = (theme: ThemeTypes) => {
-    return questions.filter(question => question.theme === theme);
-}
+export const getMaraphoneQuestions = () => sortRandom(questions)

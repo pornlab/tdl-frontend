@@ -1,28 +1,38 @@
-import * as React from 'react';
+import * as React from 'react'
 import { ScrollView } from '@my/ui'
-import {Base, Active, Success, Error} from "app/features/questionList/components/ToggleBar/Cells";
+import { Cell, CellType } from 'app/features/questionList/components/ToggleBar/Cells'
 
-export const ToggleBar: React.FC = () => {
-    const questions = Array.from({length: 50}, (_, index) => index + 1);
+interface Props {
+  current: number
+  totalCount: number
+  onChange: (value: number) => void
+}
 
-    return (
-        <ScrollView
-            horizontal
-            // pagingEnabled
-            showsHorizontalScrollIndicator={false}
-            style={{
-                width: '100%'
-            }}
-            scrollEventThrottle={2000}
-            btlr={10}
-            bblr={10}
-        >
-            {questions.map(question => {
-                if (question < 5) return <Success value={question} key={question} />
-                else if (question === 5) return <Error value={question} key={question} />
-                else if (question === 6) return <Active value={question} key={question} />
-                else return <Base value={question} key={question} />
-            })}
-        </ScrollView>
-    )
+export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange }) => {
+  const numbers = Array.from({ length: totalCount }, (_, index) => index + 1)
+  return (
+    <ScrollView
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      style={{
+        width: '100%',
+      }}
+      scrollEventThrottle={2000}
+      br={10}
+    >
+      {numbers.map((questionNumber) => {
+        if (questionNumber === current)
+          return <Cell value={current} key={current} onClick={onChange} type={CellType.Active} />
+        else
+          return (
+            <Cell
+              value={questionNumber}
+              key={questionNumber}
+              onClick={onChange}
+              type={CellType.Base}
+            />
+          )
+      })}
+    </ScrollView>
+  )
 }

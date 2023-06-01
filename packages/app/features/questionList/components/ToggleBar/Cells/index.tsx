@@ -1,46 +1,38 @@
-import * as React from 'react';
+import * as React from 'react'
 import { Stack, H4 } from '@my/ui'
+import { getStyle } from 'app/features/questionList/components/ToggleBar/Cells/styles'
 
 export enum CellType {
-    Base,
-    Success,
-    Active,
-    Error
+  Base,
+  Success,
+  Active,
+  Error,
 }
 
 interface Props {
-    value: string | number;
-    type?: CellType;
+  value: number
+  type: CellType
+  onClick: (value: number) => void
 }
 
-export const Base: React.FC<Props> = ({ value, type }) => {
-    return (
-        <Stack minWidth={40} bw={1} borderRightWidth={1} borderColor={'$background'} bc={'#818181'} >
-            <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>{value}</H4>
-        </Stack>
-    )
-};
+export const Cell: React.FC<Props> = ({ value, type, onClick }) => {
+  const onPress = () => onClick(value)
+  const style = getStyle(type)
 
-export const Success: React.FC<Props> = ({ value }) => {
-    return (
-        <Stack minWidth={40} bc={'#7BC359'} borderRightWidth={1} borderColor={'$background'}>
-            <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>{value}</H4>
-        </Stack>
-    )
-};
-
-export const Error: React.FC<Props> = ({ value }) => {
-    return (
-        <Stack minWidth={40} bc={'#FF5959'} borderRightWidth={1} borderColor={'$background'}>
-            <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>{value}</H4>
-        </Stack>
-    )
-};
-
-export const Active: React.FC<Props> = ({ value }) => {
-    return (
-        <Stack minWidth={40} bc={'#c5c5c5'} borderRightWidth={1} borderColor={'$background'}>
-            <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>{value}</H4>
-        </Stack>
-    )
-};
+  return (
+    <Stack
+      minWidth={40}
+      borderColor={'black'}
+      bw={1}
+      onPress={onPress}
+      style={style}
+      hoverStyle={{
+        cursor: 'pointer',
+      }}
+    >
+      <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>
+        {value}
+      </H4>
+    </Stack>
+  )
+}

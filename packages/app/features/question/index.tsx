@@ -1,67 +1,76 @@
-import * as React from 'react';
+import * as React from 'react'
 
-import { Question } from "../../../business-logic/tests/interfaces";
-import { Content } from "app/features/components/Content";
-import { createParam } from "solito";
-import { listQuestions } from "../../../business-logic/tests";
-import {H2, H3, H4, Stack, Paragraph, XStack, YStack} from '@my/ui'
-import {NotFoundQuestion} from "app/features/question/notFound";
-import {Dimensions} from "react-native";
-import { Star } from '@tamagui/lucide-icons'
+import { Content } from 'app/features/components/Content'
+// import { createParam } from "solito";
+import { H3, Stack, Paragraph, XStack, YStack } from '@my/ui'
+import { NotFoundQuestion } from 'app/features/question/notFound'
+import { Dimensions } from 'react-native'
+import { Question } from 'app/features/dbList/interfaces'
+import { useState } from 'react'
 
 interface Props {
-    data: Question;
-    ind: number;
+  data: Question
 }
 
-const { useParam } = createParam<{ id: string }>()
-const { width, height } = Dimensions.get('window');
+const { width, height } = Dimensions.get('window')
 
-export const QuestionView: React.FC<Props> = ({ ind }) => {
-    const [id] = useParam('id');
-    const questionId = id || 0;
-    const question = listQuestions[questionId];
-    if (!questionId || !question) return <NotFoundQuestion />
-    const { title, answers } = question;
+export const QuestionView: React.FC<Props> = ({ data }) => {
+  const [answerMode, setAnswerMode] = useState(false)
+  const [userAnswer, setUserAnswer] = useState(0)
+  if (!data) return <NotFoundQuestion />
+  const { title, answers } = data
 
-    return (
-        <Content>
-            <YStack
-                width={width > 700 ? 668 : width - 32}
-                height={height}
-            >
-                <H3 letterSpacing={0} pb={'$6'}>{`${title.en.value}`}</H3>
-                {answers.map((answer, index) => (
-                    <XStack
-                        mb={'$4'}
-                        style={{
-                            transition: 'all 0.1s ease-in-out'
-                        }}
-                        hoverStyle={{
-                            cursor: 'pointer'
-                        }}
-                        br={4}
-                        key={index}
-                        bw={1}
-                        borderColor={'#c5c5c5'}
-                    >
-                        <Paragraph lh={30} p={'$3'} fontSize={17}>{answer.value.en}</Paragraph>
-                    </XStack>
-                ))}
-                <YStack alignItems={'flex-start'} mt={20}>
-                    <Stack
-                        bc={'#7659c3'}
-                        pl={16}
-                        pr={16}
-                        pb={3}
-                        pt={2}
-                        hoverStyle={{ cursor: 'pointer' }}
-                        br={20}
-                    >
-                        <Paragraph color={'#fff'} fontWeight={'bold'}>Add to favorites ⭐️</Paragraph>
-                    </Stack>
-                </YStack>
-            </YStack>
-        </Content>
-    )
+  const onPress = (e) => {
+    !answerMode && setUserAnswer(e)
+    setAnswerMode(true)
+  }
+  return (
+    <Content>
+      <YStack width={width > 700 ? 668 : width - 32} height={height} p={10}>
+        <H3 letterSpacing={0} pb={'$6'}>{`${title.en.value}`}</H3>
+        {answers.map((answer, index) => (
+          <XStack
+            mb={'$4'}
+            style={{
+              transition: 'all 0.1s ease-in-out',
+            }}
+            hoverStyle={{
+              cursor: 'pointer',
+            }}
+            br={4}
+            key={index}
+            bw={1}
+            borderColor={'#c5c5c5'}
+            onPress={() => onPress(index)}
+            backgroundColor={
+              answer.isAnswer === 'true' && answerMode
+                ? '#8bc166'
+                : answerMode && userAnswer === index
+                ? '#FF5959'
+                : '$colorTransparent'
+            }
+          >
+            <Paragraph lh={30} p={'$3'} fontSize={17}>
+              {answer.value.en}
+            </Paragraph>
+          </XStack>
+        ))}
+        <YStack alignItems={'flex-start'} mt={20}>
+          <Stack
+            bc={'#7659c3'}
+            pl={16}
+            pr={16}
+            pb={3}
+            pt={2}
+            hoverStyle={{ cursor: 'pointer' }}
+            br={20}
+          >
+            <Paragraph color={'#fff'} fontWeight={'bold'}>
+              Add to favorites ⭐️
+            </Paragraph>
+          </Stack>
+        </YStack>
+      </YStack>
+    </Content>
+  )
 }
