@@ -44,7 +44,12 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
       >
         <StatusBar value={percent()} />
         <TitleCounter title={id || ''} current={current} totalCount={totalCount} />
-        <ToggleBar current={current} totalCount={totalCount} onChange={setCurrent} />
+        <ToggleBar
+          current={current}
+          totalCount={totalCount}
+          onChange={setCurrent}
+          questions={questions}
+        />
         <Carousel data={questions} />
       </Stack>
     </Content>

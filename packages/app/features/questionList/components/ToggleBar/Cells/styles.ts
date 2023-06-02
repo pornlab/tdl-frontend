@@ -13,7 +13,7 @@ const successStyle = {
 const errorStyle = {
   backgroundColor: '#FF5959',
   borderColor: '$background',
-  borderWidth: 1,
+  borderWidth: 0,
 }
 const activeStyle = {
   backgroundColor: '#c5c5c5',

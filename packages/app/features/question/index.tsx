@@ -19,7 +19,6 @@ export const QuestionView: React.FC<Props> = ({ data }) => {
   const { title, answers, mode } = data
 
   const getBackground = (answer: Instance<typeof Answer>) => {
-    console.log('answer', answer.value.en, answer.isUserAnswer, answer.isAnswer)
     if (mode === ModeTypes.SHOW_ANSWER) {
       const rightAnswer = Boolean(answer.isAnswer)
       const wrongAnswer = Boolean(answer.isUserAnswer) && !Boolean(answer.isAnswer)
@@ -31,7 +30,7 @@ export const QuestionView: React.FC<Props> = ({ data }) => {
 
   return (
     <Content>
-      <YStack width={width > 700 ? 668 : width - 32} height={height} p={10}>
+      <YStack width={width > 700 ? 668 : width - 32} p={10}>
         <H3 letterSpacing={0} pb={'$6'}>{`${title.en.value}`}</H3>
         {answers.map((answer, index) => (
           <XStack
