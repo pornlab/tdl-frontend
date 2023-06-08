@@ -1,6 +1,8 @@
 import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
 import questions from '../questions.json'
 
+export const getAllQuestions = () => questions
+
 export const getQuestionsByTheme = (theme: ThemeTypes | string): Question[] =>
   questions.filter((question) => question.theme === theme)
 

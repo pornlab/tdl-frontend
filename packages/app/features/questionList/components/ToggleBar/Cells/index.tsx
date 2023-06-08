@@ -55,7 +55,7 @@ export const Cell: React.FC<Props> = ({ value, type, onClick, isFirst, isLast })
       btrr={isLast ? 10 : 0}
       bbrr={isLast ? 10 : 0}
     >
-      <H4 ta={'center'} lh={40} pl={12} pr={12} color={'#fff'}>
+      <H4 ta={'center'} pl={12} pr={12} color={'#fff'} pb={6} pt={6}>
         {value}
       </H4>
     </Stack>

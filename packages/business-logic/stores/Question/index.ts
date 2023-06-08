@@ -39,11 +39,8 @@ export const Question = types.model({
     theme: types.string,
     mode: types.enumeration([ ModeTypes.QUESTION, ModeTypes.SHOW_ANSWER ])
 }).actions(self => {
-    const isUserAnswered = () => {
-        const answers = self.answers;
-        debugger;
-        return self.answers.filter(answer => answer.isUserAnswer).length;
-    }
+    const isUserAnswered = () =>
+        Boolean(self.answers.filter(answer => answer.isUserAnswer).length);
 
     const setUserAnswer = (index: number) => {
         if (isUserAnswered() || !self.answers[index]) return;
@@ -52,7 +49,24 @@ export const Question = types.model({
             self.mode = ModeTypes.SHOW_ANSWER;
         }
     }
+
+    const isRightAnswer = () =>
+        Boolean(self.answers.filter(answer => answer.isUserAnswer && answer.isAnswer && true).length);
+
+    const isWrongAnswer = () =>
+        Boolean(self.answers.filter(answer => !answer.isUserAnswer && answer.isAnswer).length);
+
+    const isNotAnswered = () =>
+        !Boolean(self.answers.filter(answer => answer.isUserAnswer).length);
+
+    const isAnswered = () =>
+        Boolean(self.answers.filter(answer => answer.isUserAnswer).length);
+
     return {
+        isAnswered,
+        isNotAnswered,
+        isRightAnswer,
+        isWrongAnswer,
         isUserAnswered,
         setUserAnswer
     }

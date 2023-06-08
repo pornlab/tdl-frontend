@@ -1,9 +1,9 @@
 import * as React from 'react'
 
 import { Dimensions } from 'react-native'
-import { Stack, Button, ScrollView } from '@my/ui'
+import { Stack, XStack, ScrollView, H1, Button } from '@my/ui'
 import { QuestionView } from 'app/features/question'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Question } from 'app/features/dbList/interfaces'
 import { Instance } from 'mobx-state-tree'
 import { Questions } from '../../../../../business-logic/stores/Question'
@@ -12,46 +12,60 @@ const width = Dimensions.get('window')
 const height = 700
 
 interface Props {
+  current: number
   data: Instance<typeof Questions>
 }
 
-export const Carousel: React.FC<Props> = ({ data: questions }) => {
-  // const [activeQuestion, setActiveQuestion] = useState("1");
-  // const scrollRef = useRef<typeof ScrollView>(null);
-  //
-  // const setActQ = (val: string) => {
-  //     if (!el) return;
-  //     const elQuest = el[+val-1];
-  //     if (!elQuest) return;
-  //     elQuest.scrollIntoView()
-  //     setActiveQuestion(val);
-  // }
+export const Carousel: React.FC<Props> = ({ data: questions, current }) => {
+  const [coords, setCoords] = useState([])
+  const questionsRef = useRef(null)
+  const scrollRef = useRef(null)
 
-  // const onPressTouch = () => {
-  //     // console.log('scrollRef', scrollRef)
-  //     scrollRef.current?.scrollTo({
-  //         x: 1000,
-  //         animated: true,
-  //     });
-  // }
+  useEffect(() => {
+    const coordsQuestions: number[] = [
+      0,
+      ...questions
+        .reduce((arr, question, index) => {
+          //@ts-ignore
+          const elWidth = questionsRef.current?.children[index]?.children[0].clientWidth
+          const elCoords = (arr[index - 1] || 0) + elWidth
+          return [...arr, elCoords]
+        }, [])
+        .slice(0, questions.length),
+    ]
+    //@ts-ignore
+    setCoords(coordsQuestions)
+  }, [])
+
+  useEffect(() => {
+    //@ts-ignore
+    scrollRef.current?.scrollTo({
+      x: coords[current - 1],
+      animated: true,
+    })
+  }, [current])
 
   return (
     <>
       <ScrollView
         horizontal
-        pagingEnabled
+        pagingEnabled={true}
         showsHorizontalScrollIndicator={false}
         scrollEventThrottle={200}
         w={'100%'}
+        ref={scrollRef}
         directionalLockEnabled
-        // ref={scrollRef}
+        scrollEnabled={false}
       >
-        {questions.map((question, index) => (
-          <Stack key={index}>
-            <QuestionView data={question} />
-            {/*<Button onPress={onPressTouch}>onPressTouch</Button>*/}
-          </Stack>
-        ))}
+        <XStack ref={questionsRef}>
+          {questions.map((question, index) => (
+            <Stack key={index}>
+              <H1 mt={36}>A: {current}</H1>
+              <H1>Q: {index}</H1>
+              <QuestionView data={question} />
+            </Stack>
+          ))}
+        </XStack>
       </ScrollView>
     </>
   )

@@ -6,7 +6,7 @@ import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
 import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
-import { getQuestionsByTheme } from '../dbList/helpers/getTheme'
+import { getAllQuestions, getQuestionsByTheme } from '../dbList/helpers/getTheme'
 import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
 import { createParam } from 'solito'
 import { NotFoundQuestion } from 'app/features/question/notFound'
@@ -25,7 +25,8 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
       // questions: id ? getQuestionsByTheme('VehicleLaw'),
-      questions: id ? getQuestionsByTheme(id) : [],
+      // questions: id ? getQuestionsByTheme(id) : [],
+      questions: [...getAllQuestions()],
     })
   )
 
@@ -50,7 +51,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           onChange={setCurrent}
           questions={questions}
         />
-        <Carousel data={questions} />
+        <Carousel data={questions} current={current} />
       </Stack>
     </Content>
   )

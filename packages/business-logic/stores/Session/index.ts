@@ -1,6 +1,7 @@
 import {getEnv, SnapshotIn, types} from "mobx-state-tree";
 import {ModeTypes, Questions} from "../Question";
 import {Question} from "app/features/dbList/interfaces";
+import {toJS} from "mobx";
 
 export interface SessionEnvironment {
     questions: Question[]
@@ -28,9 +29,14 @@ export const Session = types.model({
 
     const setCurrent = (value: number) => {
         self.current = value;
+        checkIsAllQuestionsAnswered();
     }
 
+    const checkIsAllQuestionsAnswered = () =>
+        self.questions.reduce((res, question) => [...res, question.isUserAnswered()], []).every(r => Boolean(r))
+
     return {
+        checkIsAllQuestionsAnswered,
         afterCreate,
         setTotalCount,
         setCurrent

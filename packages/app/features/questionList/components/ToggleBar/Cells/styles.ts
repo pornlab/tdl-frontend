@@ -16,9 +16,13 @@ const errorStyle = {
   borderWidth: 0,
 }
 const activeStyle = {
-  backgroundColor: '#c5c5c5',
+  boxShadow: 'inset 0px 0px 8px black',
+  backgroundColor: '#818181',
   borderColor: '$background',
   borderWidth: 0,
+  // backgroundColor: '#c5c5c5',
+  // borderColor: '$background',
+  // borderWidth: 0,
 }
 
 export const getStyle = (type: CellType) => {
