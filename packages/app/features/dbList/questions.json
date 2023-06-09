@@ -2,7 +2,7 @@
   {
     "title": {
       "en": {
-        "value": "While driving, the driver must have any documents used with the driving license"
+        "value": "1. While driving, the driver must have any documents used with the driving license"
       },
       "ru": {
         "value": "Во время вождения у водителя должны быть какие-либо документы, используемые с водительскими правами"
@@ -69,7 +69,7 @@
   {
     "title": {
       "en": {
-        "value": "The driver violates the road traffic law and receives a ticket from the traffic officer, how many days must he contact to pay the fine?"
+        "value": "2. The driver violates the road traffic law and receives a ticket from the traffic officer, how many days must he contact to pay the fine?"
       },
       "ru": {
         "value": "Водитель нарушает правила дорожного движения и получает билет от сотрудника ГИБДД, сколько дней он должен связаться, чтобы заплатить штраф?"
@@ -137,7 +137,7 @@
   {
     "title": {
       "en": {
-        "value": "When the driving license is lost or damaged, how many days must the application for a substitute be submitted to the registrar?"
+        "value": "3. When the driving license is lost or damaged, how many days must the application for a substitute be submitted to the registrar?"
       },
       "ru": {
         "value": "В случае утери или повреждения водительских прав, сколько дней необходимо подать заявку на замену регистратору?"
@@ -205,7 +205,7 @@
   {
     "title": {
       "en": {
-        "value": "The driver does not have a driving license What’s wrong?"
+        "value": "4. The driver does not have a driving license What’s wrong?"
       },
       "ru": {
         "value": "У водителя нет водительских прав. Что не так?"

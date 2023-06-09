@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Stack, H4 } from '@my/ui'
-import { getStyle } from 'app/features/questionList/components/ToggleBar/Cells/styles'
+import { activeStyle, getStyle } from 'app/features/questionList/components/ToggleBar/Cells/styles'
 import { Instance } from 'mobx-state-tree'
 import { Questions } from '../../../../../../business-logic/stores/Question'
 
@@ -17,6 +17,7 @@ interface Props {
   onClick: (value: number) => void
   isFirst: boolean
   isLast: boolean
+  isActive?: boolean
 }
 
 export const getCellType = (current: number, questions: Instance<typeof Questions>): CellType => {
@@ -36,9 +37,12 @@ export const getCellType = (current: number, questions: Instance<typeof Question
   return CellType.Base
 }
 
-export const Cell: React.FC<Props> = ({ value, type, onClick, isFirst, isLast }) => {
+export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst, isLast }) => {
   const onPress = () => onClick(value)
-  const style = getStyle(type)
+  const style = {
+    ...getStyle(type),
+    // ...(type === CellType.Active && activeStyle),
+  }
 
   return (
     <Stack
@@ -46,7 +50,10 @@ export const Cell: React.FC<Props> = ({ value, type, onClick, isFirst, isLast })
       borderColor={'black'}
       bw={1}
       onPress={onPress}
-      style={style}
+      style={{
+        ...style,
+        boxShadow: isActive ? `$background 0px 0px 0px 3px inset` : null,
+      }}
       hoverStyle={{
         cursor: 'pointer',
       }}

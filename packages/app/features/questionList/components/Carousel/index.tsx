@@ -14,9 +14,10 @@ const height = 700
 interface Props {
   current: number
   data: Instance<typeof Questions>
+  goToNextQuestion: () => void
 }
 
-export const Carousel: React.FC<Props> = ({ data: questions, current }) => {
+export const Carousel: React.FC<Props> = ({ data: questions, goToNextQuestion, current }) => {
   const [coords, setCoords] = useState([])
   const questionsRef = useRef(null)
   const scrollRef = useRef(null)
@@ -60,9 +61,7 @@ export const Carousel: React.FC<Props> = ({ data: questions, current }) => {
         <XStack ref={questionsRef}>
           {questions.map((question, index) => (
             <Stack key={index}>
-              <H1 mt={36}>A: {current}</H1>
-              <H1>Q: {index}</H1>
-              <QuestionView data={question} />
+              <QuestionView data={question} goToNextQuestion={goToNextQuestion} />
             </Stack>
           ))}
         </XStack>

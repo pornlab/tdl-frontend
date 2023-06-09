@@ -11,11 +11,12 @@ import { Answer, ModeTypes, Question } from '../../../business-logic/stores/Ques
 
 interface Props {
   data: Instance<typeof Question>
+  goToNextQuestion: () => void
 }
 
 const { width, height } = Dimensions.get('window')
 
-export const QuestionView: React.FC<Props> = ({ data }) => {
+export const QuestionView: React.FC<Props> = ({ data, goToNextQuestion }) => {
   const { title, answers, mode } = data
 
   const getBackground = (answer: Instance<typeof Answer>) => {
@@ -45,7 +46,15 @@ export const QuestionView: React.FC<Props> = ({ data }) => {
             key={index}
             bw={1}
             borderColor={'#c5c5c5'}
-            onPress={() => data.setUserAnswer(index)}
+            onPress={() => {
+              data.setUserAnswer(index)
+              setTimeout(
+                () => {
+                  goToNextQuestion()
+                },
+                data.isRightAnswer() ? 100 : 1000
+              )
+            }}
             backgroundColor={getBackground(answer)}
           >
             <Paragraph lh={30} p={'$3'} fontSize={17}>

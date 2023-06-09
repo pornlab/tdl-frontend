@@ -73,9 +73,10 @@ export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange, ques
                   value={current}
                   key={current}
                   onClick={onChange}
-                  type={CellType.Active}
+                  type={getCellType(questionNumber - 1, questions)}
                   isFirst={isFirst}
                   isLast={isLast}
+                  isActive
                 />
               )
             else

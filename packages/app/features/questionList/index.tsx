@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 import { Content } from 'app/features/components/Content'
-import { Stack } from '@my/ui'
+import { Stack, H1 } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
@@ -26,13 +26,13 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
     Session.create(defaultSessionSnapshot, {
       // questions: id ? getQuestionsByTheme('VehicleLaw'),
       // questions: id ? getQuestionsByTheme(id) : [],
-      questions: [...getAllQuestions()],
+      questions: [...getAllQuestions(), ...getAllQuestions()],
     })
   )
-
   const { questions, current, totalCount, percent, setCurrent } = sessionStore
   return (
     <Content>
+      {sessionStore.checkIsAllQuestionsAnswered() && <H1>Done</H1>}
       <Stack
         f={1}
         jc={'center'}
@@ -51,7 +51,11 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           onChange={setCurrent}
           questions={questions}
         />
-        <Carousel data={questions} current={current} />
+        <Carousel
+          data={questions}
+          current={current}
+          goToNextQuestion={sessionStore.goToNextQuestion}
+        />
       </Stack>
     </Content>
   )

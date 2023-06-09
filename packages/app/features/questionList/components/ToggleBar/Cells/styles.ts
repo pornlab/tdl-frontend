@@ -15,25 +15,22 @@ const errorStyle = {
   borderColor: '$background',
   borderWidth: 0,
 }
-const activeStyle = {
-  boxShadow: 'inset 0px 0px 8px black',
-  backgroundColor: '#818181',
-  borderColor: '$background',
+export const activeStyle = {
+  boxShadow: 'white 0px 0px 0px 3px inset',
   borderWidth: 0,
-  // backgroundColor: '#c5c5c5',
-  // borderColor: '$background',
-  // borderWidth: 0,
 }
 
 export const getStyle = (type: CellType) => {
   switch (type) {
-    case CellType.Base:
-      return baseStyle
-    case CellType.Active:
-      return activeStyle
+    // case CellType.Base:
+    //   return baseStyle
+    // case CellType.Active:
+    //   return activeStyle
     case CellType.Success:
       return successStyle
     case CellType.Error:
       return errorStyle
+    default:
+      return baseStyle
   }
 }
