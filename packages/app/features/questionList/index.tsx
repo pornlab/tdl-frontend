@@ -12,6 +12,7 @@ import { createParam } from 'solito'
 import { NotFoundQuestion } from 'app/features/question/notFound'
 import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
 import { observer } from 'mobx-react'
+import { FinishModal } from 'app/features/questionList/components/FinishModal'
 
 interface Props {
   theme: ThemeTypes
@@ -32,7 +33,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const { questions, current, totalCount, percent, setCurrent } = sessionStore
   return (
     <Content>
-      {sessionStore.checkIsAllQuestionsAnswered() && <H1>Done</H1>}
+      {/*{!sessionStore.checkIsAllQuestionsAnswered() && <FinishModal />}*/}
       <Stack
         f={1}
         jc={'center'}
@@ -57,6 +58,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           goToNextQuestion={sessionStore.goToNextQuestion}
         />
       </Stack>
+      <FinishModal />
     </Content>
   )
 })

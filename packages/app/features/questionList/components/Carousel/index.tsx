@@ -27,8 +27,10 @@ export const Carousel: React.FC<Props> = ({ data: questions, goToNextQuestion, c
       0,
       ...questions
         .reduce((arr, question, index) => {
-          //@ts-ignore
-          const elWidth = questionsRef.current?.children[index]?.children[0].clientWidth
+          const elWidth =
+            questionsRef.current &&
+            questionsRef.current?.children &&
+            questionsRef.current?.children[index]?.children[0].clientWidth
           const elCoords = (arr[index - 1] || 0) + elWidth
           return [...arr, elCoords]
         }, [])
