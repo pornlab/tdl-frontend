@@ -28,10 +28,11 @@ export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange, ques
       ...numbers.reduce((arr, number, index) => {
         //@ts-ignore
         const elWidth =
-          numbersRef &&
-          numbersRef.current &&
-          numbersRef.current?.children &&
-          numbersRef.current?.children[number]?.children[0]?.clientWidth
+          (numbersRef &&
+            numbersRef.current &&
+            numbersRef.current?.children &&
+            numbersRef.current?.children[number]?.children[0]?.clientWidth) ||
+          0
         const elCoords = (arr[index - 1] || 0) + elWidth
         return [...arr, elCoords]
       }, []),
@@ -49,10 +50,11 @@ export const ToggleBar: React.FC<Props> = ({ current, totalCount, onChange, ques
     const valCell = value - 1
     //@ts-ignore
     const elWidth =
-      numbersRef &&
-      numbersRef.current &&
-      numbersRef.current?.children &&
-      numbersRef.current?.children[valCell]?.children[0]?.clientWidth
+      (numbersRef &&
+        numbersRef.current &&
+        numbersRef.current?.children &&
+        numbersRef.current?.children[valCell]?.children[0]?.clientWidth) ||
+      0
     //@ts-ignore
     scrollRef.current?.scrollTo({
       x: coords[valCell] - widthScreen / 2 + elWidth,

@@ -1,25 +1,29 @@
 import * as React from 'react'
-import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
-import { SheetProps, useSheet } from '@tamagui/sheet'
 import { useState } from 'react'
-import { Button, H1, H2, Input, Paragraph, XStack, Sheet } from 'tamagui'
+import { Sheet } from 'tamagui'
+import { useColorScheme } from 'react-native'
 
 export interface ModalProps {
   isOpen: boolean
+  snapPoints?: number[]
+  onClose: () => void
+  children: React.ReactNode
 }
 
-export const createModal: React.FC = () => {
+export const Modal: React.FC<ModalProps> = ({ isOpen, snapPoints, children, onClose }) => {
   const [position, setPosition] = useState(0)
-  const [open, setOpen] = useState(false)
+  const scheme = useColorScheme()
+  const theme = scheme === 'dark' ? 'black' : 'white'
+  const inverseTheme = scheme === 'dark' ? 'white' : 'black'
 
   return (
     <>
       <Sheet
-        forceRemoveScrollEnabled={open}
+        forceRemoveScrollEnabled={isOpen}
         modal
-        open={open}
-        onOpenChange={setOpen}
-        snapPoints={[85, 50, 25]}
+        open={isOpen}
+        onOpenChange={onClose}
+        snapPoints={snapPoints || [90]}
         dismissOnSnapToBottom
         position={position}
         onPositionChange={setPosition}
@@ -27,18 +31,9 @@ export const createModal: React.FC = () => {
         animation="bouncy"
         defaultOpen
       >
-        <Sheet.Overlay />
-        <Sheet.Handle />
-        <Sheet.Frame
-          flex={1}
-          padding="$4"
-          backgroundColor={'blue'}
-          justifyContent="center"
-          alignItems="center"
-          space="$5"
-        >
-          <Button size="$6" circular icon={ChevronDown} onPress={() => setOpen(false)} />
-        </Sheet.Frame>
+        <Sheet.Overlay backgroundColor={inverseTheme} />
+        <Sheet.Handle backgroundColor={'$background'} />
+        <Sheet.Frame backgroundColor={'$background'}>{children}</Sheet.Frame>
       </Sheet>
     </>
   )

@@ -41,7 +41,7 @@ export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst,
   const onPress = () => onClick(value)
   const style = {
     ...getStyle(type),
-    // ...(type === CellType.Active && activeStyle),
+    // ...(isActive && activeStyle),
   }
 
   return (
@@ -52,7 +52,7 @@ export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst,
       onPress={onPress}
       style={{
         ...style,
-        boxShadow: isActive ? `$background 0px 0px 0px 3px inset` : null,
+        boxShadow: isActive ? `#ffbd00 0px 0px 0px 5px inset` : null, //ffbd00
       }}
       hoverStyle={{
         cursor: 'pointer',

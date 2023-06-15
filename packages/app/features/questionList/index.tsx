@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { useEffect, useState } from 'react'
+import { use, useEffect, useState } from 'react'
 import { Content } from 'app/features/components/Content'
-import { Stack, H1 } from '@my/ui'
+import { Stack, H1, Button } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
@@ -13,6 +13,7 @@ import { NotFoundQuestion } from 'app/features/question/notFound'
 import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
 import { observer } from 'mobx-react'
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
+import { Modal } from 'app/features/components/Modal'
 
 interface Props {
   theme: ThemeTypes
@@ -22,6 +23,7 @@ const { useParam } = createParam<{ id: string }>()
 
 export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const [id] = useParam('id')
+  const [isOpen, setOpenModal] = useState(false)
 
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
