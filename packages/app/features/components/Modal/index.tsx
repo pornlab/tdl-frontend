@@ -28,7 +28,7 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, snapPoints, children, onCl
         position={position}
         onPositionChange={setPosition}
         zIndex={100_000}
-        animation="bouncy"
+        animation="lazy"
         defaultOpen
       >
         <Sheet.Overlay backgroundColor={inverseTheme} />

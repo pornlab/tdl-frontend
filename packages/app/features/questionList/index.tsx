@@ -32,10 +32,29 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
       questions: [...getAllQuestions(), ...getAllQuestions()],
     })
   )
-  const { questions, current, totalCount, percent, setCurrent } = sessionStore
+  const {
+    questions,
+    current,
+    totalCount,
+    percent,
+    setCurrent,
+    rightAnswersCount,
+    errorAnswersCount,
+    checkIsAllQuestionsAnswered,
+    reset,
+  } = sessionStore
+
   return (
     <Content>
-      {/*{!sessionStore.checkIsAllQuestionsAnswered() && <FinishModal />}*/}
+      {!checkIsAllQuestionsAnswered() && (
+        <FinishModal
+          totalCount={totalCount}
+          rightCount={rightAnswersCount()}
+          errorCount={errorAnswersCount()}
+          totalTime={'14:45'}
+          startAgain={reset}
+        />
+      )}
       <Stack
         f={1}
         jc={'center'}
@@ -47,7 +66,12 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
         pr={16}
       >
         <StatusBar value={percent()} />
-        <TitleCounter title={id || ''} current={current} totalCount={totalCount} />
+        <TitleCounter
+          title={id || ''}
+          current={current}
+          totalCount={totalCount}
+          isAllQuestionAnswered={checkIsAllQuestionsAnswered()}
+        />
         <ToggleBar
           current={current}
           totalCount={totalCount}
@@ -60,7 +84,6 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           goToNextQuestion={sessionStore.goToNextQuestion}
         />
       </Stack>
-      <FinishModal />
     </Content>
   )
 })

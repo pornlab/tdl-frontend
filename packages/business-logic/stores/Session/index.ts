@@ -1,7 +1,6 @@
-import {getEnv, SnapshotIn, types} from "mobx-state-tree";
+import {applySnapshot, getEnv, SnapshotIn, types} from "mobx-state-tree";
 import {ModeTypes, Questions} from "../Question";
 import {Question} from "app/features/dbList/interfaces";
-import {toJS} from "mobx";
 
 export interface SessionEnvironment {
     questions: Question[]
@@ -53,12 +52,18 @@ export const Session = types.model({
         return nextQuestioninAfterCurrent
     }
 
+    const reset = () => {
+        applySnapshot(self, defaultSessionSnapshot);
+        afterCreate();
+    }
+
     return {
         checkIsAllQuestionsAnswered,
         afterCreate,
         setTotalCount,
         setCurrent,
-        goToNextQuestion
+        goToNextQuestion,
+        reset
     }
 }).volatile(self => ({
     isEmptyQuestionList: !Boolean(self.questions.length),
@@ -68,6 +73,16 @@ export const Session = types.model({
             return arr + isUserAnswered;
         }, 0);
         return countAnsweredQuestions * 100 / self.totalCount;
+    },
+    rightAnswersCount: () => {
+        return self.questions.reduce((arr, question, index) => {
+            return arr + +question.isRightAnswer();
+        }, 0);
+    },
+    errorAnswersCount: () => {
+        return self.questions.reduce((arr, question, index) => {
+            return arr + +!question.isRightAnswer();
+        }, 0);
     }
 }));
 

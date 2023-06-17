@@ -53,6 +53,7 @@ export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst,
       style={{
         ...style,
         boxShadow: isActive ? `#ffbd00 0px 0px 0px 5px inset` : null, //ffbd00
+        marginRight: 0,
       }}
       hoverStyle={{
         cursor: 'pointer',
