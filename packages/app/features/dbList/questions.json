@@ -62,7 +62,7 @@
         "isAnswer": false
       }
     ],
-    "imageId": null,
+    "imageId": 1,
     "isFavourite": false,
     "theme": "vehicleLaw"
   },
@@ -130,7 +130,7 @@
         "imageId": null
       }
     ],
-    "imageId": null,
+    "imageId": 2,
     "isFavourite": false,
     "theme": "vehicleLaw"
   },
@@ -198,7 +198,7 @@
         "imageId": null
       }
     ],
-    "imageId": null,
+    "imageId": 3,
     "isFavourite": false,
     "theme": "vehicleLaw"
   },

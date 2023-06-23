@@ -29,7 +29,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
     Session.create(defaultSessionSnapshot, {
       // questions: id ? getQuestionsByTheme('VehicleLaw'),
       // questions: id ? getQuestionsByTheme(id) : [],
-      questions: [...getAllQuestions(), ...getAllQuestions()],
+      questions: [...getAllQuestions()],
     })
   )
   const {
@@ -46,15 +46,6 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
 
   return (
     <Content>
-      {!checkIsAllQuestionsAnswered() && (
-        <FinishModal
-          totalCount={totalCount}
-          rightCount={rightAnswersCount()}
-          errorCount={errorAnswersCount()}
-          totalTime={'14:45'}
-          startAgain={reset}
-        />
-      )}
       <Stack
         f={1}
         jc={'center'}
@@ -84,6 +75,15 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           goToNextQuestion={sessionStore.goToNextQuestion}
         />
       </Stack>
+      {checkIsAllQuestionsAnswered() && (
+        <FinishModal
+          totalCount={totalCount}
+          rightCount={rightAnswersCount()}
+          errorCount={errorAnswersCount()}
+          totalTime={'14:45'}
+          startAgain={reset}
+        />
+      )}
     </Content>
   )
 })

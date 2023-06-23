@@ -37,6 +37,7 @@ export const Question = types.model({
     answers: types.array(Answer),
     isFavourite: types.boolean,
     theme: types.string,
+    imageId: types.maybeNull(types.number),
     mode: types.enumeration([ ModeTypes.QUESTION, ModeTypes.SHOW_ANSWER ])
 }).actions(self => {
     const isUserAnswered = () =>
