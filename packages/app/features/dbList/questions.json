@@ -1,0 +1,273 @@
+[
+  {
+    "title": {
+      "en": {
+        "value": "1. While driving, the driver must have any documents used with the driving license"
+      },
+      "ru": {
+        "value": "Во время вождения у водителя должны быть какие-либо документы, используемые с водительскими правами"
+      },
+      "de": {
+        "value": "Während der Fahrt muss der Fahrer über alle mit dem Führerschein verwendeten Dokumente verfügen"
+      },
+      "es": {
+        "value": "Mientras conduce, el conductor debe tener todos los documentos utilizados con el permiso de conducir"
+      },
+      "fr": {
+        "value": "Pendant la conduite, le conducteur doit avoir tous les documents utilisés avec le permis de conduire"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "National Identification Card",
+          "ru": "Национальное удостоверение личности",
+          "de": "Nationaler Personalausweis",
+          "es": "DNI",
+          "fr": "Carte d'identité nationale"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Copy of house registration",
+          "ru": "Копия оформления дома",
+          "de": "Kopie der Hausregistrierung",
+          "es": "Copia del registro de la casa",
+          "fr": "Copie de l'enregistrement de la maison"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Copy of car registration",
+          "ru": "Копия регистрации автомобиля",
+          "de": "Kopie der Fahrzeugregistrierung",
+          "es": "Copia del registro del auto",
+          "fr": "Copie de l'immatriculation de la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Social Security Card",
+          "ru": "Карточка социального обеспечения",
+          "de": "Sozialversicherungsausweis",
+          "es": "Tarjeta de seguro Social",
+          "fr": "Carte de sécurité sociale"
+        },
+        "isAnswer": false
+      }
+    ],
+    "imageId": 1,
+    "isFavourite": false,
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "2. The driver violates the road traffic law and receives a ticket from the traffic officer, how many days must he contact to pay the fine?"
+      },
+      "ru": {
+        "value": "Водитель нарушает правила дорожного движения и получает билет от сотрудника ГИБДД, сколько дней он должен связаться, чтобы заплатить штраф?"
+      },
+      "de": {
+        "value": "Der Fahrer verstößt gegen das Straßenverkehrsgesetz und erhält vom Verkehrsbeamten ein Ticket. Wie viele Tage muss er kontaktieren, um die Geldstrafe zu zahlen?"
+      },
+      "es": {
+        "value": "El conductor viola la ley de tránsito y recibe una multa del oficial de tránsito, ¿cuántos días debe contactar para pagar la multa?"
+      },
+      "fr": {
+        "value": "Le conducteur enfreint le code de la route et reçoit un ticket de l'agent de la circulation, combien de jours doit-il contacter pour payer l'amende?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "10 days",
+          "ru": "10 дней",
+          "de": "10 Tage",
+          "es": "10 días",
+          "fr": "10 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "7 days",
+          "ru": "7 дней",
+          "de": "7 Tage",
+          "es": "7 días",
+          "fr": "7 jours"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "30 days",
+          "ru": "30 дней",
+          "de": "30 Tage",
+          "es": "30 dias",
+          "fr": "30 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "15 days",
+          "ru": "15 дней",
+          "de": "15 Tage",
+          "es": "15 días",
+          "fr": "15 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": 2,
+    "isFavourite": false,
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "3. When the driving license is lost or damaged, how many days must the application for a substitute be submitted to the registrar?"
+      },
+      "ru": {
+        "value": "В случае утери или повреждения водительских прав, сколько дней необходимо подать заявку на замену регистратору?"
+      },
+      "de": {
+        "value": "Wie viele Tage muss der Antrag auf Ersatz beim Registrar eingereicht werden, wenn der Führerschein verloren geht oder beschädigt ist?"
+      },
+      "es": {
+        "value": "Cuando la licencia de conducir se pierde o se daña, ¿cuántos días se debe presentar la solicitud de un sustituto al registrador?"
+      },
+      "fr": {
+        "value": "Lorsque le permis de conduire est perdu ou endommagé, combien de jours la demande de remplacement doit-elle être déposée auprès du registraire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "20 days",
+          "ru": "20 дней",
+          "de": "20 Tage",
+          "es": "20 días",
+          "fr": "20 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "30 days",
+          "ru": "30 дней",
+          "de": "30 Tage",
+          "es": "30 días",
+          "fr": "30 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "15 days",
+          "ru": "15 дней",
+          "de": "15 Tage",
+          "es": "15 días",
+          "fr": "15 jours"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "45 days",
+          "ru": "45 дней",
+          "de": "45 Tage",
+          "es": "45 días",
+          "fr": "45 jours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": 3,
+    "isFavourite": false,
+    "theme": "vehicleLaw"
+  },
+  {
+    "title": {
+      "en": {
+        "value": "4. The driver does not have a driving license What’s wrong?"
+      },
+      "ru": {
+        "value": "У водителя нет водительских прав. Что не так?"
+      },
+      "de": {
+        "value": "Der Fahrer hat keinen Führerschein Was ist los?"
+      },
+      "es": {
+        "value": "El conductor no tiene carnet de conducir ¿Qué pasa?"
+      },
+      "fr": {
+        "value": "Le conducteur n'a pas de permis de conduire Qu'est-ce qui ne va pas?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Imprisonment not over 1 year",
+          "ru": "Тюремное заключение не более 1 года",
+          "de": "Freiheitsstrafe nicht über 1 Jahr",
+          "es": "Encarcelamiento no mayor a 1 año",
+          "fr": "Emprisonnement ne dépassant pas 1 an"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Imprisonment not over 1 month or fined not more than 1,000 baht or both",
+          "ru": "Тюремное заключение не более 1 месяца или штраф не более 1000 батов или и то, и другое",
+          "de": "Freiheitsstrafe nicht länger als 1 Monat oder Geldstrafe nicht mehr als 1.000 Baht oder beides",
+          "es": "Encarcelamiento no más de 1 mes o multado no más de 1,000 baht o ambos",
+          "fr": "Emprisonnement d'un mois au maximum ou d'une amende maximale de 1 000 bahts ou des deux"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "fine not more than 5,000 baht",
+          "ru": "штраф не более 5000 бат",
+          "de": "Geldstrafe nicht mehr als 5.000 Baht",
+          "es": "bien no más de 5,000 baht",
+          "fr": "pas plus de 5 000 bahts"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "fine not more than 2,000 baht",
+          "ru": "штраф не более 2000 бат",
+          "de": "gut, nicht mehr als 2.000 Baht",
+          "es": "bien no más de 2,000 baht",
+          "fr": "pas plus de 2 000 bahts"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "vehicleLaw"
+  }
+]

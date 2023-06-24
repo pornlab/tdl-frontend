@@ -6,7 +6,7 @@ export class ThemeService extends BaseService {
     private readonly url: string = `${this.baseUrl}/theme`;
 
     public get = (id: string): Promise<Theme> =>
-        this.http.get(`${this.url}/get`, {params: {_id: id}})
+        this.http.get(`${this.url}/get`, { params: { _id: id } })
             .then(res => res.data)
     
     public getList = (params?): Promise<Themes> =>

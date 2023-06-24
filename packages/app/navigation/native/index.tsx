@@ -2,52 +2,71 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import * as React from 'react'
 
 import { HomeScreen } from '../../features/home/Screen'
-import { UserDetailScreen } from '../../features/user/detail-screen'
-import {ThemeDetailScreen} from "app/features/theme/detail-screen";
-import {Text, Button} from "@my/ui";
-import { ListChecks, Star, AlarmClock, Info, MoreVertical } from '@tamagui/lucide-icons'
+import { ThemesScreen } from "app/features/themes";
+import { QuestionView } from "app/features/question";
+import { QuestionList } from "app/features/questionList";
 
 const Stack = createNativeStackNavigator<{
-  home: undefined
-  'theme-detail': {
-    id: string
-  }
+    home: undefined
+    themes: undefined
+    question: {
+      id: string
+    }
+    questionList: {
+      id: string
+    }
 }>()
 
 export function NativeNavigation() {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen
-        name="home"
-        component={HomeScreen}
-        options={{
-          title: 'Темы для изучения',
-            // headerStyle: {
-            //     backgroundColor: '#f4511e',
-            // },
-            // headerTintColor: '#fff',
-            // headerTitleStyle: {
-            //     fontWeight: 'bold',
-            // },
-        }}
-      />
-        <Stack.Screen
-            name="theme-detail"
-            component={ThemeDetailScreen}
-            options={{
-                title: 'Тема',
-                headerRight: () => (
-                    <Button backgroundColor={'transparent'} pr={0} onPress={() => alert('MoreVertical')}><MoreVertical /></Button>
-                ),
-            }}
-        />
-        <Stack.Screen
-            name="admin-panel"
-            component={ThemeDetailScreen}
-            options={{
-                title: 'Панель администратора',
-            }}
-        />
-    </Stack.Navigator>
-  )
+    return (
+        <Stack.Navigator>
+            <Stack.Screen
+                name="home"
+                component={HomeScreen}
+                options={{
+                    title: 'Thailand Driving License',
+                }}
+            />
+            <Stack.Screen
+                name="themes"
+                component={ThemesScreen}
+                options={{
+                    title: 'Themes',
+                    headerBackTitle: 'Menu',
+                    headerTitleStyle: {
+                        fontSize: 20
+                    },
+                }}
+            />
+            <Stack.Screen
+                name="question"
+                component={QuestionView}
+                options={{
+                    title: 'Вопрос',
+                    headerBackTitle: 'Themes',
+                    headerTitleStyle: {
+                        fontSize: 20
+                    },
+                }}
+            />
+            <Stack.Screen
+                name="questionList"
+                component={QuestionList}
+                options={{
+                    title: 'Вопросы',
+                    headerBackTitle: 'Themes',
+                    headerTitleStyle: {
+                        fontSize: 20
+                    },
+                }}
+            />
+            {/*<Stack.Screen*/}
+            {/*    name="create-question"*/}
+            {/*    component={CreateQuestionScreen}*/}
+            {/*    options={{*/}
+            {/*        title: 'Добавление вопроса',*/}
+            {/*    }}*/}
+            {/*/>*/}
+        </Stack.Navigator>
+    )
 }

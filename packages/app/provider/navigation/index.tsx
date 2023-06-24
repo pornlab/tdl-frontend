@@ -10,18 +10,20 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
     <NavigationContainer
       theme={scheme === 'dark' ? DarkTheme : DefaultTheme}
       linking={useMemo(
-        () => ({
-          prefixes: [Linking.createURL('/')],
-          config: {
-            initialRouteName: 'home',
-            screens: {
-              home: '',
-              'theme-detail': 'theme/:id',
-              'admin-panel': 'admin-panel',
-            },
-          },
-        }),
-        []
+            () => ({
+                prefixes: [Linking.createURL('/')],
+                config: {
+                    initialRouteName: 'home',
+                    screens: {
+                        home: '',
+                        themes: 'themes',
+                        question: 'question/:id',
+                        questionList: 'questions/:id',
+                        // 'user-detail': 'user/:id',
+                    },
+                },
+            }),
+            []
       )}
     >
       {children}
