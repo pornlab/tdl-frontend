@@ -1,19 +1,39 @@
-import React, { useState } from 'react'
-import { H2, isWeb, Button, XStack } from '@my/ui'
+import React, { useState, useEffect } from 'react'
+import { YStack } from 'tamagui'
+import i18next from 'i18next'
+import { observer } from 'mobx-react'
+import { H2, isWeb, XStack } from '@my/ui'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+
 import { listItems } from './list'
 import { List } from '../components/List'
-import { Content } from 'app/features/components/Content'
-import i18next from 'i18next'
 import { Languages } from 'app/configs/i18next'
+import { Content } from 'app/features/components/Content'
 import { SelectTamagui } from 'app/features/components/Select'
-import { YStack } from 'tamagui'
 
-export const HomeScreen: React.FC = () => {
+export const HomeScreen: React.FC = observer(() => {
   const [lang, setLang] = useState(i18next.language)
 
-  const changeLanguage = (newLang: Languages) => {
-    i18next.changeLanguage(newLang).then(() => setLang(i18next.language))
+  const changeLanguage = async (newLang: Languages | string) => {
+    try {
+      await AsyncStorage.setItem('language', newLang)
+      await i18next.changeLanguage(newLang)
+      setLang(i18next.language)
+    } catch (err) {
+      console.log(err)
+    }
   }
+
+  useEffect(() => {
+    try {
+      AsyncStorage.getItem('language').then((savedLanguage) => {
+        if (!savedLanguage) return i18next.language
+        changeLanguage(savedLanguage)
+      })
+    } catch (error) {
+      console.log(error)
+    }
+  }, [])
 
   return (
     <Content>
@@ -28,20 +48,6 @@ export const HomeScreen: React.FC = () => {
         </YStack>
       </XStack>
       <List items={listItems} />
-      {/*<Button*/}
-      {/*  onPress={() =>*/}
-      {/*    i18next.changeLanguage(Languages.Russian).then(() => setLang(i18next.language))*/}
-      {/*  }*/}
-      {/*>*/}
-      {/*  Russian*/}
-      {/*</Button>*/}
-      {/*<Button*/}
-      {/*  onPress={() =>*/}
-      {/*    i18next.changeLanguage(Languages.English).then(() => setLang(i18next.language))*/}
-      {/*  }*/}
-      {/*>*/}
-      {/*  English*/}
-      {/*</Button>*/}
     </Content>
   )
-}
+})

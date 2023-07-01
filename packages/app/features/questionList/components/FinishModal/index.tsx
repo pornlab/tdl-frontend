@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
+import i18next from 'i18next'
 import React from 'react'
 import { useState } from 'react'
 import { Button, H1, H2, Input, Paragraph, XStack, Stack, YStack } from 'tamagui'
@@ -39,8 +39,8 @@ export const FinishModal: React.FC<Props> = ({
   const percentRight = Math.floor((rightCount * 100) / totalCount)
   const percentWrong = Math.ceil((errorCount * 100) / totalCount)
 
-  const themesLink = useLink({
-    href: '/themes',
+  const menuLink = useLink({
+    href: '/',
   })
 
   return (
@@ -62,16 +62,16 @@ export const FinishModal: React.FC<Props> = ({
             maxWidth={500}
             mb={100}
           >
-            <H1 ls={0}>Отлично!</H1>
+            <H1 ls={0}>{i18next.t('question:excellent')}</H1>
             <Paragraph color={'#8B8B8B'} fontSize={20} pt={8} ta={'center'}>
-              Вы ответили на все вопросы
+              {i18next.t('question:allQuestionsAnswered')}
             </Paragraph>
             <YStack pt={60} w={'100%'} f={1} justifyContent={'center'} ai={'center'}>
               <XStack f={1} justifyContent={'space-between'} w={'100%'}>
                 <XStack>
                   <ImageRN source={List} style={iconStyle} />
                   <Paragraph fontSize={16} lh={30} ml={12}>
-                    Всего вопросов
+                    {i18next.t('question:totalQuestions')}
                   </Paragraph>
                 </XStack>
 
@@ -97,7 +97,7 @@ export const FinishModal: React.FC<Props> = ({
                 <XStack>
                   <ImageRN source={Approve} style={iconStyle} />
                   <Paragraph fontSize={16} lh={30} ml={12}>
-                    Правильно
+                    {i18next.t('question:rightAnswers')}
                   </Paragraph>
                 </XStack>
                 <Paragraph fontSize={16} lh={30}>
@@ -109,7 +109,7 @@ export const FinishModal: React.FC<Props> = ({
                 <XStack>
                   <ImageRN source={Error} style={iconStyle} />
                   <Paragraph fontSize={16} lh={30} ml={12}>
-                    Неправильно
+                    {i18next.t('question:wrongAnswers')}
                   </Paragraph>
                 </XStack>
                 <Paragraph fontSize={16} lh={30}>
@@ -123,7 +123,7 @@ export const FinishModal: React.FC<Props> = ({
                 <XStack>
                   <ImageRN source={Clock} style={iconStyle} />
                   <Paragraph fontSize={16} lh={30} ml={12}>
-                    Потрачено времени
+                    {i18next.t('question:totalTime')}
                   </Paragraph>
                 </XStack>
                 <Paragraph fontSize={16} fontWeight={'bold'} lh={30}>
@@ -133,10 +133,10 @@ export const FinishModal: React.FC<Props> = ({
 
               <YStack w={'60%'} minWidth={200} maxWidth={500} pt={60}>
                 <Button bc={'#FFEB99'} onPress={startAgain} bw={1} borderColor={'#ccc'}>
-                  Начать заново
+                  {i18next.t('question:startAgain')}
                 </Button>
-                <Button bc={'#D1F4FF'} mt={12} {...themesLink} bw={1} borderColor={'#ccc'}>
-                  Вернуться в меню
+                <Button bc={'#D1F4FF'} mt={12} {...menuLink} bw={1} borderColor={'#ccc'}>
+                  {i18next.t('question:goToMenu')}
                 </Button>
                 <Button
                   bc={'#FFC5C5'}
@@ -145,7 +145,7 @@ export const FinishModal: React.FC<Props> = ({
                   borderColor={'#ccc'}
                   onPress={() => setOpen(false)}
                 >
-                  Посмотреть мои ответы
+                  {i18next.t('question:checkAnswers')}
                 </Button>
               </YStack>
             </YStack>

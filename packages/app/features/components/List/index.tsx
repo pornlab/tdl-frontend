@@ -1,10 +1,9 @@
-import { H4, Image, Paragraph, Stack, XStack, YStack } from '@my/ui'
-import { Image as ImageRN } from 'react-native'
 import React from 'react'
-import { ListItem } from 'app/features/components/List/helpers'
-import { useLink } from 'solito/link'
 import i18next from 'i18next'
-import { useTranslation } from 'react-i18next'
+import { useLink } from 'solito/link'
+import { Image as ImageRN } from 'react-native'
+import { H4, Paragraph, Stack, XStack, YStack } from '@my/ui'
+import { ListItem } from 'app/features/components/List/helpers'
 
 const SIZE_ICON = 90
 
@@ -13,7 +12,6 @@ interface Props {
 }
 
 export const List: React.FC<Props> = ({ items }) => {
-  const { t, i18n } = useTranslation()
   return (
     <YStack pb={'$10'} width={'90%'} maxWidth={700} minWidth={300}>
       {items.map((item, index) => {

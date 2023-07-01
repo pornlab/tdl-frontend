@@ -14,7 +14,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: VehicleLaw,
-    link: `/questions/VehicleLaw`,
+    link: `/questions/vehicleLaw`,
   },
   {
     title: 'themes:roadTrafficLaw',
@@ -22,7 +22,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: RoadTrafficLaw,
-    link: `/questions/RoadTrafficLaw`,
+    link: `/questions/roadTrafficLaw`,
   },
   {
     title: 'themes:trafficSigns',
@@ -30,7 +30,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: TrafficSigns,
-    link: `/questions/TrafficSigns`,
+    link: `/questions/trafficSigns`,
   },
   {
     title: 'themes:safeDriving',
@@ -38,7 +38,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: SafeDriving,
-    link: `/questions/SafeDriving`,
+    link: `/questions/safeDriving`,
   },
   {
     title: 'themes:techniquesOfSafeDriving',
@@ -46,7 +46,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: TechniquesOfSafeDriving,
-    link: `/questions/TechniquesOfSafeDriving`,
+    link: `/questions/techniquesOfSafeDriving`,
   },
   {
     title: 'themes:vehicleMaintenance',
@@ -54,6 +54,6 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: VehicleMaintenance,
-    link: `/questions/VehicleMaintenance`,
+    link: `/questions/vehicleMaintenance`,
   },
 ]
