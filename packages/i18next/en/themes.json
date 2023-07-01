@@ -1,0 +1,17 @@
+{
+  "title": "Themes",
+  "vehicleLaw": "Vehicle Law",
+  "roadTrafficLaw": "Road Traffic Law",
+  "trafficSigns": "Traffic Signs",
+  "safeDriving": "Safe Driving",
+  "techniquesOfSafeDriving": "Techniques Of Safe Driving",
+  "vehicleMaintenance": "Vehicle Maintenance",
+  "description": {
+    "vehicleLaw": "87 questions",
+    "roadTrafficLaw": "23 questions",
+    "trafficSigns": "167 questions",
+    "safeDriving": "56 questions",
+    "techniquesOfSafeDriving": "23 questions",
+    "vehicleMaintenance": "231 questions"
+  }
+}

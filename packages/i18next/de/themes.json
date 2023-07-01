@@ -1,0 +1,17 @@
+{
+  "title": "Themen",
+  "vehicleLaw": "Fahrzeugrecht",
+  "roadTrafficLaw": "Straßenverkehrsrecht",
+  "trafficSigns": "Verkehrsschilder",
+  "safeDriving": "Sicheres Fahren",
+  "techniquesOfSafeDriving": "Techniken für sicheres Fahren",
+  "vehicleMaintenance": "Fahrzeugwartung",
+  "description": {
+    "vehicleLaw": "87 Fragen",
+    "roadTrafficLaw": "23 Fragen",
+    "trafficSigns": "167 Fragen",
+    "safeDriving": "56 Fragen",
+    "techniquesOfSafeDriving": "23 Fragen",
+    "vehicleMaintenance": "231 Fragen"
+  }
+}
