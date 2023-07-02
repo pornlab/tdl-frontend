@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { Content } from 'app/features/components/Content'
-import { Stack } from '@my/ui'
+import { Stack, Button } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
@@ -13,6 +13,9 @@ import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
 import i18next from 'i18next'
 import { observer } from 'mobx-react'
+import { Languages } from 'app/configs/i18next'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useLink } from 'solito/link'
 
 interface Props {
   theme: string
@@ -22,12 +25,12 @@ const { useParam } = createParam<{ id: string }>()
 
 export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const [id] = useParam('id')
-
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
       questions: [...getAllQuestions()],
     })
   )
+
   const {
     questions,
     current,
@@ -40,8 +43,15 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
     reset,
   } = sessionStore
 
+  const menuLink = useLink({ href: '/' })
+
   return (
     <Content>
+      {sessionStore.checkIsAllQuestionsAnswered() && (
+        <Button mb={'$4'} w={'90%'} {...menuLink}>
+          {i18next.t('question:goToMenu')}
+        </Button>
+      )}
       <Stack
         f={1}
         jc={'center'}

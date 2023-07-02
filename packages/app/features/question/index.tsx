@@ -7,6 +7,11 @@ import { H3, Stack, Paragraph, XStack, YStack } from '@my/ui'
 import { Content } from 'app/features/components/Content'
 import { Answer, ModeTypes, Question } from '../../../business-logic/stores/Question'
 import { Image } from '../components/Image'
+import { LanguageSelect } from 'app/features/components/Select'
+import i18next, { changeLanguage } from 'i18next'
+import { Languages } from 'app/configs/i18next'
+import { useEffect, useState } from 'react'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 interface Props {
   data: Instance<typeof Question>
@@ -16,6 +21,19 @@ interface Props {
 const { width, height } = Dimensions.get('window')
 
 export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion }) => {
+  const [language, setLanguage] = useState(i18next.language)
+
+  useEffect(() => {
+    try {
+      AsyncStorage.getItem('language').then((savedLanguage) => {
+        if (!savedLanguage) return i18next.language
+        setLanguage(savedLanguage)
+      })
+    } catch (error) {
+      console.log(error)
+    }
+  }, [])
+
   const { title, answers, mode } = data
 
   const getBackground = (answer: Instance<typeof Answer>) => {
@@ -30,8 +48,8 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
 
   return (
     <Content>
-      <YStack width={width > 700 ? 668 : width - 32} p={10}>
-        <H3 letterSpacing={0} pb={'$6'}>{`${title.en.value}`}</H3>
+      <YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>
+        <H3 letterSpacing={0} pb={'$6'}>{`${title[language].value}`}</H3>
         <Image id={data.imageId} />
         {answers.map((answer, index) => (
           <XStack
@@ -58,11 +76,11 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
             backgroundColor={getBackground(answer)}
           >
             <Paragraph lh={30} p={'$3'} fontSize={17}>
-              {answer.value.en}
+              {answer.value[language]}
             </Paragraph>
           </XStack>
         ))}
-        <YStack alignItems={'flex-start'} mt={20}>
+        <XStack ai={'center'} jc={'space-between'} mt={20}>
           <Stack
             bc={'#7659c3'}
             pl={16}
@@ -76,7 +94,8 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
               Add to favorites ⭐️
             </Paragraph>
           </Stack>
-        </YStack>
+          <LanguageSelect value={language} onChange={setLanguage} />
+        </XStack>
       </YStack>
     </Content>
   )
