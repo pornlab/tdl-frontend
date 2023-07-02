@@ -4,9 +4,7 @@ import { useState } from 'react'
 import { NavigationProvider } from './navigation'
 import { TamaguiProvider, TamaguiProviderProps } from '@my/ui'
 import { useColorScheme } from 'react-native'
-import i18next from 'i18next'
-import { getTranslationsByLanguage, i18n, Languages } from 'app/configs/i18next'
-import { initReactI18next } from 'react-i18next'
+import { i18n } from 'app/configs/i18next'
 
 export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'config'>) {
   const [i18nLoaded, setI18nLoaded] = useState(false)
