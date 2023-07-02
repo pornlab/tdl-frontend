@@ -1,6 +1,7 @@
 import '@tamagui/core/reset.css'
 import '@tamagui/font-inter/css/400.css'
 import '@tamagui/font-inter/css/700.css'
+import { Analytics } from '@vercel/analytics/react'
 import 'raf/polyfill'
 
 import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme'
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
+      <Analytics />
     </>
   )
 }
