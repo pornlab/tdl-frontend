@@ -37,9 +37,17 @@ export const HomeScreen: React.FC = observer(() => {
 
   return (
     <Content>
-      <XStack f={1} ai={'center'} jc={'space-between'} w={'90%'} mb={28} mt={28}>
+      <XStack
+        f={1}
+        jc={'space-between'}
+        ai={'center'}
+        ac={'center'}
+        width={'90%'}
+        maxWidth={700}
+        mb={20}
+      >
         {isWeb && (
-          <H2 letterSpacing={0} lh={70} ta={'center'}>
+          <H2 letterSpacing={0} lh={70} ta={'center'} pr={20}>
             Thailand Driving License
           </H2>
         )}

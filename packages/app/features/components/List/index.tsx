@@ -2,7 +2,7 @@ import React from 'react'
 import i18next from 'i18next'
 import { useLink } from 'solito/link'
 import { Image as ImageRN } from 'react-native'
-import { H4, Paragraph, Stack, XStack, YStack } from '@my/ui'
+import { H4, H2, Paragraph, Stack, XStack, YStack } from '@my/ui'
 import { ListItem } from 'app/features/components/List/helpers'
 
 const SIZE_ICON = 90
