@@ -18,7 +18,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
               home: '',
               themes: 'themes',
               question: 'question/:id',
-              questionList: 'questions/:id',
+              theme: 'theme/:id',
               // 'user-detail': 'user/:id',
             },
           },

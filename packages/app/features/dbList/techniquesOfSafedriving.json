@@ -1,5 +1,5 @@
 {
-    "01": {
+    "1": {
         "title": {
             "en": {
                 "value": "Driving while it rains What should the driver do?"
@@ -67,7 +67,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "02": {
+    "2": {
         "title": {
             "en": {
                 "value": "In the event of a car breakdown What should be done?"
@@ -135,7 +135,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "03": {
+    "3": {
         "title": {
             "en": {
                 "value": "What color is the warning light on the car dashboard? That shouldn’t appear while driving"
@@ -203,7 +203,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "04": {
+    "4": {
         "title": {
             "en": {
                 "value": "In what manner should the steering wheel be held?"
@@ -271,7 +271,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "05": {
+    "5": {
         "title": {
             "en": {
                 "value": "When the driver drives a car on a wet, slippery road What should be done?"
@@ -339,7 +339,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "06": {
+    "6": {
         "title": {
             "en": {
                 "value": "While driving up the slope If the engine is turned off, what should be done?"
@@ -407,7 +407,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "07": {
+    "7": {
         "title": {
             "en": {
                 "value": "While driving, if the windshield breaks the front of the car What should be done?"
@@ -475,7 +475,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "08": {
+    "8": {
         "title": {
             "en": {
                 "value": "For the safety of driving during the rainy season. Should first check which components of the car are in the car"
@@ -543,7 +543,7 @@
         "isFavourite": false,
         "theme": "techniquesOfSafedriving"
     },
-    "09": {
+    "9": {
         "title": {
             "en": {
                 "value": "Which item does the car headlight turn on incorrectly?"

@@ -8,10 +8,10 @@
   "vehicleMaintenance": "Техническое обслуживание автомобиля",
   "description": {
     "vehicleLaw": "87 вопросов",
-    "roadTrafficLaw": "23 вопроса",
-    "trafficSigns": "167 вопросов",
-    "safeDriving": "56 вопросов",
-    "techniquesOfSafeDriving": "23 вопроса",
-    "vehicleMaintenance": "231 вопрос"
+    "roadTrafficLaw": "23? вопроса",
+    "trafficSigns": "167? вопросов",
+    "safeDriving": "56? вопросов",
+    "techniquesOfSafeDriving": "75 вопроса",
+    "vehicleMaintenance": "56 вопрос"
   }
 }

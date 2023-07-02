@@ -4,17 +4,26 @@ import TrafficSigns from '../components/icons/trafficSigns.png'
 import SafeDriving from '../components/icons/safeDriving.png'
 import VehicleMaintenance from '../components/icons/vehicleMaintenance.png'
 import TechniquesOfSafeDriving from '../components/icons/techniquesOfSafeDriving.png'
+import Test from '../components/icons/test.png'
 
 import { ListItem } from 'app/features/components/List/helpers'
 
 export const themesList: ListItem[] = [
+  {
+    title: 'Test',
+    description: '4 questions',
+    color: '#dedede',
+    iconColor: '#ababab',
+    icon: Test,
+    link: `/theme/test`,
+  },
   {
     title: 'themes:vehicleLaw',
     description: 'themes:description.vehicleLaw',
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: VehicleLaw,
-    link: `/questions/vehicleLaw`,
+    link: `/theme/vehicleLaw`,
   },
   {
     title: 'themes:roadTrafficLaw',
@@ -22,7 +31,8 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: RoadTrafficLaw,
-    link: `/questions/roadTrafficLaw`,
+    link: `/theme/roadTrafficLaw`,
+    disabled: true,
   },
   {
     title: 'themes:trafficSigns',
@@ -30,7 +40,8 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: TrafficSigns,
-    link: `/questions/trafficSigns`,
+    link: `/theme/trafficSigns`,
+    disabled: true,
   },
   {
     title: 'themes:safeDriving',
@@ -38,7 +49,8 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: SafeDriving,
-    link: `/questions/safeDriving`,
+    link: `/theme/safeDriving`,
+    disabled: true,
   },
   {
     title: 'themes:techniquesOfSafeDriving',
@@ -46,7 +58,7 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: TechniquesOfSafeDriving,
-    link: `/questions/techniquesOfSafeDriving`,
+    link: `/theme/techniquesOfSafeDriving`,
   },
   {
     title: 'themes:vehicleMaintenance',
@@ -54,6 +66,6 @@ export const themesList: ListItem[] = [
     color: '#FFDFD1',
     iconColor: '#FFA6A6',
     icon: VehicleMaintenance,
-    link: `/questions/vehicleMaintenance`,
+    link: `/theme/vehicleMaintenance`,
   },
 ]

@@ -7,7 +7,7 @@ import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
 import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
-import { getAllQuestions } from '../dbList/helpers/getTheme'
+import { getAllQuestions, getQuestionsByTheme } from '../dbList/helpers/getTheme'
 import { createParam } from 'solito'
 import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
@@ -16,6 +16,8 @@ import { observer } from 'mobx-react'
 import { Languages } from 'app/configs/i18next'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useLink } from 'solito/link'
+import { ThemeTypes } from 'app/features/dbList/interfaces'
+import { useRouter } from 'solito/router'
 
 interface Props {
   theme: string
@@ -25,9 +27,16 @@ const { useParam } = createParam<{ id: string }>()
 
 export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const [id] = useParam('id')
+  const { push, replace, back, parseNextPath } = useRouter()
+  if (id !== 'test')
+    if (!id || !Object.values(ThemeTypes).includes(id)) {
+      push('/')
+      return null
+    }
+
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
-      questions: [...getAllQuestions()],
+      questions: [...getQuestionsByTheme(id)],
     })
   )
 

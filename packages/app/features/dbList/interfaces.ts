@@ -27,6 +27,7 @@ export interface Answer {
 }
 
 export interface Question {
+  id?: number
   title: Title
   answers: Answer[]
   isFavourite: boolean

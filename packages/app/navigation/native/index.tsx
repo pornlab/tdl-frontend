@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator<{
   question: {
     id: string
   }
-  questionList: {
+  theme: {
     id: string
   }
 }>()
@@ -50,7 +50,7 @@ export function NativeNavigation() {
         }}
       />
       <Stack.Screen
-        name="questionList"
+        name="theme"
         component={QuestionList}
         options={{
           title: 'Вопросы',
