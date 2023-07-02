@@ -9,7 +9,7 @@ import { listItems } from './list'
 import { List } from '../components/List'
 import { Languages } from 'app/configs/i18next'
 import { Content } from 'app/features/components/Content'
-import { SelectTamagui } from 'app/features/components/Select'
+import { LanguageSelect } from 'app/features/components/Select'
 
 export const HomeScreen: React.FC = observer(() => {
   const [lang, setLang] = useState(i18next.language)
@@ -44,7 +44,7 @@ export const HomeScreen: React.FC = observer(() => {
           </H2>
         )}
         <YStack pt={8}>
-          <SelectTamagui lang={lang} setLang={changeLanguage} />
+          <LanguageSelect value={lang} onChange={changeLanguage} />
         </YStack>
       </XStack>
       <List items={listItems} />

@@ -21,26 +21,26 @@ export const LanguagesImages = {
 }
 
 export interface Props {
-  setLang: (v: string) => void
-  lang: string
+  onChange: (v: string) => void
+  value: string
 }
 
 export const SIZE_ICON = 24
 
-export const SelectTamagui = (props: SelectProps & Props) => {
+export const LanguageSelect = (props: SelectProps & Props) => {
   const [val, setVal] = useState('Russian')
-  const [activeLanguage, setLanguage] = useState(props.lang)
+  const [activeLanguage, setLanguage] = useState(props.value)
 
   return (
     <Select
       id="languages"
-      value={props.lang}
-      onValueChange={(i) => props.setLang(Languages[i[0].toUpperCase() + i.slice(1)])}
+      value={props.value}
+      onValueChange={(i) => props.onChange(Languages[i[0].toUpperCase() + i.slice(1)])}
       {...props}
     >
       <Select.Trigger width={'auto'}>
         <ImageRN
-          source={LanguagesImages[props.lang]}
+          source={LanguagesImages[props.value]}
           style={{ width: SIZE_ICON, height: SIZE_ICON, borderRadius: 2 }}
         />
       </Select.Trigger>

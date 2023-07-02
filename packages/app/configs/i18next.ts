@@ -50,10 +50,6 @@ export const getTranslationsByLanguage = (language: Languages) => {
       return { mainMenu: EnMenu, themes: EnThemes, question: EnQuestion }
     }
   }
-  // return {
-  //   mainMenu: require(`../../i18next/${language}/mainMenu.json`),
-  //   themes: require(`../../i18next/${language}/themes.json`),
-  // }
 }
 
 export const i18n = i18next.use(initReactI18next).init({
