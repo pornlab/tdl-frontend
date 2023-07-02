@@ -22,6 +22,8 @@ export const List: React.FC<Props> = ({ items }) => {
           })
         return (
           <XStack
+            opacity={item.disabled ? 0.2 : 1}
+            disabled={item.disabled}
             key={index}
             backgroundColor={item.color}
             br={20}

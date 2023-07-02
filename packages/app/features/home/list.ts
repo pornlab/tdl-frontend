@@ -19,6 +19,7 @@ export const listItems: ListItem[] = [
     color: '#D1F4FF',
     iconColor: '#A6EAFF',
     icon: Maraphon,
+    disabled: true,
   },
   {
     title: 'mainMenu:exam',
@@ -26,6 +27,7 @@ export const listItems: ListItem[] = [
     color: '#D1DBFF',
     iconColor: '#A6C4FF',
     icon: Exam,
+    disabled: true,
   },
   {
     title: 'mainMenu:favourites',
@@ -33,5 +35,6 @@ export const listItems: ListItem[] = [
     color: '#FFD1F2',
     iconColor: '#E9C0E5',
     icon: Favourite,
+    disabled: true,
   },
 ]
