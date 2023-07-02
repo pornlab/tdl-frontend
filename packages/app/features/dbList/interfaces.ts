@@ -1,18 +1,12 @@
-export enum ThemeTypes {
-  VehicleLaw = 'VehicleLaw',
-  RoadTrafficLaw = 'RoadTrafficLaw',
-  TrafficSigns = 'TrafficSigns',
-  SafeDriving = 'SafeDriving',
-  TechniquesOfSafeDriving = 'TechniquesOfSafeDriving',
-  VehicleMaintenance = 'VehicleMaintenance',
-}
+import { Languages } from 'app/configs/i18next'
 
-export enum Languages {
-  English = 'en',
-  Russian = 'ru',
-  Deutch = 'de',
-  Spanish = 'es',
-  Franch = 'fr',
+export enum ThemeTypes {
+  VehicleLaw = 'vehicleLaw',
+  RoadTrafficLaw = 'roadTrafficLaw',
+  TrafficSigns = 'trafficSigns',
+  SafeDriving = 'safeDriving',
+  TechniquesOfSafeDriving = 'techniquesOfSafeDriving',
+  VehicleMaintenance = 'vehicleMaintenance',
 }
 
 export interface Value {

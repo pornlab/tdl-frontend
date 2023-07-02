@@ -1,5 +1,5 @@
 import {types} from "mobx-state-tree";
-import {Languages} from "app/features/dbList/interfaces";
+import {Languages} from "app/configs/i18next";
 
 export enum ModeTypes {
     SHOW_ANSWER = 'showAnswer',

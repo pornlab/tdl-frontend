@@ -1,12 +1,10 @@
 import * as React from 'react'
+import { observer } from 'mobx-react'
+import { Dimensions } from 'react-native'
+import { Instance } from 'mobx-state-tree'
+import { H3, Stack, Paragraph, XStack, YStack } from '@my/ui'
 
 import { Content } from 'app/features/components/Content'
-// import { createParam } from "solito";
-import { H3, Stack, Paragraph, XStack, YStack } from '@my/ui'
-import { NotFoundQuestion } from 'app/features/question/notFound'
-import { Dimensions, Image as ImageRN } from 'react-native'
-import { useState } from 'react'
-import { Instance } from 'mobx-state-tree'
 import { Answer, ModeTypes, Question } from '../../../business-logic/stores/Question'
 import { Image } from '../components/Image'
 
@@ -17,7 +15,7 @@ interface Props {
 
 const { width, height } = Dimensions.get('window')
 
-export const QuestionView: React.FC<Props> = ({ data, goToNextQuestion }) => {
+export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion }) => {
   const { title, answers, mode } = data
 
   const getBackground = (answer: Instance<typeof Answer>) => {
@@ -82,4 +80,4 @@ export const QuestionView: React.FC<Props> = ({ data, goToNextQuestion }) => {
       </YStack>
     </Content>
   )
-}
+})

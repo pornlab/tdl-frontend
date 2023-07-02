@@ -1,0 +1,17 @@
+{
+  "title": "Thèmes",
+  "vehicleLaw": "Loi sur les véhicules",
+  "roadTrafficLaw": "Code de la route",
+  "trafficSigns": "Panneaux de signalisation",
+  "safeDriving": "Une conduite sûre",
+  "techniquesOfSafeDriving": "Techniques de conduite sécuritaire",
+  "vehicleMaintenance": "Maintenance du véhicule",
+  "description": {
+    "vehicleLaw": "87 questions",
+    "roadTrafficLaw": "23 questions",
+    "trafficSigns": "167 questions",
+    "safeDriving": "56 questions",
+    "techniquesOfSafeDriving": "23 questions",
+    "vehicleMaintenance": "231 questions"
+  }
+}

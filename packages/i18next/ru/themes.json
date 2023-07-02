@@ -1,0 +1,17 @@
+{
+  "title": "Темы",
+  "vehicleLaw": "Транспортные средства",
+  "roadTrafficLaw": "Дорожное движение",
+  "trafficSigns": "Дорожные знаки",
+  "safeDriving": "Безопасное вождение",
+  "techniquesOfSafeDriving": "Техника безопасного вождения",
+  "vehicleMaintenance": "Техническое обслуживание автомобиля",
+  "description": {
+    "vehicleLaw": "87 вопросов",
+    "roadTrafficLaw": "23 вопроса",
+    "trafficSigns": "167 вопросов",
+    "safeDriving": "56 вопросов",
+    "techniquesOfSafeDriving": "23 вопроса",
+    "vehicleMaintenance": "231 вопрос"
+  }
+}

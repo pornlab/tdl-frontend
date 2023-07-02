@@ -1,0 +1,13 @@
+{
+  "title": "Thailand Driving License",
+  "themes": "Menu",
+  "marathon": "Marathon",
+  "exam": "Exam",
+  "favourites": "Favourites",
+  "description": {
+    "themes": "Questions on topics for familiarization with the rules of the road",
+    "marathon": "All questions for more accurate preparation for the exam",
+    "exam": "Great opportunity to test your skills",
+    "favourites": "Questions that have been tagged ⭐️️"
+  }
+}

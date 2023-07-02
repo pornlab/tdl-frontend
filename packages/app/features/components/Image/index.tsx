@@ -23,8 +23,10 @@ export const Image: React.FC<Props> = ({ id }) => {
   useEffect(() => {
     const { width: widthScreen, height: heightScreen } = Dimensions.get('window')
 
+    const widthContent = widthScreen < 700 ? widthScreen : 700
+
     ImageTamagui.getSize(images[id], (width, height) => {
-      const newImageWidth = (WIDTH_PERCENT * widthScreen) / 100
+      const newImageWidth = (WIDTH_PERCENT * widthContent) / 100
       setSize({
         width: newImageWidth,
         height: (height * newImageWidth) / width,

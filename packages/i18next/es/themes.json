@@ -1,0 +1,17 @@
+{
+  "title": "Temas",
+  "vehicleLaw": "Ley de Vehículos",
+  "roadTrafficLaw": "Ley de Circulación",
+  "trafficSigns": "Señales de tráfico",
+  "safeDriving": "Conduccion segura",
+  "techniquesOfSafeDriving": "Técnicas de conducción segura",
+  "vehicleMaintenance": "Mantenimiento de vehículos",
+  "description": {
+    "vehicleLaw": "87 preguntas",
+    "roadTrafficLaw": "23 preguntas",
+    "trafficSigns": "167 preguntas",
+    "safeDriving": "56 preguntas",
+    "techniquesOfSafeDriving": "23 preguntas",
+    "vehicleMaintenance": "231 preguntas"
+  }
+}
