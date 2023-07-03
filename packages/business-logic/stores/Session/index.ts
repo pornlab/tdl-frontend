@@ -11,6 +11,7 @@ export const Session = types.model({
     totalCount: types.number,
     current: types.number,
     bar: types.number,
+    isLoading: types.boolean
 }).actions(self => {
     const { questions } = getEnv<SessionEnvironment>(self);
 
@@ -20,10 +21,12 @@ export const Session = types.model({
     }
 
     const afterCreate = () => {
+        self.isLoading = true;
         self.questions.push(...questions.reduce((arr, question, index) =>
             [...arr, {...question, mode: ModeTypes.QUESTION}], []
         ));
         setTotalCount(self.questions.length);
+        self.isLoading = false;
     }
 
     const setCurrent = (value: number) => {

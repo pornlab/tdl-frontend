@@ -23,7 +23,7 @@ export interface Props {
   totalCount: number
   rightCount: number
   errorCount: number
-  totalTime: string
+  totalTime?: string
   startAgain: () => void
 }
 
@@ -117,19 +117,24 @@ export const FinishModal: React.FC<Props> = ({
                 </Paragraph>
               </XStack>
 
-              <Stack h={4} bc={'#3C3C3C'} mt={20} w={'100%'} />
+              {totalTime && (
+                <>
+                  <Stack h={4} bc={'#3C3C3C'} mt={20} w={'100%'} />
 
-              <XStack f={1} justifyContent={'space-between'} mt={12} w={'100%'}>
-                <XStack>
-                  <ImageRN source={Clock} style={iconStyle} />
-                  <Paragraph fontSize={16} lh={30} ml={12}>
-                    {i18next.t('question:totalTime')}
-                  </Paragraph>
-                </XStack>
-                <Paragraph fontSize={16} fontWeight={'bold'} lh={30}>
-                  {totalTime}
-                </Paragraph>
-              </XStack>
+                  <XStack f={1} justifyContent={'space-between'} mt={12} w={'100%'}>
+                    <XStack>
+                      <ImageRN source={Clock} style={iconStyle} />
+                      <Paragraph fontSize={16} lh={30} ml={12}>
+                        {i18next.t('question:totalTime')}
+                      </Paragraph>
+                    </XStack>
+
+                    <Paragraph fontSize={16} fontWeight={'bold'} lh={30}>
+                      {totalTime}
+                    </Paragraph>
+                  </XStack>
+                </>
+              )}
 
               <YStack w={'60%'} minWidth={200} maxWidth={500} pt={60}>
                 <Button bc={'#FFEB99'} onPress={startAgain} bw={1} borderColor={'#ccc'}>

@@ -95,7 +95,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           totalCount={totalCount}
           rightCount={rightAnswersCount()}
           errorCount={errorAnswersCount()}
-          totalTime={'14:45'}
+          // totalTime={'14:45'}
           startAgain={reset}
         />
       )}
