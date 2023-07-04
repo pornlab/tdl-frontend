@@ -10,6 +10,12 @@ export const getAllQuestions = () => {
   return testQuestions
 }
 
+export const getNoRandomAllQuestions = () => [
+  ...vehicleLaw,
+  ...vehicleMaintenance,
+  ...techniquesOfSafeDriving,
+]
+
 export const getQuestionsByTheme = (theme: ThemeTypes | string): Question[] => {
   if (theme === 'test') {
     return testQuestions
@@ -29,3 +35,9 @@ export const getQuestionsByTheme = (theme: ThemeTypes | string): Question[] => {
 
 export const getMaraphoneQuestions = () =>
   sortRandom([...vehicleLaw, ...vehicleMaintenance, ...techniquesOfSafeDriving])
+
+export const getFavouritesQuestions = () => {
+  return getNoRandomAllQuestions().filter(
+    (question) => question.id === 1108 || question.id === 6736
+  )
+}

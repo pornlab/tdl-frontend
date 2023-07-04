@@ -33,6 +33,7 @@ export const Answer = types.model({
 });
 
 export const Question = types.model({
+    id: types.number,
     title: Title,
     answers: types.array(Answer),
     isFavourite: types.boolean,

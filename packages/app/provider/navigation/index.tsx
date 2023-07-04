@@ -19,7 +19,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
               themes: 'themes',
               question: 'question/:id',
               theme: 'theme/:id',
-              // 'user-detail': 'user/:id',
+              favourites: 'favourites',
             },
           },
         }),
