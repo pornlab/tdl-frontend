@@ -13,12 +13,9 @@ import { defaultSessionSnapshot, Session } from '../../../../business-logic/stor
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
 import i18next from 'i18next'
 import { observer } from 'mobx-react'
-import { Languages } from 'app/configs/i18next'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useLink } from 'solito/link'
-import { ThemeTypes } from 'app/features/dbList/interfaces'
-import { useRouter } from 'solito/router'
 import { Instance } from 'mobx-state-tree'
+import { QuestionView } from 'app/features/question'
 
 interface Props {
   store: Instance<typeof Session>
@@ -71,7 +68,7 @@ export const Questions: React.FC<Props> = observer(({ store, title }) => {
           onChange={setCurrent}
           questions={questions}
         />
-        <Carousel data={questions} current={current} goToNextQuestion={goToNextQuestion} />
+        <QuestionView data={questions[current - 1]} goToNextQuestion={goToNextQuestion} />
       </Stack>
       {checkIsAllQuestionsAnswered() && (
         <FinishModal

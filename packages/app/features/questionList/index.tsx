@@ -16,12 +16,14 @@ import { observer } from 'mobx-react'
 import { Languages } from 'app/configs/i18next'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useLink } from 'solito/link'
-import { ThemeTypes } from 'app/features/dbList/interfaces'
+import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
 import { useRouter } from 'solito/router'
 import { toJS } from 'mobx'
+import { QuestionView } from 'app/features/question'
 
 interface Props {
   theme: string
+  questions: Question[]
 }
 
 const { useParam } = createParam<{ id: string }>()
@@ -39,10 +41,6 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
       push('/')
       return null
     }
-
-  if (!sessionStore.questions.length) {
-    return <H1>Loading</H1>
-  }
 
   const {
     questions,
@@ -88,11 +86,15 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
           onChange={setCurrent}
           questions={questions}
         />
-        <Carousel
-          data={questions}
-          current={current}
+        <QuestionView
+          data={questions[current - 1]}
           goToNextQuestion={sessionStore.goToNextQuestion}
         />
+        {/*<Carousel*/}
+        {/*  data={questions}*/}
+        {/*  current={current}*/}
+        {/*  goToNextQuestion={sessionStore.goToNextQuestion}*/}
+        {/*/>*/}
       </Stack>
       {checkIsAllQuestionsAnswered() && (
         <FinishModal

@@ -39,15 +39,20 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
   useEffect(() => {
     try {
       AsyncStorage.getItem('favourites').then((favourites) => {
-        console.log('favourites', favourites)
+        setFavourite(favourites?.includes(data.id.toString()) || false)
       })
     } catch (error) {
       console.log(error)
     }
-  }, [])
+  }, [data])
 
   const toggleFavourite = async () => {
-    const save = async (value: string) => await AsyncStorage.setItem('favourites', value)
+    const save = async (value: string) => {
+      await AsyncStorage.setItem('favourites', value)
+      await AsyncStorage.getItem('favourites').then((favourites) => {
+        setFavourite(favourites?.includes(data.id.toString()) || false)
+      })
+    }
 
     try {
       const savedFavourites = await AsyncStorage.getItem('favourites')
@@ -84,7 +89,8 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
 
   return (
     <Content>
-      <YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>
+      {/*<YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>*/}
+      <YStack width={'100%'} p={10} mb={'$20'}>
         <H3 letterSpacing={0} pb={'$6'}>{`${title[language].value}`}</H3>
         <Image id={data.imageId} />
         {answers.map((answer, index) => (
@@ -106,7 +112,7 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
                 () => {
                   goToNextQuestion()
                 },
-                data.isRightAnswer() ? 50 : 50
+                data.isRightAnswer() ? 500 : 1000
               )
             }}
             backgroundColor={getBackground(answer)}
@@ -118,7 +124,7 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
         ))}
         <XStack ai={'center'} jc={'space-between'} mt={20}>
           <Stack
-            bc={'#7659c3'}
+            bc={!isFavourite ? '#7659c3' : '#c4597d'}
             pl={16}
             pr={16}
             pb={3}
@@ -128,7 +134,7 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
             onPress={toggleFavourite}
           >
             <Paragraph color={'#fff'} fontWeight={'bold'}>
-              Add to favorites ⭐️
+              {!isFavourite ? 'Add to favorites ⭐️' : 'Remove from favourites ⭐️'}
             </Paragraph>
           </Stack>
           <LanguageSelect value={language} onChange={setLanguage} />
