@@ -5,10 +5,12 @@ import { HomeScreen } from '../../features/home/Screen'
 import { ThemesScreen } from 'app/features/themes'
 import { QuestionView } from 'app/features/question'
 import { QuestionList } from 'app/features/questionList'
+import { Favourites } from 'app/features/favourites'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
   themes: undefined
+  favourites: undefined
   question: {
     id: string
   }
@@ -55,6 +57,17 @@ export function NativeNavigation() {
         options={{
           title: 'Вопросы',
           headerBackTitle: 'Themes',
+          headerTitleStyle: {
+            fontSize: 20,
+          },
+        }}
+      />
+      <Stack.Screen
+        name="favourites"
+        component={Favourites}
+        options={{
+          title: 'Избранное',
+          headerBackTitle: 'меню',
           headerTitleStyle: {
             fontSize: 20,
           },

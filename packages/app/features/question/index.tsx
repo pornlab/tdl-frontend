@@ -12,6 +12,7 @@ import i18next, { changeLanguage } from 'i18next'
 import { Languages } from 'app/configs/i18next'
 import { useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { toJS } from 'mobx'
 
 interface Props {
   data: Instance<typeof Question>
@@ -22,6 +23,7 @@ const { width, height } = Dimensions.get('window')
 
 export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion }) => {
   const [language, setLanguage] = useState(i18next.language)
+  const [isFavourite, setFavourite] = useState(false)
 
   useEffect(() => {
     try {
@@ -33,6 +35,45 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
       console.log(error)
     }
   }, [])
+
+  useEffect(() => {
+    try {
+      AsyncStorage.getItem('favourites').then((favourites) => {
+        setFavourite(favourites?.includes(data.id.toString()) || false)
+      })
+    } catch (error) {
+      console.log(error)
+    }
+  }, [data])
+
+  const toggleFavourite = async () => {
+    const save = async (value: string) => {
+      await AsyncStorage.setItem('favourites', value)
+      await AsyncStorage.getItem('favourites').then((favourites) => {
+        setFavourite(favourites?.includes(data.id.toString()) || false)
+      })
+    }
+
+    try {
+      const savedFavourites = await AsyncStorage.getItem('favourites')
+      if (!savedFavourites || !savedFavourites.length) {
+        await save(data.id.toString())
+        return
+      }
+
+      const parsedQuestions = savedFavourites.split(',').map((i) => +i)
+
+      if (parsedQuestions.includes(data.id)) {
+        const filteredQuestions = parsedQuestions.filter((i) => i !== data.id)
+        await save(filteredQuestions.toString())
+      } else {
+        parsedQuestions.push(data.id)
+        await save(parsedQuestions.toString())
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   const { title, answers, mode } = data
 
@@ -48,7 +89,8 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
 
   return (
     <Content>
-      <YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>
+      {/*<YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>*/}
+      <YStack width={'100%'} p={10} mb={'$20'}>
         <H3 letterSpacing={0} pb={'$6'}>{`${title[language].value}`}</H3>
         <Image id={data.imageId} />
         {answers.map((answer, index) => (
@@ -70,7 +112,7 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
                 () => {
                   goToNextQuestion()
                 },
-                data.isRightAnswer() ? 50 : 50
+                data.isRightAnswer() ? 500 : 1000
               )
             }}
             backgroundColor={getBackground(answer)}
@@ -82,16 +124,17 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
         ))}
         <XStack ai={'center'} jc={'space-between'} mt={20}>
           <Stack
-            bc={'#7659c3'}
+            bc={!isFavourite ? '#7659c3' : '#c4597d'}
             pl={16}
             pr={16}
             pb={3}
             pt={2}
             hoverStyle={{ cursor: 'pointer' }}
             br={20}
+            onPress={toggleFavourite}
           >
             <Paragraph color={'#fff'} fontWeight={'bold'}>
-              Add to favorites ⭐️
+              {!isFavourite ? 'Add to favorites ⭐️' : 'Remove from favourites ⭐️'}
             </Paragraph>
           </Stack>
           <LanguageSelect value={language} onChange={setLanguage} />

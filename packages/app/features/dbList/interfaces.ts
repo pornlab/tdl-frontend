@@ -27,9 +27,10 @@ export interface Answer {
 }
 
 export interface Question {
-  id?: number
+  id: number
   title: Title
   answers: Answer[]
   isFavourite: boolean
   theme: string
+  imageId: number | null
 }

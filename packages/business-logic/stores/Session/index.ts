@@ -90,5 +90,5 @@ export const defaultSessionSnapshot: SnapshotIn<typeof Session> = {
     questions: [],
     bar: 0,
     totalCount: 0,
-    current: 0
+    current: 0,
 }
