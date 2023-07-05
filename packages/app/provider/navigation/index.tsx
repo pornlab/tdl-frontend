@@ -20,6 +20,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
               question: 'question/:id',
               theme: 'theme/:id',
               favourites: 'favourites',
+              marathon: 'marathon',
             },
           },
         }),

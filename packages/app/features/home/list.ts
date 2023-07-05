@@ -19,7 +19,8 @@ export const listItems: ListItem[] = [
     color: '#D1F4FF',
     iconColor: '#A6EAFF',
     icon: Maraphon,
-    disabled: true,
+    link: `/marathon`,
+    disabled: false,
   },
   {
     title: 'mainMenu:exam',

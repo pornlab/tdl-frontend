@@ -6,11 +6,13 @@ import { ThemesScreen } from 'app/features/themes'
 import { QuestionView } from 'app/features/question'
 import { QuestionList } from 'app/features/questionList'
 import { Favourites } from 'app/features/favourites'
+import { Marathon } from 'app/features/Marathon'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
   themes: undefined
   favourites: undefined
+  marathon: undefined
   question: {
     id: string
   }
@@ -68,6 +70,17 @@ export function NativeNavigation() {
         options={{
           title: 'Избранное',
           headerBackTitle: 'меню',
+          headerTitleStyle: {
+            fontSize: 20,
+          },
+        }}
+      />
+      <Stack.Screen
+        name="marathon"
+        component={Marathon}
+        options={{
+          title: 'Марафон',
+          headerBackTitle: 'Меню',
           headerTitleStyle: {
             fontSize: 20,
           },
