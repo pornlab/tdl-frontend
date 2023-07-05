@@ -5,6 +5,7 @@ import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/
 import { observer } from 'mobx-react'
 import { Questions } from 'app/features/components/Questions'
 import { Instance } from 'mobx-state-tree'
+import { EmptyState } from 'app/features/Favourites/components/EmptyState'
 
 export const Favourites: React.FC = observer(() => {
   const [sessionStore, setSessionStore] = useState<Instance<typeof Session>>(defaultSessionSnapshot)
@@ -19,8 +20,6 @@ export const Favourites: React.FC = observer(() => {
     )
   }, [])
 
-  if (!sessionStore || !sessionStore.questions.length) return <h1>EmptyState</h1>
-  // return <h1>ready</h1>
+  if (!sessionStore || !sessionStore.questions.length) return <EmptyState />
   return <Questions store={sessionStore} title={'Favourites'} />
 })
-//
