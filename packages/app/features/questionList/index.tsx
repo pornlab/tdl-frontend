@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { Content } from 'app/features/components/Content'
-import { Stack, Button } from '@my/ui'
+import { Stack, Button, H1 } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
 import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
 import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
-import { getAllQuestions, getQuestionsByTheme } from '../dbList/helpers/getTheme'
+import { getQuestionsByTheme } from '../dbList/helpers/getTheme'
 import { createParam } from 'solito'
 import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
@@ -28,18 +28,21 @@ const { useParam } = createParam<{ id: string }>()
 
 export const QuestionList: React.FC<Props> = observer(({ theme }) => {
   const [id] = useParam('id')
-  const { push, replace, back, parseNextPath } = useRouter()
-  if (id !== 'test')
-    if (!id || !Object.values(ThemeTypes).includes(id)) {
-      push('/')
-      return null
-    }
-
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
       questions: [...getQuestionsByTheme(id)],
     })
   )
+  const { push, replace, back, parseNextPath } = useRouter()
+  if (id !== 'test')
+    if (!sessionStore.questions.length || !id || !Object.values(ThemeTypes).includes(id)) {
+      push('/')
+      return null
+    }
+
+  if (!sessionStore.questions.length) {
+    return <H1>Loading</H1>
+  }
 
   const {
     questions,

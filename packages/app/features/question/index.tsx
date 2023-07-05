@@ -85,9 +85,6 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
   return (
     <Content>
       <YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>
-        <H3 letterSpacing={0} pb={'$6'}>
-          {data.id}
-        </H3>
         <H3 letterSpacing={0} pb={'$6'}>{`${title[language].value}`}</H3>
         <Image id={data.imageId} />
         {answers.map((answer, index) => (

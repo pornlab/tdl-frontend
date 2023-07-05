@@ -16,7 +16,8 @@ export const getNoRandomAllQuestions = () => [
   ...techniquesOfSafeDriving,
 ]
 
-export const getQuestionsByTheme = (theme: ThemeTypes | string): Question[] => {
+export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Question[] => {
+  if (!theme) return []
   if (theme === 'test') {
     return testQuestions
   }
