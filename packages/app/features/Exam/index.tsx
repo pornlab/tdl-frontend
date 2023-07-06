@@ -3,17 +3,17 @@ import { useState } from 'react'
 import { observer } from 'mobx-react'
 
 import { Questions } from 'app/features/components/Questions'
-import { getMaraphoneQuestions } from '../dbList/helpers/getTheme'
+import { getExamQuestions } from '../dbList/helpers/getTheme'
 import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/Session'
 import { getTimerValue, TimerMode, useTimer } from 'app/features/components/Questions/timer'
 
-export const Marathon: React.FC = observer(() => {
-  const timer = useTimer(0, TimerMode.DEFAULT)
+export const Exam: React.FC = observer(() => {
+  const timer = useTimer(3600, TimerMode.EXAM)
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
-      questions: [...getMaraphoneQuestions()],
+      questions: [...getExamQuestions()],
     })
   )
 
-  return <Questions time={getTimerValue(timer)} store={sessionStore} title={'Marathon'} />
+  return <Questions time={getTimerValue(timer)} store={sessionStore} title={'Exam'} />
 })

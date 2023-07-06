@@ -8,9 +8,9 @@
   "vehicleMaintenance": "Maintenance du véhicule",
   "description": {
     "vehicleLaw": "87 questions",
-    "roadTrafficLaw": "23 questions",
-    "trafficSigns": "167 questions",
-    "safeDriving": "56 questions",
+    "roadTrafficLaw": "52 questions",
+    "trafficSigns": "103 questions",
+    "safeDriving": "50 questions",
     "techniquesOfSafeDriving": "75 questions",
     "vehicleMaintenance": "56 questions"
   }

@@ -1,0 +1,3452 @@
+[
+  {
+    "id": 1084,
+    "title": {
+      "en": {
+        "value": "What should be done when driving into a roundabout without traffic lights?"
+      },
+      "ru": {
+        "value": "Что нужно сделать при движении по кольцевой развязке без светофора?"
+      },
+      "de": {
+        "value": "Was ist zu tun, wenn Sie in einen Kreisverkehr ohne Ampel fahren?"
+      },
+      "es": {
+        "value": "¿Qué se debe hacer al conducir en una rotonda sin semáforos?"
+      },
+      "fr": {
+        "value": "Que faire en entrant dans un rond-point sans feux tricolores?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Let the car on our right in the roundabout first",
+          "ru": "Пусть машина справа от нас на кольцевой в первую очередь",
+          "de": "Lassen Sie das Auto rechts im Kreisverkehr zuerst",
+          "es": "Deje que el auto a nuestra derecha en la rotonda primero",
+          "fr": "Laissez la voiture à notre droite dans le rond-point en premier"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the car that enters the roundabout and will go straight ahead",
+          "ru": "Дайте машину, которая входит в кольцевой и будет идти прямо вперед",
+          "de": "Geben Sie das Auto, das in den Kreisverkehr einfährt und geradeaus fährt",
+          "es": "Entregue el auto que ingresa a la rotonda y seguirá recto",
+          "fr": "Donnez la voiture qui entre au rond-point et ira tout droit"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Let the car on our left in the roundabout first",
+          "ru": "Пусть машина слева от нас в кольцевой в первую очередь",
+          "de": "Lassen Sie das Auto zu unserer Linken zuerst im Kreisverkehr",
+          "es": "Deje que el auto a nuestra izquierda en la rotonda primero",
+          "fr": "Laissez la voiture sur notre gauche dans le rond-point en premier"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the car that enters the roundabout and will turn left first",
+          "ru": "Дайте машину, которая входит в кольцевую развязку и повернет налево первым",
+          "de": "Geben Sie das Auto, das in den Kreisverkehr einfährt und zuerst links abbiegt",
+          "es": "Entregue el auto que ingresa a la rotonda y que primero girará a la izquierda",
+          "fr": "Donnez la voiture qui entre dans le rond-point et tournera à gauche en premier"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3429,
+    "title": {
+      "en": {
+        "value": "Driving a car at an intersection with more than 2 lanes. Which is correct?"
+      },
+      "ru": {
+        "value": "Вождение автомобиля на перекрестке с более чем 2 полосами движения. Что правильно?"
+      },
+      "de": {
+        "value": "Autofahren an einer Kreuzung mit mehr als 2 Fahrspuren. Welches ist richtig?"
+      },
+      "es": {
+        "value": "Conducir un automóvil en una intersección con más de 2 carriles. ¿Cual es correcta?"
+      },
+      "fr": {
+        "value": "Conduire une voiture à une intersection avec plus de 2 voies. Qui est correct?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Change the traffic lane to the left or right while in a turn",
+          "ru": "На повороте измените полосу движения влево или вправо",
+          "de": "Wechseln Sie in einer Kurve die Fahrspur nach links oder rechts",
+          "es": "Cambie el carril de tráfico hacia la izquierda o hacia la derecha en un giro",
+          "fr": "Changez la voie de circulation à gauche ou à droite dans un virage"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Straddling traffic lanes for wider encircling",
+          "ru": "Широкие полосы движения для более широкого окружения",
+          "de": "Überspannende Fahrspuren für eine breitere Einkreisung",
+          "es": "A caballo entre los carriles para un cerco más ancho",
+          "fr": "Chevauchant les voies de circulation pour encercler plus largement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive in the far left lane and change to the right lane while turning",
+          "ru": "Двигайтесь в крайнем левом ряду и поворачивайте на правый ряд",
+          "de": "Fahren Sie auf der linken Spur und wechseln Sie beim Abbiegen auf die rechte Spur",
+          "es": "Conduzca en el carril izquierdo y cambie al carril derecho mientras gira",
+          "fr": "Conduisez dans la voie la plus à gauche et changez pour la voie de droite en tournant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive in the same lane from the beginning of the intersection until turning",
+          "ru": "Двигайтесь в том же ряду от начала перекрестка до поворота",
+          "de": "Fahren Sie vom Beginn der Kreuzung bis zum Abbiegen auf derselben Spur",
+          "es": "Conduzca en el mismo carril desde el comienzo de la intersección hasta girar",
+          "fr": "Roulez dans la même voie depuis le début de l'intersection jusqu'à tourner"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9516,
+    "title": {
+      "en": {
+        "value": "In the event that you drive through an alley with lots of cars waiting to be departed, what should be done?"
+      },
+      "ru": {
+        "value": "Что делать, если вы едете по аллее с множеством машин, ожидающих отправки?"
+      },
+      "de": {
+        "value": "Was ist zu tun, wenn Sie durch eine Gasse fahren und viele Autos darauf warten, abgefahren zu werden?"
+      },
+      "es": {
+        "value": "En caso de que conduzcas por un callejón con muchos autos esperando a ser despedidos, ¿qué se debe hacer?"
+      },
+      "fr": {
+        "value": "Dans le cas où vous conduisez dans une ruelle avec beaucoup de voitures en attente de départ, que faire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Honk the horn or give the warning light to the car that will leave the alley before driving through",
+          "ru": "Подайте сигнал гудка или подайте сигнальную лампу автомобилю, который покинет переулок перед тем, как проехать",
+          "de": "Hupen Sie oder geben Sie dem Auto, das die Gasse verlässt, das Warnlicht, bevor Sie durchfahren",
+          "es": "Toque la bocina o dé la luz de advertencia al automóvil que saldrá del callejón antes de conducir",
+          "fr": "Klaxonner ou donner le signal d'alarme à la voiture qui quittera l'allée avant de traverser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive through the alley at a speed to signal the request",
+          "ru": "Проехать через переулок на скорости, чтобы подать запрос",
+          "de": "Fahren Sie mit einer Geschwindigkeit durch die Gasse, um die Anfrage zu signalisieren",
+          "es": "Conduzca por el callejón a una velocidad rápida para indicar la solicitud",
+          "fr": "Traversez l'allée à une vitesse pour signaler la demande"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Open the way for cars to leave the alley, alternating with direct cars",
+          "ru": "Откройте путь для автомобилей, чтобы покинуть переулок, чередуя с прямыми машинами",
+          "de": "Öffnen Sie den Weg für Autos, die die Gasse im Wechsel mit direkten Autos verlassen",
+          "es": "Abra el camino para que los autos salgan del callejón, alternando con autos directos",
+          "fr": "Ouvrez la voie aux voitures pour quitter l'allée, en alternance avec les voitures directes"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Try to drive close to the front car so that the car in the alley is not inserted",
+          "ru": "Попробуйте проехать рядом с передней машиной, чтобы машина в переулке не была вставлена",
+          "de": "Versuchen Sie, in der Nähe des vorderen Autos zu fahren, damit das Auto in der Gasse nicht eingesetzt wird",
+          "es": "Intente conducir cerca del automóvil delantero para que el automóvil en el callejón no esté insertado",
+          "fr": "Essayez de conduire près de la voiture avant afin que la voiture dans la ruelle ne soit pas insérée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5137,
+    "title": {
+      "en": {
+        "value": "What is the driver’s attitude and consciousness to drive safely?"
+      },
+      "ru": {
+        "value": "Каково отношение водителя и сознание к безопасному вождению?"
+      },
+      "de": {
+        "value": "Wie ist die Einstellung und das Bewusstsein des Fahrers, um sicher zu fahren?"
+      },
+      "es": {
+        "value": "¿Cuál es la actitud y la conciencia del conductor para conducir con seguridad?"
+      },
+      "fr": {
+        "value": "Quelle est l'attitude et la conscience du conducteur pour conduire en toute sécurité?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive slowly. Calm down",
+          "ru": "Езжай медленее. Успокаивать",
+          "de": "Fahre langsam. Beruhigen",
+          "es": "Conducir lentamente. Cálmese",
+          "fr": "Conduire lentement. Calmez-vous"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive skillful, agile",
+          "ru": "Водить умело, ловко",
+          "de": "Fahren Sie geschickt und agil",
+          "es": "Conduce hábil, ágil",
+          "fr": "Conduisez habilement, agile"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive well without accidents",
+          "ru": "Ездить хорошо без аварий",
+          "de": "Fahren Sie gut ohne Unfälle",
+          "es": "Conduce bien sin accidentes",
+          "fr": "Conduisez bien sans accident"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive with consciousness, strict traffic discipline, show manners and kindness",
+          "ru": "Двигайтесь с осознанностью, строгой дисциплиной движения, манерами показа и добротой",
+          "de": "Fahren Sie mit Bewusstsein, strenger Verkehrsdisziplin, zeigen Sie Manieren und Freundlichkeit",
+          "es": "Conduzca con conciencia, estricta disciplina de tráfico, muestre modales y amabilidad",
+          "fr": "Conduisez avec conscience, discipline stricte de la circulation, bonnes manières et gentillesse"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5669,
+    "title": {
+      "en": {
+        "value": "What drivers should not do when receiving a green light to drive the car"
+      },
+      "ru": {
+        "value": "Что водители не должны делать при получении зеленого света для вождения автомобиля"
+      },
+      "de": {
+        "value": "Was Fahrer nicht tun sollten, wenn sie grünes Licht erhalten, um das Auto zu fahren"
+      },
+      "es": {
+        "value": "Lo que los conductores no deben hacer cuando reciben una luz verde para conducir el automóvil"
+      },
+      "fr": {
+        "value": "Ce que les conducteurs ne devraient pas faire lorsqu'ils reçoivent un feu vert pour conduire la voiture"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Gradually move the car out, leaving a considerable distance to the front car",
+          "ru": "Постепенно двигайте машину, оставляя значительное расстояние до передней машины",
+          "de": "Bewegen Sie das Auto allmählich heraus und lassen Sie dabei einen beträchtlichen Abstand zum vorderen Auto",
+          "es": "Mueva gradualmente el automóvil, dejando una distancia considerable hacia el automóvil delantero",
+          "fr": "Déplacer progressivement la voiture, laissant une distance considérable par rapport à la voiture avant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down the motorcycle or car in front to move out first",
+          "ru": "Замедлите мотоцикл или автомобиль впереди, чтобы выехать первым",
+          "de": "Verlangsamen Sie das vorausfahrende Motorrad oder Auto, um zuerst auszusteigen",
+          "es": "Disminuya la velocidad de la motocicleta o el automóvil que está adelante para salir primero",
+          "fr": "Ralentissez la moto ou la voiture devant pour sortir en premier"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Check the cars in other intersections that may come out before driving into the front intersection",
+          "ru": "Проверьте автомобили в других перекрестках, которые могут выйти перед въездом в передний перекресток",
+          "de": "Überprüfen Sie die Autos an anderen Kreuzungen, die möglicherweise herauskommen, bevor Sie an die vordere Kreuzung fahren",
+          "es": "Verifique los autos en otras intersecciones que pueden salir antes de conducir hacia la intersección delantera",
+          "fr": "Vérifiez les voitures dans d'autres intersections qui peuvent sortir avant de conduire dans l'intersection avant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn, accelerate the front car to move out quickly",
+          "ru": "Звуковой сигнал, ускорить переднюю машину, чтобы двигаться быстрее",
+          "de": "Hupen Sie, beschleunigen Sie das vordere Auto, um schnell auszusteigen",
+          "es": "Toque la bocina, acelere el automóvil delantero para salir rápidamente",
+          "fr": "Klaxonner, accélérer la voiture avant pour sortir rapidement"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 1060,
+    "title": {
+      "en": {
+        "value": "What should drivers do when they receive a yellow signal?"
+      },
+      "ru": {
+        "value": "Что делать водителям, когда они получают желтый сигнал?"
+      },
+      "de": {
+        "value": "Was sollen Fahrer tun, wenn sie ein gelbes Signal erhalten?"
+      },
+      "es": {
+        "value": "¿Qué deben hacer los conductores cuando reciben una señal amarilla?"
+      },
+      "fr": {
+        "value": "Que doivent faire les conducteurs lorsqu'ils reçoivent un signal jaune?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Follow the front car through the red traffic light",
+          "ru": "Следуйте по передней машине через красный светофор",
+          "de": "Folgen Sie dem vorderen Auto durch die rote Ampel",
+          "es": "Sigue el coche delantero a través del semáforo rojo",
+          "fr": "Suivez la voiture avant à travers le feu rouge"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down the car and stop at the white line to stop the car to prevent driving through the red light",
+          "ru": "Замедлите автомобиль и остановитесь на белой линии, чтобы остановить автомобиль, чтобы не проехать красный свет",
+          "de": "Fahren Sie das Auto langsamer und halten Sie an der weißen Linie an, um das Auto anzuhalten und ein Durchfahren der roten Ampel zu verhindern",
+          "es": "Disminuya la velocidad del automóvil y deténgase en la línea blanca para detener el automóvil y evitar que pase la luz roja",
+          "fr": "Ralentissez la voiture et arrêtez-vous à la ligne blanche pour arrêter la voiture et éviter de traverser le feu rouge"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn to speed up the front car to drive faster so that our car doesn’t turn on the red light",
+          "ru": "Подайте сигнал, чтобы ускорить передний автомобиль, чтобы ехать быстрее, чтобы наша машина не включала красный свет",
+          "de": "Hupen Sie, um das vordere Auto zu beschleunigen und schneller zu fahren, damit unser Auto das rote Licht nicht einschaltet",
+          "es": "Toca la bocina para acelerar el auto delantero y conducir más rápido para que nuestro auto no encienda la luz roja",
+          "fr": "Klaxonner pour accélérer la voiture avant pour conduire plus vite afin que notre voiture n'allume pas le feu rouge"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive to change lanes to overtake vehicles up to the red light",
+          "ru": "Двигайтесь, чтобы изменить полосы, чтобы обогнать транспортные средства до красного света",
+          "de": "Fahren Sie, um die Spur zu wechseln und Fahrzeuge bis zur roten Ampel zu überholen",
+          "es": "Conduzca para cambiar de carril para adelantar a los vehículos hasta la luz roja",
+          "fr": "Conduisez pour changer de voie pour dépasser les véhicules jusqu'au feu rouge"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2786,
+    "title": {
+      "en": {
+        "value": "What drivers should do when they see people standing on the sidewalk and showing signs of crossing the road at the crosswalk"
+      },
+      "ru": {
+        "value": "Что следует делать водителям, когда они видят людей, стоящих на тротуаре и показывающих признаки пересечения дороги на пешеходном переходе"
+      },
+      "de": {
+        "value": "Was Fahrer tun sollten, wenn sie Menschen auf dem Bürgersteig stehen sehen und am Zebrastreifen Anzeichen dafür zeigen, dass sie die Straße überqueren"
+      },
+      "es": {
+        "value": "Qué deben hacer los conductores cuando ven a personas paradas en la acera y mostrando señales de cruzar la calle en el cruce de peatones"
+      },
+      "fr": {
+        "value": "Ce que les conducteurs doivent faire lorsqu'ils voient des gens se tenir sur le trottoir et montrer des signes de traversée de la route au passage pour piétons"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Honk to warn people to cross the road and speed past",
+          "ru": "Хонк, чтобы предупредить людей, чтобы перейти дорогу и пройти мимо",
+          "de": "Hupen Sie, um die Leute zu warnen, die Straße zu überqueren und vorbei zu rasen",
+          "es": "Toque la bocina para advertir a las personas que crucen la carretera y pasen rápidamente",
+          "fr": "Honk pour avertir les gens de traverser la route et de passer"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive overtaking a parking lot for people to cross and drive quickly",
+          "ru": "Двигайтесь, обгоняя парковку для людей, чтобы пересечь и ездить быстро",
+          "de": "Fahren Sie über einen Parkplatz, damit die Leute schnell überqueren und fahren können",
+          "es": "Conduzca adelantando un estacionamiento para que las personas crucen y conduzcan rápidamente",
+          "fr": "Conduisez en dépassant un parking pour que les gens traversent et conduisent rapidement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Touch the brake to remind the car to know that you are about to stop. And stopped at the crosswalk",
+          "ru": "Прикоснитесь к тормозу, чтобы напомнить машине знать, что вы собираетесь остановиться. И остановились на пешеходном переходе",
+          "de": "Berühren Sie die Bremse, um das Auto daran zu erinnern, dass Sie kurz vor dem Anhalten stehen. Und blieb am Zebrastreifen stehen",
+          "es": "Toca el freno para recordarle al auto que debes saber que estás a punto de detenerte. Y se detuvo en el cruce de peatones",
+          "fr": "Appuyez sur le frein pour rappeler à la voiture de savoir que vous êtes sur le point de vous arrêter. Et arrêté au passage pour piétons"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Driving behind the front of the car closely, without stopping for people to cross the road",
+          "ru": "Тесное вождение за передней частью автомобиля, без остановки для людей, переходящих дорогу",
+          "de": "Fahren Sie dicht hinter die Vorderseite des Autos, ohne anzuhalten, damit die Leute die Straße überqueren können",
+          "es": "Conducir cerca de la parte delantera del automóvil de cerca, sin detenerse para que las personas crucen la calle",
+          "fr": "Conduire derrière l'avant de la voiture de près, sans s'arrêter pour que les gens traversent la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5266,
+    "title": {
+      "en": {
+        "value": "Providing the correct light signal when driving into a crossroad"
+      },
+      "ru": {
+        "value": "Правильный световой сигнал при выезде на перекресток"
+      },
+      "de": {
+        "value": "Bereitstellung des richtigen Lichtsignals beim Befahren einer Kreuzung"
+      },
+      "es": {
+        "value": "Proporcionar la señal de luz correcta al conducir en una encrucijada"
+      },
+      "fr": {
+        "value": "Fournir le bon signal lumineux lors de la conduite dans un carrefour"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Provide emergency signal lights when driving directly",
+          "ru": "Обеспечить аварийную сигнализацию при движении прямо",
+          "de": "Notlichter bereitstellen, wenn Sie direkt fahren",
+          "es": "Proporcione luces de señal de emergencia cuando conduzca directamente",
+          "fr": "Fournir des feux de signalisation d'urgence lorsque vous conduisez directement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give signal light only to turn right only",
+          "ru": "Подайте световой сигнал только для поворота только вправо",
+          "de": "Geben Sie nur Signallicht, um nur nach rechts abzubiegen",
+          "es": "Dar luz de señal solo para girar a la derecha solamente",
+          "fr": "Ne donner un signal lumineux que pour tourner à droite uniquement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "No need to provide right or left turn signal lights. When driving in the front car with the same turn signal",
+          "ru": "Не нужно указывать правый или левый указатель поворота. При движении в переднем автомобиле с таким же поворотником",
+          "de": "Es müssen keine rechten oder linken Blinker vorhanden sein. Beim Fahren im vorderen Auto mit dem gleichen Blinker",
+          "es": "No es necesario proporcionar luces direccionales derecha o izquierda. Al conducir en el automóvil delantero con la misma señal de giro",
+          "fr": "Pas besoin de fournir des clignotants droit ou gauche. Lorsque vous conduisez dans la voiture avant avec le même clignotant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give light signal every time when wanting to turn left or right",
+          "ru": "Подайте световой сигнал каждый раз, когда хотите повернуть налево или направо",
+          "de": "Geben Sie jedes Mal ein Lichtsignal, wenn Sie nach links oder rechts abbiegen möchten",
+          "es": "Dé una señal de luz cada vez que quiera girar a la izquierda o derecha",
+          "fr": "Donnez un signal lumineux à chaque fois que vous voulez tourner à gauche ou à droite"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2479,
+    "title": {
+      "en": {
+        "value": "Who has to wear seat belts while traveling in a car for life safety?"
+      },
+      "ru": {
+        "value": "Кто должен носить ремни безопасности во время путешествия на автомобиле для обеспечения безопасности жизни?"
+      },
+      "de": {
+        "value": "Wer muss aus Sicherheitsgründen Sicherheitsgurte tragen, wenn er in einem Auto unterwegs ist?"
+      },
+      "es": {
+        "value": "¿Quién tiene que usar cinturones de seguridad mientras viaja en un automóvil por seguridad?"
+      },
+      "fr": {
+        "value": "Qui doit porter la ceinture de sécurité lors d'un voyage en voiture pour la sécurité des personnes?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drivers and passengers aged over 12 years old because they can wear seat belts",
+          "ru": "Водители и пассажиры старше 12 лет, потому что они могут носить ремни безопасности",
+          "de": "Fahrer und Passagiere über 12 Jahre, weil sie Sicherheitsgurte tragen können",
+          "es": "Conductores y pasajeros mayores de 12 años porque pueden usar cinturones de seguridad",
+          "fr": "Conducteurs et passagers âgés de plus de 12 ans car ils peuvent porter la ceinture de sécurité"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "All drivers and passengers, both adults and children, front and back seats",
+          "ru": "Все водители и пассажиры, как взрослые, так и дети, передние и задние сиденья",
+          "de": "Alle Fahrer und Passagiere, sowohl Erwachsene als auch Kinder, Vorder- und Rücksitze",
+          "es": "Todos los conductores y pasajeros, adultos y niños, asientos delanteros y traseros",
+          "fr": "Tous les conducteurs et passagers, adultes et enfants, sièges avant et arrière"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The driver and passenger of the front seat only",
+          "ru": "Только водитель и пассажир переднего сиденья",
+          "de": "Nur Fahrer und Beifahrer des Vordersitzes",
+          "es": "Solo el conductor y el pasajero del asiento delantero",
+          "fr": "Le conducteur et le passager du siège avant uniquement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drivers and passengers Except for the elderly and children younger than 12 years old",
+          "ru": "Водители и пассажиры За исключением пожилых и детей младше 12 лет",
+          "de": "Fahrer und Passagiere Mit Ausnahme von älteren Menschen und Kindern unter 12 Jahren",
+          "es": "Conductores y pasajeros A excepción de los ancianos y niños menores de 12 años",
+          "fr": "Conducteurs et passagers Sauf pour les personnes âgées et les enfants de moins de 12 ans"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3674,
+    "title": {
+      "en": {
+        "value": "What should a driver do to overtake the car safely and without manners?"
+      },
+      "ru": {
+        "value": "Что должен сделать водитель, чтобы безопасно и без манер обогнать машину?"
+      },
+      "de": {
+        "value": "Was sollte ein Fahrer tun, um das Auto sicher und ohne Manieren zu überholen?"
+      },
+      "es": {
+        "value": "¿Qué debe hacer un conductor para adelantar al automóvil de manera segura y sin modales?"
+      },
+      "fr": {
+        "value": "Que doit faire un conducteur pour dépasser la voiture en toute sécurité et sans manières?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Honk the horn to signal before overtaking. Accelerate overtaking left or right up the entire route of the car",
+          "ru": "Сигнал гудок, чтобы сигнал, прежде чем обгон. Ускоряйте обгон влево или вправо по всему маршруту движения автомобиля",
+          "de": "Hupen Sie die Hupe, um vor dem Überholen zu signalisieren. Beschleunigen Sie das Überholen links oder rechts auf der gesamten Strecke des Autos",
+          "es": "Toque la bocina para señalar antes de adelantar. Acelere adelantando a la izquierda o derecha en toda la ruta del automóvil",
+          "fr": "Klaxonner pour signaler avant de dépasser. Accélérez le dépassement à gauche ou à droite sur tout le parcours de la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the signal before overtaking, overtaking, overtaking, and then quickly broken back into the same lane at a close distance, reducing the speed to the same as the overtaking car",
+          "ru": "Подайте сигнал, прежде чем обгонять, обгонять, обгонять, а затем быстро пробиваться обратно в ту же полосу движения на близком расстоянии, снижая скорость до той же, что и у обгоняющей машины",
+          "de": "Geben Sie das Signal, bevor Sie überholen, überholen, überholen und dann aus nächster Nähe schnell wieder auf dieselbe Fahrspur zurückkehren, um die Geschwindigkeit auf das gleiche Niveau wie beim Überholen zu reduzieren",
+          "es": "Dé la señal antes de adelantar, adelantar, adelantar y luego volver rápidamente al mismo carril a corta distancia, reduciendo la velocidad a la misma velocidad que el automóvil que adelanta",
+          "fr": "Donnez le signal avant de dépasser, de dépasser, de dépasser, puis de revenir rapidement dans la même voie à une distance rapprochée, réduisant la vitesse à la même vitesse que la voiture qui dépasse"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn to give signal before overtaking. Speeding up overtaking and overtaking the car parallel to the overtaking car for another period",
+          "ru": "Звуковой сигнал, чтобы подать сигнал перед обгоном. Ускорение обгона и обгона автомобиля параллельно еще раз обгону автомобиля",
+          "de": "Hupen Sie, um vor dem Überholen ein Signal zu geben. Beschleunigen Sie das Überholen und überholen Sie das Auto für eine weitere Zeit parallel zum Überholauto",
+          "es": "Toque la bocina para dar señal antes de adelantar. Acelerar adelantando y adelantando el auto paralelo al adelantamiento por otro período",
+          "fr": "Klaxonner pour donner le signal avant de dépasser. Accélérer le dépassement et dépasser la voiture parallèlement à la voiture de dépassement pendant une autre période"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the signal before overtaking. Speed ​​up to overtake. Allow some space before allowing the traffic lights to return to the same lane. Accelerate the car to suit the car in front",
+          "ru": "Подайте сигнал перед обгоном. Скорость, чтобы обогнать. Оставьте некоторое пространство перед тем, как светофоры вернутся на ту же полосу. Ускорьте автомобиль, чтобы он соответствовал автомобилю впереди",
+          "de": "Geben Sie das Signal vor dem Überholen. Beschleunigen Sie, um zu überholen. Lassen Sie etwas Platz, bevor Sie die Ampeln auf dieselbe Fahrspur zurückkehren lassen. Beschleunigen Sie das Auto, um es an das vorausfahrende Auto anzupassen",
+          "es": "Dé la señal antes de adelantar. Acelera para adelantar. Deje espacio antes de permitir que los semáforos regresen al mismo carril. Acelere el automóvil para que se adapte al automóvil de adelante",
+          "fr": "Donnez le signal avant de dépasser. Accélérez pour dépasser. Laissez de l'espace avant de permettre aux feux de circulation de retourner sur la même voie. Accélérez la voiture pour l'adapter à la voiture en face"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2043,
+    "title": {
+      "en": {
+        "value": "What should you do when other drivers give traffic lights to share traffic lanes with you?"
+      },
+      "ru": {
+        "value": "Что делать, если другие водители дают светофоры, чтобы поделиться с вами полосами движения?"
+      },
+      "de": {
+        "value": "Was sollten Sie tun, wenn andere Fahrer Ampeln geben, um die Fahrspuren mit Ihnen zu teilen?"
+      },
+      "es": {
+        "value": "¿Qué debe hacer cuando otros conductores le dan semáforos para compartir carriles con usted?"
+      },
+      "fr": {
+        "value": "Que devez-vous faire lorsque d'autres conducteurs donnent des feux de circulation pour partager des voies de circulation avec vous?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Accelerate vehicle speed Do not open spaces to be inserted into our traffic lanes",
+          "ru": "Ускорьте скорость транспортного средства Не открывайте места для вставки в наши полосы движения",
+          "de": "Fahrzeuggeschwindigkeit beschleunigen Öffnen Sie keine Räume, die in unsere Fahrspuren eingefügt werden sollen",
+          "es": "Acelere la velocidad del vehículo No abra espacios para insertarlos en nuestros carriles de tráfico",
+          "fr": "Accélérez la vitesse du véhicule N'ouvrez pas les espaces à insérer dans nos voies de circulation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give a feedback signal by slowing down the speed Allow space for that car to change the traffic lane to safely come in",
+          "ru": "Подайте сигнал обратной связи, снизив скорость. Оставьте место для того, чтобы автомобиль сменил полосу движения, чтобы безопасно проехать",
+          "de": "Geben Sie ein Rückmeldesignal, indem Sie die Geschwindigkeit verlangsamen. Lassen Sie dem Auto Platz, um die Fahrspur zu wechseln und sicher einzusteigen",
+          "es": "Dé una señal de retroalimentación disminuyendo la velocidad. Deje espacio para que ese automóvil cambie el carril de tránsito para entrar de manera segura",
+          "fr": "Donnez un signal de rétroaction en ralentissant la vitesse. Laissez de la place à cette voiture pour changer la voie de circulation pour entrer en toute sécurité"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn Hurry and drive close to the front car. To prevent them from entering",
+          "ru": "Гудок рога Спешите и подъехать к передней машине. Чтобы они не могли войти",
+          "de": "Hupen Beeilen Sie sich und fahren Sie in die Nähe des vorderen Wagens. Um zu verhindern, dass sie eintreten",
+          "es": "Toca la bocina Date prisa y conduce cerca del coche delantero. Para evitar que entren",
+          "fr": "Klaxonner Dépêchez-vous et conduisez près de la voiture avant. Pour les empêcher d'entrer"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive close to the car in front Trying to squeeze the front car into the front of the car",
+          "ru": "Двигайтесь близко к машине впереди. Попытайтесь втиснуть переднюю машину в переднюю часть машины",
+          "de": "Fahren Sie in der Nähe des vorausfahrenden Autos. Versuchen Sie, das vordere Auto in die Vorderseite des Autos zu drücken",
+          "es": "Conduzca cerca del automóvil que está adelante Intenta apretar el automóvil delantero en la parte delantera del automóvil",
+          "fr": "Conduisez près de la voiture devant Essayez de serrer la voiture avant à l'avant de la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 595,
+    "title": {
+      "en": {
+        "value": "When driving in the far right lane And a rear car drives up at high speed. What should you do?"
+      },
+      "ru": {
+        "value": "При движении в крайнем правом ряду А сзади автомобиль едет на большой скорости. Что вы должны сделать?"
+      },
+      "de": {
+        "value": "Beim Fahren auf der rechten Spur Und ein hinteres Auto fährt mit hoher Geschwindigkeit vor. Was sollte man tun?"
+      },
+      "es": {
+        "value": "Al conducir en el carril de la extrema derecha Y un automóvil trasero conduce a alta velocidad. Que deberias hacer"
+      },
+      "fr": {
+        "value": "Lorsque vous conduisez dans la voie la plus à droite Et une voiture arrière roule à grande vitesse. Que devrais tu faire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Give the left turn signal Break to the left lane Race against a car in the right lane",
+          "ru": "Дайте указателю поворота налево Прорыв на левую полосу. Гонитесь против машины на правой полосе",
+          "de": "Geben Sie den linken Blinker Pause auf die linke Spur Rennen gegen ein Auto auf der rechten Spur",
+          "es": "Dé la señal de giro a la izquierda. Salte al carril izquierdo. Compita contra un automóvil en el carril derecho",
+          "fr": "Donner le clignotant gauche Pause sur la voie de gauche Course contre une voiture dans la voie de droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the left turn signal And change to the left lane To allow the car with a higher speed than your car to overtake safely",
+          "ru": "Подайте левый указатель поворота И перейдите на левую полосу, чтобы позволить автомобилю с более высокой скоростью, чем ваш автомобиль, безопасно обогнать",
+          "de": "Geben Sie den linken Blinker und wechseln Sie auf die linke Spur, damit das Auto mit einer höheren Geschwindigkeit als Ihr Auto sicher überholen kann",
+          "es": "Dé la señal de giro a la izquierda y cambie al carril izquierdo Para permitir que el automóvil con una velocidad más alta que su automóvil alcance con seguridad",
+          "fr": "Donnez le signal de virage à gauche et passez sur la voie de gauche pour permettre à la voiture avec une vitesse plus élevée que votre voiture de dépasser en toute sécurité"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Accelerate the speed of the rear car. Try to drive a distance from the rear car",
+          "ru": "Ускорьте скорость задней машины. Попробуйте проехать расстояние от задней машины",
+          "de": "Beschleunigen Sie die Geschwindigkeit des hinteren Autos. Versuchen Sie, eine Entfernung vom hinteren Auto zu fahren",
+          "es": "Acelere la velocidad del automóvil trasero. Intenta conducir una distancia desde el coche trasero",
+          "fr": "Accélérez la vitesse de la voiture arrière. Essayez de vous éloigner de la voiture arrière"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive at the same speed For the rear car to change the traffic lane to the left",
+          "ru": "Двигайтесь с той же скоростью Чтобы задний автомобиль сменил полосу движения влево",
+          "de": "Fahren Sie mit der gleichen Geschwindigkeit, damit das hintere Auto die Fahrspur nach links wechselt",
+          "es": "Conduzca a la misma velocidad Para que el automóvil trasero cambie el carril de tránsito a la izquierda",
+          "fr": "Conduisez à la même vitesse Pour que la voiture arrière change la voie de circulation vers la gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 7136,
+    "title": {
+      "en": {
+        "value": "What should you do when other drivers open the road for you to go first or participate in traffic lanes as well?"
+      },
+      "ru": {
+        "value": "Что делать, если другие водители открывают дорогу, чтобы вы пошли первыми или также участвовали в полосах движения?"
+      },
+      "de": {
+        "value": "Was sollten Sie tun, wenn andere Fahrer die Straße öffnen, damit Sie zuerst fahren oder auch an Fahrspuren teilnehmen können?"
+      },
+      "es": {
+        "value": "¿Qué debe hacer cuando otros conductores le abren el camino para que usted vaya primero o también participe en los carriles de tráfico?"
+      },
+      "fr": {
+        "value": "Que devez-vous faire lorsque d'autres conducteurs ouvrent la route pour que vous y alliez en premier ou que vous participiez également aux voies de circulation?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Speeding the car out by crossing to the next lane",
+          "ru": "Ускоряя машину, переходя на следующую полосу",
+          "de": "Beschleunigen Sie das Auto, indem Sie auf die nächste Spur wechseln",
+          "es": "Acelerando el auto cruzando al siguiente carril",
+          "fr": "Accélérer la voiture en traversant la voie suivante"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Bend your head or raise your hand. Thank you. While moving the car away or participating in traffic lanes in an urgent manner",
+          "ru": "Согни голову или подними руку. Спасибо. При срочном перемещении автомобиля или участии в полосах движения",
+          "de": "Beuge deinen Kopf oder hebe deine Hand. Vielen Dank. Während Sie das Auto wegfahren oder dringend an Fahrspuren teilnehmen",
+          "es": "Dobla la cabeza o levanta la mano. Gracias. Mientras aleja el automóvil o participa en carriles de tránsito de manera urgente",
+          "fr": "Penchez la tête ou levez la main. Je vous remercie. En éloignant la voiture ou en participant aux voies de circulation de manière urgente"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive out or join a slow lane and try to push over to the next lane",
+          "ru": "Езжайте или присоединяйтесь к медленной полосе и попытайтесь перейти на следующую полосу",
+          "de": "Fahren Sie raus oder biegen Sie in eine langsame Spur ein und versuchen Sie, auf die nächste Spur zu wechseln",
+          "es": "Salga o únase a un carril lento e intente pasar al siguiente carril",
+          "fr": "Sortez ou rejoignez une voie lente et essayez de passer à la voie suivante"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Thank them. While moving the car away or participating in the traffic lane that asks to join with caution",
+          "ru": "Спасибо им Отодвигая автомобиль или участвуя в полосе движения, которая просит присоединиться с осторожностью",
+          "de": "Danke Ihnen. Während Sie das Auto wegfahren oder an der Fahrspur teilnehmen, die Sie zur Vorsicht auffordert",
+          "es": "Agradeceles. Mientras aleja el automóvil o participa en el carril de tránsito que solicita unirse con precaución",
+          "fr": "Remerciez-les. Tout en éloignant la voiture ou en participant à la voie de circulation qui demande de rejoindre avec prudence"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5067,
+    "title": {
+      "en": {
+        "value": "What is the behavior of the driver that is behaviorless and may cause an accident?"
+      },
+      "ru": {
+        "value": "Каково поведение водителя, который не ведет себя и может стать причиной аварии?"
+      },
+      "de": {
+        "value": "Wie verhält sich der Fahrer verhaltenslos und kann einen Unfall verursachen?"
+      },
+      "es": {
+        "value": "¿Cuál es el comportamiento del conductor que no se comporta y puede causar un accidente?"
+      },
+      "fr": {
+        "value": "Quel est le comportement du conducteur qui est sans comportement et peut provoquer un accident?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive the car in front of the car with appropriate spacing",
+          "ru": "Управляйте автомобилем перед автомобилем с соответствующим интервалом",
+          "de": "Fahren Sie das Auto mit angemessenem Abstand vor das Auto",
+          "es": "Conduzca el automóvil delante del automóvil con el espacio adecuado",
+          "fr": "Conduisez la voiture devant la voiture avec un espacement approprié"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the fog lights when heavy rain",
+          "ru": "Включите противотуманные фары, когда идет сильный дождь",
+          "de": "Schalten Sie die Nebelscheinwerfer bei starkem Regen ein",
+          "es": "Encienda las luces de niebla cuando llueva intensamente",
+          "fr": "Allumez les feux de brouillard en cas de forte pluie"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the hijack at the front of the car that drives slowly Along with honk the horn",
+          "ru": "Ведите угон в передней части автомобиля, который едет медленно",
+          "de": "Fahren Sie den Hijack an der Vorderseite des Autos, das langsam fährt. Hupen Sie zusammen mit der Hupe ",
+          "es": "Conduzca el secuestro en la parte delantera del automóvil que conduce lentamente Junto con la bocina",
+          "fr": "Conduisez le détournement à l'avant de la voiture qui roule lentement avec klaxon"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn to alert the car that has stepped back to hit your car which is parked with a red light",
+          "ru": "Подайте звуковой сигнал, чтобы предупредить автомобиль, который отступил, чтобы ударить Ваш автомобиль, который припаркован с красным светом",
+          "de": "Hupen Sie, um das zurückgetretene Auto auf Ihr rotes Parklicht aufmerksam zu machen",
+          "es": "Toque la bocina para alertar al automóvil que ha retrocedido para golpear su automóvil que está estacionado con una luz roja",
+          "fr": "Klaxonner pour alerter la voiture qui s'est reculée pour frapper votre voiture qui est garée avec un feu rouge"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 188,
+    "title": {
+      "en": {
+        "value": "The correct use of high lights and not bad manners"
+      },
+      "ru": {
+        "value": "Правильное использование ярких и не плохих манер"
+      },
+      "de": {
+        "value": "Der richtige Einsatz von Highlights und nicht schlechten Manieren"
+      },
+      "es": {
+        "value": "El uso correcto de las luces altas y los malos modales"
+      },
+      "fr": {
+        "value": "Der richtige Einsatz von Highlights und nicht schlechten Manieren"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Always turn on the high beam when running on roads that are uphill or downhill without. Electricity illuminates the wayside and can Saw the headlights of the car running opposite",
+          "ru": "Всегда включайте дальний свет при движении по дорогам, которые идут в гору или без спуска. Электричество освещает дорогу и может видеть фары автомобиля, идущего напротив",
+          "de": "Schalten Sie immer das Fernlicht ein, wenn Sie auf Straßen fahren, die bergauf oder bergab ohne fahren. Elektrizität beleuchtet die Strecke und kann die Scheinwerfer des Autos gegenüber laufen sehen",
+          "es": "Siempre encienda la luz de carretera cuando corra en carreteras que son cuesta arriba o cuesta abajo sin ellas. La electricidad ilumina el camino y puede ver los faros del automóvil que se encuentra enfrente",
+          "fr": "Schalten Sie immer das Fernlicht ein, wenn Sie auf Straßen fahren, die bergauf oder bergab ohne fahren. Elektrizität beleuchtet die Strecke und kann die Scheinwerfer des Autos gegenüber laufen sehen"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on high lights to check road and roadside conditions. Only for very dark paths and no vehicles running in front or in opposite directions. And turn off the high lights as soon as there is a car running in front or opposite",
+          "ru": "Включите подсветку, чтобы проверить состояние дороги и дороги. Только для очень темных дорожек и без транспортных средств, бегущих впереди или в противоположных направлениях. И выключите свет, как только впереди или напротив появится машина",
+          "de": "Schalten Sie die Ampeln ein, um die Straßen- und Straßenbedingungen zu überprüfen. Nur für sehr dunkle Wege und keine Fahrzeuge, die vor oder in entgegengesetzte Richtungen fahren. Und schalten Sie die Lichter aus, sobald ein Auto vor oder gegenüber fährt",
+          "es": "Encienda las luces altas para verificar las condiciones de la carretera y de la carretera. Solo para caminos muy oscuros y sin vehículos que corran en frente o en direcciones opuestas. Y apague las luces altas tan pronto como haya un automóvil corriendo e",
+          "fr": "Schalten Sie die Ampeln ein, um die Straßen- und Straßenbedingungen zu überprüfen. Nur für sehr dunkle Wege und keine Fahrzeuge, die vor oder in entgegengesetzte Richtungen fahren. Und schalten Sie die Lichter aus, sobald ein Auto vor oder gegenüber fährt"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the high beam instead of the illumination when running on a provincial road without electricity on both sides of the road and the rear light of the car in front can be seen",
+          "ru": "Включите дальний свет вместо освещения при движении по провинциальной дороге без электричества по обе стороны дороги, и виден задний фонарь автомобиля впереди",
+          "de": "Schalten Sie das Fernlicht anstelle der Beleuchtung ein, wenn Sie auf einer Provinzstraße ohne Strom auf beiden Seiten der Straße fahren, und das Rücklicht des vorausfahrenden Autos ist zu sehen",
+          "es": "Encienda la luz de carretera en lugar de la iluminación cuando corra en una carretera provincial sin electricidad a ambos lados de la carretera y se puede ver la luz trasera del automóvil que está delante",
+          "fr": "Schalten Sie das Fernlicht anstelle der Beleuchtung ein, wenn Sie auf einer Provinzstraße ohne Strom auf beiden Seiten der Straße fahren, und das Rücklicht des vorausfahrenden Autos ist zu sehen"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Always turn on the high beam when running into a very dark bend and a car running in front or opposite",
+          "ru": "Всегда включайте дальний свет при столкновении с очень темным поворотом и при движении автомобиля впереди или напротив",
+          "de": "Schalten Sie immer das Fernlicht ein, wenn Sie in eine sehr dunkle Kurve fahren und ein Auto vor oder gegenüber fährt",
+          "es": "Siempre encienda la luz de carretera cuando se encuentre con una curva muy oscura y un automóvil que circula por delante o por enfrente",
+          "fr": "Schalten Sie immer das Fernlicht ein, wenn Sie in eine sehr dunkle Kurve fahren und ein Auto vor oder gegenüber fährt"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 323,
+    "title": {
+      "en": {
+        "value": "What actions of the driver, which is an act that shows courtesy and kindness to road users together"
+      },
+      "ru": {
+        "value": "Какие действия водителя, который является актом, который показывает вежливость и доброту участникам дорожного движения вместе"
+      },
+      "de": {
+        "value": "Welche Handlungen des Fahrers, die eine Handlung sind, die Höflichkeit und Freundlichkeit gegenüber Verkehrsteilnehmern zusammen zeigt"
+      },
+      "es": {
+        "value": "Qué acciones del conductor, que es un acto que muestra cortesía y amabilidad a los usuarios de la carretera juntos"
+      },
+      "fr": {
+        "value": "Quelles actions du conducteur, qui est un acte qui fait preuve de courtoisie et de gentillesse envers les usagers de la route ensemble"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive over the queue into the bridge or before entering the alley",
+          "ru": "Проехать через очередь на мост или перед входом в переулок",
+          "de": "Fahren Sie über die Warteschlange in die Brücke oder bevor Sie die Gasse betreten",
+          "es": "Conduzca sobre la cola hacia el puente o antes de entrar al callejón",
+          "fr": "Traversez la file d'attente dans le pont ou avant d'entrer dans la ruelle"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive on the shoulder to enter in the normal traffic lane",
+          "ru": "Двигайтесь по плечу, чтобы войти в полосу нормального движения",
+          "de": "Fahren Sie auf der Schulter, um auf die normale Fahrspur zu gelangen",
+          "es": "Conduzca por el arcén para ingresar en el carril de tránsito normal",
+          "fr": "Conduisez sur l'épaule pour entrer dans la voie de circulation normale"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Make a U-turn on a road that has traffic lanes opposite each other in a way that obstructs traffic",
+          "ru": "Сделайте разворот на дороге с полосами движения друг напротив друга, чтобы препятствовать движению",
+          "de": "Machen Sie eine Kehrtwende auf einer Straße, auf der sich die Fahrspuren so gegenüberliegen, dass der Verkehr behindert wird",
+          "es": "Haga un cambio de sentido en una carretera que tiene carriles de tráfico uno frente al otro de una manera que obstruye el tráfico",
+          "fr": "Faire demi-tour sur une route qui a des voies de circulation en face l'une de l'autre de manière à gêner la circulation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Do not stop the car on the yellow diagonal line or at the mouth of the alley and allow the car on other routes to pass while your car is in traffic",
+          "ru": "Не останавливайте автомобиль на желтой диагональной линии или в устье переулка и не позволяйте автомобилю проезжать другие маршруты, пока машина находится в пробке",
+          "de": "Halten Sie das Auto nicht an der gelben diagonalen Linie oder an der Mündung der Gasse an und lassen Sie das Auto auf anderen Strecken passieren, während Ihr Auto im Verkehr ist",
+          "es": "No pare el automóvil en la línea diagonal amarilla o en la boca del callejón y permita que el automóvil pase por otras rutas mientras su automóvil está en el tráfico",
+          "fr": "N'arrêtez pas la voiture sur la ligne diagonale jaune ou à l'embouchure de la ruelle et laissez la voiture sur d'autres itinéraires passer pendant que votre voiture est en circulation"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9677,
+    "title": {
+      "en": {
+        "value": "Which item is a correct behavior and shows good manners for drivers?"
+      },
+      "ru": {
+        "value": "Какой пункт является правильным поведением и показывает хорошие манеры для водителей?"
+      },
+      "de": {
+        "value": "Welcher Artikel ist ein korrektes Verhalten und zeigt gute Manieren für Fahrer?"
+      },
+      "es": {
+        "value": "¿Qué elemento es un comportamiento correcto y muestra buenos modales para los conductores?"
+      },
+      "fr": {
+        "value": "Quel élément est un comportement correct et montre de bonnes manières pour les conducteurs?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not disabled, but park in the disabled parking area",
+          "ru": "Не инвалидов, но парковаться на парковке для инвалидов",
+          "de": "Nicht behindert, aber auf dem Behindertenparkplatz parken",
+          "es": "No discapacitado, pero estacione en el área de estacionamiento para discapacitados",
+          "fr": "Non handicapés, mais stationnez dans le parking pour personnes handicapées"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Want to go straight but drive in a traffic lane, turn left or turn right or make a U-turn",
+          "ru": "Хотите ехать прямо, но ехать по полосе движения, поверните налево или поверните направо или сделайте разворот",
+          "de": "Sie möchten geradeaus fahren, aber auf einer Fahrspur fahren, links oder rechts abbiegen oder eine Kehrtwende machen",
+          "es": "Quiere ir en línea recta pero maneje en un carril de tránsito, gire a la izquierda o gire a la derecha o gire en U",
+          "fr": "Vous voulez aller tout droit mais conduire dans une voie de circulation, tourner à gauche ou à droite ou faire demi-tour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Park the vehicle in a way that interferes with other vehicles by using gears and handbrakes",
+          "ru": "Припаркуйте автомобиль так, чтобы он мешал другим транспортным средствам, используя шестерни и ручные тормоза",
+          "de": "Parken Sie das Fahrzeug mit Zahnrädern und Handbremsen so, dass andere Fahrzeuge gestört werden",
+          "es": "Estacione el vehículo de manera que interfiera con otros vehículos mediante el uso de engranajes y frenos de mano",
+          "fr": "Garez le véhicule d'une manière qui interfère avec les autres véhicules en utilisant des engrenages et des freins à main"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Always make a U-turn at U-turn, even at a distance",
+          "ru": "Всегда делайте разворот на развороте, даже на расстоянии",
+          "de": "Machen Sie immer eine Kehrtwende bei der Kehrtwende, auch aus der Ferne",
+          "es": "Haga siempre un giro en U en el giro en U, incluso a distancia",
+          "fr": "Faites toujours demi-tour au demi-tour, même à distance"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9191,
+    "title": {
+      "en": {
+        "value": "When driving into a community with traffic congestion What should a driver do?"
+      },
+      "ru": {
+        "value": "При движении в сообщество с пробками Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Wenn Sie in eine Gemeinde mit Verkehrsstaus fahren Was soll ein Fahrer tun?"
+      },
+      "es": {
+        "value": "Al conducir en una comunidad con congestión de tráfico ¿Qué debe hacer un conductor?"
+      },
+      "fr": {
+        "value": "Lorsque vous conduisez dans une communauté avec des embouteillages Que doit faire un conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Honk the horn to speed up the car in front and warn the pedestrians to go out",
+          "ru": "Гудок, чтобы ускорить автомобиль впереди и предупредить пешеходов, чтобы выйти",
+          "de": "Hupen Sie, um das vorausfahrende Auto zu beschleunigen, und warnen Sie die Fußgänger, hinauszugehen",
+          "es": "Toca la bocina para acelerar el coche que está delante y advertir a los peatones que salgan",
+          "fr": "Klaxonner pour accélérer la voiture devant et avertir les piétons de sortir"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive an arrow back to escape traffic congestion to other routes",
+          "ru": "Отведите стрелу назад, чтобы избежать пробок на других маршрутах",
+          "de": "Fahren Sie mit einem Pfeil zurück, um Verkehrsstaus auf anderen Routen zu vermeiden",
+          "es": "Conduzca una flecha hacia atrás para escapar de la congestión del tráfico a otras rutas",
+          "fr": "Reculez une flèche pour éviter les embouteillages sur d'autres itinéraires"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive slowly with caution. Use horns only when necessary to alert pedestrians or other vehicles",
+          "ru": "Двигайтесь медленно с осторожностью. Используйте рога только в случае необходимости, чтобы предупредить пешеходов или другие транспортные средства",
+          "de": "Fahren Sie langsam und vorsichtig. Verwenden Sie Hörner nur bei Bedarf, um Fußgänger oder andere Fahrzeuge zu alarmieren",
+          "es": "Conduzca despacio con precaución. Use las bocinas solo cuando sea necesario para alertar a los peatones u otros vehículos",
+          "fr": "Conduisez lentement avec prudence. N'utilisez les klaxons que lorsque cela est nécessaire pour alerter les piétons ou autres véhicules"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the car parked or pedestrian by crossing to the traffic lane at the park",
+          "ru": "Водить машину на стоянке или пешеходов, переходя на полосу движения в парке",
+          "de": "Fahren Sie das geparkte Auto oder den Fußgänger, indem Sie auf die Fahrspur im Park fahren",
+          "es": "Conduzca el automóvil estacionado o peatonal cruzando hacia el carril de tráfico en el parque",
+          "fr": "Conduisez la voiture garée ou piétonne en traversant la voie de circulation du parc"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5936,
+    "title": {
+      "en": {
+        "value": "While you drive the car and notice that there are people crossing the road in front What will you do?"
+      },
+      "ru": {
+        "value": "Пока вы ведете машину и замечаете, что впереди переходят люди Что вы будете делать?"
+      },
+      "de": {
+        "value": "Während Sie mit dem Auto fahren und feststellen, dass vor Ihnen Menschen die Straße überqueren Was werden Sie tun?"
+      },
+      "es": {
+        "value": "Mientras conduces el auto y notas que hay personas cruzando la calle en frente ¿Qué harás?"
+      },
+      "fr": {
+        "value": "Pendant que vous conduisez la voiture et remarquez qu'il y a des gens qui traversent la route en face Que ferez-vous?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Trying to drive quickly through",
+          "ru": "Пытаясь быстро проехать",
+          "de": "Ich versuche schnell durchzufahren",
+          "es": "Intentando conducir rápidamente",
+          "fr": "Essayer de traverser rapidement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn loudly and drive quickly through",
+          "ru": "Громко гудите рогом и быстро проезжайте",
+          "de": "Hupen Sie laut und fahren Sie schnell durch",
+          "es": "Toque la bocina con fuerza y conduzca rápidamente",
+          "fr": "Klaxonner fort et conduire rapidement à travers"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The brakes stop quickly For people to cross the road",
+          "ru": "Тормоза быстро останавливаются, чтобы люди переходили дорогу",
+          "de": "Die Bremsen halten schnell an, damit die Leute die Straße überqueren können",
+          "es": "Los frenos se detienen rápidamente Para que la gente cruce la calle",
+          "fr": "Les freins s'arrêtent rapidement Pour que les gens traversent la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Reduce speed and stop the car with safety. For people to cross the road",
+          "ru": "Уменьшите скорость и остановите автомобиль с безопасностью. Чтобы люди переходили дорогу",
+          "de": "Reduzieren Sie die Geschwindigkeit und halten Sie das Auto sicher an. Damit die Leute die Straße überqueren können",
+          "es": "Reduzca la velocidad y pare el automóvil con seguridad. Para que la gente cruce la calle",
+          "fr": "Réduisez la vitesse et arrêtez la voiture en toute sécurité. Pour que les gens traversent la route"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9571,
+    "title": {
+      "en": {
+        "value": "If a driver is making a U-turn into the lane where you are driving How will you decide?"
+      },
+      "ru": {
+        "value": "Если водитель делает разворот на полосу, на которой вы едете, как вы решите?"
+      },
+      "de": {
+        "value": "Wenn ein Fahrer eine Kehrtwende auf die Fahrspur macht, auf der Sie fahren, wie werden Sie sich entscheiden?"
+      },
+      "es": {
+        "value": "Si un conductor está haciendo un cambio de sentido en el carril donde conduce ¿Cómo va a decidir?"
+      },
+      "fr": {
+        "value": "Si un conducteur fait demi-tour dans la voie où vous conduisez Comment allez-vous décider?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Dodge the car by overtaking another channel",
+          "ru": "Dodge автомобиль, обгоняя другой канал",
+          "de": "Weiche dem Auto aus, indem du einen anderen Kanal überholst",
+          "es": "Esquiva el auto adelantando a otro canal",
+          "fr": "Esquivez la voiture en dépassant un autre canal"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "There is kindness and generosity to the way for the U-turn",
+          "ru": "На пути к развороту есть доброта и щедрость",
+          "de": "Der Weg für die Kehrtwende ist freundlich und großzügig",
+          "es": "Hay amabilidad y generosidad en el camino para el giro en U",
+          "fr": "Il y a de la gentillesse et de la générosité sur le chemin du demi-tour"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Irritated. Honk the horn, chase but stop",
+          "ru": "Раздраженный. Хонк рог, погони, но остановись",
+          "de": "Gereizt. Hupen Sie, jagen Sie, aber hören Sie auf",
+          "es": "Irritado. Toque la bocina, persiga pero pare",
+          "fr": "Irrité. Klaxonner, chasser mais arrêter"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Speed ​​up to ask for the way not to turn",
+          "ru": "Ускорьтесь, чтобы попросить способ не повернуть",
+          "de": "Beschleunigen Sie, um nach dem Weg zu fragen, nicht zu drehen",
+          "es": "Acelera para pedir el camino para no girar",
+          "fr": "Accélérez pour demander le moyen de ne pas tourner"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5115,
+    "title": {
+      "en": {
+        "value": "During night time driving How should the car headlights be used?"
+      },
+      "ru": {
+        "value": "В ночное время. Как использовать фары?"
+      },
+      "de": {
+        "value": "Während der Nachtfahrt Wie sollen die Autoscheinwerfer verwendet werden?"
+      },
+      "es": {
+        "value": "Durante la conducción nocturna ¿Cómo se deben usar los faros del automóvil?"
+      },
+      "fr": {
+        "value": "Pendant la conduite de nuit Comment utiliser les phares de voiture?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Turn on the high beam light while driving",
+          "ru": "Включите дальний свет во время движения",
+          "de": "Schalten Sie das Fernlicht während der Fahrt ein",
+          "es": "Encienda la luz de carretera mientras conduce",
+          "fr": "Allumez les feux de route pendant la conduite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on both the front and fog lights",
+          "ru": "Включить как передние, так и противотуманные фары",
+          "de": "Schalten Sie sowohl die Front- als auch die Nebelscheinwerfer ein",
+          "es": "Encienda las luces delanteras y antiniebla",
+          "fr": "Allumez les phares avant et antibrouillard"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the front lights, fog lights and emergency flashing lights",
+          "ru": "Включите передние фары, противотуманные фары и мигающие огни",
+          "de": "Schalten Sie die Frontlichter, Nebelscheinwerfer und Notblinklichter ein",
+          "es": "Encienda las luces delanteras, las luces antiniebla y las luces intermitentes de emergencia",
+          "fr": "Allumez les feux avant, les feux de brouillard et les feux clignotants d'urgence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the low beam when there is a car in the front and the car coming in opposite direction",
+          "ru": "Включите ближний свет, когда впереди находится машина, а машина едет в противоположном направлении",
+          "de": "Schalten Sie das Abblendlicht ein, wenn sich vorne ein Auto befindet und das Auto in die entgegengesetzte Richtung fährt",
+          "es": "Encienda la luz de cruce cuando hay un automóvil en la parte delantera y el automóvil viene en dirección opuesta",
+          "fr": "Allumez les feux de croisement quand il y a une voiture à l'avant et la voiture venant dans la direction opposée"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9169,
+    "title": {
+      "en": {
+        "value": "Driving through curves, intersections, junctions. At night, how should the appropriate headlights be used?"
+      },
+      "ru": {
+        "value": "Проезжая через кривые, перекрестки, перекрестки. Ночью, как использовать соответствующие фары?"
+      },
+      "de": {
+        "value": "Fahren durch Kurven, Kreuzungen, Kreuzungen. Wie sollten nachts die entsprechenden Scheinwerfer verwendet werden?"
+      },
+      "es": {
+        "value": "Conducir a través de curvas, intersecciones, cruces. Por la noche, ¿cómo se deben usar los faros adecuados?"
+      },
+      "fr": {
+        "value": "Conduite à travers les courbes, les intersections, les jonctions. La nuit, comment utiliser les phares appropriés?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Slow down before entering the intersection. Then flashing lights and turning on emergency lights",
+          "ru": "Помедленнее перед входом в перекресток. Затем мигающие огни и включение аварийного освещения",
+          "de": "Fahren Sie langsamer, bevor Sie die Kreuzung betreten. Dann blinken die Lichter und schalten die Notlichter ein",
+          "es": "Reduzca la velocidad antes de entrar en la intersección. Luego luces intermitentes y encender luces de emergencia",
+          "fr": "Ralentissez avant d'entrer dans l'intersection. Puis clignotant et allumant les lumières de secours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down before turning on low light",
+          "ru": "Помедленнее перед включением при слабом освещении",
+          "de": "Fahren Sie langsamer, bevor Sie das Licht einschalten",
+          "es": "Reduzca la velocidad antes de encender con poca luz",
+          "fr": "Ralentissez avant d'allumer la lumière faible"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Before entering the curve, flash the lights And reduce to a low light when there is a car reversing",
+          "ru": "Прежде чем войти в поворот, включите фары и уменьшите до слабого света, когда есть задний ход",
+          "de": "Blinken Sie vor dem Betreten der Kurve die Lichter und reduzieren Sie sie auf ein schwaches Licht, wenn ein Auto rückwärts fährt",
+          "es": "Antes de entrar en la curva, encienda las luces y reduzca a poca luz cuando hay un automóvil marcha atrás",
+          "fr": "Avant d'entrer dans la courbe, faites clignoter les feux Et réduisez à un faible éclairage quand il y a une voiture en marche arrière"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down before turning on the high beam",
+          "ru": "Замедлите перед включением дальнего света",
+          "de": "Fahren Sie langsamer, bevor Sie das Fernlicht einschalten",
+          "es": "Reduzca la velocidad antes de encender la luz de carretera",
+          "fr": "Ralentissez avant d'allumer les feux de route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 912,
+    "title": {
+      "en": {
+        "value": "Driving through a community, school, or crowded place What should be done?"
+      },
+      "ru": {
+        "value": "Проезжая через сообщество, школу или многолюдное место Что нужно сделать?"
+      },
+      "de": {
+        "value": "Fahren durch eine Gemeinde, eine Schule oder einen überfüllten Ort Was ist zu tun?"
+      },
+      "es": {
+        "value": "Conducir a través de una comunidad, escuela o lugar concurrido ¿Qué se debe hacer?"
+      },
+      "fr": {
+        "value": "Conduire à travers une communauté, une école ou un endroit surpeuplé Que faire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Slow down Honk And use caution",
+          "ru": "Замедли Хонк И будь осторожен",
+          "de": "Verlangsamen Sie Honk und seien Sie vorsichtig",
+          "es": "Disminuya la velocidad de la bocina y tenga cuidado",
+          "fr": "Ralentissez Honk et soyez prudent"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn and accelerate to get away fast",
+          "ru": "Гудок и ускорение, чтобы быстро уйти",
+          "de": "Hupen Sie und beschleunigen Sie, um schnell wegzukommen",
+          "es": "Toque la bocina y acelere para alejarse rápidamente",
+          "fr": "Klaxonner et accélérer pour sortir rapidement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down And use caution when driving",
+          "ru": "Замедляйте и соблюдайте осторожность при движении",
+          "de": "Verlangsamen und beim Fahren Vorsicht walten lassen",
+          "es": "Reduzca la velocidad y tenga precaución al conducir",
+          "fr": "Ralentissez et soyez prudent lorsque vous conduisez"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Honk the horn and slow down the Speed",
+          "ru": "Увы, гудок и замедление скорости",
+          "de": "Hupen Sie und verlangsamen Sie die Geschwindigkeit",
+          "es": "Toque la bocina y reduzca la velocidad",
+          "fr": "Klaxonner et ralentir la vitesse"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9353,
+    "title": {
+      "en": {
+        "value": "If while driving You noticed that public buses Truck or other vehicle that the driver has a careless behavior Terrifying and may cause an accident How will you manage?"
+      },
+      "ru": {
+        "value": "Если во время вождения Вы заметили, что общественные автобусы грузовика или другого транспортного средства, что водитель ведет себя небрежно, страшно и может привести к аварии Как вы справитесь?"
+      },
+      "de": {
+        "value": "Wenn Sie während der Fahrt bemerkt haben, dass öffentliche Busse LKW oder andere Fahrzeuge, dass der Fahrer ein nachlässiges Verhalten hat Erschreckend und kann einen Unfall verursachen Wie werden Sie damit umgehen?"
+      },
+      "es": {
+        "value": "Si mientras conducía Notó que los autobuses públicos Camión u otro vehículo que el conductor tiene un comportamiento descuidado Aterrador y puede causar un accidente ¿Cómo lo manejará?"
+      },
+      "fr": {
+        "value": "Si pendant la conduite Vous avez remarqué que les bus publics Camion ou autre véhicule que le conducteur a un comportement imprudent Terrifiant et peuvent provoquer un accident Comment allez-vous gérer?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Turn on the emergency light to alert the back car",
+          "ru": "Включите аварийное освещение, чтобы предупредить автомобиль",
+          "de": "Schalten Sie das Notlicht ein, um das hintere Auto zu alarmieren",
+          "es": "Encienda la luz de emergencia para alertar al auto de atrás",
+          "fr": "Allumez la lumière d'urgence pour alerter la voiture arrière"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive overtaking quickly",
+          "ru": "Привод быстро обгоняет",
+          "de": "Überholen Sie schnell",
+          "es": "Conduzca adelantamientos rápidamente",
+          "fr": "Conduisez rapidement en dépassant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the chase And honk to stop the behavior",
+          "ru": "Гони погоню И гуди, чтобы остановить поведение",
+          "de": "Fahren Sie die Verfolgung und hupen Sie, um das Verhalten zu stoppen",
+          "es": "Conduce la persecución y toca la bocina para detener el comportamiento",
+          "fr": "Conduisez la chasse et klaxonnez pour arrêter le comportement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Should slow the car away from the said car And immediately notify the police",
+          "ru": "Следует замедлить автомобиль от указанной машины и немедленно уведомить полицию",
+          "de": "Sollte das Auto vom besagten Auto weg verlangsamen und sofort die Polizei benachrichtigen",
+          "es": "Debe reducir la velocidad del automóvil alejándose de dicho automóvil e inmediatamente notificar a la policía",
+          "fr": "Devrait ralentir la voiture loin de ladite voiture Et informer immédiatement la police"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2584,
+    "title": {
+      "en": {
+        "value": "Which of the following do you think is a very bad etiquette?"
+      },
+      "ru": {
+        "value": "Что из следующего вы думаете, это очень плохой этикет?"
+      },
+      "de": {
+        "value": "Welche der folgenden Aussagen ist Ihrer Meinung nach eine sehr schlechte Etikette?"
+      },
+      "es": {
+        "value": "¿Cuál de las siguientes crees que es una etiqueta muy mala?"
+      },
+      "fr": {
+        "value": "Lequel des énoncés suivants est selon vous une très mauvaise étiquette?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Use normal vehicle speed When there is another car flashing lights ask for directions",
+          "ru": "Используйте нормальную скорость автомобиля. Когда мигает другая машина, попросите указания",
+          "de": "Normale Fahrzeuggeschwindigkeit verwenden Wenn ein anderes Auto blinkt, fragen Sie nach dem Weg",
+          "es": "Use la velocidad normal del vehículo. Cuando haya otro auto parpadeando, pida indicaciones",
+          "fr": "Utiliser la vitesse normale du véhicule Lorsqu'il y a une autre voiture, des feux clignotants demandent des directions"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive left Or give way to emergency vehicles",
+          "ru": "Двигайтесь налево или уступите дорогу машинам скорой помощи",
+          "de": "Links fahren oder Einsatzfahrzeugen weichen",
+          "es": "Conduzca a la izquierda o dé paso a vehículos de emergencia",
+          "fr": "Conduisez à gauche ou cédez le passage aux véhicules d'urgence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down to other cars to overtake",
+          "ru": "Замедлитесь, чтобы другие автомобили обогнать",
+          "de": "Fahren Sie langsamer, um andere Autos zu überholen",
+          "es": "Reduzca la velocidad a otros autos para adelantar",
+          "fr": "Ralentissez vers d'autres voitures pour dépasser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the rear pendant And honk the horn on the highway",
+          "ru": "Управляй задним подвесом И гудишь на шоссе",
+          "de": "Fahren Sie den hinteren Anhänger und hupen Sie auf der Autobahn",
+          "es": "Conduce el colgante trasero y toca la bocina en la carretera",
+          "fr": "Conduisez le pendentif arrière Et klaxonnez sur l'autoroute"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 1163,
+    "title": {
+      "en": {
+        "value": "What do you think is driving without consciousness?"
+      },
+      "ru": {
+        "value": "Как вы думаете, вождение без сознания?"
+      },
+      "de": {
+        "value": "Was denkst du fährt ohne Bewusstsein?"
+      },
+      "es": {
+        "value": "¿Qué crees que es conducir sin conciencia?"
+      },
+      "fr": {
+        "value": "Que pensez-vous conduire sans conscience?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "No one is correct",
+          "ru": "Никто не прав",
+          "de": "Niemand ist richtig",
+          "es": "Nadie es correcto",
+          "fr": "Personne n'a raison"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive while exhausted, drowsy, or drink alcohol",
+          "ru": "Двигайтесь, когда истощены, сонливы или пьете алкоголь",
+          "de": "Fahren Sie erschöpft, schläfrig oder trinken Sie Alkohol",
+          "es": "Maneje exhausto, somnoliento o beba alcohol",
+          "fr": "Conduisez épuisé, somnolent ou buvez de l'alcool"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down and be careful when driving through busy educational institutions",
+          "ru": "Замедляйте и будьте осторожны, проезжая через занятые учебные заведения",
+          "de": "Fahren Sie langsamer und seien Sie vorsichtig, wenn Sie durch geschäftige Bildungseinrichtungen fahren",
+          "es": "Disminuya la velocidad y tenga cuidado al conducir a través de instituciones educativas ocupadas",
+          "fr": "Ralentissez et soyez prudent lorsque vous conduisez dans des établissements d'enseignement très fréquentés"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When you feel tired, drowsy, stop immediately",
+          "ru": "Когда вы чувствуете усталость, сонливость, немедленно прекратите",
+          "de": "Wenn Sie müde oder schläfrig sind, hören Sie sofort auf",
+          "es": "Cuando se sienta cansado, somnoliento, pare inmediatamente",
+          "fr": "Lorsque vous vous sentez fatigué, somnolent, arrêtez immédiatement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 321,
+    "title": {
+      "en": {
+        "value": "Do you think the driver What should be done to drive the car to be safe"
+      },
+      "ru": {
+        "value": "Как вы думаете, водитель Что нужно сделать, чтобы ехать на машине, чтобы быть в безопасности"
+      },
+      "de": {
+        "value": "Denken Sie, der Fahrer? Was sollte getan werden, um das Auto sicher zu fahren?"
+      },
+      "es": {
+        "value": "¿Crees que el conductor? ¿Qué se debe hacer para conducir el automóvil para estar seguro?"
+      },
+      "fr": {
+        "value": "Pensez-vous que le conducteur Que faire pour conduire la voiture en toute sécurité"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Chat tease with girlfriend while driving",
+          "ru": "Чат дразнить с девушкой за рулем",
+          "de": "Chat necken mit Freundin während der Fahrt",
+          "es": "Tease de chat con novia mientras conduce",
+          "fr": "Chat taquiner avec sa petite amie en conduisant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Use a mobile phone while driving",
+          "ru": "Используйте мобильный телефон во время вождения",
+          "de": "Verwenden Sie während der Fahrt ein Mobiltelefon",
+          "es": "Usa un teléfono móvil mientras conduces",
+          "fr": "Utilisez un téléphone portable en conduisant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drink alcohol, stay up late, stay up late to wake up, but come in to drive the car",
+          "ru": "Пейте алкоголь, ложитесь спать поздно, ложитесь спать поздно, чтобы проснуться, но приезжайте, чтобы вести машину",
+          "de": "Trinken Sie Alkohol, bleiben Sie lange auf, bleiben Sie lange auf, um aufzuwachen, aber kommen Sie herein, um das Auto zu fahren",
+          "es": "Beba alcohol, quédese hasta tarde, quédese hasta tarde para despertarse, pero venga a conducir el automóvil",
+          "fr": "Boire de l'alcool, se lever tard, se lever tard pour se réveiller, mais entrer pour conduire la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Don’t be careless, disciplined and respect traffic rules",
+          "ru": "Не будьте небрежными, дисциплинированными и соблюдайте правила дорожного движения",
+          "de": "Sei nicht nachlässig, diszipliniert und respektiere die Verkehrsregeln",
+          "es": "No sea descuidado, disciplinado y respete las normas de tránsito",
+          "fr": "Ne soyez pas imprudent, discipliné et respectez les règles de circulation"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 7959,
+    "title": {
+      "en": {
+        "value": "Drive on the right highway. Appropriate. What should be done?"
+      },
+      "ru": {
+        "value": "Двигайтесь по правильному шоссе. Подходящее. Что нужно сделать?"
+      },
+      "de": {
+        "value": "Fahren Sie auf der rechten Autobahn. Angemessen. Was soll getan werden?"
+      },
+      "es": {
+        "value": "Conduzca por la carretera correcta. Apropiado. ¿Lo que debe hacerse?"
+      },
+      "fr": {
+        "value": "Conduisez sur la droite. Approprié. Qu'est-ce qui devrait être fait?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive slowly in the right lane",
+          "ru": "Двигайтесь медленно по правой полосе",
+          "de": "Fahren Sie langsam auf der rechten Spur",
+          "es": "Conduzca despacio en el carril derecho",
+          "fr": "Conduisez lentement dans la voie de droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive fast in the right lane",
+          "ru": "Езжай быстро по правой полосе",
+          "de": "Fahren Sie schnell auf der rechten Spur",
+          "es": "Conduzca rápido en el carril derecho",
+          "fr": "Conduisez vite dans la voie de droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not allowing drivers to overtake on the left side",
+          "ru": "Не позволяя водителям обгонять по левой стороне",
+          "de": "Fahrer dürfen auf der linken Seite nicht überholen",
+          "es": "No permitir que los conductores alcancen en el lado izquierdo",
+          "fr": "Ne pas permettre aux pilotes de dépasser du côté gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Do not drive faster than the rate required by law",
+          "ru": "Не ездите быстрее, чем требуется по закону",
+          "de": "Fahren Sie nicht schneller als gesetzlich vorgeschrieben",
+          "es": "No conduzca más rápido que la velocidad requerida por la ley",
+          "fr": "Ne conduisez pas plus vite que le taux requis par la loi"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3807,
+    "title": {
+      "en": {
+        "value": "Which item is the most accurate practice?"
+      },
+      "ru": {
+        "value": "Какой предмет является наиболее точной практикой?"
+      },
+      "de": {
+        "value": "Welcher Punkt ist die genaueste Praxis?"
+      },
+      "es": {
+        "value": "¿Qué elemento es la práctica más precisa?"
+      },
+      "fr": {
+        "value": "Quel élément est la pratique la plus précise?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Listen carefully to the training for driver license exams",
+          "ru": "Внимательно слушайте подготовку к экзаменам на водительские права",
+          "de": "Hören Sie sich das Training für Führerscheinprüfungen genau an",
+          "es": "Escuche atentamente la capacitación para los exámenes de licencia de conducir",
+          "fr": "Écoutez attentivement la formation aux examens de permis de conduire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive a car with a valid driver’s license And obey traffic rules",
+          "ru": "Управляйте автомобилем с действующими водительскими правами и соблюдайте правила дорожного движения",
+          "de": "Fahren Sie ein Auto mit einem gültigen Führerschein und befolgen Sie die Verkehrsregeln",
+          "es": "Conduzca un automóvil con una licencia de conducir válida y obedezca las normas de tránsito",
+          "fr": "Conduisez une voiture avec un permis de conduire valide et respectez les règles de circulation"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Study and learn in traffic rules",
+          "ru": "Учись и учись правилам дорожного движения",
+          "de": "Studieren und lernen Sie in Verkehrsregeln",
+          "es": "Estudia y aprende sobre las normas de tráfico",
+          "fr": "Étudier et apprendre les règles de circulation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Study and learn in traffic laws both domestically and internationally",
+          "ru": "Учиться и учиться в правилах дорожного движения как внутри страны, так и за рубежом",
+          "de": "Studieren und lernen Sie im In- und Ausland im Verkehrsrecht",
+          "es": "Estudia y aprende en las leyes de tránsito tanto a nivel nacional como internacional",
+          "fr": "Étudiez et apprenez les lois de la circulation au pays et à l'étranger"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3112,
+    "title": {
+      "en": {
+        "value": "Which item is a proper practice?"
+      },
+      "ru": {
+        "value": "Какой предмет является правильной практикой?"
+      },
+      "de": {
+        "value": "Welcher Gegenstand ist eine richtige Praxis?"
+      },
+      "es": {
+        "value": "¿Qué artículo es una práctica adecuada?"
+      },
+      "fr": {
+        "value": "Quel élément est une bonne pratique?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Check it sometimes. Don’t check it sometimes",
+          "ru": "Проверьте это иногда. Не проверяйте это иногда",
+          "de": "Überprüfen Sie es manchmal. Überprüfe es manchmal nicht",
+          "es": "Compruébalo a veces. No lo revises a veces",
+          "fr": "Vérifiez-le parfois. Ne le vérifiez pas parfois"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Never check the car maintenance",
+          "ru": "Никогда не проверяйте содержание автомобиля",
+          "de": "Überprüfen Sie niemals die Fahrzeugwartung",
+          "es": "Nunca verifique el mantenimiento del automóvil",
+          "fr": "Ne jamais vérifier l'entretien de la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Check the car once a year",
+          "ru": "Проверяйте машину раз в год",
+          "de": "Überprüfen Sie das Auto einmal im Jahr",
+          "es": "Revisa el auto una vez al año",
+          "fr": "Vérifiez la voiture une fois par an"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Check the car according to the car manual",
+          "ru": "Проверьте автомобиль в соответствии с руководством по эксплуатации автомобиля",
+          "de": "Überprüfen Sie das Auto gemäß dem Autohandbuch",
+          "es": "Verifique el automóvil de acuerdo con el manual del automóvil",
+          "fr": "Vérifiez la voiture selon le manuel de la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9417,
+    "title": {
+      "en": {
+        "value": "Which item can be considered as a conscious driver"
+      },
+      "ru": {
+        "value": "Какой предмет можно считать сознательным водителем"
+      },
+      "de": {
+        "value": "Welcher Gegenstand kann als bewusster Fahrer angesehen werden?"
+      },
+      "es": {
+        "value": "Qué artículo puede considerarse como un conductor consciente"
+      },
+      "fr": {
+        "value": "Quel élément peut être considéré comme un conducteur conscient"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive slowly, keep right right along the route",
+          "ru": "Двигайтесь медленно, держитесь правее прямо по маршруту",
+          "de": "Fahren Sie langsam und halten Sie sich rechts auf der Strecke",
+          "es": "Conduzca despacio, manténgase a la derecha a lo largo de la ruta",
+          "fr": "Conduisez lentement, restez à droite sur l'itinéraire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Prepare both the car and the person before departure",
+          "ru": "Подготовьте машину и человека перед отъездом",
+          "de": "Bereiten Sie sowohl das Auto als auch die Person vor der Abfahrt vor",
+          "es": "Prepare el auto y la persona antes de la salida",
+          "fr": "Préparez la voiture et la personne avant le départ "
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Check the car maintenance regularly",
+          "ru": "Регулярно проверяйте содержание автомобиля",
+          "de": "Überprüfen Sie regelmäßig die Fahrzeugwartung",
+          "es": "Verifique el mantenimiento del automóvil con regularidad",
+          "fr": "Vérifiez régulièrement l'entretien de la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive overtaking to reach the destination quickly and in time",
+          "ru": "Двигайтесь на обгонах, чтобы быстро и вовремя добраться до места назначения",
+          "de": "Überholen, um das Ziel schnell und rechtzeitig zu erreichen",
+          "es": "Conduzca adelantamientos para llegar al destino rápidamente y a tiempo",
+          "fr": "Conduisez en dépassant pour atteindre la destination rapidement et à temps"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2987,
+    "title": {
+      "en": {
+        "value": "Driving during heavy rain, how should you drive?"
+      },
+      "ru": {
+        "value": "Вождение во время сильного дождя, как вы должны управлять?"
+      },
+      "de": {
+        "value": "Wenn Sie bei starkem Regen fahren, wie sollten Sie fahren?"
+      },
+      "es": {
+        "value": "Conducir durante fuertes lluvias, ¿cómo debe conducir?"
+      },
+      "fr": {
+        "value": "Conduire sous de fortes pluies, comment conduire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Gradually drive and turn on the high beam",
+          "ru": "Постепенно проехать и включить дальний свет",
+          "de": "Fahren Sie nach und nach und schalten Sie das Fernlicht ein",
+          "es": "Gradualmente conduzca y encienda la luz de carretera",
+          "fr": "Conduisez progressivement et allumez les feux de route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car on the road. And wait until the rain stops and then continue driving",
+          "ru": "Остановите машину на дороге. И дождитесь, пока дождь прекратится, а затем продолжайте движение",
+          "de": "Halten Sie das Auto auf der Straße an. Und warten Sie, bis der Regen aufhört, und fahren Sie dann weiter",
+          "es": "Pare el auto en el camino. Y espere hasta que pare la lluvia y luego continúe conduciendo",
+          "fr": "Arrêtez la voiture sur la route. Et attendez que la pluie cesse et continuez de conduire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Reduce the speed carefully. Turn on the headlight and wiper",
+          "ru": "Тщательно уменьшите скорость. Включите фару и стеклоочиститель",
+          "de": "Reduzieren Sie die Geschwindigkeit vorsichtig. Scheinwerfer und Scheibenwischer einschalten",
+          "es": "Reduzca la velocidad con cuidado. Encienda los faros y el limpiaparabrisas",
+          "fr": "Réduisez soigneusement la vitesse. Allumez le phare et l'essuie-glace"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive carefully and turn on the car headlights and fog lights",
+          "ru": "Ездите осторожно и включите фары и противотуманные фары",
+          "de": "Fahren Sie vorsichtig und schalten Sie die Autoscheinwerfer und Nebelscheinwerfer ein",
+          "es": "Conduzca con cuidado y encienda los faros y las luces antiniebla del automóvil",
+          "fr": "Conduisez prudemment et allumez les phares et les feux de brouillard de la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3873,
+    "title": {
+      "en": {
+        "value": "Driving on an uphill and downhill road and there are dangerous bends along the way. What should you drive?"
+      },
+      "ru": {
+        "value": "Езда по горной и спускающейся дороге и опасные повороты. Что вы должны водить?"
+      },
+      "de": {
+        "value": "Fahren Sie bergauf und bergab und es gibt gefährliche Kurven auf dem Weg. Was solltest du fahren?"
+      },
+      "es": {
+        "value": "Conduce por una carretera cuesta arriba y cuesta abajo y hay curvas peligrosas en el camino. ¿Qué deberías conducir?"
+      },
+      "fr": {
+        "value": "Conduite sur une route en montée et en descente et il y a des virages dangereux le long du chemin. Que devez-vous conduire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stepping on the brakes during downhill and using high gear",
+          "ru": "Нажимая на тормоза во время спуска и используя высокую передачу",
+          "de": "Während der Abfahrt auf die Bremse treten und einen hohen Gang einlegen",
+          "es": "Pisar los frenos durante el descenso y usar la marcha alta",
+          "fr": "Monter les freins pendant la descente et utiliser un rapport élevé"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must accelerate the speed of the car to go up and down the hill",
+          "ru": "Необходимо ускорить скорость машины, чтобы идти вверх и вниз по склону",
+          "de": "Muss die Geschwindigkeit des Autos beschleunigen, um den Hügel hinauf und hinunter zu fahren",
+          "es": "Debe acelerar la velocidad del automóvil para subir y bajar la colina",
+          "fr": "Doit accélérer la vitesse de la voiture pour monter et descendre la colline"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Use high gear while going uphill, downhill and bend",
+          "ru": "Используйте высокую передачу во время подъема, спуска и изгиба",
+          "de": "Verwenden Sie einen hohen Gang, wenn Sie bergauf, bergab und biegen",
+          "es": "Use la marcha alta mientras sube, baja y dobla",
+          "fr": "Utilisez une vitesse élevée en montée, en descente et en virage"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must use the right speed and gear correctly",
+          "ru": "Должны использовать правильную скорость и передачу правильно",
+          "de": "Muss die richtige Geschwindigkeit und den richtigen Gang richtig verwenden",
+          "es": "Debe usar la velocidad y el engranaje correctos correctamente",
+          "fr": "Doit utiliser correctement la bonne vitesse et le bon rapport"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 4532,
+    "title": {
+      "en": {
+        "value": "Before using a long-distance travel car, how should you prepare?"
+      },
+      "ru": {
+        "value": "Как подготовиться к поездке на дальние расстояния?"
+      },
+      "de": {
+        "value": "Wie sollten Sie sich vorbereiten, bevor Sie ein Fernauto benutzen?"
+      },
+      "es": {
+        "value": "Antes de usar un automóvil de viaje de larga distancia, ¿cómo debe prepararse?"
+      },
+      "fr": {
+        "value": "Avant d'utiliser une voiture de voyage longue distance, comment devez-vous vous préparer?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Reduce tire pressure to increase traction",
+          "ru": "Уменьшите давление в шинах, чтобы увеличить тягу",
+          "de": "Reduzieren Sie den Reifendruck, um die Traktion zu erhöhen",
+          "es": "Reduzca la presión de los neumáticos para aumentar la tracción",
+          "fr": "Réduisez la pression des pneus pour augmenter la traction"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Study the route. Get enough sleep",
+          "ru": "Изучите маршрут. Выспаться",
+          "de": "Studiere die Route. Genug Schlaf bekommen",
+          "es": "Estudia la ruta. Dormir lo suficiente",
+          "fr": "Étudiez l'itinéraire. Dormez suffisamment"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Study the route. Read the tourist guide book until late",
+          "ru": "Изучите маршрут. Читайте путеводитель до позднего вечера",
+          "de": "Studiere die Route. Lesen Sie den Reiseführer bis spät in die Nacht",
+          "es": "Estudia la ruta. Lea la guía turística hasta tarde",
+          "fr": "Étudiez l'itinéraire. Lisez le guide touristique jusqu'à tard"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Add lubricant oil more than the specified value in case of leakage",
+          "ru": "Добавьте смазочное масло больше указанного значения в случае утечки",
+          "de": "Fügen Sie im Falle einer Undichtigkeit mehr Schmieröl als den angegebenen Wert hinzu",
+          "es": "Agregue aceite lubricante más que el valor especificado en caso de fuga",
+          "fr": "Ajouter de l'huile lubrifiante plus que la valeur spécifiée en cas de fuite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 7930,
+    "title": {
+      "en": {
+        "value": " If there is a driver hijacking your car in the far right lane and honk the horn after the left lane is empty How should you act?"
+      },
+      "ru": {
+        "value": "Если в крайнем правом ряду водитель угоняет ваш автомобиль и гудит, когда левый переулок пуст, как действовать?"
+      },
+      "de": {
+        "value": "Wenn ein Fahrer Ihr Auto auf der rechten Spur entführt und die Hupe hupt, nachdem die linke Spur leer ist. Wie sollten Sie handeln?"
+      },
+      "es": {
+        "value": "Si hay un conductor secuestrando su automóvil en el carril derecho y toca la bocina después de que el carril izquierdo esté vacío ¿Cómo debe actuar?"
+      },
+      "fr": {
+        "value": "S'il y a un conducteur qui détourne votre voiture dans la voie de l'extrême droite et klaxonne après que la voie de gauche est vide Comment devez-vous agir?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Overtake first and drive the chase all the way",
+          "ru": "Обгоняй первым и гони погоню",
+          "de": "Überholen Sie zuerst und fahren Sie die Verfolgung den ganzen Weg",
+          "es": "Adelanta primero y conduce la persecución hasta el final",
+          "fr": "Dépassez d'abord et conduisez la poursuite tout le chemin"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Speed ​​up Absolutely not overtake",
+          "ru": "Ускорение Абсолютно не обгонять",
+          "de": "Beschleunigen Absolut nicht überholen",
+          "es": "Acelerar Absolutamente no adelantar",
+          "fr": "Accélérer absolument pas dépasser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Flashing the left light is a signal to overtake the left",
+          "ru": "Мигает левый свет - сигнал обгонять левый",
+          "de": "Das Blinken des linken Lichts ist ein Signal, um das linke zu überholen",
+          "es": "Parpadear la luz izquierda es una señal para adelantar a la izquierda",
+          "fr": "Le clignotement de la lumière gauche est un signal pour dépasser la gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive carefully. Drive on the left lane carefully",
+          "ru": "Ведите осторожно. Двигайтесь по левой полосе осторожно",
+          "de": "Vorsichtig fahren. Fahren Sie vorsichtig auf der linken Spur",
+          "es": "Conduce con cuidado. Conduzca por el carril izquierdo con cuidado",
+          "fr": "Conduit prudemment. Conduisez prudemment sur la voie de gauche"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 6232,
+    "title": {
+      "en": {
+        "value": "While traffic jams and vehicles in front of your car have decided to use the left shoulder lane And other cars followed What will you do?"
+      },
+      "ru": {
+        "value": "В то время как пробки и транспортные средства перед вашим автомобилем решили использовать левую полосу движения. И другие машины следуют. Что вы будете делать?"
+      },
+      "de": {
+        "value": "Während Staus und Fahrzeuge vor Ihrem Auto beschlossen haben, die linke Schulterspur zu benutzen, folgten andere Autos. Was werden Sie tun?"
+      },
+      "es": {
+        "value": "Mientras que los atascos y los vehículos en frente de su automóvil han decidido usar el carril izquierdo y otros automóviles siguieron ¿Qué hará?"
+      },
+      "fr": {
+        "value": "Alors que les embouteillages et les véhicules devant votre voiture ont décidé d'utiliser la voie de gauche, et d'autres voitures ont suivi Que ferez-vous?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Give a light signal and overtake right into the driveway",
+          "ru": "Подайте световой сигнал и обгоните прямо на проезжей части",
+          "de": "Geben Sie ein Lichtsignal und überholen Sie direkt in die Einfahrt",
+          "es": "Dar una señal luminosa y adelantar directamente a la entrada",
+          "fr": "Donner un signal lumineux et dépasser directement dans l'allée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the same lane",
+          "ru": "Ехать по той же полосе",
+          "de": "Fahren Sie die gleiche Spur",
+          "es": "Conduce el mismo carril",
+          "fr": "Conduisez la même voie"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hurry to flash the left light to signal And followed immediately",
+          "ru": "Спешите мигать левым светом, чтобы подать сигнал И сразу же последовал",
+          "de": "Beeilen Sie sich, um das linke Licht zu blinken, um zu signalisieren, und folgen Sie sofort",
+          "es": "Date prisa para encender la luz izquierda para señalar y seguí de inmediato",
+          "fr": "Dépêchez-vous de faire clignoter la lumière gauche pour signaler et suivi immédiatement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give a light signal And overtake the left carefully",
+          "ru": "Подайте световой сигнал И осторожно обгоните левую",
+          "de": "Geben Sie ein Lichtsignal und überholen Sie die linke Seite vorsichtig",
+          "es": "Dar una señal de luz y adelantar a la izquierda con cuidado",
+          "fr": "Donne un signal lumineux Et dépasse la gauche avec précaution"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2740,
+    "title": {
+      "en": {
+        "value": "Which item is a behavior that should be observed on the road?"
+      },
+      "ru": {
+        "value": "Какой предмет поведения стоит наблюдать на дороге?"
+      },
+      "de": {
+        "value": "Welcher Gegenstand ist ein Verhalten, das auf der Straße beobachtet werden sollte?"
+      },
+      "es": {
+        "value": "¿Qué elemento es un comportamiento que se debe observar en el camino?"
+      },
+      "fr": {
+        "value": "Quel élément est un comportement à observer sur la route?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive a hijack behind a large truck In order to prevent other cars from crossing the entrance into the car",
+          "ru": "Управляйте угоном позади большого грузовика, чтобы другие автомобили не могли пересечь въезд в машину",
+          "de": "Fahren Sie einen Hijack hinter einem großen LKW, um zu verhindern, dass andere Autos den Eingang zum Auto überqueren",
+          "es": "Conduzca un secuestro detrás de un camión grande Para evitar que otros autos crucen la entrada al auto",
+          "fr": "Conduisez un détournement derrière un gros camion afin d'empêcher d'autres voitures de traverser l'entrée dans la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive and see the sun. Raise your hand to protect against light in the eyes",
+          "ru": "Езжай и видишь солнце. Поднимите руку, чтобы защитить глаза от света",
+          "de": "Fahren Sie und sehen Sie die Sonne. Heben Sie Ihre Hand, um sich vor Licht in den Augen zu schützen",
+          "es": "Conduce y mira el sol. Levante la mano para protegerse de la luz en los ojos",
+          "fr": "Conduisez et voyez le soleil. Levez la main pour vous protéger de la lumière dans les yeux"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the arrow back to save fuel",
+          "ru": "Переместите стрелку назад, чтобы сэкономить топливо",
+          "de": "Fahren Sie den Pfeil zurück, um Kraftstoff zu sparen",
+          "es": "Mueva la flecha hacia atrás para ahorrar combustible",
+          "fr": "Reculez la flèche pour économiser du carburant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive at a speed not exceeding the specified limit And overtaking in the case that it is necessary to overtake only",
+          "ru": "Двигайтесь со скоростью, не превышающей установленного предела, и обгоняйте в том случае, если необходимо только обгонять",
+          "de": "Fahren Sie mit einer Geschwindigkeit, die den angegebenen Grenzwert nicht überschreitet, und überholen Sie, falls nur überholt werden muss",
+          "es": "Conduzca a una velocidad que no exceda el límite especificado Y adelante en el caso de que sea necesario adelantar solo",
+          "fr": "Rouler à une vitesse ne dépassant pas la limite spécifiée Et dépasser dans le cas où il est nécessaire de dépasser uniquement"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 2943,
+    "title": {
+      "en": {
+        "value": "While you drive on the highway Use the speed required by law. In the far right lane There is a car running at high speed or flashing high lights from behind you to Ask for things that you should do is"
+      },
+      "ru": {
+        "value": "Пока вы едете по шоссе Используйте скорость, требуемую законом. В дальнем правом ряду позади вас едет машина или мигает высокий свет, чтобы спросить, что вы должны сделать, это"
+      },
+      "de": {
+        "value": "Während Sie auf der Autobahn fahren Verwenden Sie die gesetzlich vorgeschriebene Geschwindigkeit. Ganz rechts auf der rechten Spur fährt ein Auto mit hoher Geschwindigkeit oder blinkt hinter Ihnen, um nach Dingen zu fragen, die Sie tun sollten"
+      },
+      "es": {
+        "value": "Mientras conduce en la autopista Use la velocidad requerida por la ley. En el carril de la derecha, hay un automóvil corriendo a alta velocidad o parpadeando luces altas detrás de usted para pedir cosas que debe hacer es"
+      },
+      "fr": {
+        "value": "Pendant que vous conduisez sur l'autoroute Utilisez la vitesse requise par la loi. Dans la voie de l'extrême droite Il y a une voiture qui roule à grande vitesse ou qui clignote derrière vous pour demander ce que vous devez faire:"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Continue driving as normal. Because already obeying traffic rules Not driving fast Didn’t break the law",
+          "ru": "Продолжайте движение, как обычно. Потому что уже соблюдает правила дорожного движения Не ехать быстро Не нарушать закон",
+          "de": "Fahren Sie wie gewohnt weiter. Weil schon Verkehrsregeln eingehalten werden Nicht schnell fahren Hat nicht gegen das Gesetz verstoßen",
+          "es": "Continúa conduciendo como de costumbre. Porque ya obedece las reglas de tránsito No conduce rápido No violó la ley",
+          "fr": "Continuez à conduire normalement. Parce que déjà obéissant aux règles de circulation Ne pas conduire vite N'a pas enfreint la loi"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive a car fleeing forward at a higher speed than that car",
+          "ru": "Управляй автомобилем, летящим вперед на более высокой скорости, чем этот автомобиль",
+          "de": "Fahren Sie ein Auto, das mit einer höheren Geschwindigkeit als dieses Auto vorwärts flieht",
+          "es": "Conduce un automóvil que huye hacia adelante a una velocidad más alta que ese automóvil",
+          "fr": "Conduisez une voiture fuyant vers l'avant à une vitesse plus élevée que cette voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Open the way to avoid the car overtaking. By turning on the left turn signal and slowly turning the car into the left lane or middle lane",
+          "ru": "Откройте путь, чтобы избежать обгона автомобиля. Включив левый указатель поворота и медленно поворачивая автомобиль в левую полосу или среднюю полосу",
+          "de": "Öffnen Sie den Weg, um ein Überholen des Autos zu vermeiden. Durch Einschalten des linken Blinkers und langsames Einbiegen des Fahrzeugs in die linke oder mittlere Spur",
+          "es": "Abra el camino para evitar el adelantamiento del automóvil. Al encender la señal de giro a la izquierda y lentamente girar el automóvil hacia el carril izquierdo o el carril central",
+          "fr": "Ouvrez la voie pour éviter que la voiture ne dépasse. En allumant le clignotant gauche et en tournant lentement la voiture dans la voie de gauche ou la voie du milieu"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive more slowly than before. To confine or intercept the rear car to drive at the speed according to traffic regulations Same as you",
+          "ru": "Езжай медленнее чем раньше. Чтобы ограничить или перехватить заднюю машину для движения на скорости в соответствии с правилами дорожного движения То же, что вы",
+          "de": "Fahren Sie langsamer als zuvor. Das hintere Auto einschränken oder abfangen, um mit der Geschwindigkeit gemäß den Verkehrsregeln zu fahren",
+          "es": "Conduzca más despacio que antes. Para confinar o interceptar el automóvil trasero para conducir a la velocidad de acuerdo con las normas de tránsito Igual que usted",
+          "fr": "Conduisez plus lentement qu'auparavant. Pour confiner ou intercepter la voiture arrière pour rouler à la vitesse selon les règles de circulation Comme vous"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 4666,
+    "title": {
+      "en": {
+        "value": "Which item should not be followed to drive safely to destination?"
+      },
+      "ru": {
+        "value": "Какой пункт не должен следовать, чтобы безопасно добраться до места назначения?"
+      },
+      "de": {
+        "value": "Welcher Punkt sollte nicht befolgt werden, um sicher zum Ziel zu fahren?"
+      },
+      "es": {
+        "value": "¿Qué elemento no debe seguirse para conducir con seguridad hasta el destino?"
+      },
+      "fr": {
+        "value": "Quel article ne doit pas être suivi pour conduire en toute sécurité à destination?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Conscious driving responsibly",
+          "ru": "Сознательное вождение ответственно",
+          "de": "Verantwortungsbewusstes Fahren",
+          "es": "Conducir conscientemente de manera responsable",
+          "fr": "Conduite consciente de manière responsable"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hasten to drive To reach the destination before dark",
+          "ru": "Спешите на машине, чтобы добраться до места назначения до наступления темноты",
+          "de": "Zum Fahren beschleunigen Um das Ziel vor Einbruch der Dunkelheit zu erreichen",
+          "es": "Acelerar para conducir Para llegar al destino antes del anochecer",
+          "fr": "Hâte de conduire Pour atteindre la destination avant la nuit"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Get familiar with the car to drive. In the case of a car that has never been driven before",
+          "ru": "Познакомьтесь с машиной для вождения. В случае автомобиля, который никогда не был за рулем",
+          "de": "Machen Sie sich mit dem Auto zum Fahren vertraut. Im Fall eines Autos, das noch nie zuvor gefahren wurde",
+          "es": "Familiarícese con el automóvil para conducir. En el caso de un automóvil que nunca antes haya sido conducido",
+          "fr": "Familiarisez-vous avec la voiture à conduire. Dans le cas d'une voiture qui n'a jamais roulé auparavant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Enough rest and not drinking",
+          "ru": "Достаточно отдохнуть и не пить",
+          "de": "Genug Ruhe und nicht trinken",
+          "es": "Descanse lo suficiente y no beba",
+          "fr": "Assez de repos et ne pas boire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 7900,
+    "title": {
+      "en": {
+        "value": "While you drive on the road and others are sharing the spirit of the road Which is not a way to act"
+      },
+      "ru": {
+        "value": "Пока вы едете по дороге, а другие разделяют дух дороги, который не является способом действовать"
+      },
+      "de": {
+        "value": "Während Sie auf der Straße fahren und andere den Geist der Straße teilen, ist dies keine Möglichkeit zu handeln"
+      },
+      "es": {
+        "value": "Mientras conduces por el camino y otros comparten el espíritu del camino, que no es una forma de actuar"
+      },
+      "fr": {
+        "value": "Pendant que vous conduisez sur la route et que d'autres partagent l'esprit de la route qui n'est pas une façon d'agir"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Send a smile to show appreciation",
+          "ru": "Отправить улыбку, чтобы показать признательность",
+          "de": "Senden Sie ein Lächeln, um Wertschätzung zu zeigen",
+          "es": "Envía una sonrisa para mostrar agradecimiento",
+          "fr": "Envoyez un sourire pour montrer votre appréciation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Bend the head to show gratitude",
+          "ru": "Согни голову, чтобы выразить благодарность",
+          "de": "Beugen Sie den Kopf, um Dankbarkeit zu zeigen",
+          "es": "Dobla la cabeza para mostrar gratitud",
+          "fr": "Pliez la tête pour montrer votre gratitude"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Raise your right hand to raise your eyebrows to show gratitude",
+          "ru": "Поднимите правую руку, чтобы поднять брови, чтобы выразить благодарность",
+          "de": "Heben Sie Ihre rechte Hand, um Ihre Augenbrauen zu heben und Dankbarkeit zu zeigen",
+          "es": "Levante la mano derecha para levantar las cejas y mostrar gratitud",
+          "fr": "Levez la main droite pour hausser les sourcils et exprimer votre gratitude"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the high beam to show gratitude",
+          "ru": "Включите дальний свет, чтобы показать благодарность",
+          "de": "Schalten Sie das Fernlicht ein, um Dankbarkeit zu zeigen",
+          "es": "Encienda la luz de carretera para mostrar gratitud",
+          "fr": "Allumez les feux de route pour montrer votre gratitude"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 5594,
+    "title": {
+      "en": {
+        "value": "In the event that you drive the car illegally, violate traffic rules or cause trouble for others when the owner of the car is facing you, the following should be done"
+      },
+      "ru": {
+        "value": "В случае, если вы управляете автомобилем незаконно, нарушаете правила дорожного движения или создаете проблемы для других, когда владелец автомобиля сталкивается с вами, необходимо сделать следующее"
+      },
+      "de": {
+        "value": "Für den Fall, dass Sie das Auto illegal fahren, gegen Verkehrsregeln verstoßen oder anderen Probleme bereiten, wenn der Besitzer des Autos Ihnen gegenübersteht, sollten Sie Folgendes tun"
+      },
+      "es": {
+        "value": "En el caso de que conduzca el automóvil ilegalmente, viole las reglas de tránsito o cause problemas a otros cuando el propietario del automóvil se encuentre frente a usted, se debe hacer lo siguiente"
+      },
+      "fr": {
+        "value": "Dans le cas où vous conduisez la voiture illégalement, violez les règles de circulation ou causez des problèmes aux autres lorsque le propriétaire de la voiture est face à vous, les actions suivantes doivent être effectuées"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Request to have the proceedings in accordance with the law that any party is wrong",
+          "ru": "Просить провести разбирательство в соответствии с законом о том, что любая сторона ошибается",
+          "de": "Beantragen Sie das Verfahren in Übereinstimmung mit dem Gesetz, dass eine Partei falsch ist",
+          "es": "Solicitar que se lleven a cabo los procedimientos de conformidad con la ley de que cualquiera de las partes está equivocada",
+          "fr": "Demander à ce que la procédure soit conforme à la loi afin que toute partie se trompe"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Park the car down and ask what kind of trouble has been caused",
+          "ru": "Припаркуй машину и спроси, какая проблема была вызвана",
+          "de": "Stellen Sie das Auto ab und fragen Sie, welche Probleme verursacht wurden",
+          "es": "Estacione el auto y pregunte qué tipo de problema se ha causado",
+          "fr": "Garez la voiture et demandez quel type de problème a été causé"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hurry to drive from there as soon as possible",
+          "ru": "Спешите ехать оттуда как можно скорее",
+          "de": "Beeilen Sie sich, um so schnell wie möglich von dort zu fahren",
+          "es": "Date prisa para conducir desde allí lo antes posible",
+          "fr": "Dépêchez-vous de partir de là dès que possible"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Raise the right hand up at the level of the eyebrows and bend the head. In order to convey that they have made a mistake and apologize",
+          "ru": "Поднимите правую руку вверх на уровне бровей и согните голову. Чтобы донести, что они допустили ошибку и извиниться",
+          "de": "Heben Sie die rechte Hand in Höhe der Augenbrauen an und beugen Sie den Kopf. Um zu vermitteln, dass sie einen Fehler gemacht haben und sich entschuldigen",
+          "es": "Levante la mano derecha al nivel de las cejas y doble la cabeza. Para transmitir que han cometido un error y pedir disculpas",
+          "fr": "Levez la main droite au niveau des sourcils et penchez la tête. Afin d'indiquer qu'ils ont fait une erreur et de s'excuser"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 8972,
+    "title": {
+      "en": {
+        "value": "Which item shows awareness of safe driving? By avoiding risky behaviors And unsafe actions"
+      },
+      "ru": {
+        "value": "Какой пункт показывает осведомленность о безопасном вождении? Избегая рискованного поведения и небезопасных действий"
+      },
+      "de": {
+        "value": "Welcher Artikel zeigt das Bewusstsein für sicheres Fahren? Indem Sie riskante Verhaltensweisen und unsichere Handlungen vermeiden"
+      },
+      "es": {
+        "value": "¿Qué elemento muestra conocimiento de una conducción segura? Al evitar comportamientos riesgosos y acciones inseguras"
+      },
+      "fr": {
+        "value": "Quel élément montre la sensibilisation à la conduite sécuritaire? En évitant les comportements à risque et les actions dangereuses"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Turn on the emergency light. When parking in a prohibited area",
+          "ru": "Включите аварийное освещение. При парковке в запретной зоне",
+          "de": "Notlicht einschalten. Beim Parken in einem verbotenen Bereich",
+          "es": "Encienda la luz de emergencia. Cuando estacione en un área prohibida",
+          "fr": "Allumez la lumière d'urgence. Lors du stationnement dans une zone interdite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Forcing yourself to comply with traffic rules while driving. Without having to wait for traffic police to force",
+          "ru": "Принуждение к соблюдению правил дорожного движения во время вождения. Не нужно ждать, чтобы ГАИ заставили",
+          "de": "Zwingen Sie sich, während der Fahrt die Verkehrsregeln einzuhalten. Ohne auf die Verkehrspolizei warten zu müssen",
+          "es": "Obligándose a cumplir con las normas de tránsito mientras conduce. Sin tener que esperar a que la policía de tránsito obligue",
+          "fr": "Vous obliger à vous conformer aux règles de circulation en conduisant. Sans avoir à attendre que la police de la circulation force"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Adjustment of equipment, fixtures and systems of the car to be different from the condition that came out of the factory",
+          "ru": "Регулировка оборудования, приспособлений и систем автомобиля должна отличаться от состояния, которое выходило с завода",
+          "de": "Anpassung der Ausstattung, Ausstattung und Systeme des Fahrzeugs an den werkseitigen Zustand",
+          "es": "Ajuste de equipos, accesorios y sistemas del automóvil para ser diferente de la condición que salió de la fábrica",
+          "fr": "Réglage de l'équipement, des accessoires et des systèmes de la voiture pour être différent de l'état qui est sorti de l'usine"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When reaching the crossroads, always stay first No need to let a car in the Master’s way to join the road",
+          "ru": "Достигая перекрестка, всегда оставайтесь на первом месте. Не нужно позволять машине на пути Мастера идти по дороге",
+          "de": "Wenn Sie die Kreuzung erreichen, bleiben Sie immer an erster Stelle. Sie müssen dem Meister kein Auto im Weg stehen lassen, um auf die Straße zu gelangen",
+          "es": "Cuando llegue a la encrucijada, siempre quédese primero. No es necesario dejar que un automóvil en el camino del Maestro se una a la carretera",
+          "fr": "Lorsque vous atteignez le carrefour, restez toujours en premier. Pas besoin de laisser une voiture sur le chemin du Maître pour rejoindre la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9377,
+    "title": {
+      "en": {
+        "value": "While you drive on the road There is an accident in front of which is not a way to comply with the car. Coming back, knowing that you need to slow down or stop And stop the car without crashing into the back of your car"
+      },
+      "ru": {
+        "value": "Пока вы едете по дороге, происходит авария, перед которой нет способа соблюсти автомобиль. Возвращаясь, зная, что вам нужно замедлить или остановить И остановить машину, не врезавшись в заднюю часть вашего автомобиля"
+      },
+      "de": {
+        "value": "Während Sie auf der Straße fahren Es gibt einen Unfall, vor dem Sie das Auto nicht einhalten können. Kommen Sie zurück und wissen Sie, dass Sie langsamer fahren oder anhalten müssen. Halten Sie das Auto an, ohne gegen die Rückseite Ihres Autos zu stoßen"
+      },
+      "es": {
+        "value": "Mientras conduce en la carretera Hay un accidente delante del cual no es una forma de cumplir con el automóvil. Regresar, sabiendo que necesita reducir la velocidad o detenerse Y detener el automóvil sin chocar contra la parte posterior de su automóvil"
+      },
+      "fr": {
+        "value": "Pendant que vous conduisez sur la route Il y a un accident devant lequel n'est pas un moyen de se conformer à la voiture. Revenir en sachant que vous devez ralentir ou arrêter Et arrêter la voiture sans s'écraser à l'arrière de votre voiture"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Assess the situation of the front of the car and the back of the car For proper braking weight",
+          "ru": "Оцените положение передней и задней части автомобиля. Для правильного торможения",
+          "de": "Beurteilen Sie die Situation der Vorder- und Rückseite des Fahrzeugs. Achten Sie auf das richtige Bremsgewicht",
+          "es": "Evaluar la situación de la parte delantera del automóvil y la parte trasera del automóvil Para obtener el peso de frenado adecuado",
+          "fr": "Évaluer la situation de l'avant et de l'arrière de la voiture Pour un poids de freinage adéquat"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hold the brakes on so that the brake signal lights stay on until the back car drives. Followed in advance and when stopped in the back of the car. Then slowly release the foot from the brake pedal",
+          "ru": "Удерживайте тормоза так, чтобы сигнальные огни тормозов оставались включенными до тех пор, пока задний автомобиль не заедет. Последовал заранее и когда остановился в задней части машины. Затем медленно отпустите ногу от педали тормоза",
+          "de": "Halten Sie die Bremsen gedrückt, damit die Bremssignallampen eingeschaltet bleiben, bis das hintere Auto fährt. Im Voraus gefolgt und beim Anhalten im hinteren Teil des Autos. Lösen Sie dann langsam den Fuß vom Bremspedal",
+          "es": "Apriete los frenos para que las luces de señal de freno permanezcan encendidas hasta que el auto de atrás conduzca. Seguido de antemano y cuando se detuvo en la parte trasera del automóvil. Luego suelte lentamente el pie del pedal del freno",
+          "fr": "Maintenez les freins serrés pour que les feux de freinage restent allumés jusqu'à ce que la voiture arrière roule. Suivi à l'avance et à l'arrêt à l'arrière de la voiture. Relâchez ensuite lentement le pied de la pédale de frein"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive near the car to the scene of the accident and then apply the brakes vigorously to stop the vehicle immediately",
+          "ru": "Подъезжайте к автомобилю до места происшествия, а затем энергично включите тормоза, чтобы немедленно остановить автомобиль",
+          "de": "Fahren Sie in der Nähe des Autos zum Unfallort und betätigen Sie die Bremsen kräftig, um das Fahrzeug sofort anzuhalten",
+          "es": "Conduzca cerca del automóvil hasta la escena del accidente y luego aplique los frenos con fuerza para detener el vehículo de inmediato",
+          "fr": "Conduisez près de la voiture sur le lieu de l'accident, puis serrez vigoureusement les freins pour arrêter immédiatement le véhicule"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the brake light in advance By using the feet to touch the brake pedal for 1-2 times, then stop",
+          "ru": "Заранее включите стоп-сигнал. С помощью ног коснитесь педали тормоза 1-2 раза, затем остановитесь",
+          "de": "Geben Sie das Bremslicht im Voraus, indem Sie das Bremspedal 1-2 Mal mit den Füßen berühren und dann anhalten",
+          "es": "Aplique la luz de freno con anticipación Al usar los pies para tocar el pedal del freno por 1-2 veces, luego pare",
+          "fr": "Donnez le feu stop à l'avance En utilisant les pieds pour toucher la pédale de frein pendant 1-2 fois, puis arrêtez"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 8213,
+    "title": {
+      "en": {
+        "value": "When passing or changing lanes, be safe and mannered. Which is not a good manner to drive a car?"
+      },
+      "ru": {
+        "value": "При прохождении или смене полос движения будьте осторожны и соблюдайте правила поведения. Что не является хорошим способом водить машину?"
+      },
+      "de": {
+        "value": "Seien Sie beim Überholen oder Spurwechsel sicher und artig. Was ist keine gute Art, ein Auto zu fahren?"
+      },
+      "es": {
+        "value": "Al pasar o cambiar de carril, tenga cuidado y modales. ¿Cuál no es una buena manera de conducir un automóvil?"
+      },
+      "fr": {
+        "value": "Lorsque vous passez ou changez de voie, soyez prudent et prudent. Quelle n'est pas une bonne façon de conduire une voiture?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "The narrower the road, the more slowly and overtake with caution",
+          "ru": "Чем уже дорога, тем медленнее и осторожнее обгоняй",
+          "de": "Je schmaler die Straße, desto langsamer und vorsichtiger überholen",
+          "es": "Cuanto más angosto es el camino, más despacio y avanza con precaución",
+          "fr": "Plus la route est étroite, plus lentement et dépasser avec prudence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When passing the car in front, then sweep the face to the left immediately",
+          "ru": "Когда проезжаете впереди, сразу же поверните лицо влево",
+          "de": "Wenn Sie am vorausfahrenden Auto vorbeifahren, kehren Sie das Gesicht sofort nach links",
+          "es": "Al pasar el automóvil por delante, luego deslice la cara hacia la izquierda inmediatamente",
+          "fr": "Lorsque vous passez la voiture devant, puis balayez le visage vers la gauche immédiatement"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the right turning signal Before overtaking every time to let the front car aware and be careful or give way",
+          "ru": "Подайте правый сигнал поворота Перед каждым обгоном дайте знать переднему автомобилю и будьте осторожны или уступите дорогу",
+          "de": "Geben Sie den richtigen Blinker, bevor Sie jedes Mal überholen, um das vordere Auto darauf aufmerksam zu machen und vorsichtig zu sein oder nachzugeben",
+          "es": "Dé la señal de giro correcta antes de adelantar cada vez para avisar al automóvil delantero y tener cuidado o ceder",
+          "fr": "Donner le bon signal de virage Avant de dépasser à chaque fois pour avertir la voiture avant et faire attention ou laisser la place"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Do not overtake in a tight place or do not overtake",
+          "ru": "Не обгоняйте в тесном месте или не обгоняйте",
+          "de": "Überholen Sie nicht an einem engen Ort oder überholen Sie nicht",
+          "es": "No adelantar en un lugar estrecho o no adelantar",
+          "fr": "Ne pas dépasser dans un endroit étroit ou ne pas dépasser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3617,
+    "title": {
+      "en": {
+        "value": "When the car that drives behind comes to give a signal to overtake. Good etiquette to show the response that consent is overtaking"
+      },
+      "ru": {
+        "value": "Когда автомобиль, который едет сзади, подает сигнал, чтобы обогнать. Хороший этикет, чтобы показать ответ, что согласие настигает"
+      },
+      "de": {
+        "value": "Wenn das Auto, das hinterher fährt, ein Signal zum Überholen gibt. Gute Etikette, um die Antwort zu zeigen, dass die Zustimmung überholt"
+      },
+      "es": {
+        "value": "Cuando el auto que conduce detrás viene a dar una señal para adelantar. Buena etiqueta para mostrar la respuesta que el consentimiento está superando"
+      },
+      "fr": {
+        "value": "Lorsque la voiture qui passe derrière donne un signal de dépassement. Bonne étiquette pour montrer la réponse que le consentement dépasse"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Provide emergency signal",
+          "ru": "Обеспечить аварийный сигнал",
+          "de": "Notsignal bereitstellen",
+          "es": "Proporcionar señal de emergencia",
+          "fr": "Fournir un signal d'urgence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the horn signal",
+          "ru": "Подать сигнал",
+          "de": "Geben Sie das Hornsignal",
+          "es": "Dar la señal de bocina",
+          "fr": "Donner le signal du klaxon"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give a high signal light",
+          "ru": "Дайте высокий световой сигнал",
+          "de": "Geben Sie ein hohes Signallicht",
+          "es": "Dar una luz de señal alta",
+          "fr": "Donner un signal lumineux élevé"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give the left turn signal",
+          "ru": "Дайте левый поворотник",
+          "de": "Geben Sie den linken Blinker",
+          "es": "Dé la señal de giro a la izquierda",
+          "fr": "Donnez le clignotant gauche"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 3595,
+    "title": {
+      "en": {
+        "value": "Which of the following are driving behaviors that show that the driver has a sense of safety in using the car on the road?"
+      },
+      "ru": {
+        "value": "Какие из следующих поведений вождения показывают, что у водителя есть чувство безопасности при использовании автомобиля на дороге?"
+      },
+      "de": {
+        "value": "Welche der folgenden Verhaltensweisen zeigen, dass der Fahrer ein Gefühl der Sicherheit hat, wenn er das Auto auf der Straße benutzt?"
+      },
+      "es": {
+        "value": "¿Cuáles de los siguientes son comportamientos de conducción que muestran que el conductor tiene una sensación de seguridad al usar el automóvil en la carretera?"
+      },
+      "fr": {
+        "value": "Lesquels des comportements de conduite suivants montrent que le conducteur a un sentiment de sécurité lors de l'utilisation de la voiture sur la route?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "In the case of an intersection with traffic lights Follow only the signal lights, no need to look left and right",
+          "ru": "В случае пересечения со светофорами следуйте только за сигнальными огнями, не нужно смотреть влево и вправо",
+          "de": "Bei einer Kreuzung mit Ampeln Folgen Sie nur den Ampeln, Sie müssen nicht nach links und rechts schauen",
+          "es": "En el caso de una intersección con semáforos Siga solo las luces de señalización, no es necesario mirar a izquierda y derecha",
+          "fr": "Dans le cas d'une intersection avec des feux de signalisation Suivez uniquement les feux de signalisation, pas besoin de regarder à gauche et à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When driving to the intersection, slow down every time, regardless of whether there is a traffic signal or not",
+          "ru": "При движении к перекрестку каждый раз замедляйтесь, независимо от того, есть ли сигнал светофора или нет",
+          "de": "Wenn Sie zur Kreuzung fahren, fahren Sie jedes Mal langsamer, unabhängig davon, ob eine Verkehrsampel vorhanden ist oder nicht",
+          "es": "Al conducir hacia la intersección, reduzca la velocidad cada vez, independientemente de si hay una señal de tráfico o no",
+          "fr": "Lorsque vous conduisez à l'intersection, ralentissez à chaque fois, qu'il y ait un feu de circulation ou non"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Follow the traffic lights or traffic signs. If not treated, the police are arrested and fined",
+          "ru": "Следуйте за светофорами или дорожными знаками. Если не лечить, полиция арестована и оштрафована",
+          "de": "Folgen Sie den Ampeln oder Verkehrsschildern. Wenn sie nicht behandelt werden, wird die Polizei festgenommen und mit einer Geldstrafe belegt",
+          "es": "Siga los semáforos o las señales de tránsito. Si no se trata, la policía es arrestada y multada",
+          "fr": "Suivez les feux de signalisation ou les panneaux de signalisation. S'ils ne sont pas traités, la police est arrêtée et condamnée à une amende"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When changing lanes, push in without signal lights because if the signal lights next to the cars will not open the channel to change lanes",
+          "ru": "При смене полосы движения нажимайте без сигнальных огней, потому что, если сигнальные огни рядом с автомобилями, не откроют канал для смены полос движения",
+          "de": "Drücken Sie beim Spurwechsel ohne Signalleuchten hinein, denn wenn die Signalleuchten neben den Fahrzeugen den Kanal zum Spurwechsel nicht öffnen",
+          "es": "Al cambiar de carril, presione sin luces de señal porque si las luces de señal al lado de los automóviles no abrirán el canal para cambiar de carril",
+          "fr": "Lorsque vous changez de voie, appuyez sans les feux de signalisation, car si les feux de signalisation à côté des voitures n'ouvriront pas le canal pour changer de voie"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 8848,
+    "title": {
+      "en": {
+        "value": "While you are driving on the road And noticed that in front of people crossing the road Without crosswalk Which one is considered a correct practice"
+      },
+      "ru": {
+        "value": "Пока вы едете по дороге И заметили, что перед людьми переходят дорогу Без пешеходного перехода Какой из них считается правильной практикой"
+      },
+      "de": {
+        "value": "Während Sie auf der Straße fahren Und bemerkt, dass vor Menschen die Straße überqueren Ohne Zebrastreifen Welche gilt als eine richtige Praxis"
+      },
+      "es": {
+        "value": "Mientras conduces por la carretera Y te das cuenta de que frente a las personas que cruzan la carretera Sin cruce de peatones ¿Cuál es la práctica correcta?"
+      },
+      "fr": {
+        "value": "Pendant que vous conduisez sur la route Et que vous avez remarqué que devant les gens qui traversent la route Sans passage pour piétons Lequel est considéré comme une bonne pratique"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive through normally Because the safe road crossing must cross the crosswalk only",
+          "ru": "Проезжайте нормально, потому что безопасный переход через дорогу должен пересекать только пешеходный переход",
+          "de": "Normal durchfahren, da die sichere Straßenkreuzung nur den Zebrastreifen überqueren darf",
+          "es": "Conduzca normalmente porque el cruce seguro de la carretera debe cruzar solo el cruce peatonal",
+          "fr": "Traversez normalement car le passage à niveau sécuritaire ne doit traverser que le passage pour piétons"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Flashing high lights to warn not to cross And drive through as quickly as possible",
+          "ru": "Мигает фонарь, чтобы предупредить не пересекать И проехать как можно быстрее",
+          "de": "Blinkende Lichter, um zu warnen, nicht zu überqueren und so schnell wie möglich durchzufahren",
+          "es": "Luces intermitentes altas para advertir que no se crucen y conducir lo más rápido posible",
+          "fr": "Feux clignotants pour avertir de ne pas traverser Et traverser le plus rapidement possible"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Press the horn repeatedly. Warning: Do not cross because it may be hit by a car",
+          "ru": "Нажмите рожок несколько раз. Предупреждение: не переходите, потому что это может быть сбито автомобилем",
+          "de": "Drücken Sie wiederholt auf die Hupe. Warnung: Nicht überqueren, da es von einem Auto angefahren werden kann",
+          "es": "Presione la bocina repetidamente. Advertencia: No cruce porque puede ser atropellado por un automóvil",
+          "fr": "Appuyez plusieurs fois sur le klaxon. Attention: ne traversez pas car il pourrait être heurté par une voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down and stop",
+          "ru": "Замедли и остановись",
+          "de": "Langsam fahren und anhalten",
+          "es": "Reduzca la velocidad y pare",
+          "fr": "Ralentissez et arrêtez"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 1208,
+    "title": {
+      "en": {
+        "value": "After the accident and survived, which is a concept that reflects the driver’s awareness of safety in the use of cars on the road"
+      },
+      "ru": {
+        "value": "После аварии и выжил, что является концепцией, отражающей осознание водителем безопасности при использовании автомобилей на дороге"
+      },
+      "de": {
+        "value": "Nach dem Unfall und überlebt, das ist ein Konzept, das das Sicherheitsbewusstsein des Fahrers beim Einsatz von Autos auf der Straße widerspiegelt"
+      },
+      "es": {
+        "value": "Después del accidente y sobrevivió, que es un concepto que refleja la conciencia del conductor sobre la seguridad en el uso de automóviles en la carretera"
+      },
+      "fr": {
+        "value": "Après l'accident et a survécu, qui est un concept qui reflète la conscience du conducteur de la sécurité dans l'utilisation des voitures sur la route"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Dee said yesterday that he had exited the fate, otherwise he would not survive",
+          "ru": "Ди сказал вчера, что он вышел из судьбы, иначе он не выживет",
+          "de": "Dee sagte gestern, dass er das Schicksal verlassen habe, sonst würde er nicht überleben",
+          "es": "Dee dijo ayer que había salido del destino, de lo contrario no sobreviviría",
+          "fr": "Dee a déclaré hier qu'il était sorti du destin, sinon il ne survivrait pas"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Mr. A said that because the amulets that are hanging, protected, protected",
+          "ru": "Г-н А. сказал, что амулеты, которые висят, защищены, защищены",
+          "de": "Herr A sagte das, weil die Amulette, die hängen, geschützt, geschützt sind",
+          "es": "El Sr. A dijo eso porque los amuletos que están colgados, protegidos, protegidos",
+          "fr": "M. A a dit que parce que les amulettes suspendues, protégées, protégées"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Mrs. B. said that this year, fortune tellers predict that good luck will do no problem",
+          "ru": "Г-жа Б. сказала, что в этом году предсказатели предсказывают, что удача не вызовет проблем",
+          "de": "Frau B. sagte, dass Wahrsager in diesem Jahr vorhersagen, dass Glück kein Problem sein wird",
+          "es": "La Sra. B. dijo que este año, los adivinos predicen que la buena suerte no hará ningún problema",
+          "fr": "Mme B. a dit que cette année, les diseurs de bonne aventure prédisent que la bonne chance ne posera aucun problème"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Ms. C said that he has always studied the principles of safe driving",
+          "ru": "Г-жа С. сказала, что он всегда изучал принципы безопасного вождения",
+          "de": "Frau C sagte, dass er immer die Prinzipien des sicheren Fahrens studiert habe",
+          "es": "La Sra. C dijo que siempre ha estudiado los principios de la conducción segura",
+          "fr": "Mme C a dit qu'il avait toujours étudié les principes de la conduite sécuritaire"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 9359,
+    "title": {
+      "en": {
+        "value": "Good driving etiquette makes driving on the roads safe Which is the etiquette that should be followed"
+      },
+      "ru": {
+        "value": "Хороший водительский этикет делает вождение на дорогах безопасным. Это этикет, которому следует следовать"
+      },
+      "de": {
+        "value": "Eine gute Fahretikette macht das Fahren auf der Straße sicher. Welche Etikette sollte befolgt werden?"
+      },
+      "es": {
+        "value": "Una buena etiqueta de manejo hace que conducir en las carreteras sea seguro. Cuál es la etiqueta que se debe seguir"
+      },
+      "fr": {
+        "value": "Une bonne étiquette de conduite rend la conduite sur les routes sûre. Quelle est l'étiquette à suivre"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Fog lights are beautiful decorative lights that can be turned on while there is no fog",
+          "ru": "Противотуманные фары - это красивые декоративные фонари, которые можно включать, когда нет тумана",
+          "de": "Nebelscheinwerfer sind schöne dekorative Lichter, die eingeschaltet werden können, ohne dass Nebel vorhanden ist",
+          "es": "Las luces antiniebla son hermosas luces decorativas que se pueden encender mientras no hay niebla",
+          "fr": "Les antibrouillards sont de belles lumières décoratives qui peuvent être allumées sans brouillard"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When driving in a turn, regardless of which lane By having manners and turning, must keep the line in that lane first When they saw it was safe, then they could change lanes",
+          "ru": "При движении в повороте независимо от полосы движения При наличии манер и поворотов сначала необходимо удерживать линию на этой полосе. Когда они увидели, что это безопасно, они могут сменить полосу движения",
+          "de": "Wenn Sie in einer Kurve fahren, unabhängig von der Fahrspur. Wenn Sie Manieren und Abbiegen haben, müssen Sie die Linie zuerst auf dieser Fahrspur halten. Wenn sie sahen, dass sie sicher ist, können sie die Fahrspur wechseln",
+          "es": "Cuando conduzca en una curva, independientemente de qué carril. Al tener modales y curvas, primero debe mantener la línea en esa línea. Cuando vieron que era seguro, podrían cambiar de línea",
+          "fr": "Lorsque vous conduisez dans un virage, quelle que soit la voie En ayant des manières et en tournant, vous devez d'abord garder la file dans cette voie Quand ils ont vu que c'était sûr, ils pouvaient changer de voie"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "While driving in the right lane, but driving at a speed that is determined by law If there is a car at the end, that car is moving too fast. Do not have to hide",
+          "ru": "Во время движения по правой полосе, но при движении со скоростью, определенной законом. Если в конце есть автомобиль, он движется слишком быстро. Не надо прятаться",
+          "de": "Während Sie auf der rechten Spur fahren, aber mit einer gesetzlich festgelegten Geschwindigkeit fahren Wenn sich am Ende ein Auto befindet, bewegt sich dieses Auto zu schnell. Muss mich nicht verstecken",
+          "es": "Mientras conduce en el carril derecho, pero conduce a una velocidad determinada por la ley Si hay un automóvil al final, ese automóvil se mueve demasiado rápido. No tienes que esconderte",
+          "fr": "En conduisant dans la voie de droite, mais en roulant à une vitesse déterminée par la loi. S'il y a une voiture à la fin, cette voiture se déplace trop vite. Vous n'avez pas à vous cacher"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When 2 cars come to the intersection or roundabout at the same time, which car is always faster than before",
+          "ru": "Когда 2 машины выходят на перекресток или кольцевую развязку одновременно, какая машина всегда быстрее, чем раньше",
+          "de": "Wenn 2 Autos gleichzeitig an die Kreuzung oder den Kreisverkehr kommen, ist dieses Auto immer schneller als zuvor",
+          "es": "Cuando 2 autos llegan a la intersección o la rotonda al mismo tiempo, ¿qué automóvil es siempre más rápido que antes?",
+          "fr": "Lorsque 2 voitures arrivent à l'intersection ou au rond-point en même temps, quelle voiture est toujours plus rapide qu'auparavant"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  },
+  {
+    "id": 4207,
+    "title": {
+      "en": {
+        "value": "When should the driver use the horn?"
+      },
+      "ru": {
+        "value": "Когда водитель должен использовать гудок?"
+      },
+      "de": {
+        "value": "Wann sollte der Fahrer die Hupe benutzen?"
+      },
+      "es": {
+        "value": "¿Cuándo debe usar el conductor la bocina?"
+      },
+      "fr": {
+        "value": "Quand le conducteur doit-il utiliser le klaxon?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Chase pedestrians crossing the crosswalk",
+          "ru": "Погоня пешеходов, переходящих пешеходный переход",
+          "de": "Verfolge Fußgänger, die den Zebrastreifen überqueren",
+          "es": "Chase peatones cruzando el paso de peatones",
+          "fr": "Chasser les piétons traversant le passage pour piétons"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Speeding the front car to drive faster",
+          "ru": "Ускорение переднего автомобиля, чтобы двигаться быстрее",
+          "de": "Beschleunigen Sie das vordere Auto, um schneller zu fahren",
+          "es": "Acelerar el auto delantero para conducir más rápido",
+          "fr": "Accélérer la voiture avant pour conduire plus vite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Say hello to other known drivers",
+          "ru": "Передайте привет другим известным водителям",
+          "de": "Begrüßen Sie andere bekannte Fahrer",
+          "es": "Saluda a otros conductores conocidos",
+          "fr": "Dites bonjour aux autres conducteurs connus"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Prevent danger or accident that may occur from the car",
+          "ru": "Предотвратите опасность или несчастный случай, который может произойти от автомобиля",
+          "de": "Vermeiden Sie Gefahren oder Unfälle, die vom Auto ausgehen können",
+          "es": "Prevenga el peligro o accidente que pueda ocurrir desde el automóvil",
+          "fr": "Évitez tout danger ou accident pouvant survenir de la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "safeDriving"
+  }
+]

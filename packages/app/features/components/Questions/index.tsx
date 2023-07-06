@@ -1,28 +1,27 @@
 import * as React from 'react'
-import { useEffect, useState } from 'react'
+import i18next from 'i18next'
+import { useLink } from 'solito/link'
+import { observer } from 'mobx-react'
+import { Button, Stack } from '@my/ui'
+import { Instance } from 'mobx-state-tree'
+
+import { Session } from '../../../../business-logic/stores/Session'
 
 import { Content } from 'app/features/components/Content'
-import { Stack, Button } from '@my/ui'
 import { StatusBar } from 'app/features/questionList/components/StatusBar'
-import { Carousel } from 'app/features/questionList/components/Carousel'
 import { ToggleBar } from 'app/features/questionList/components/ToggleBar'
 import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
-import { getAllQuestions, getQuestionsByTheme } from '../../dbList/helpers/getTheme'
-import { createParam } from 'solito'
-import { defaultSessionSnapshot, Session } from '../../../../business-logic/stores/Session'
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
-import i18next from 'i18next'
-import { observer } from 'mobx-react'
-import { useLink } from 'solito/link'
-import { Instance } from 'mobx-state-tree'
+
 import { QuestionView } from 'app/features/question'
 
 interface Props {
   store: Instance<typeof Session>
   title: string
+  time?: string
 }
 
-export const Questions: React.FC<Props> = observer(({ store, title }) => {
+export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
   const {
     questions,
     current,
@@ -56,12 +55,7 @@ export const Questions: React.FC<Props> = observer(({ store, title }) => {
         pr={16}
       >
         <StatusBar value={percent()} />
-        <TitleCounter
-          title={title}
-          current={current}
-          totalCount={totalCount}
-          isAllQuestionAnswered={checkIsAllQuestionsAnswered()}
-        />
+        <TitleCounter time={time} title={title} current={current} totalCount={totalCount} />
         <ToggleBar
           current={current}
           totalCount={totalCount}

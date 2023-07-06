@@ -9,14 +9,14 @@ import Test from '../components/icons/test.png'
 import { ListItem } from 'app/features/components/List/helpers'
 
 export const themesList: ListItem[] = [
-  {
-    title: 'Test',
-    description: '4 questions',
-    color: '#dedede',
-    iconColor: '#ababab',
-    icon: Test,
-    link: `/theme/test`,
-  },
+  // {
+  //   title: 'Test',
+  //   description: '4 questions',
+  //   color: '#dedede',
+  //   iconColor: '#ababab',
+  //   icon: Test,
+  //   link: `/theme/test`,
+  // },
   {
     title: 'themes:vehicleLaw',
     description: 'themes:description.vehicleLaw',
@@ -50,7 +50,7 @@ export const themesList: ListItem[] = [
     iconColor: '#FFA6A6',
     icon: SafeDriving,
     link: `/theme/safeDriving`,
-    disabled: true,
+    disabled: false,
   },
   {
     title: 'themes:techniquesOfSafeDriving',

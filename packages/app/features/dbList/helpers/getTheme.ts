@@ -1,6 +1,7 @@
 import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
 import testQuestions from '../questions.json'
 import vehicleLaw from '../themes/vehicleLaw.json'
+import safeDriving from '../themes/safeDriving.json'
 import vehicleMaintenance from '../themes/vehicleMaintenance.json'
 import techniquesOfSafeDriving from '../themes/techniquesOfSafeDriving.json'
 import AsyncStorage from '@react-native-async-storage/async-storage'
@@ -15,6 +16,7 @@ export const getNoRandomAllQuestions = () => [
   ...vehicleLaw,
   ...vehicleMaintenance,
   ...techniquesOfSafeDriving,
+  ...safeDriving,
 ]
 
 export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Question[] => {
@@ -29,6 +31,8 @@ export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Que
       return sortRandom(vehicleMaintenance)
     case ThemeTypes.TechniquesOfSafeDriving:
       return sortRandom(techniquesOfSafeDriving)
+    case ThemeTypes.SafeDriving:
+      return sortRandom(safeDriving)
     default:
       return sortRandom(testQuestions)
   }
@@ -50,4 +54,14 @@ export const getFavouritesQuestions = async () => {
   return getNoRandomAllQuestions()
     .map((i) => (parsedQuestions.includes(i.id) ? i : null))
     .filter((i) => i)
+}
+
+export const getExamQuestions = () => {
+  const getRandQuestionsOfTheme = (theme) => sortRandom(theme).slice(0, 1)
+  return [
+    ...getRandQuestionsOfTheme(vehicleLaw),
+    ...getRandQuestionsOfTheme(vehicleMaintenance),
+    ...getRandQuestionsOfTheme(techniquesOfSafeDriving),
+    ...getRandQuestionsOfTheme(safeDriving),
+  ]
 }

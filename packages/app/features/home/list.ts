@@ -28,7 +28,8 @@ export const listItems: ListItem[] = [
     color: '#D1DBFF',
     iconColor: '#A6C4FF',
     icon: Exam,
-    disabled: true,
+    link: `/exam`,
+    disabled: false,
   },
   {
     title: 'mainMenu:favourites',

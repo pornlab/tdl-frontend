@@ -74,12 +74,7 @@ export const QuestionList: React.FC<Props> = observer(({ theme }) => {
         pr={16}
       >
         <StatusBar value={percent()} />
-        <TitleCounter
-          title={i18next.t(`themes:${id}`)}
-          current={current}
-          totalCount={totalCount}
-          isAllQuestionAnswered={checkIsAllQuestionsAnswered()}
-        />
+        <TitleCounter title={i18next.t(`themes:${id}`)} current={current} totalCount={totalCount} />
         <ToggleBar
           current={current}
           totalCount={totalCount}

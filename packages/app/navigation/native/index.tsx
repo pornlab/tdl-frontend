@@ -7,12 +7,14 @@ import { QuestionView } from 'app/features/question'
 import { QuestionList } from 'app/features/questionList'
 import { Favourites } from 'app/features/favourites'
 import { Marathon } from 'app/features/Marathon'
+import { Exam } from 'app/features/Exam'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
   themes: undefined
   favourites: undefined
   marathon: undefined
+  exam: undefined
   question: {
     id: string
   }
@@ -80,6 +82,17 @@ export function NativeNavigation() {
         component={Marathon}
         options={{
           title: 'Марафон',
+          headerBackTitle: 'Меню',
+          headerTitleStyle: {
+            fontSize: 20,
+          },
+        }}
+      />
+      <Stack.Screen
+        name="exam"
+        component={Exam}
+        options={{
+          title: 'Экзамен',
           headerBackTitle: 'Меню',
           headerTitleStyle: {
             fontSize: 20,

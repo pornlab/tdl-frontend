@@ -1,4 +1,4 @@
-import {applySnapshot, getEnv, SnapshotIn, types} from "mobx-state-tree";
+import {applySnapshot, getEnv, SnapshotIn, types, unprotect} from "mobx-state-tree";
 import {ModeTypes, Questions} from "../Question";
 import {Question} from "app/features/dbList/interfaces";
 
@@ -11,6 +11,7 @@ export const Session = types.model({
     totalCount: types.number,
     current: types.number,
     bar: types.number,
+    timer: types.number,
 }).actions(self => {
     const { questions } = getEnv<SessionEnvironment>(self);
 
@@ -18,6 +19,8 @@ export const Session = types.model({
         self.totalCount = totalCount;
         self.current = Number(Boolean(totalCount));
     }
+
+    const setTimer = (v) => self.timer = v
 
     const afterCreate = () => {
         self.questions.push(...questions.reduce((arr, question, index) =>
@@ -54,6 +57,7 @@ export const Session = types.model({
 
     const reset = () => {
         applySnapshot(self, defaultSessionSnapshot);
+        self.timer = 0;
         afterCreate();
     }
 
@@ -63,7 +67,8 @@ export const Session = types.model({
         setTotalCount,
         setCurrent,
         goToNextQuestion,
-        reset
+        reset,
+        setTimer
     }
 }).volatile(self => ({
     isEmptyQuestionList: !Boolean(self.questions.length),
@@ -84,11 +89,23 @@ export const Session = types.model({
             return arr + +!question.isRightAnswer();
         }, 0);
     }
-}));
+})).views(self => {
+    const getTime = () => {
+        const timer = self.timer;
+        const hours = timer / 3600
+        const minutes = (timer % 3600) / 60
+        const seconds = (12700 % 3600) % 60
+        return `${hours + ':' || ''}` + `${minutes}:${seconds}`
+    }
+    return {
+        getTime
+    }
+})
 
 export const defaultSessionSnapshot: SnapshotIn<typeof Session> = {
     questions: [],
     bar: 0,
     totalCount: 0,
     current: 0,
+    timer: 0
 }
