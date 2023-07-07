@@ -4,10 +4,12 @@
   "marathon": "Marathon",
   "exam": "Examen",
   "favourites": "Favoris",
+  "aboutApp": "À propos de la candidature",
   "description": {
     "themes": "Questions sur des sujets de familiarisation avec le code de la route",
     "marathon": "Toutes les questions pour une préparation plus précise à l'examen",
     "exam": "Excellente opportunité de tester vos compétences",
-    "favourites": "Questions taguées ⭐️️"
+    "favourites": "Questions taguées ⭐️️",
+    "aboutApp": "Informations sur la candidature"
   }
 }

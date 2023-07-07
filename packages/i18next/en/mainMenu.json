@@ -4,10 +4,12 @@
   "marathon": "Marathon",
   "exam": "Exam",
   "favourites": "Favourites",
+  "aboutApp": "About the application",
   "description": {
     "themes": "Questions on topics for familiarization with the rules of the road",
     "marathon": "All questions for more accurate preparation for the exam",
     "exam": "Great opportunity to test your skills",
-    "favourites": "Questions that have been tagged ⭐️️"
+    "favourites": "Questions that have been tagged ⭐️️",
+    "aboutApp": "General information about the application"
   }
 }
