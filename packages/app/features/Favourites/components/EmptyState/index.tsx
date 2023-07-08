@@ -22,6 +22,7 @@ export const EmptyState: React.FC = () => {
             pr={8}
             fontFamily="$body"
             borderRadius={10}
+            color={'#fff'}
           >
             Избранное ⭐️
           </Text>

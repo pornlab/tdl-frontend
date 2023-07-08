@@ -22,6 +22,7 @@ export const TitleCounter: React.FC<Props> = ({ time, title, current, totalCount
           backgroundColor={'#7759c3'}
           borderRadius={10}
           marginRight={4}
+          color={'#fff'}
         >
           <span>{time}</span>
         </H4>

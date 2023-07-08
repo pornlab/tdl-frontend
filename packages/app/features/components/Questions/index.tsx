@@ -14,6 +14,7 @@ import { TitleCounter } from 'app/features/questionList/components/TitleCounter'
 import { FinishModal } from 'app/features/questionList/components/FinishModal'
 
 import { QuestionView } from 'app/features/question'
+import { HeaderButton } from 'app/features/components/HeaderButton'
 
 interface Props {
   store: Instance<typeof Session>
@@ -39,11 +40,6 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
 
   return (
     <Content>
-      {checkIsAllQuestionsAnswered() && (
-        <Button mb={'$4'} w={'90%'} {...menuLink}>
-          {i18next.t('question:goToMenu')}
-        </Button>
-      )}
       <Stack
         f={1}
         jc={'center'}
@@ -54,6 +50,9 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
         pl={16}
         pr={16}
       >
+        {checkIsAllQuestionsAnswered() && (
+          <HeaderButton href={'/'} text={i18next.t('question:goToMenu')} />
+        )}
         <StatusBar value={percent()} />
         <TitleCounter time={time} title={title} current={current} totalCount={totalCount} />
         <ToggleBar
