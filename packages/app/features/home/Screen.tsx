@@ -47,7 +47,7 @@ export const HomeScreen: React.FC = observer(() => {
         mb={20}
       >
         {isWeb && (
-          <H2 letterSpacing={0} lh={70} ta={'center'} pr={20}>
+          <H2 letterSpacing={0} lh={40} ta={'center'} pr={20} pt={20} pb={20}>
             Thailand Driving License
           </H2>
         )}

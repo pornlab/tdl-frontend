@@ -3,6 +3,8 @@ import { YStack, Stack, Button, H1, Paragraph, Text } from '@my/ui'
 import EmptyStateIcon from '../../../components/icons/emptyState.png'
 import { Image as ImageRN } from 'react-native'
 import { useLink } from 'solito/link'
+import i18next from 'i18next'
+import { HeaderButton } from 'app/features/components/HeaderButton'
 
 export const EmptyState: React.FC = () => {
   return (
@@ -27,13 +29,7 @@ export const EmptyState: React.FC = () => {
             Избранное ⭐️
           </Text>
         </Paragraph>
-        <Button
-          {...useLink({
-            href: '/',
-          })}
-        >
-          Вернуться в меню
-        </Button>
+        <HeaderButton href={'/'} text={i18next.t('question:goToMenu')} maxWidth={false} />
       </YStack>
     </Stack>
   )

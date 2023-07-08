@@ -8,6 +8,7 @@ import { Content } from 'app/features/components/Content'
 import { Links } from 'app/features/AboutApp/components/Links'
 import { Answers } from 'app/features/AboutApp/components/Answers'
 import { Header } from 'app/features/AboutApp/components/Header'
+import { HeaderButton } from 'app/features/components/HeaderButton'
 
 export const AboutApp: React.FC = observer(() => {
   const menuLink = useLink({ href: '/' })
@@ -24,9 +25,7 @@ export const AboutApp: React.FC = observer(() => {
         pr={16}
         mb={50}
       >
-        <Button w={'100%'} {...menuLink}>
-          {i18next.t('question:goToMenu')}
-        </Button>
+        <HeaderButton href={'/'} text={i18next.t('question:goToMenu')} />
         <YStack p={16} backgroundColor={'#F0F0F0'} w={'100%'} borderRadius={36} mt={20} pb={40}>
           <Header />
           <Links />
