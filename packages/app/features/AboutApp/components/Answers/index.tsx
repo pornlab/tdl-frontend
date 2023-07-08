@@ -1,8 +1,12 @@
 import * as React from 'react'
-import { YStack, Paragraph, H3, H2 } from '@my/ui'
+import { YStack, Paragraph, H3 } from '@my/ui'
 import i18next from 'i18next'
 import { LinksTypes } from 'app/features/AboutApp/components/Links'
-import { IAnswer } from 'app/features/AboutApp/components/Answers/Answer'
+
+export interface IAnswer {
+  title: string
+  description: string
+}
 
 export interface IAnswersMap {
   [linkType: string]: IAnswer

@@ -1,13 +1,10 @@
 import * as React from 'react'
 import { H1, YStack, Stack, Button, H4, Paragraph, H2, H3 } from '@my/ui'
 import { observer } from 'mobx-react'
-import { Content } from 'app/features/components/Content'
 import BookIcon from 'app/features/components/icons/book3.png'
 import { XStack } from 'tamagui'
 import { Image as ImageRN } from 'react-native'
 import i18next from 'i18next'
-import { Links } from 'app/features/AboutApp/components/Links'
-import { Answers } from 'app/features/AboutApp/components/Answers'
 
 export const Header: React.FC = observer(() => {
   return (
