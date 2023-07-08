@@ -47,7 +47,7 @@ export const listItems: ListItem[] = [
     color: '#dedede',
     iconColor: '#ababab',
     icon: Book,
-    link: `/favourites`,
+    link: `/aboutApp`,
     disabled: false,
   },
 ]
