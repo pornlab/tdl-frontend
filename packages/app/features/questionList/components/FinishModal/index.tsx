@@ -25,6 +25,7 @@ export interface Props {
   errorCount: number
   totalTime?: string
   startAgain: () => void
+  time?: string
 }
 
 export const FinishModal: React.FC<Props> = ({

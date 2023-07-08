@@ -8,12 +8,13 @@ import { defaultSessionSnapshot, Session } from '../../../business-logic/stores/
 import { getTimerValue, TimerMode, useTimer } from 'app/features/components/Questions/timer'
 
 export const Exam: React.FC = observer(() => {
-  const timer = useTimer(3600, TimerMode.EXAM)
+  const timer = useTimer(3599, TimerMode.EXAM)
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
       questions: [...getExamQuestions()],
+      stopTimer: timer.stop,
     })
   )
 
-  return <Questions time={getTimerValue(timer)} store={sessionStore} title={'Exam'} />
+  return <Questions time={getTimerValue(timer.value)} store={sessionStore} title={'Exam'} />
 })

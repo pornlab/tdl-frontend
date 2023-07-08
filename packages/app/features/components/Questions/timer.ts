@@ -5,7 +5,13 @@ export enum TimerMode {
   DEFAULT,
 }
 
-type Timer = (value: number, mode: TimerMode) => number[]
+type Timer = (
+  value: number,
+  mode: TimerMode
+) => {
+  value: number[]
+  stop: () => void
+}
 
 export const getTimerValue = ([hours, minutes, seconds]: number[]): string => {
   return `${hours > 0 ? hours + ':' : ''}${minutes < 10 ? '0' + minutes : minutes}:${
@@ -15,9 +21,11 @@ export const getTimerValue = ([hours, minutes, seconds]: number[]): string => {
 
 const useTimer: Timer = (value, mode: TimerMode) => {
   const [countDown, setCount] = useState(value)
+  const [stopped, setStopped] = useState(false)
 
   useEffect(() => {
     const interval = setInterval(() => {
+      if (stopped) return
       const count = mode === TimerMode.DEFAULT ? countDown + 1 : countDown - 1
       setCount(count < 0 ? 0 : count)
     }, 1000)
@@ -25,7 +33,12 @@ const useTimer: Timer = (value, mode: TimerMode) => {
     return () => clearInterval(interval)
   }, [countDown])
 
-  return getReturnValues(countDown)
+  const stop = () => setStopped(true)
+
+  return {
+    value: getReturnValues(countDown),
+    stop,
+  }
 }
 
 const getReturnValues = (countDown) => {

@@ -70,6 +70,7 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           rightCount={rightAnswersCount()}
           errorCount={errorAnswersCount()}
           startAgain={reset}
+          totalTime={time}
         />
       )}
     </Content>

@@ -15,5 +15,5 @@ export const Marathon: React.FC = observer(() => {
     })
   )
 
-  return <Questions time={getTimerValue(timer)} store={sessionStore} title={'Marathon'} />
+  return <Questions time={getTimerValue(timer.value)} store={sessionStore} title={'Marathon'} />
 })

@@ -4,6 +4,7 @@ import {Question} from "app/features/dbList/interfaces";
 
 export interface SessionEnvironment {
     questions: Question[]
+    stopTimer?: () => void;
 }
 
 export const Session = types.model({
@@ -13,7 +14,7 @@ export const Session = types.model({
     bar: types.number,
     timer: types.number,
 }).actions(self => {
-    const { questions } = getEnv<SessionEnvironment>(self);
+    const { questions, stopTimer } = getEnv<SessionEnvironment>(self);
 
     const setTotalCount = (totalCount: number) => {
         self.totalCount = totalCount;
@@ -34,8 +35,11 @@ export const Session = types.model({
         checkIsAllQuestionsAnswered();
     }
 
-    const checkIsAllQuestionsAnswered = () =>
-        self.questions.reduce((res, question) => [...res, question.isUserAnswered()], []).every(r => Boolean(r))
+    const checkIsAllQuestionsAnswered = () => {
+        const allQuestionsAnswered = self.questions.reduce((res, question) => [...res, question.isUserAnswered()], []).every(r => Boolean(r))
+        allQuestionsAnswered && stopTimer && stopTimer();
+        return allQuestionsAnswered
+    }
 
     const goToNextQuestion = () => {
         if (checkIsAllQuestionsAnswered()) return;
