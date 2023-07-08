@@ -12,6 +12,7 @@ import I700 from './700.png'
 import I800 from './800.png'
 import I900 from './900.png'
 import I1000 from './1000.png'
+import I1100 from './1100.png'
 import I1200 from './1200.png'
 import I1300 from './1300.png'
 import I1400 from './1400.png'
@@ -34,6 +35,7 @@ export const images = {
   800: I800,
   900: I900,
   1000: I1000,
+  1100: I1100,
   1200: I1200,
   1300: I1300,
   1400: I1400,
