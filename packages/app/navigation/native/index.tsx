@@ -8,6 +8,7 @@ import { QuestionList } from 'app/features/questionList'
 import { Favourites } from 'app/features/favourites'
 import { Marathon } from 'app/features/Marathon'
 import { Exam } from 'app/features/Exam'
+import { AboutApp } from 'app/features/AboutApp'
 
 const Stack = createNativeStackNavigator<{
   home: undefined
@@ -15,6 +16,7 @@ const Stack = createNativeStackNavigator<{
   favourites: undefined
   marathon: undefined
   exam: undefined
+  aboutApp: undefined
   question: {
     id: string
   }
@@ -93,6 +95,17 @@ export function NativeNavigation() {
         component={Exam}
         options={{
           title: 'Экзамен',
+          headerBackTitle: 'Меню',
+          headerTitleStyle: {
+            fontSize: 20,
+          },
+        }}
+      />
+      <Stack.Screen
+        name="aboutApp"
+        component={AboutApp}
+        options={{
+          title: 'О приложении',
           headerBackTitle: 'Меню',
           headerTitleStyle: {
             fontSize: 20,

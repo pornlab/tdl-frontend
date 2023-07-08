@@ -21,6 +21,7 @@ export function NavigationProvider({ children }: { children: React.ReactNode }) 
               theme: 'theme/:id',
               favourites: 'favourites',
               marathon: 'marathon',
+              aboutApp: 'aboutApp',
             },
           },
         }),
