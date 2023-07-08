@@ -1,11 +1,13 @@
 import * as React from 'react'
-import { YStack, Stack, Button } from '@my/ui'
+import i18next from 'i18next'
 import { observer } from 'mobx-react'
+import { useLink } from 'solito/link'
+import { YStack, Stack, Button } from '@my/ui'
+
 import { Content } from 'app/features/components/Content'
 import { Links } from 'app/features/AboutApp/components/Links'
 import { Answers } from 'app/features/AboutApp/components/Answers'
 import { Header } from 'app/features/AboutApp/components/Header'
-import { useLink } from 'solito/link'
 
 export const AboutApp: React.FC = observer(() => {
   const menuLink = useLink({ href: '/' })
@@ -23,7 +25,7 @@ export const AboutApp: React.FC = observer(() => {
         mb={50}
       >
         <Button w={'100%'} {...menuLink}>
-          Вернуться в меню
+          {i18next.t('question:goToMenu')}
         </Button>
         <YStack p={16} backgroundColor={'#F0F0F0'} w={'100%'} borderRadius={36} mt={20} pb={40}>
           <Header />

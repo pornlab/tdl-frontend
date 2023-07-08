@@ -14,10 +14,10 @@ export interface LinksMap {
 }
 
 export const LinksI18n: LinksMap = {
-  [LinksTypes.ACTUAL]: i18next.t('Актуальность вопросов'),
-  [LinksTypes.FREE]: i18next.t('Приложение бесплатное?'),
-  [LinksTypes.LINKS]: i18next.t('Как найти сайт и приложения?'),
-  [LinksTypes.CONTACTS]: i18next.t('Контакты для связи'),
+  [LinksTypes.ACTUAL]: i18next.t('about:title.actualQuestions'),
+  [LinksTypes.FREE]: i18next.t('about:title.freeApp'),
+  [LinksTypes.LINKS]: i18next.t('about:title.linksApp'),
+  [LinksTypes.CONTACTS]: i18next.t('about:title.contacts'),
 }
 
 export const Links: React.FC = () => {

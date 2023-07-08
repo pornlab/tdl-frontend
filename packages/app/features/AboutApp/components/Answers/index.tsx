@@ -14,26 +14,20 @@ export interface IAnswersMap {
 
 export const AnswersMap: IAnswersMap = {
   [LinksTypes.ACTUAL]: {
-    title: i18next.t('Актуальность вопросов'),
-    description: i18next.t(
-      'На данный момент вопросы являются актуальными на 2020 год. Однако этого достаточно для обучения, так как многие вопросы схожие. К сожалению, я не смог получить актуальный список в автошколе на острове Самуи. Как только это удастся, я обязательно размещу их на сайте и в приложении'
-    ),
+    title: i18next.t('about:title.actualQuestions'),
+    description: i18next.t('about:answers.actualQuestions'),
   },
   [LinksTypes.FREE]: {
-    title: i18next.t('Приложение бесплатное?'),
-    description: i18next.t(
-      'На данный момент все функции приложения бесплатны. Когда я готовился к экзамену, было сложно найти хороший бесплатный ресурс для обучения. Я не преследую цель заработка в этом приложении'
-    ),
+    title: i18next.t('about:title.freeApp'),
+    description: i18next.t('about:answers.freeApp'),
   },
   [LinksTypes.LINKS]: {
-    title: i18next.t('Ссылка на сайт / приложение'),
-    description: i18next.t(
-      'Сайт: https://develop.tdlb.site App Store: [подготовка к релизу] Google Play: [подготовка к релизу]'
-    ),
+    title: i18next.t('about:title.linksApp'),
+    description: i18next.t('about:answers.linksApp'),
   },
   [LinksTypes.CONTACTS]: {
-    title: i18next.t('Контакты для связи'),
-    description: i18next.t('Telegram: https://t.me/hard_dev\n' + 'Почта: moonysl@icloud.com'),
+    title: i18next.t('about:title.contacts'),
+    description: i18next.t('about:answers.contacts'),
   },
 }
 

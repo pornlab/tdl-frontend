@@ -34,7 +34,7 @@ export const Header: React.FC = observer(() => {
       </Stack>
       <YStack f={1} ai={'center'} jc={'center'} flexWrap="nowrap">
         <H3 color={'#484848'} ls={0}>
-          {i18next.t('О приложении')}
+          {i18next.t('mainMenu:aboutApp')}
         </H3>
       </YStack>
     </XStack>
