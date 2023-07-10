@@ -44,6 +44,6 @@ THUMBS_DB
 thumbs.db
 
 .idea/prettier.xml
-.yarn/releases/
+#.yarn/releases/
 apps/next/node_modules/
 
