@@ -31,7 +31,7 @@ export const AboutApp: React.FC = observer(() => {
           <Answers />
         </YStack>
       </Stack>
-      <Paragraph>
+      <Paragraph mb={40}>
         <Link href="https://www.flaticon.com/authors/xnimrodx" title="Icons">
           Icons created by xnimrodx - Flaticon
         </Link>

@@ -1,14 +1,14 @@
 {
   "title": {
-    "actualQuestions": "[de]Актуальность вопросов",
-    "freeApp": "Приложение бесплатное?",
-    "linksApp": "Как найти сайт и приложения?",
-    "contacts": "Контакты для связи"
+    "actualQuestions": "Relevanz der Fragen",
+    "freeApp": "Ist die App kostenlos?",
+    "linksApp": "Wie finde ich die Website und die Anwendungen?",
+    "contacts": "Kontakte für die Kommunikation"
   },
   "answers": {
-    "actualQuestions": "На данный момент вопросы являются актуальными на 2020 год. Однако этого достаточно для обучения, так как многие вопросы схожие. К сожалению, я не смог получить актуальный список в автошколе на острове Самуи. Как только это удастся, я обязательно размещу их на сайте и в приложении",
-    "freeApp": "На данный момент все функции приложения бесплатны. Когда я готовился к экзамену, было сложно найти хороший бесплатный ресурс для обучения. Я не преследую цель заработка в этом приложении\n\n",
-    "linksApp": "Сайт: https://develop.tdlb.site App Store: [подготовка к релизу] Google Play: [подготовка к релизу]\n\n",
-    "contacts": "Telegram: https://t.me/hard_dev Почта: moonysl@icloud.com\n\n"
+    "actualQuestions": "Im Moment sind die Fragen für 2020 relevant. Dies reicht jedoch zum Lernen aus, da viele Fragen ähnlich sind. Leider konnte ich von der Fahrschule in Koh Samui keine aktuelle Liste erhalten. Sobald es mir gelingt, werde ich sie auf jeden Fall auf der Seite und in der Bewerbung veröffentlichen.",
+    "freeApp": "Derzeit sind alle Funktionen der Anwendung kostenlos. Als ich mich auf die Prüfung vorbereitete, war es schwierig, eine gute kostenlose Lernressource zu finden. Das Ziel Verdienen verfolge ich mit dieser Bewerbung nicht",
+    "linksApp": "Website: https://develop.tdlb.site\nApp Store: [wird zur Veröffentlichung vorbereitet]\nGoogle Play: [Veröffentlichung wird vorbereitet]",
+    "contacts": "Telegramm: https://t.me/hard_dev\nE-Mail:moonysl@icloud.com"
   }
 }

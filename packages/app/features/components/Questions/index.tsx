@@ -1,8 +1,7 @@
 import * as React from 'react'
 import i18next from 'i18next'
-import { useLink } from 'solito/link'
 import { observer } from 'mobx-react'
-import { Button, Stack } from '@my/ui'
+import { Stack } from '@my/ui'
 import { Instance } from 'mobx-state-tree'
 
 import { Session } from '../../../../business-logic/stores/Session'
@@ -15,7 +14,6 @@ import { FinishModal } from 'app/features/questionList/components/FinishModal'
 
 import { QuestionView } from 'app/features/question'
 import { HeaderButton } from 'app/features/components/HeaderButton'
-import { toJS } from 'mobx'
 
 interface Props {
   store: Instance<typeof Session>
@@ -77,15 +75,15 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           title={
             store.isExam
               ? store.isExamResultSuccess()
-                ? 'Экзамен сдан'
-                : 'Экзамен не сдан'
+                ? i18next.t('question:examSuccess')
+                : i18next.t('question:examNotSuccess')
               : undefined
           }
           description={
             store.isExam
               ? store.isExamResultSuccess()
-                ? 'Отличный результат! Поздравляем!'
-                : 'Изучите свои ошибки и попробуйте еще раз'
+                ? i18next.t('question:examSuccessDescription')
+                : i18next.t('question:examNotSuccessDescription')
               : undefined
           }
         />

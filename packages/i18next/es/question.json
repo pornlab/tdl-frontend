@@ -7,5 +7,11 @@
   "totalTime": "Tiempo",
   "startAgain": "Comenzar de nuevo",
   "goToMenu": "Volver al menú",
-  "checkAnswers": "Revisar respuestas"
+  "checkAnswers": "Revisar respuestas",
+  "addToFavourites": "Agregar a los favoritos ⭐",
+  "removeFromFavourites": "Quitar de favoritos ⭐",
+  "examSuccess": "Examen pasado",
+  "examSuccessDescription": "¡Excelente resultado! ¡Felicidades!",
+  "examNotSuccess": "Examen no aprobado",
+  "examNotSuccessDescription": "Aprende tus errores e inténtalo de nuevo"
 }

@@ -1,14 +1,14 @@
 {
   "title": {
-    "actualQuestions": "[fr]Актуальность вопросов",
-    "freeApp": "Приложение бесплатное?",
-    "linksApp": "Как найти сайт и приложения?",
-    "contacts": "Контакты для связи"
+    "actualQuestions": "Pertinence des questions",
+    "freeApp": "L'application est-elle gratuite ?",
+    "linksApp": "Comment trouver le site et les applications ?",
+    "contacts": "Contacts pour communiquer"
   },
   "answers": {
-    "actualQuestions": "На данный момент вопросы являются актуальными на 2020 год. Однако этого достаточно для обучения, так как многие вопросы схожие. К сожалению, я не смог получить актуальный список в автошколе на острове Самуи. Как только это удастся, я обязательно размещу их на сайте и в приложении",
-    "freeApp": "На данный момент все функции приложения бесплатны. Когда я готовился к экзамену, было сложно найти хороший бесплатный ресурс для обучения. Я не преследую цель заработка в этом приложении\n\n",
-    "linksApp": "Сайт: https://develop.tdlb.site App Store: [подготовка к релизу] Google Play: [подготовка к релизу]\n\n",
-    "contacts": "Telegram: https://t.me/hard_dev Почта: moonysl@icloud.com\n\n"
+    "actualQuestions": "Pour le moment, les questions sont pertinentes pour 2020. Cependant, cela suffit pour apprendre, car de nombreuses questions sont similaires. Malheureusement, je n'ai pas pu obtenir de liste à jour de l'auto-école de Koh Samui. Dès que j'y parviendrai, je les publierai certainement sur le site et dans l'application",
+    "freeApp": "Pour le moment, toutes les fonctionnalités de l'application sont gratuites. Lorsque j'étudiais pour un examen, il était difficile de trouver une bonne ressource d'étude gratuite. Je ne poursuis pas l'objectif de gagner dans cette application",
+    "linksApp": "Site Web : https://develop.tdlb.site\nApp Store: [préparation de la sortie]\nGoogle Play: [préparation de la sortie]",
+    "contacts": "Telegram: https://t.me/hard_dev\nПочта: moonysl@icloud.com"
   }
 }

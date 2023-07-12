@@ -132,7 +132,9 @@ export const QuestionView: React.FC<Props> = observer(({ data, isExam, goToNextQ
             onPress={toggleFavourite}
           >
             <Paragraph color={'#fff'} fontWeight={'bold'}>
-              {!isFavourite ? 'Add to favorites ⭐️' : 'Remove from favourites ⭐️'}
+              {i18next.t(
+                !isFavourite ? 'question:addToFavourites' : 'question:removeFromFavourites'
+              )}
             </Paragraph>
           </Stack>
           <LanguageSelect value={language} onChange={setLanguage} />

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { observer } from 'mobx-react'
+import i18next from 'i18next'
 
 import { Questions } from 'app/features/components/Questions'
 import { getExamQuestions } from '../dbList/helpers/getTheme'
@@ -18,5 +19,11 @@ export const Exam: React.FC = observer(() => {
     })
   )
 
-  return <Questions time={getTimerValue(timer.value)} store={sessionStore} title={'Exam'} />
+  return (
+    <Questions
+      time={getTimerValue(timer.value)}
+      store={sessionStore}
+      title={i18next.t('mainMenu:exam')}
+    />
+  )
 })
