@@ -1,8 +1,7 @@
 import * as React from 'react'
 import i18next from 'i18next'
-import { useLink } from 'solito/link'
 import { observer } from 'mobx-react'
-import { Button, Stack } from '@my/ui'
+import { Stack } from '@my/ui'
 import { Instance } from 'mobx-state-tree'
 
 import { Session } from '../../../../business-logic/stores/Session'
@@ -36,8 +35,6 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
     reset,
   } = store
 
-  const menuLink = useLink({ href: '/' })
-
   return (
     <Content>
       <Stack
@@ -60,8 +57,13 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           totalCount={totalCount}
           onChange={setCurrent}
           questions={questions}
+          isExam={store.isExam}
         />
-        <QuestionView data={questions[current - 1]} goToNextQuestion={goToNextQuestion} />
+        <QuestionView
+          data={questions[current - 1]}
+          goToNextQuestion={goToNextQuestion}
+          isExam={store.isExam}
+        />
       </Stack>
       {checkIsAllQuestionsAnswered() && (
         <FinishModal
@@ -70,6 +72,20 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           errorCount={errorAnswersCount()}
           startAgain={reset}
           totalTime={time}
+          title={
+            store.isExam
+              ? store.isExamResultSuccess()
+                ? i18next.t('question:examSuccess')
+                : i18next.t('question:examNotSuccess')
+              : undefined
+          }
+          description={
+            store.isExam
+              ? store.isExamResultSuccess()
+                ? i18next.t('question:examSuccessDescription')
+                : i18next.t('question:examNotSuccessDescription')
+              : undefined
+          }
         />
       )}
     </Content>

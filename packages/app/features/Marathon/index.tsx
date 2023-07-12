@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { observer } from 'mobx-react'
+import i18next from 'i18next'
 
 import { Questions } from 'app/features/components/Questions'
 import { getMaraphoneQuestions } from '../dbList/helpers/getTheme'
@@ -11,9 +12,17 @@ export const Marathon: React.FC = observer(() => {
   const timer = useTimer(0, TimerMode.DEFAULT)
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
-      questions: [...getMaraphoneQuestions()],
+      questions: getMaraphoneQuestions(),
+      stopTimer: timer.stop,
+      restartTimer: timer.restart,
     })
   )
 
-  return <Questions time={getTimerValue(timer.value)} store={sessionStore} title={'Marathon'} />
+  return (
+    <Questions
+      time={getTimerValue(timer.value)}
+      store={sessionStore}
+      title={i18next.t('mainMenu:marathon')}
+    />
+  )
 })

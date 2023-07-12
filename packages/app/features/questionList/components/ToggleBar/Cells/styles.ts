@@ -20,16 +20,18 @@ export const activeStyle = {
   borderWidth: 0,
 }
 
-export const getStyle = (type: CellType) => {
+export const getStyle = (type: CellType, isExam?: boolean) => {
   switch (type) {
-    // case CellType.Base:
-    //   return baseStyle
-    // case CellType.Active:
-    //   return activeStyle
     case CellType.Success:
-      return successStyle
+      return {
+        ...successStyle,
+        backgroundColor: isExam ? '#313131FF' : successStyle.backgroundColor,
+      }
     case CellType.Error:
-      return errorStyle
+      return {
+        ...errorStyle,
+        backgroundColor: isExam ? '#313131FF' : errorStyle.backgroundColor,
+      }
     default:
       return baseStyle
   }

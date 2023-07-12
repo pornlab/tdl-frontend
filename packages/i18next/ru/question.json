@@ -7,5 +7,11 @@
   "totalTime": "Время",
   "startAgain": "Начать заново",
   "goToMenu": "Вернуться в меню",
-  "checkAnswers": "Проверить ответы"
+  "checkAnswers": "Проверить ответы",
+  "addToFavourites": "Добавить в избранное ⭐",
+  "removeFromFavourites": "Удалить из избранного ⭐",
+  "examSuccess": "Экзамен сдан",
+  "examSuccessDescription": "Отличный результат! Поздравляем!",
+  "examNotSuccess": "Экзамен не сдан",
+  "examNotSuccessDescription": "Изучите свои ошибки и попробуйте еще раз"
 }

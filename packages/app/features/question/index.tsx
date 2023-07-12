@@ -8,20 +8,17 @@ import { Content } from 'app/features/components/Content'
 import { Answer, ModeTypes, Question } from '../../../business-logic/stores/Question'
 import { Image } from '../components/Image'
 import { LanguageSelect } from 'app/features/components/Select'
-import i18next, { changeLanguage } from 'i18next'
-import { Languages } from 'app/configs/i18next'
+import i18next from 'i18next'
 import { useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { toJS } from 'mobx'
 
 interface Props {
   data: Instance<typeof Question>
   goToNextQuestion: () => void
+  isExam?: boolean
 }
 
-const { width, height } = Dimensions.get('window')
-
-export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion }) => {
+export const QuestionView: React.FC<Props> = observer(({ data, isExam, goToNextQuestion }) => {
   const [language, setLanguage] = useState(i18next.language)
   const [isFavourite, setFavourite] = useState(false)
 
@@ -90,7 +87,7 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
   return (
     <Content>
       {/*<YStack width={width > 700 ? 668 : width - 32} p={10} mb={'$20'}>*/}
-      <YStack width={'100%'} p={10} mb={'$20'}>
+      <YStack width={'100%'} mb={'$20'}>
         <H3 letterSpacing={0} pb={'$6'}>{`${title[language].value}`}</H3>
         {data.imageId && <Image id={data.imageId} />}
         {answers.map((answer, index) => (
@@ -112,10 +109,11 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
                 () => {
                   goToNextQuestion()
                 },
-                data.isRightAnswer() ? 500 : 1000
+                data.isRightAnswer() || isExam ? 500 : 1000
               )
             }}
-            backgroundColor={getBackground(answer)}
+            backgroundColor={isExam ? 'transparent' : getBackground(answer)}
+            boxShadow={answer.isUserAnswer && isExam ? 'inset 0px 0px 0px 3px #ffbd02' : 'none'}
           >
             <Paragraph lh={30} p={'$3'} fontSize={17}>
               {answer.value[language]}
@@ -134,7 +132,9 @@ export const QuestionView: React.FC<Props> = observer(({ data, goToNextQuestion 
             onPress={toggleFavourite}
           >
             <Paragraph color={'#fff'} fontWeight={'bold'}>
-              {!isFavourite ? 'Add to favorites ⭐️' : 'Remove from favourites ⭐️'}
+              {i18next.t(
+                !isFavourite ? 'question:addToFavourites' : 'question:removeFromFavourites'
+              )}
             </Paragraph>
           </Stack>
           <LanguageSelect value={language} onChange={setLanguage} />

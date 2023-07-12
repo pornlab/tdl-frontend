@@ -11,6 +11,7 @@ type Timer = (
 ) => {
   value: number[]
   stop: () => void
+  restart: () => void
 }
 
 export const getTimerValue = ([hours, minutes, seconds]: number[]): string => {
@@ -34,10 +35,15 @@ const useTimer: Timer = (value, mode: TimerMode) => {
   }, [countDown])
 
   const stop = () => setStopped(true)
+  const restart = () => {
+    setCount(value)
+    setStopped(false)
+  }
 
   return {
     value: getReturnValues(countDown),
     stop,
+    restart,
   }
 }
 

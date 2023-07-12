@@ -28,7 +28,7 @@ export default class Document extends NextDocument {
     return (
       <Html>
         <Head>
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" lang={'en'} />
         </Head>
         <body>
           <Main />

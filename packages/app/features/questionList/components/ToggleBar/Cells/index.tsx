@@ -18,6 +18,7 @@ interface Props {
   isFirst: boolean
   isLast: boolean
   isActive?: boolean
+  isExam?: boolean
 }
 
 export const getCellType = (current: number, questions: Instance<typeof Questions>): CellType => {
@@ -37,12 +38,16 @@ export const getCellType = (current: number, questions: Instance<typeof Question
   return CellType.Base
 }
 
-export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst, isLast }) => {
+export const Cell: React.FC<Props> = ({
+  value,
+  isExam,
+  type,
+  isActive,
+  onClick,
+  isFirst,
+  isLast,
+}) => {
   const onPress = () => onClick(value)
-  const style = {
-    ...getStyle(type),
-    // ...(isActive && activeStyle),
-  }
 
   return (
     <Stack
@@ -51,7 +56,7 @@ export const Cell: React.FC<Props> = ({ value, type, isActive, onClick, isFirst,
       bw={1}
       onPress={onPress}
       style={{
-        ...style,
+        ...getStyle(type, isExam),
         boxShadow: isActive ? `#ffbd00 0px 0px 0px 5px inset` : null, //ffbd00
         marginRight: 0,
       }}

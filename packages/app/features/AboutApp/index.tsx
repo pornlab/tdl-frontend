@@ -1,8 +1,8 @@
 import * as React from 'react'
 import i18next from 'i18next'
 import { observer } from 'mobx-react'
-import { useLink } from 'solito/link'
-import { YStack, Stack, Button } from '@my/ui'
+import { Link } from 'solito/link'
+import { YStack, Stack, Paragraph } from '@my/ui'
 
 import { Content } from 'app/features/components/Content'
 import { Links } from 'app/features/AboutApp/components/Links'
@@ -11,7 +11,6 @@ import { Header } from 'app/features/AboutApp/components/Header'
 import { HeaderButton } from 'app/features/components/HeaderButton'
 
 export const AboutApp: React.FC = observer(() => {
-  const menuLink = useLink({ href: '/' })
   return (
     <Content>
       <Stack
@@ -32,6 +31,11 @@ export const AboutApp: React.FC = observer(() => {
           <Answers />
         </YStack>
       </Stack>
+      <Paragraph mb={40}>
+        <Link href="https://www.flaticon.com/authors/xnimrodx" title="Icons">
+          Icons created by xnimrodx - Flaticon
+        </Link>
+      </Paragraph>
     </Content>
   )
 })

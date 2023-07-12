@@ -1,11 +1,11 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import * as React from 'react'
 
-import { HomeScreen } from '../../features/home/Screen'
+import { HomeScreen } from 'app/features/home/Screen'
 import { ThemesScreen } from 'app/features/themes'
 import { QuestionView } from 'app/features/question'
 import { QuestionList } from 'app/features/questionList'
-import { Favourites } from 'app/features/favourites'
+import { Favourites } from 'app/features/Favourites'
 import { Marathon } from 'app/features/Marathon'
 import { Exam } from 'app/features/Exam'
 import { AboutApp } from 'app/features/AboutApp'
