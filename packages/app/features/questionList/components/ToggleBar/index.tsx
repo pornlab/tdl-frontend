@@ -13,10 +13,11 @@ interface Props {
   totalCount: number
   onChange: (value: number) => void
   questions: Instance<typeof Questions>
+  isExam?: boolean
 }
 
 export const ToggleBar: React.FC<Props> = observer(
-  ({ current, totalCount, onChange, questions }) => {
+  ({ current, isExam, totalCount, onChange, questions }) => {
     const [numbers, setNumber] = useState(
       Array.from({ length: totalCount }, (_, index) => index + 1)
     )
@@ -88,6 +89,7 @@ export const ToggleBar: React.FC<Props> = observer(
                     type={getCellType(questionNumber - 1, questions)}
                     isFirst={isFirst}
                     isLast={isLast}
+                    isExam={isExam}
                     isActive
                   />
                 )
@@ -100,6 +102,7 @@ export const ToggleBar: React.FC<Props> = observer(
                     type={getCellType(questionNumber - 1, questions)}
                     isFirst={isFirst}
                     isLast={isLast}
+                    isExam={isExam}
                   />
                 )
             })}

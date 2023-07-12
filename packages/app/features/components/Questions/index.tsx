@@ -59,6 +59,7 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           totalCount={totalCount}
           onChange={setCurrent}
           questions={questions}
+          isExam={store.isExam}
         />
         <QuestionView
           data={questions[current - 1]}
