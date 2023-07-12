@@ -103,7 +103,7 @@ export const Session = types.model({
         const errorCount = self.questions.reduce((arr, question, index) => {
             return arr + +!question.isRightAnswer();
         }, 0);
-        return errorCount <= 1
+        return errorCount <= 5
     }
 }))
 
