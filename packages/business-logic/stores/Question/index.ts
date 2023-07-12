@@ -3,7 +3,7 @@ import {Languages} from "app/configs/i18next";
 
 export enum ModeTypes {
     SHOW_ANSWER = 'showAnswer',
-    QUESTION = 'question'
+    QUESTION = 'question',
 }
 
 const TitleValue = types.model({

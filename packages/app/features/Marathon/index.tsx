@@ -12,6 +12,8 @@ export const Marathon: React.FC = observer(() => {
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
       questions: [...getMaraphoneQuestions()],
+      stopTimer: timer.stop,
+      restartTimer: timer.restart,
     })
   )
 

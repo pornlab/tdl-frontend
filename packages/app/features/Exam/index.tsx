@@ -11,8 +11,10 @@ export const Exam: React.FC = observer(() => {
   const timer = useTimer(3599, TimerMode.EXAM)
   const [sessionStore, setSessionStore] = useState(
     Session.create(defaultSessionSnapshot, {
-      questions: [...getExamQuestions()],
+      questions: getExamQuestions(),
       stopTimer: timer.stop,
+      restartTimer: timer.restart,
+      isExam: true,
     })
   )
 

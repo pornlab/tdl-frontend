@@ -15,6 +15,7 @@ import { FinishModal } from 'app/features/questionList/components/FinishModal'
 
 import { QuestionView } from 'app/features/question'
 import { HeaderButton } from 'app/features/components/HeaderButton'
+import { toJS } from 'mobx'
 
 interface Props {
   store: Instance<typeof Session>
@@ -35,8 +36,6 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
     goToNextQuestion,
     reset,
   } = store
-
-  const menuLink = useLink({ href: '/' })
 
   return (
     <Content>
@@ -61,7 +60,11 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           onChange={setCurrent}
           questions={questions}
         />
-        <QuestionView data={questions[current - 1]} goToNextQuestion={goToNextQuestion} />
+        <QuestionView
+          data={questions[current - 1]}
+          goToNextQuestion={goToNextQuestion}
+          isExam={store.isExam}
+        />
       </Stack>
       {checkIsAllQuestionsAnswered() && (
         <FinishModal
@@ -70,6 +73,20 @@ export const Questions: React.FC<Props> = observer(({ store, time, title }) => {
           errorCount={errorAnswersCount()}
           startAgain={reset}
           totalTime={time}
+          title={
+            store.isExam
+              ? store.isExamResultSuccess()
+                ? 'Экзамен сдан'
+                : 'Экзамен не сдан'
+              : undefined
+          }
+          description={
+            store.isExam
+              ? store.isExamResultSuccess()
+                ? 'Отличный результат! Поздравляем!'
+                : 'Изучите свои ошибки и попробуйте еще раз'
+              : undefined
+          }
         />
       )}
     </Content>

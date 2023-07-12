@@ -1,10 +1,12 @@
-import {applySnapshot, getEnv, SnapshotIn, types, unprotect} from "mobx-state-tree";
+import {applySnapshot, getEnv, SnapshotIn, types} from "mobx-state-tree";
 import {ModeTypes, Questions} from "../Question";
 import {Question} from "app/features/dbList/interfaces";
 
 export interface SessionEnvironment {
     questions: Question[]
     stopTimer?: () => void;
+    restartTimer?: () => void;
+    isExam?: boolean
 }
 
 export const Session = types.model({
@@ -12,20 +14,21 @@ export const Session = types.model({
     totalCount: types.number,
     current: types.number,
     bar: types.number,
-    timer: types.number,
+    isExam: types.boolean,
+    isExamFinished: types.boolean
 }).actions(self => {
-    const { questions, stopTimer } = getEnv<SessionEnvironment>(self);
+    const { questions, stopTimer, restartTimer, isExam } = getEnv<SessionEnvironment>(self);
 
     const setTotalCount = (totalCount: number) => {
         self.totalCount = totalCount;
         self.current = Number(Boolean(totalCount));
     }
 
-    const setTimer = (v) => self.timer = v
-
     const afterCreate = () => {
+        self.isExam = Boolean(isExam);
+        self.isExamFinished = Boolean(false);
         self.questions.push(...questions.reduce((arr, question, index) =>
-            [...arr, {...question, mode: ModeTypes.QUESTION}], []
+            [...arr, {...question, mode: ModeTypes.QUESTION }], []
         ));
         setTotalCount(self.questions.length);
     }
@@ -37,7 +40,10 @@ export const Session = types.model({
 
     const checkIsAllQuestionsAnswered = () => {
         const allQuestionsAnswered = self.questions.reduce((res, question) => [...res, question.isUserAnswered()], []).every(r => Boolean(r))
-        allQuestionsAnswered && stopTimer && stopTimer();
+        if (allQuestionsAnswered) {
+            stopTimer && stopTimer();
+            self.isExamFinished = Boolean(isExam);
+        }
         return allQuestionsAnswered
     }
 
@@ -61,7 +67,8 @@ export const Session = types.model({
 
     const reset = () => {
         applySnapshot(self, defaultSessionSnapshot);
-        self.timer = 0;
+        restartTimer && restartTimer()
+        self.isExamFinished = Boolean(isExam);
         afterCreate();
     }
 
@@ -72,7 +79,6 @@ export const Session = types.model({
         setCurrent,
         goToNextQuestion,
         reset,
-        setTimer
     }
 }).volatile(self => ({
     isEmptyQuestionList: !Boolean(self.questions.length),
@@ -92,24 +98,20 @@ export const Session = types.model({
         return self.questions.reduce((arr, question, index) => {
             return arr + +!question.isRightAnswer();
         }, 0);
+    },
+    isExamResultSuccess: () => {
+        const errorCount = self.questions.reduce((arr, question, index) => {
+            return arr + +!question.isRightAnswer();
+        }, 0);
+        return errorCount <= 1
     }
-})).views(self => {
-    const getTime = () => {
-        const timer = self.timer;
-        const hours = timer / 3600
-        const minutes = (timer % 3600) / 60
-        const seconds = (12700 % 3600) % 60
-        return `${hours + ':' || ''}` + `${minutes}:${seconds}`
-    }
-    return {
-        getTime
-    }
-})
+}))
 
 export const defaultSessionSnapshot: SnapshotIn<typeof Session> = {
     questions: [],
     bar: 0,
     totalCount: 0,
     current: 0,
-    timer: 0
+    isExam: false,
+    isExamFinished: false
 }

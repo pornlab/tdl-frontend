@@ -26,6 +26,8 @@ export interface Props {
   totalTime?: string
   startAgain: () => void
   time?: string
+  title?: string
+  description?: string
 }
 
 export const FinishModal: React.FC<Props> = ({
@@ -34,6 +36,8 @@ export const FinishModal: React.FC<Props> = ({
   startAgain,
   totalTime,
   errorCount,
+  title,
+  description,
 }) => {
   const [isOpen, setOpen] = useState(true)
 
@@ -46,10 +50,8 @@ export const FinishModal: React.FC<Props> = ({
 
   return (
     <>
-      {/*<Button onPress={() => setOpen(true)}>{'Open Modal'}</Button>*/}
       <Modal isOpen={isOpen} onClose={() => setOpen(false)} snapPoints={[90]}>
         <Content>
-          {/*{!sessionStore.checkIsAllQuestionsAnswered() && <FinishModal />}*/}
           <Stack
             f={1}
             jc={'center'}
@@ -63,10 +65,14 @@ export const FinishModal: React.FC<Props> = ({
             maxWidth={500}
             mb={100}
           >
-            <H1 ls={0}>{i18next.t('question:excellent')}</H1>
+            <H1 ls={0} ta={'center'}>
+              {i18next.t(title || 'question:excellent')}
+            </H1>
+
             <Paragraph color={'#8B8B8B'} fontSize={20} pt={8} ta={'center'}>
-              {i18next.t('question:allQuestionsAnswered')}
+              {i18next.t(description || 'question:allQuestionsAnswered')}
             </Paragraph>
+
             <YStack pt={60} w={'100%'} f={1} justifyContent={'center'} ai={'center'}>
               <XStack f={1} justifyContent={'space-between'} w={'100%'}>
                 <XStack>
