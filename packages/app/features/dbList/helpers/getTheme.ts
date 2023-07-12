@@ -41,9 +41,10 @@ export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Que
 
 export const getMaraphoneQuestions = () =>
   sortRandom([
-    ...sortRandom(vehicleLaw).slice(0, 1),
-    ...sortRandom(vehicleMaintenance).slice(0, 1),
-    ...sortRandom(techniquesOfSafeDriving).slice(0, 1),
+    ...sortRandom(vehicleLaw),
+    ...sortRandom(vehicleMaintenance),
+    ...sortRandom(techniquesOfSafeDriving),
+    ...sortRandom(safeDriving),
   ])
 
 export const getFavouritesQuestions = async () => {
@@ -61,11 +62,11 @@ export const getFavouritesQuestions = async () => {
 }
 
 export const getExamQuestions = () => {
-  const getRandQuestionsOfTheme = (theme) => sortRandom(theme).slice(0, 1)
-  return [
+  const getRandQuestionsOfTheme = (theme) => sortRandom(theme).slice(0, 13)
+  return sortRandom([
     ...getRandQuestionsOfTheme(vehicleLaw),
     ...getRandQuestionsOfTheme(vehicleMaintenance),
     ...getRandQuestionsOfTheme(techniquesOfSafeDriving),
     ...getRandQuestionsOfTheme(safeDriving),
-  ]
+  ]).slice(0, 50)
 }
