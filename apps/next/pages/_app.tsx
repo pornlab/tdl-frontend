@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
     <>
       <Head>
         <title>Thailand Driving License</title>
-        <meta name="description" content="Free education" />
+        <meta name="description" content="Thailand driving license test online" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeProvider>
