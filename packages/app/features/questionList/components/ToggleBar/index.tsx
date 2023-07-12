@@ -15,8 +15,6 @@ interface Props {
   questions: Instance<typeof Questions>
 }
 
-const { width: widthScreen, height } = Dimensions.get('window')
-
 export const ToggleBar: React.FC<Props> = observer(
   ({ current, totalCount, onChange, questions }) => {
     const [numbers, setNumber] = useState(
@@ -43,13 +41,13 @@ export const ToggleBar: React.FC<Props> = observer(
       ].slice(0, totalCount)
       //@ts-ignore
       setCoords(coordsQuestions)
-    }, [numbers])
+    }, [numbers, current])
 
-    useEffect(() => {
-      goToCell(current)
-    }, [current])
+    useEffect(() => goToCell(current), [current])
 
     const goToCell = (value: number) => {
+      const { width } = Dimensions.get('window')
+      const widthScreen = width < 700 ? width : 700
       onChange(value)
       const valCell = value - 1
       //@ts-ignore
@@ -61,7 +59,7 @@ export const ToggleBar: React.FC<Props> = observer(
         0
       //@ts-ignore
       scrollRef.current?.scrollTo({
-        x: coords[valCell] - widthScreen / 2 + elWidth,
+        x: coords[valCell] - widthScreen / 2 + elWidth / 2,
         animated: true,
       })
     }
