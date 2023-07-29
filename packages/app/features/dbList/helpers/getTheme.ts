@@ -1,29 +1,26 @@
 import { Question, ThemeTypes } from 'app/features/dbList/interfaces'
-import testQuestions from '../questions.json'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+
 import vehicleLaw from '../themes/vehicleLaw.json'
 import safeDriving from '../themes/safeDriving.json'
 import vehicleMaintenance from '../themes/vehicleMaintenance.json'
 import techniquesOfSafeDriving from '../themes/techniquesOfSafeDriving.json'
-import AsyncStorage from '@react-native-async-storage/async-storage'
+import trafficSigns from '../themes/trafficAndWarningSigns.json'
+import roadTrafficLaw from '../themes/roadTrafficLaw.json'
 
 export const sortRandom = (arr: Question[]) => arr.sort(() => Math.random() - 0.5)
-
-export const getAllQuestions = () => {
-  return testQuestions
-}
 
 export const getNoRandomAllQuestions = () => [
   ...vehicleLaw,
   ...vehicleMaintenance,
   ...techniquesOfSafeDriving,
   ...safeDriving,
+  ...trafficSigns,
+  ...roadTrafficLaw,
 ]
 
 export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Question[] => {
   if (!theme) return []
-  if (theme === 'test') {
-    return testQuestions
-  }
   switch (theme) {
     case ThemeTypes.VehicleLaw:
       return sortRandom(vehicleLaw)
@@ -33,10 +30,13 @@ export const getQuestionsByTheme = (theme: ThemeTypes | string | undefined): Que
       return sortRandom(techniquesOfSafeDriving)
     case ThemeTypes.SafeDriving:
       return sortRandom(safeDriving)
+    case ThemeTypes.TrafficSigns:
+      return sortRandom(trafficSigns)
+    case ThemeTypes.RoadTrafficLaw:
+      return sortRandom(roadTrafficLaw)
     default:
-      return sortRandom(testQuestions)
+      return []
   }
-  // return testQuestions.filter((question) => question.theme === theme)
 }
 
 export const getMaraphoneQuestions = () =>
@@ -45,6 +45,8 @@ export const getMaraphoneQuestions = () =>
     ...sortRandom(vehicleMaintenance),
     ...sortRandom(techniquesOfSafeDriving),
     ...sortRandom(safeDriving),
+    ...sortRandom(trafficSigns),
+    ...sortRandom(roadTrafficLaw),
   ])
 
 export const getFavouritesQuestions = async () => {
@@ -68,5 +70,7 @@ export const getExamQuestions = () => {
     ...getRandQuestionsOfTheme(vehicleMaintenance),
     ...getRandQuestionsOfTheme(techniquesOfSafeDriving),
     ...getRandQuestionsOfTheme(safeDriving),
+    ...getRandQuestionsOfTheme(trafficSigns),
+    ...getRandQuestionsOfTheme(roadTrafficLaw),
   ]).slice(0, 50)
 }

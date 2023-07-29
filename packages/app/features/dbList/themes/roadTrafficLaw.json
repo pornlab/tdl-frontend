@@ -1,0 +1,3590 @@
+[
+  {
+    "id": 1248,
+    "title": {
+      "en": {
+        "value": "What should be done to drive via a crossroad?"
+      },
+      "ru": {
+        "value": "Что нужно сделать, чтобы проехать через перекресток?"
+      },
+      "de": {
+        "value": "Was ist zu tun, um über eine Kreuzung zu fahren?"
+      },
+      "es": {
+        "value": "¿Qué se debe hacer para conducir por una encrucijada?"
+      },
+      "fr": {
+        "value": "Que faut-il faire pour traverser un carrefour?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "When the warning sign is found at the junction of the intersection, drive as usual",
+          "ru": "Когда предупредительный знак будет найден на перекрестке перекрестка, двигайтесь как обычно",
+          "de": "Wenn das Warnschild an der Kreuzung gefunden wird, fahren Sie wie gewohnt",
+          "es": "Cuando encuentre la señal de advertencia en el cruce de la intersección, conduzca como de costumbre",
+          "fr": "Lorsque le panneau d'avertissement se trouve à la jonction de l'intersection, roulez comme d'habitude"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Strictly obey traffic lights or traffic rules",
+          "ru": "Строго соблюдайте светофор или правила дорожного движения",
+          "de": "Halten Sie sich strikt an Ampeln oder Verkehrsregeln",
+          "es": "Obedezca estrictamente los semáforos o las normas de tránsito",
+          "fr": "Respectez strictement les feux de circulation ou les règles de circulation"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When encountering a cross road warning sign, drive at normal speed",
+          "ru": "При обнаружении предупреждающего знака на перекрестке двигайтесь с нормальной скоростью",
+          "de": "Wenn Sie auf ein Warnschild stoßen, fahren Sie mit normaler Geschwindigkeit",
+          "es": "Cuando encuentre una señal de advertencia de cruce de caminos, conduzca a velocidad normal",
+          "fr": "Lorsque vous rencontrez un panneau d'avertissement de route transversale, roulez à vitesse normale"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "If there is no traffic light Let the bigger car go through the crossroads first",
+          "ru": "Если нет светофора, пусть сначала побеждает большая машина",
+          "de": "Wenn es keine Ampel gibt Lassen Sie das größere Auto zuerst durch die Kreuzung fahren",
+          "es": "Si no hay semáforo Deje que el automóvil más grande pase primero por la encrucijada",
+          "fr": "S'il n'y a pas de feu de circulation Laisser d'abord la plus grosse voiture traverser le carrefour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1193,
+    "title": {
+      "en": {
+        "value": "How do drivers want to turn the car?"
+      },
+      "ru": {
+        "value": "Как водители хотят повернуть машину?"
+      },
+      "de": {
+        "value": "Wie wollen Fahrer das Auto drehen?"
+      },
+      "es": {
+        "value": "¿Cómo quieren los conductores girar el auto?"
+      },
+      "fr": {
+        "value": "Comment les conducteurs veulent-ils tourner la voiture?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Slow down the car and turn on the turning light at least 30 meters before turning",
+          "ru": "Замедлите автомобиль и включите светильник не менее чем за 30 метров до поворота",
+          "de": "Fahren Sie das Auto langsamer und schalten Sie das Blinklicht mindestens 30 Meter vor dem Abbiegen ein",
+          "es": "Reduzca la velocidad del automóvil y encienda la luz de giro al menos 30 metros antes de girar",
+          "fr": "Ralentissez la voiture et allumez le feu tournant au moins 30 mètres avant de tourner"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn on the turning light before reaching the turn around 20 meters",
+          "ru": "Включите свет поворота, прежде чем дойти до поворота на 20 метров",
+          "de": "Schalten Sie das Abbiegelicht ein, bevor Sie die Kurve nach etwa 20 Metern erreichen",
+          "es": "Encienda la luz de giro antes de llegar a la vuelta de unos 20 metros",
+          "fr": "Allumez le feu tournant avant d'atteindre le virage d'environ 20 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Speed ​​up before turning",
+          "ru": "Ускорьтесь перед поворотом",
+          "de": "Beschleunigen Sie vor dem Wenden",
+          "es": "Acelera antes de girar",
+          "fr": "Accélérez avant de tourner"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car to prepare for turning",
+          "ru": "Остановите машину, чтобы подготовиться к повороту",
+          "de": "Halten Sie das Auto an, um sich auf das Abbiegen vorzubereiten",
+          "es": "Pare el auto para prepararse para girar",
+          "fr": "Arrêtez la voiture pour vous préparer à tourner"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7311,
+    "title": {
+      "en": {
+        "value": "How to stop the car at an intersection, what should the driver do?"
+      },
+      "ru": {
+        "value": "Как остановить машину на перекрестке, что делать водителю?"
+      },
+      "de": {
+        "value": "Wie kann man das Auto an einer Kreuzung anhalten, was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "¿Cómo detener el automóvil en una intersección, qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "Comment arrêter la voiture à une intersection, que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stop over the stop line",
+          "ru": "Стоп над линией остановки",
+          "de": "Halten Sie über der Haltelinie an",
+          "es": "Detente sobre la línea de detención",
+          "fr": "Arrêtez-vous sur la ligne d'arrêt"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop. Stop",
+          "ru": "Стоп. Стоп",
+          "de": "Halt. Halt",
+          "es": "Detener. Detener",
+          "fr": "Arrêtez. Arrêtez"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop behind the stop line",
+          "ru": "Стоп за линией остановки",
+          "de": "Halten Sie hinter der Haltelinie an",
+          "es": "Pare detrás de la línea de alto",
+          "fr": "Arrêtez-vous derrière la ligne d'arrêt"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop. Line stop",
+          "ru": "Стоп. Линия остановки",
+          "de": "Halt. Linienstopp",
+          "es": "Detener. Parada de línea",
+          "fr": "Arrêtez. Arrêt de ligne"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9874,
+    "title": {
+      "en": {
+        "value": "Where no overtake is allowed?"
+      },
+      "ru": {
+        "value": "Где не допускается обгон?"
+      },
+      "de": {
+        "value": "Wo kein Überholen erlaubt ist?"
+      },
+      "es": {
+        "value": "¿Dónde no se permite adelantar?"
+      },
+      "fr": {
+        "value": "Où aucun dépassement n'est autorisé?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Direct road",
+          "ru": "Прямая дорога",
+          "de": "Direkte Straße",
+          "es": "Camino directo",
+          "fr": "Route directe"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The safe way",
+          "ru": "Безопасный путь",
+          "de": "Der sichere Weg",
+          "es": "La manera segura",
+          "fr": "La manière sûre"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Open road",
+          "ru": "Открытая дорога",
+          "de": "Offene Strasse",
+          "es": "Camino abierto",
+          "fr": "Route ouverte"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Narrow radius curve",
+          "ru": "Кривая узкого радиуса",
+          "de": "Enge Radiuskurve",
+          "es": "Curva de radio estrecho",
+          "fr": "Courbe à rayon étroit"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 2414,
+    "title": {
+      "en": {
+        "value": "Parking lots must be no more than a few centimeters from the edge of the road"
+      },
+      "ru": {
+        "value": "Парковочные места должны находиться на расстоянии не более нескольких сантиметров от края дороги"
+      },
+      "de": {
+        "value": "Parkplätze dürfen nicht mehr als einige Zentimeter vom Straßenrand entfernt sein"
+      },
+      "es": {
+        "value": "Los estacionamientos no deben estar a más de unos centímetros del borde de la carretera"
+      },
+      "fr": {
+        "value": "Les stationnements ne doivent pas être à plus de quelques centimètres du bord de la route"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not more than 40 cm",
+          "ru": "Не более 40 см",
+          "de": "Nicht mehr als 40 cm",
+          "es": "No más de 40 cm",
+          "fr": "Pas plus de 40 cm"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 25 cm",
+          "ru": "Не более 25 см ",
+          "de": "Nicht mehr als 25 cm",
+          "es": "No más de 25 cm",
+          "fr": "Pas plus de 25 cm"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 30 cm",
+          "ru": "Не более 30 см",
+          "de": "Nicht mehr als 30 cm",
+          "es": "No más de 30 cm",
+          "fr": "Pas plus de 30 cm"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 35 cm",
+          "ru": "Не более 35 см",
+          "de": "Nicht mehr als 35 cm",
+          "es": "No más de 35 cm",
+          "fr": "Pas plus de 35 cm"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7492,
+    "title": {
+      "en": {
+        "value": "To overtake, the car in front must overtake on the right hand side. Except for any cases that can overtake the left hand side"
+      },
+      "ru": {
+        "value": "Чтобы обогнать, автомобиль впереди должен обогнать с правой стороны. За исключением любых случаев, которые могут обогнать левую сторону"
+      },
+      "de": {
+        "value": "Zum Überholen muss das vorausfahrende Auto auf der rechten Seite überholen. Mit Ausnahme von Fällen, die die linke Seite überholen können"
+      },
+      "es": {
+        "value": "Para adelantar, el auto de adelante debe adelantar en el lado derecho. Excepto en cualquier caso que pueda alcanzar el lado izquierdo"
+      },
+      "fr": {
+        "value": "Pour dépasser, la voiture devant doit dépasser sur le côté droit. Sauf dans tous les cas pouvant dépasser le côté gauche"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Overtake other cars on the left while the car is running on the bridge",
+          "ru": "Обгоните другие машины слева, пока машина бежит по мосту",
+          "de": "Überholen Sie andere Autos auf der linken Seite, während das Auto auf der Brücke fährt",
+          "es": "Superar a otros autos a la izquierda mientras el auto está corriendo en el puente",
+          "fr": "Dépassez les autres voitures sur la gauche pendant que la voiture roule sur le pont"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "When the car that is overtaking is turning right Or give a signal to turn right",
+          "ru": "Когда автомобиль, который обгоняет, поворачивает направо или дает сигнал, чтобы повернуть направо",
+          "de": "Wenn das überholende Auto nach rechts abbiegt oder ein Signal gibt, nach rechts abzubiegen",
+          "es": "Cuando el automóvil que está adelantando gira a la derecha O da una señal para girar a la derecha",
+          "fr": "Lorsque la voiture qui dépasse dépasse à droite ou donne un signal pour tourner à droite"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Overtaking other cars on the left in a single lane",
+          "ru": "Обгон других автомобилей слева в одну полосу",
+          "de": "Überholen Sie andere Autos auf der linken Seite in einer einzigen Spur",
+          "es": "Adelantando a otros autos a la izquierda en un solo carril",
+          "fr": "Dépasser les autres voitures sur la gauche dans une seule voie"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Overtaking another car in the right lane of the car that was overtaking",
+          "ru": "Обгон другого автомобиля в правом ряду автомобиля, который обгонял",
+          "de": "Überholen eines anderen Autos auf der rechten Spur des überholenden Autos",
+          "es": "Adelantar a otro automóvil en el carril derecho del automóvil que estaba adelantando",
+          "fr": "Dépasser une autre voiture dans la voie de droite de la voiture qui dépassait"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 4072,
+    "title": {
+      "en": {
+        "value": "Which car can be used in any way?"
+      },
+      "ru": {
+        "value": "Какой автомобиль можно использовать любым способом?"
+      },
+      "de": {
+        "value": "Welches Auto kann auf irgendeine Weise benutzt werden?"
+      },
+      "es": {
+        "value": "¿Qué auto se puede usar de alguna manera?"
+      },
+      "fr": {
+        "value": "Quelle voiture peut être utilisée de quelque façon?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Vehicles that do not attach the license plate of the government",
+          "ru": "Транспортные средства, которые не прикрепляют номерной знак правительства",
+          "de": "Fahrzeuge, die nicht das Kennzeichen der Regierung anbringen",
+          "es": "Vehículos que no adjuntan la matrícula del gobierno",
+          "fr": "Véhicules qui n'attachent pas la plaque d'immatriculation du gouvernement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Cars that have been terminated forever",
+          "ru": "Автомобили, которые были прекращены навсегда",
+          "de": "Autos, die für immer gekündigt wurden",
+          "es": "Autos que han sido terminados para siempre",
+          "fr": "Voitures arrêtées pour toujours"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Registered and taxed cars",
+          "ru": "Зарегистрированные и облагаемые налогом автомобили",
+          "de": "Registrierte und besteuerte Autos",
+          "es": "Autos registrados y gravados",
+          "fr": "Voitures immatriculées et taxées"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Tax-deficient Vehicles",
+          "ru": "Транспортные средства с дефицитом налогов",
+          "de": "Steuermangelhafte Fahrzeuge",
+          "es": "Vehículos deficientes en impuestos",
+          "fr": "Véhicules déficients fiscaux"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 6552,
+    "title": {
+      "en": {
+        "value": "What vehicles are prohibited to be used on the roads?"
+      },
+      "ru": {
+        "value": "Какие транспортные средства запрещено использовать на дорогах?"
+      },
+      "de": {
+        "value": "Welche Fahrzeuge dürfen nicht auf der Straße eingesetzt werden?"
+      },
+      "es": {
+        "value": "¿Qué vehículos tienen prohibido ser utilizados en las carreteras?"
+      },
+      "fr": {
+        "value": "Quels véhicules sont interdits sur les routes?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Vehicles with complete fittings",
+          "ru": "Автомобили с полной комплектацией",
+          "de": "Fahrzeuge mit kompletter Ausstattung",
+          "es": "Vehículos con equipamiento completo",
+          "fr": "Véhicules avec équipements complets"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Broken vehicles",
+          "ru": "Разбитые машины",
+          "de": "Defekte Fahrzeuge",
+          "es": "Vehículos rotos",
+          "fr": "Véhicules cassés"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Vehicles that have license plates specified by the government",
+          "ru": "Транспортные средства, имеющие номерные знаки, указанные правительством",
+          "de": "Fahrzeuge mit von der Regierung festgelegten Kennzeichen",
+          "es": "Vehículos con matrículas especificadas por el gobierno",
+          "fr": "Véhicules dont les plaques d'immatriculation sont spécifiées par le gouvernement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Registered and taxed vehicles",
+          "ru": "Зарегистрированные и облагаемые налогом транспортные средства",
+          "de": "Registrierte und besteuerte Fahrzeuge",
+          "es": "Vehículos registrados y gravados",
+          "fr": "Véhicules immatriculés et taxés"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7527,
+    "title": {
+      "en": {
+        "value": "What does the safety zone mean?"
+      },
+      "ru": {
+        "value": "Что означает зона безопасности?"
+      },
+      "de": {
+        "value": "Was bedeutet die Sicherheitszone?"
+      },
+      "es": {
+        "value": "¿Qué significa la zona de seguridad?"
+      },
+      "fr": {
+        "value": "Que signifie la zone de sécurité?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "The area has a mark indicating that the driver is safe to continue driving",
+          "ru": "В области есть отметка, указывающая, что водитель может продолжать движение",
+          "de": "Der Bereich weist eine Markierung auf, die angibt, dass der Fahrer sicher weiterfahren kann",
+          "es": "El área tiene una marca que indica que el conductor está seguro para continuar conduciendo",
+          "fr": "La zone a une marque indiquant que le conducteur est en sécurité pour continuer à conduire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The area that the driver can bring the car through",
+          "ru": "Район, через который водитель может проехать на машине",
+          "de": "Der Bereich, durch den der Fahrer das Auto bringen kann",
+          "es": "El área por la que el conductor puede llevar el automóvil",
+          "fr": "Zone dans laquelle le conducteur peut amener la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Districts where pedestrians can cross paths without stopping to wait",
+          "ru": "Районы, где пешеходы могут пересекать пути, не останавливаясь, чтобы ждать",
+          "de": "Bezirke, in denen Fußgänger Wege kreuzen können, ohne anzuhalten, um zu warten",
+          "es": "Distritos donde los peatones pueden cruzarse sin detenerse a esperar",
+          "fr": "Districts où les piétons peuvent se croiser sans s'arrêter pour attendre"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The area in the car park marked with a clearly visible sign at all times for For pedestrians crossing the path to stop waiting Or allowing people to get in or out of the car to stop and wait before crossing over",
+          "ru": "Территория на автостоянке всегда обозначена четко видимым знаком для пешеходов, пересекающих путь, чтобы перестать ждать или позволяющих людям сесть в машину или выйти из нее, чтобы остановиться и подождать, прежде чем перейти дорогу",
+          "de": "Der Bereich auf dem Parkplatz ist jederzeit mit einem gut sichtbaren Schild gekennzeichnet, damit Fußgänger, die den Weg überqueren, nicht mehr warten müssen oder dass Personen ein- oder aussteigen können, um vor dem Überqueren anzuhalten und zu warten",
+          "es": "El área del estacionamiento marcada con una señal claramente visible en todo momento para que los peatones que cruzan el camino dejen de esperar o permitan que las personas entren o salgan del auto para detenerse y esperar antes de cruzar",
+          "fr": "La zone du parking marquée d'un panneau clairement visible en tout temps pour les piétons traversant le chemin pour arrêter d'attendre ou permettre aux personnes de monter ou de descendre de la voiture de s'arrêter et d'attendre avant de t"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 6148,
+    "title": {
+      "en": {
+        "value": "Which car can be used in a road"
+      },
+      "ru": {
+        "value": "Какой автомобиль можно использовать на дороге?"
+      },
+      "de": {
+        "value": "Welches Auto kann auf einer Straße eingesetzt werden?"
+      },
+      "es": {
+        "value": "¿Qué coche se puede usar en una carretera?"
+      },
+      "fr": {
+        "value": "Quelle voiture peut être utilisée sur une route"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Cars that are noisier than the criteria set by the government",
+          "ru": "Автомобили, которые шумнее, чем критерии, установленные правительством",
+          "de": "Autos, die lauter sind als die von der Regierung festgelegten Kriterien",
+          "es": "Autos que son más ruidosos que los criterios establecidos por el gobierno",
+          "fr": "Des voitures plus bruyantes que les critères fixés par le gouvernement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Cars with dragging objects on the driveway",
+          "ru": "Автомобили с перетаскиванием объектов на проезжей части",
+          "de": "Autos mit schleppenden Gegenständen auf der Einfahrt",
+          "es": "Coches con objetos arrastrados en la entrada",
+          "fr": "Voitures avec des objets traînants sur l'allée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Vehicles with wheels, not tires",
+          "ru": "Автомобили с колесами, а не с шинами",
+          "de": "Fahrzeuge mit Rädern, keine Reifen",
+          "es": "Vehículos con ruedas, no neumáticos",
+          "fr": "Véhicules avec roues, pas avec pneus"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Vehicles with an engine noise of 80 decibels",
+          "ru": "Транспортные средства с шумом двигателя 80 децибел",
+          "de": "Fahrzeuge mit einem Motorgeräusch von 80 Dezibel",
+          "es": "Vehículos con un ruido de motor de 80 decibelios",
+          "fr": "Véhicules avec un bruit de moteur de 80 décibels"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1024,
+    "title": {
+      "en": {
+        "value": "A cross-shaped red traffic light above the bus lane Prohibiting the driver to drive"
+      },
+      "ru": {
+        "value": "Красный светофор в форме креста над полосой движения автобусов, запрещающий водителю ехать"
+      },
+      "de": {
+        "value": "Eine kreuzförmige rote Ampel über der Busspur Verbietet dem Fahrer das Fahren"
+      },
+      "es": {
+        "value": "Un semáforo en forma de cruz roja sobre el carril del autobús que prohíbe al conductor conducir"
+      },
+      "fr": {
+        "value": "Un feu rouge en forme de croix au-dessus de la voie réservée aux bus Interdisant au conducteur de conduire"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Park the car in that lane",
+          "ru": "Припаркуй машину на той полосе",
+          "de": "Parken Sie das Auto auf dieser Fahrspur",
+          "es": "Estacione el auto en ese carril",
+          "fr": "Garez la voiture dans cette voie"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop and park in that bus lane",
+          "ru": "Остановитесь и припаркуйтесь на этой автобусной полосе",
+          "de": "Halten Sie an und parken Sie auf dieser Busspur",
+          "es": "Pare y estacione en ese carril bus",
+          "fr": "Arrêtez-vous et garez-vous dans cette voie de bus"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car in that bus lane",
+          "ru": "Остановите машину на этой автобусной полосе",
+          "de": "Halten Sie das Auto auf dieser Busspur an",
+          "es": "Detén el auto en ese carril del autobús",
+          "fr": "Arrêtez la voiture dans cette voie de bus"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive in that bus lane",
+          "ru": "Поезжайте на этой автобусной полосе",
+          "de": "Fahren Sie auf dieser Busspur",
+          "es": "Conduce en ese carril bus",
+          "fr": "Conduisez dans cette voie de bus"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9271,
+    "title": {
+      "en": {
+        "value": "When the traffic officer stands and stretches his left arm to shoulder level. The driver who drives from the side of the traffic staff must stop"
+      },
+      "ru": {
+        "value": "Когда сотрудник ГАИ встает и вытягивает левую руку до уровня плеча. Водитель, который едет со стороны обслуживающего персонала, должен остановиться"
+      },
+      "de": {
+        "value": "Wenn der Verkehrsbeamte steht und seinen linken Arm auf Schulterhöhe streckt. Der Fahrer, der von der Seite des Verkehrspersonals fährt, muss anhalten"
+      },
+      "es": {
+        "value": "Cuando el oficial de tránsito se para y estira su brazo izquierdo al nivel de los hombros. El conductor que conduce desde el lado del personal de tránsito debe detenerse"
+      },
+      "fr": {
+        "value": "Lorsque l'agent de la circulation se lève et étend son bras gauche au niveau des épaules. Le conducteur qui conduit du côté du personnel de la circulation doit s'arrêter"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Side",
+          "ru": "Боковая сторона",
+          "de": "Seite",
+          "es": "Lado",
+          "fr": "Côté"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Front and Back",
+          "ru": "Спереди и сзади",
+          "de": "Vorne und Hinten",
+          "es": "Frente y detrás",
+          "fr": "Avant et arrière"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Front",
+          "ru": "Фронт",
+          "de": "Vorderseite",
+          "es": "Frente",
+          "fr": "De face"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Rear",
+          "ru": "Задний",
+          "de": "Rückseite",
+          "es": "Posterior",
+          "fr": "Arrière"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": 1904,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9770,
+    "title": {
+      "en": {
+        "value": "When the traffic officer stands and stretches his lower right arm perpendicular to the upper arm and palms up, the driver who drives the car from which side of the traffic officer must stop the car"
+      },
+      "ru": {
+        "value": "Когда сотрудник ГИБДД встает и вытягивает свою правую нижнюю руку перпендикулярно верхней части руки и ладонями вверх, водитель, который ведет автомобиль, с какой стороны от сотрудника ГИБДД должен остановить автомобиль"
+      },
+      "de": {
+        "value": "Wenn der Verkehrsbeamte steht und seinen rechten Unterarm senkrecht zum Oberarm streckt und die Handflächen nach oben streckt, muss der Fahrer, der das Auto fährt, von welcher Seite des Verkehrsbeamten das Auto anhalten muss"
+      },
+      "es": {
+        "value": "Cuando el oficial de tránsito se para y estira su brazo derecho inferior perpendicular a la parte superior del brazo y levanta las palmas, el conductor que conduce el automóvil desde qué lado del oficial de tránsito debe detenerlo"
+      },
+      "fr": {
+        "value": "Lorsque l'agent de la circulation se lève et étend son bras inférieur droit perpendiculairement au bras supérieur et paume vers le haut, le conducteur qui conduit la voiture de quel côté de l'agent de la circulation doit arrêter la voiture"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Back",
+          "ru": "Назад",
+          "de": "Zurück",
+          "es": "atrás",
+          "fr": "Retour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Front and Back",
+          "ru": "Спереди и сзади",
+          "de": "Vorne und Hinten",
+          "es": "Frente y detrás",
+          "fr": "Avant et arrière"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Side and Back",
+          "ru": "Сторона и спина",
+          "de": "Seite und Rücken",
+          "es": "Lateral y posterior",
+          "fr": "Côté et dos"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Front",
+          "ru": "Фронт",
+          "de": "Vorderseite",
+          "es": "Frente",
+          "fr": "De face"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": 1905,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7677,
+    "title": {
+      "en": {
+        "value": "Driving via a junction with traffic lights, flashing red lights. What should a driver do?"
+      },
+      "ru": {
+        "value": "Проезжая через перекресток со светофорами, мигающими красными огнями. Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Fahren Sie über eine Kreuzung mit Ampeln und blinkenden roten Ampeln. Was soll ein Fahrer tun?"
+      },
+      "es": {
+        "value": "Conducir a través de un cruce con semáforos, luces rojas intermitentes. ¿Qué debe hacer un conductor?"
+      },
+      "fr": {
+        "value": "Conduite via une jonction avec des feux de circulation, des feux rouges clignotants. Que doit faire un chauffeur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Increase the speed of the car and go through that route quickly",
+          "ru": "Увеличьте скорость машины и быстро пройдите этот маршрут",
+          "de": "Erhöhen Sie die Geschwindigkeit des Autos und fahren Sie diese Route schnell durch",
+          "es": "Aumente la velocidad del automóvil y siga esa ruta rápidamente",
+          "fr": "Augmentez la vitesse de la voiture et suivez rapidement cet itinéraire"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car behind the line and let the car stop. When it is considered safe and not to obstruct traffic, drive on with caution",
+          "ru": "Остановите машину за линией и дайте машине остановиться. Если это считается безопасным и не препятствует движению, езжайте с осторожностью",
+          "de": "Halten Sie das Auto hinter der Linie an und lassen Sie das Auto anhalten. Wenn es als sicher gilt und den Verkehr nicht behindert, fahren Sie vorsichtig weiter",
+          "es": "Detenga el automóvil detrás de la línea y deje que se detenga. Cuando se considere seguro y no obstruya el tráfico, conduzca con precaución",
+          "fr": "Arrêtez la voiture derrière la ligne et laissez la voiture s'arrêter. Lorsqu'il est considéré comme sûr et de ne pas gêner la circulation, continuez avec prudence"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Reduce the speed of the car and go through the road carefully",
+          "ru": "Уменьшите скорость машины и осторожно проедьте по дороге",
+          "de": "Reduzieren Sie die Geschwindigkeit des Autos und fahren Sie vorsichtig durch die Straße",
+          "es": "Reduzca la velocidad del automóvil y cruce la carretera con cuidado",
+          "fr": "Réduisez la vitesse de la voiture et parcourez soigneusement la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Park the car carefully",
+          "ru": "Осторожно припаркуйте машину",
+          "de": "Parken Sie das Auto vorsichtig",
+          "es": "Estacione el auto con cuidado",
+          "fr": "Garez la voiture avec soin"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 2826,
+    "title": {
+      "en": {
+        "value": "Driving via an intersection with traffic lights, flashing amber. What should a driver do?"
+      },
+      "ru": {
+        "value": "Проезжая через перекресток со светофорами, мигает янтарным цветом. Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Fahren über eine Kreuzung mit Ampeln, gelb blinkend. Was soll ein Fahrer tun?"
+      },
+      "es": {
+        "value": "Conducir a través de una intersección con semáforos, parpadeando en ámbar. ¿Qué debe hacer un conductor?"
+      },
+      "fr": {
+        "value": "Conduite via une intersection avec des feux de circulation, orange clignotant. Que doit faire un chauffeur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Increase the speed of the car and pass through the road quickly",
+          "ru": "Увеличьте скорость машины и быстро пройдите через дорогу",
+          "de": "Erhöhen Sie die Geschwindigkeit des Autos und fahren Sie schnell durch die Straße",
+          "es": "Aumente la velocidad del automóvil y pase rápidamente por la carretera",
+          "fr": "Augmentez la vitesse de la voiture et traversez rapidement la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Reduce the speed of the car and go through the road with care",
+          "ru": "Уменьшите скорость автомобиля и осторожно проедьте по дороге",
+          "de": "Reduzieren Sie die Geschwindigkeit des Autos und fahren Sie vorsichtig durch die Straße",
+          "es": "Reduzca la velocidad del automóvil y recorra la carretera con cuidado",
+          "fr": "Réduisez la vitesse de la voiture et parcourez la route avec précaution"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car behind the line and let the car stop. When seeing that it is safe and not obstructing the traffic, drive on with caution",
+          "ru": "Остановите машину за линией и дайте машине остановиться. Видя, что это безопасно и не мешает движению, езжайте с осторожностью",
+          "de": "Halten Sie das Auto hinter der Linie an und lassen Sie das Auto anhalten. Fahren Sie vorsichtig weiter, wenn Sie feststellen, dass es sicher ist und den Verkehr nicht behindert",
+          "es": "Detenga el automóvil detrás de la línea y deje que se detenga. Cuando vea que es seguro y no obstruye el tráfico, conduzca con precaución",
+          "fr": "Arrêtez la voiture derrière la ligne et laissez la voiture s'arrêter. Lorsque vous voyez qu'il est sûr et n'entrave pas la circulation, continuez avec prudence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Park the vehicle",
+          "ru": "Припарковать автомобиль",
+          "de": "Parken Sie das Fahrzeug",
+          "es": "Estacionar el vehículo",
+          "fr": "Garer le véhicule"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 5645,
+    "title": {
+      "en": {
+        "value": "Drivers must drive on the left side of the road. Except in either case, can travel on the right hand side or In the middle of the roadway"
+      },
+      "ru": {
+        "value": "Водители должны ехать по левой стороне дороги. За исключением любого случая, может путешествовать по правой стороне или в середине проезжей части"
+      },
+      "de": {
+        "value": "Die Fahrer müssen auf der linken Straßenseite fahren. Außer in beiden Fällen kann auf der rechten Seite oder in der Mitte der Fahrbahn fahren"
+      },
+      "es": {
+        "value": "Los conductores deben conducir por el lado izquierdo de la carretera. Excepto en cualquier caso, puede viajar en el lado derecho o en el medio de la carretera"
+      },
+      "fr": {
+        "value": "Les conducteurs doivent conduire sur le côté gauche de la route. Sauf dans les deux cas, peut se déplacer sur le côté droit ou au milieu de la chaussée"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "There is no opposite road",
+          "ru": "Там нет противоположной дороги",
+          "de": "Es gibt keine gegenüberliegende Straße",
+          "es": "No hay camino opuesto",
+          "fr": "Il n'y a pas de route opposée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The road is very wide",
+          "ru": "Дорога очень широкая",
+          "de": "Die Straße ist sehr breit",
+          "es": "El camino es muy ancho",
+          "fr": "La route est très large"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The roadway is flooded",
+          "ru": "Дорога затоплена",
+          "de": "Die Fahrbahn ist überflutet",
+          "es": "El camino está inundado",
+          "fr": "La chaussée est inondée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The left side of the roadway has obstacles",
+          "ru": "На левой стороне проезжей части есть препятствия",
+          "de": "Die linke Seite der Fahrbahn weist Hindernisse auf",
+          "es": "El lado izquierdo de la carretera tiene obstáculos",
+          "fr": "Le côté gauche de la chaussée présente des obstacles"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1128,
+    "title": {
+      "en": {
+        "value": "Signaling with arms With the driver extending his right arm straight outside the car at shoulder level and waving many hands up and down Times. What does that driver mean?"
+      },
+      "ru": {
+        "value": "Сигнализация руками. Водитель вытягивает правую руку прямо за автомобилем на уровне плеч и машет руками вверх и вниз. Что означает этот драйвер?"
+      },
+      "de": {
+        "value": "Signalisieren mit Armen Mit dem Fahrer, der seinen rechten Arm auf Schulterhöhe direkt vor dem Auto ausstreckt und viele Hände auf und ab bewegt. Was bedeutet dieser Fahrer?"
+      },
+      "es": {
+        "value": "Señalización con los brazos Con el conductor extendiendo su brazo derecho hacia afuera del auto a la altura de los hombros y moviendo muchas manos de arriba abajo. ¿Qué significa ese conductor?"
+      },
+      "fr": {
+        "value": "Signalisation avec les bras Avec le conducteur étendant son bras droit directement à l'extérieur de la voiture au niveau des épaules et en agitant de nombreuses mains de haut en bas Times. Que signifie ce pilote?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stop the car",
+          "ru": "Останови машину",
+          "de": "Stoppen Sie das Auto",
+          "es": "Para el coche",
+          "fr": "Arrête la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn right",
+          "ru": "Поверните направо",
+          "de": "Biegen Sie rechts ab",
+          "es": "Girar a la derecha",
+          "fr": "Tournez à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Park the car",
+          "ru": "Припарковать машину",
+          "de": "Parke das Auto",
+          "es": "Aparca el coche",
+          "fr": "Garer la voiture"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Will reduce the speed of the car",
+          "ru": "Снизит скорость машины",
+          "de": "Reduziert die Geschwindigkeit des Autos",
+          "es": "Reducirá la velocidad del automóvil",
+          "fr": "Réduira la vitesse de la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": 1906,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 892,
+    "title": {
+      "en": {
+        "value": "How far must the driver drive the car from the front car?"
+      },
+      "ru": {
+        "value": "Как далеко водитель должен вести машину от передней машины?"
+      },
+      "de": {
+        "value": "Wie weit muss der Fahrer das Auto vom vorderen Auto fahren?"
+      },
+      "es": {
+        "value": "¿A qué distancia debe conducir el conductor el automóvil del automóvil delantero?"
+      },
+      "fr": {
+        "value": "À quelle distance le conducteur doit-il conduire la voiture par rapport à la voiture avant?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not less than 3 meters",
+          "ru": "Не менее 3 метров",
+          "de": "Nicht weniger als 3 Meter",
+          "es": "No menos de 3 metros",
+          "fr": "Pas moins de 3 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "To be able to stop the car safely when necessary",
+          "ru": "Чтобы можно было безопасно остановить машину при необходимости",
+          "de": "Um das Auto bei Bedarf sicher anhalten zu können",
+          "es": "Para poder detener el automóvil de manera segura cuando sea necesario",
+          "fr": "Pour pouvoir arrêter la voiture en toute sécurité si nécessaire"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 2 meters",
+          "ru": "Не менее 2 метров",
+          "de": "Nicht weniger als 2 Meter",
+          "es": "No menos de 2 metros",
+          "fr": "Pas moins de 2 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 1 meter",
+          "ru": "Не менее 1 метра",
+          "de": "Nicht weniger als 1 Meter",
+          "es": "No menos de 1 metro",
+          "fr": "Pas moins de 1 mètre"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7570,
+    "title": {
+      "en": {
+        "value": "How many meters does the driver want to turn left to drive in the left lane before reaching the turn?"
+      },
+      "ru": {
+        "value": "Сколько метров водитель хочет повернуть налево, чтобы проехать по левой полосе, прежде чем дойти до поворота?"
+      },
+      "de": {
+        "value": "Wie viele Meter möchte der Fahrer nach links abbiegen, um auf der linken Spur zu fahren, bevor er die Kurve erreicht?"
+      },
+      "es": {
+        "value": "¿Cuántos metros quiere girar el conductor a la izquierda para conducir en el carril izquierdo antes de llegar a la curva?"
+      },
+      "fr": {
+        "value": "Combien de mètres le conducteur veut-il tourner à gauche pour rouler dans la voie de gauche avant d'atteindre le virage?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not less than 15 meters",
+          "ru": "Не менее 15 метров",
+          "de": "Nicht weniger als 15 Meter",
+          "es": "No menos de 15 metros",
+          "fr": "Pas moins de 15 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 20 meters",
+          "ru": "Не менее 20 метров",
+          "de": "Nicht weniger als 20 Meter",
+          "es": "No menos de 20 metros",
+          "fr": "Pas moins de 20 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 25 meters",
+          "ru": "Не менее 25 метров",
+          "de": "Nicht weniger als 25 Meter",
+          "es": "No menos de 25 metros",
+          "fr": "Pas moins de 25 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 30 meters",
+          "ru": "Не менее 30 метров",
+          "de": "Nicht weniger als 30 Meter",
+          "es": "No menos de 30 metros",
+          "fr": "Pas moins de 30 mètres"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 3326,
+    "title": {
+      "en": {
+        "value": "The driver must turn on the headlights or taillights of the car. Let other vehicles see at a distance not less than"
+      },
+      "ru": {
+        "value": "Водитель должен включить фары или задние фонари автомобиля. Пусть другие машины видят на расстоянии не менее"
+      },
+      "de": {
+        "value": "Der Fahrer muss die Scheinwerfer oder Rücklichter des Fahrzeugs einschalten. Lassen Sie andere Fahrzeuge in einer Entfernung von nicht weniger als sehen"
+      },
+      "es": {
+        "value": "El conductor debe encender los faros o las luces traseras del automóvil. Deje que otros vehículos vean a una distancia no menor a"
+      },
+      "fr": {
+        "value": "Le conducteur doit allumer les phares ou les feux arrière de la voiture. Laissez les autres véhicules voir à une distance d'au moins"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "120 meters",
+          "ru": "120 метров",
+          "de": "120 Meter",
+          "es": "120 metros",
+          "fr": "120 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "150 meters",
+          "ru": "150 метров",
+          "de": "150 Meter",
+          "es": "150 metros",
+          "fr": "150 mètres"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "100 meters",
+          "ru": "100 метров",
+          "de": "100 Meter",
+          "es": "100 metros",
+          "fr": "100 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "60 meters",
+          "ru": "60 метров",
+          "de": "60 Meter",
+          "es": "60 metros",
+          "fr": "60 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 3258,
+    "title": {
+      "en": {
+        "value": "In driving opposite directions What should the driver do?"
+      },
+      "ru": {
+        "value": "При движении в противоположных направлениях Что должен делать водитель?"
+      },
+      "de": {
+        "value": "In entgegengesetzte Richtungen fahren Was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "Al conducir en direcciones opuestas ¿Qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "En conduisant dans des directions opposées Que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Able to overtake the bus lane",
+          "ru": "Способен обогнать автобусную полосу",
+          "de": "Kann die Busspur überholen",
+          "es": "Capaz de adelantar el carril del autobús",
+          "fr": "Capable de dépasser la voie de bus"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "In a narrow passage that cannot be reversed Smaller driver Must stop at the left side for the larger car first",
+          "ru": "В узком проходе, который нельзя повернуть вспять, меньший водитель должен сначала остановиться на левой стороне для более крупного автомобиля",
+          "de": "In einer engen Passage, die nicht rückgängig gemacht werden kann. Kleinerer Fahrer muss für das größere Auto zuerst auf der linken Seite anhalten",
+          "es": "En un pasaje estrecho que no se puede revertir. El conductor más pequeño debe detenerse primero en el lado izquierdo para el automóvil más grande",
+          "fr": "Dans un passage étroit qui ne peut pas être inversé Conducteur plus petit Doit s'arrêter sur le côté gauche pour la plus grande voiture en premier"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive the car to the left",
+          "ru": "Водить машину налево",
+          "de": "Fahren Sie das Auto nach links",
+          "es": "Conduce el auto a la izquierda",
+          "fr": "Conduisez la voiture vers la gauche"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "In the way where there is an obstacle in front, don’t stop waiting for the passing car to pass",
+          "ru": "На пути, где перед вами препятствие, не останавливайтесь, ожидая проезжающего мимо автомобиля",
+          "de": "Hören Sie nicht auf, auf das vorbeifahrende Auto zu warten, wenn sich vor Ihnen ein Hindernis befindet",
+          "es": "En el camino donde hay un obstáculo al frente, no dejes de esperar a que pase el auto que pasa",
+          "fr": "Dans la voie où il y a un obstacle devant, n'arrêtez pas d'attendre que la voiture qui passe passe"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 4539,
+    "title": {
+      "en": {
+        "value": "No driver must overtake to get in front of other vehicles while there is fog, dust, rain or smoke so that the distance ahead cannot be seen"
+      },
+      "ru": {
+        "value": "Никто из водителей не должен обгонять, чтобы оказаться перед другими транспортными средствами в условиях тумана, пыли, дождя или дыма, чтобы расстояние впереди не было видно"
+      },
+      "de": {
+        "value": "Kein Fahrer darf überholen, um bei Nebel, Staub, Regen oder Rauch vor andere Fahrzeuge zu treten, damit die Entfernung vor ihm nicht sichtbar ist"
+      },
+      "es": {
+        "value": "Ningún conductor debe adelantar para ponerse delante de otros vehículos mientras haya niebla, polvo, lluvia o humo para que no se pueda ver la distancia por delante"
+      },
+      "fr": {
+        "value": "Aucun conducteur ne doit dépasser pour se placer devant les autres véhicules en cas de brouillard, de poussière, de pluie ou de fumée afin que la distance à parcourir ne soit pas visible"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "80 meters",
+          "ru": "80 метров",
+          "de": "80 Meter",
+          "es": "80 metros",
+          "fr": "80 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "60 meters",
+          "ru": "60 метров",
+          "de": "60 Meter",
+          "es": "60 metros",
+          "fr": "60 mètres"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "90 meters",
+          "ru": "90 метров",
+          "de": "90 Meter",
+          "es": "90 metros",
+          "fr": "90 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "70 meters",
+          "ru": "70 метров",
+          "de": "70 Meter",
+          "es": "70 metros",
+          "fr": "70 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 4941,
+    "title": {
+      "en": {
+        "value": "In any area, driving is not allowed to overtake other vehicles"
+      },
+      "ru": {
+        "value": "В любом месте за рулем запрещается обгонять другие транспортные средства"
+      },
+      "de": {
+        "value": "In keinem Bereich darf das Fahren andere Fahrzeuge überholen"
+      },
+      "es": {
+        "value": "En cualquier área, conducir no puede adelantar a otros vehículos"
+      },
+      "fr": {
+        "value": "Dans aucune zone, la conduite n'est autorisée à dépasser les autres véhicules"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Overtake on the left while there is a car waiting to turn right",
+          "ru": "Обгоните слева, пока есть машина, ожидающая поворота направо",
+          "de": "Überholen Sie auf der linken Seite, während ein Auto darauf wartet, nach rechts abzubiegen",
+          "es": "Adelantar a la izquierda mientras hay un automóvil esperando para girar a la derecha",
+          "fr": "Dépassement à gauche alors qu'une voiture attend pour tourner à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Narrow radius curve",
+          "ru": "Кривая узкого радиуса",
+          "de": "Enge Radiuskurve",
+          "es": "Curva de radio estrecho",
+          "fr": "Courbe à rayon étroit"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "In the case of an obstructed left-hand driveway",
+          "ru": "В случае засорения левой подъездной дороги",
+          "de": "Im Falle einer verstopften linken Auffahrt",
+          "es": "En el caso de un camino obstruido a la izquierda",
+          "fr": "Dans le cas d'une entrée à gauche obstruée"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "150 meters from the intersection",
+          "ru": "150 метров от перекрестка",
+          "de": "150 Meter von der Kreuzung entfernt",
+          "es": "150 metros de la intersección",
+          "fr": "150 mètres de l'intersection"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 457,
+    "title": {
+      "en": {
+        "value": "In which areas can make a U-turn?"
+      },
+      "ru": {
+        "value": "В каких областях можно сделать разворот?"
+      },
+      "de": {
+        "value": "In welchen Bereichen kann man eine Kehrtwende machen?"
+      },
+      "es": {
+        "value": "¿En qué áreas puede hacer un cambio de sentido?"
+      },
+      "fr": {
+        "value": "Dans quels domaines peut-on faire demi-tour?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Roadway marked with a U-turn sign",
+          "ru": "Дорога, отмеченная знаком разворота",
+          "de": "Fahrbahn mit Kehrtwende markiert",
+          "es": "Carretera marcada con una señal de cambio de sentido",
+          "fr": "Chaussée marquée d'un panneau demi-tour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Area on the bridge",
+          "ru": "Площадь на мосту",
+          "de": "Bereich auf der Brücke",
+          "es": "Area en el puente",
+          "fr": "Zone sur le pont"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Safety zone",
+          "ru": "Безопасная зона",
+          "de": "Sicherheitszone",
+          "es": "Zona segura",
+          "fr": "Zone de sécurité"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "150 meters from the flat surface of the foot of the bridge",
+          "ru": "150 метров от плоской поверхности подножия моста",
+          "de": "150 Meter von der ebenen Fläche des Fußes der Brücke entfernt",
+          "es": "150 metros de la superficie plana del pie del puente",
+          "fr": "150 mètres de la surface plane du pied du pont"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9786,
+    "title": {
+      "en": {
+        "value": "When the driver finds the symbol “Always turn left” What should the driver do?"
+      },
+      "ru": {
+        "value": "Когда водитель находит символ «Всегда поворачивать налево» Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Wenn der Fahrer das Symbol „Immer links abbiegen“ findet Was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "Cuando el conductor encuentra el símbolo 'Siempre gire a la izquierda' ¿Qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "Lorsque le conducteur trouve le symbole «Toujours tourner à gauche» Que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Slow down the car and turn left immediately",
+          "ru": "Замедлите автомобиль и немедленно поверните налево",
+          "de": "Das Auto verlangsamen und sofort links abbiegen",
+          "es": "Reduzca la velocidad del automóvil y gire a la izquierda inmediatamente",
+          "fr": "Ralentissez la voiture et tournez immédiatement à gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop and wait until you get a green light signal so you can turn left",
+          "ru": "Остановитесь и подождите, пока не получите зеленый световой сигнал, чтобы вы могли повернуть налево",
+          "de": "Halten Sie an und warten Sie, bis Sie ein grünes Licht erhalten, damit Sie nach links abbiegen können",
+          "es": "Deténgase y espere hasta obtener una señal de luz verde para poder girar a la izquierda",
+          "fr": "Arrêtez-vous et attendez que vous obteniez un signal vert pour pouvoir tourner à gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Turn left and go immediately",
+          "ru": "Поверните налево и идите немедленно",
+          "de": "Biegen Sie links ab und gehen Sie sofort",
+          "es": "Gira a la izquierda y ve de inmediato",
+          "fr": "Tournez à gauche et allez immédiatement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop waiting for people crossing the road and cars coming from the right hand side to pass past and turn left to pass",
+          "ru": "Перестаньте ждать людей, переходящих дорогу и проезжающих с правой стороны автомобилей, проезжающих мимо, и поверните налево, чтобы проехать",
+          "de": "Hören Sie auf zu warten, bis Leute die Straße überqueren und Autos von der rechten Seite vorbeifahren, und biegen Sie links ab, um vorbeizukommen",
+          "es": "Deje de esperar a que la gente cruce la carretera y los autos que vienen del lado derecho pasen y gire a la izquierda para pasar",
+          "fr": "Arrêtez d'attendre que les gens qui traversent la route et les voitures venant du côté droit passent devant et tournez à gauche pour passer"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7488,
+    "title": {
+      "en": {
+        "value": "Who does not have a duty to provide traffic signals under the Road Traffic Act B.E. 2522"
+      },
+      "ru": {
+        "value": "Кто не обязан предоставлять светофоры в соответствии с Законом о дорожном движении BE 2522"
+      },
+      "de": {
+        "value": "Wer ist nicht verpflichtet, Verkehrssignale nach dem Straßenverkehrsgesetz BE 2522 bereitzustellen"
+      },
+      "es": {
+        "value": "Quien no tiene el deber de proporcionar señales de tránsito en virtud de la Ley de Tráfico Vial BE 2522"
+      },
+      "fr": {
+        "value": "Qui n'a pas l'obligation de fournir des feux de circulation en vertu de la loi sur la circulation routière BE 2522"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Motorists",
+          "ru": "Автомобилисты",
+          "de": "Autofahrer",
+          "es": "Automovilistas",
+          "fr": "Les automobilistes"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Traffic Officer",
+          "ru": "Офицер дорожного движения",
+          "de": "Verkehrspolizist",
+          "es": "Oficial de tráfico",
+          "fr": "Agent de la circulation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Motorcyclists",
+          "ru": "Мотоциклисты",
+          "de": "Motorradfahrer",
+          "es": "Motociclistas",
+          "fr": "Motocyclistes"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Pedestrians",
+          "ru": "Пешеходы",
+          "de": "Fußgänger",
+          "es": "Los peatones",
+          "fr": "Piétons"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7478,
+    "title": {
+      "en": {
+        "value": "The driver has not complied with any"
+      },
+      "ru": {
+        "value": "Водитель не выполнил ни одного"
+      },
+      "de": {
+        "value": "Der Fahrer hat keine eingehalten"
+      },
+      "es": {
+        "value": "El conductor no ha cumplido ninguna"
+      },
+      "fr": {
+        "value": "Le conducteur n'a respecté aucune"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Reduce speed at the roundabout",
+          "ru": "Снизить скорость на кольцевой",
+          "de": "Geschwindigkeit am Kreisverkehr reduzieren",
+          "es": "Reduce la velocidad en la rotonda",
+          "fr": "Réduisez la vitesse au rond-point"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Reduce the speed when reaching the critical place",
+          "ru": "Уменьшите скорость при достижении критического места",
+          "de": "Reduzieren Sie die Geschwindigkeit, wenn Sie den kritischen Ort erreichen",
+          "es": "Reduzca la velocidad al llegar al lugar crítico",
+          "fr": "Réduisez la vitesse lorsque vous atteignez l'endroit critique"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Slow down when you see people crossing the road",
+          "ru": "Замедляйте, когда видите людей, переходящих дорогу",
+          "de": "Fahren Sie langsamer, wenn Sie Leute sehen, die die Straße überqueren",
+          "es": "Disminuya la velocidad cuando vea personas cruzando la calle",
+          "fr": "Ralentissez lorsque vous voyez des gens traverser la route"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Parking at the crossroads",
+          "ru": "Парковка на перекрестке",
+          "de": "Parken an der Kreuzung",
+          "es": "Estacionamiento en la encrucijada",
+          "fr": "Parking au carrefour"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 5858,
+    "title": {
+      "en": {
+        "value": "Any area can overtake"
+      },
+      "ru": {
+        "value": "Любая область может обогнать"
+      },
+      "de": {
+        "value": "Jeder Bereich kann überholen"
+      },
+      "es": {
+        "value": "Cualquier área puede adelantar"
+      },
+      "fr": {
+        "value": "N'importe quelle zone peut dépasser"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "The intersection way",
+          "ru": "Путь пересечения",
+          "de": "Der Kreuzungsweg",
+          "es": "La intersección",
+          "fr": "La voie de l'intersection"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "One way bridge",
+          "ru": "Мост с односторонним движением",
+          "de": "Einbahnstraße",
+          "es": "Puente unidireccional",
+          "fr": "Pont à sens unique"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The narrow radius curve",
+          "ru": "Кривая узкого радиуса",
+          "de": "Die Kurve mit schmalem Radius",
+          "es": "La curva de radio estrecho",
+          "fr": "La courbe de rayon étroite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "On the surface of the road where there is a traffic sign to overtake",
+          "ru": "На поверхности дороги, где есть дорожный знак для обгона",
+          "de": "Auf der Oberfläche der Straße, wo es ein Verkehrszeichen zum Überholen gibt",
+          "es": "En la superficie de la carretera donde hay una señal de tráfico para adelantar",
+          "fr": "Sur la surface de la route où il y a un panneau de signalisation pour dépasser"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 3685,
+    "title": {
+      "en": {
+        "value": "When should I change channels or overtake cars?"
+      },
+      "ru": {
+        "value": "Когда я должен менять каналы или обгонять машины?"
+      },
+      "de": {
+        "value": "Wann sollte ich den Kanal wechseln oder Autos überholen?"
+      },
+      "es": {
+        "value": "¿Cuándo debo cambiar de canal o adelantar a los autos?"
+      },
+      "fr": {
+        "value": "Quand dois-je changer de chaîne ou dépasser les voitures?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Hurry to change channels quickly",
+          "ru": "Спешите быстро менять каналы",
+          "de": "Beeilen Sie sich, um schnell die Kanäle zu wechseln",
+          "es": "Date prisa para cambiar de canal rápidamente",
+          "fr": "Dépêchez-vous de changer rapidement de chaîne"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hasten to overtake the machine quickly",
+          "ru": "Спешите быстро обогнать машину",
+          "de": "Beeilen Sie sich, um die Maschine schnell zu überholen",
+          "es": "Apresurarse a adelantar la máquina rápidamente",
+          "fr": "Accélérez pour dépasser rapidement la machine"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must provide light signal or horn signal",
+          "ru": "Должен обеспечить световой сигнал или сигнал рога",
+          "de": "Muss ein Lichtsignal oder ein Hupensignal liefern",
+          "es": "Debe proporcionar señal de luz o señal de bocina",
+          "fr": "Doit fournir un signal lumineux ou un signal sonore"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Overtake in front and immediately apply the brakes",
+          "ru": "Обгоните впереди и сразу же включите тормоза",
+          "de": "Überholen Sie vorne und betätigen Sie sofort die Bremsen",
+          "es": "Adelantar al frente e inmediatamente aplicar los frenos",
+          "fr": "Dépasser devant et appliquer immédiatement les freins"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7616,
+    "title": {
+      "en": {
+        "value": "Any parking area"
+      },
+      "ru": {
+        "value": "Любая парковка"
+      },
+      "de": {
+        "value": "Jeder Parkplatz"
+      },
+      "es": {
+        "value": "Cualquier área de estacionamiento"
+      },
+      "fr": {
+        "value": "Toute aire de stationnement"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "With a stop sign",
+          "ru": "Со знаком остановки",
+          "de": "Mit einem Stoppschild",
+          "es": "Con una señal de stop",
+          "fr": "Avec un panneau d'arrêt"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "In the tunnel",
+          "ru": "В туннеле",
+          "de": "Im Tunnel",
+          "es": "En el tunel",
+          "fr": "Dans le tunnel"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Joint intersection",
+          "ru": "Совместное пересечение",
+          "de": "Gemeinsame Kreuzung",
+          "es": "Intersección conjunta",
+          "fr": "Intersection conjointe"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Parking lot in the mall",
+          "ru": "Автостоянка в торговом центре",
+          "de": "Parkplatz im Einkaufszentrum",
+          "es": "Estacionamiento en el centro comercial",
+          "fr": "Parking dans le centre commercial"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 5591,
+    "title": {
+      "en": {
+        "value": "Driving according to any rules correctly"
+      },
+      "ru": {
+        "value": "Правильное вождение по любым правилам"
+      },
+      "de": {
+        "value": "Richtig nach Regeln fahren"
+      },
+      "es": {
+        "value": "Conducir de acuerdo con las reglas correctamente"
+      },
+      "fr": {
+        "value": "Conduire selon toutes les règles correctement"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Driving abnormalities",
+          "ru": "Нарушения вождения",
+          "de": "Fahrstörungen",
+          "es": "Conducta anormalidades",
+          "fr": "Anomalies de conduite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Overtaking the car in the tunnel",
+          "ru": "Обгон машины в тоннеле",
+          "de": "Das Auto im Tunnel überholen",
+          "es": "Adelantando el auto en el túnel",
+          "fr": "Dépasser la voiture dans le tunnel"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive in a traffic obstruction manner",
+          "ru": "Вождение в порядке дорожного движения",
+          "de": "Fahren Sie verkehrsbehindert",
+          "es": "Conduzca de manera que obstruya el tráfico",
+          "fr": "Conduisez de manière à entraver la circulation"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive faster than the rate required by law",
+          "ru": "Двигайтесь быстрее, чем требуется по закону",
+          "de": "Fahren Sie schneller als gesetzlich vorgeschrieben",
+          "es": "Conduzca más rápido que la velocidad requerida por la ley",
+          "fr": "Conduisez plus vite que le taux requis par la loi"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 8390,
+    "title": {
+      "en": {
+        "value": "When arriving at the railroad and there is a passing train What should the driver do?"
+      },
+      "ru": {
+        "value": "При прибытии на железную дорогу и проезжающем поезде Что делать водителю?"
+      },
+      "de": {
+        "value": "Wenn Sie bei der Eisenbahn ankommen und ein Zug vorbeifährt Was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "Al llegar al ferrocarril y hay un tren que pasa ¿Qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "En arrivant au chemin de fer et il y a un train qui passe Que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Stop waiting for the signal light and turn on the emergency light",
+          "ru": "Остановите ожидание сигнала и включите аварийное освещение",
+          "de": "Hören Sie auf, auf die Signalleuchte zu warten, und schalten Sie die Notleuchte ein",
+          "es": "Deje de esperar la luz de señal y encienda la luz de emergencia",
+          "fr": "Arrêtez d'attendre le signal lumineux et allumez le voyant d'urgence"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Stop the car at least 5 meters from the railroad",
+          "ru": "Остановите машину на расстоянии не менее 5 метров от железной дороги",
+          "de": "Halten Sie das Auto mindestens 5 Meter von der Eisenbahn entfernt an",
+          "es": "Detenga el automóvil al menos a 5 metros del ferrocarril",
+          "fr": "Arrêtez la voiture à au moins 5 mètres du chemin de fer"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive through quickly",
+          "ru": "Проехать быстро",
+          "de": "Schnell durchfahren",
+          "es": "Conduzca rápido",
+          "fr": "Conduisez rapidement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Give a warning signal and drive through",
+          "ru": "Подать предупреждающий сигнал и проехать",
+          "de": "Geben Sie ein Warnsignal und fahren Sie durch",
+          "es": "Dar una señal de advertencia y conducir",
+          "fr": "Donner un signal d'avertissement et traverser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 112,
+    "title": {
+      "en": {
+        "value": "Any area can use the horn sound"
+      },
+      "ru": {
+        "value": "Любой район может использовать звук рога"
+      },
+      "de": {
+        "value": "Jeder Bereich kann den Hupenton verwenden"
+      },
+      "es": {
+        "value": "Cualquier área puede usar el sonido de la bocina"
+      },
+      "fr": {
+        "value": "N'importe quelle zone peut utiliser le son du klaxon"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "School",
+          "ru": "Школа",
+          "de": "Schule",
+          "es": "Colegio",
+          "fr": "École"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Government Office",
+          "ru": "Правительственное учреждение",
+          "de": "Regierungsbüro",
+          "es": "Oficina gubernamental",
+          "fr": "Bureau du gouvernement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hospital",
+          "ru": "Больница",
+          "de": "Krankenhaus",
+          "es": "Hospital",
+          "fr": "Hôpital"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Public Park",
+          "ru": "Общественный парк",
+          "de": "Öffentlicher Park",
+          "es": "Parque público",
+          "fr": "Parc public"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 8463,
+    "title": {
+      "en": {
+        "value": "In the event of an accident, the driver will escape?"
+      },
+      "ru": {
+        "value": "В случае аварии водитель сбежит?"
+      },
+      "de": {
+        "value": "Im Falle eines Unfalls wird der Fahrer entkommen?"
+      },
+      "es": {
+        "value": "En caso de accidente, el conductor escapará?"
+      },
+      "fr": {
+        "value": "En cas d'accident, le conducteur s'échappera?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "No effect because it is not the fault",
+          "ru": "Нет эффекта, потому что это не вина",
+          "de": "Keine Wirkung, da es nicht die Schuld ist",
+          "es": "Sin efecto porque no es la culpa",
+          "fr": "Aucun effet car ce n'est pas la faute"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Will be kept as a witness",
+          "ru": "Будет храниться в качестве свидетеля",
+          "de": "Wird als Zeuge aufbewahrt",
+          "es": "Se mantendrá como testigo",
+          "fr": "Sera conservé comme témoin"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "It is presumed that that person was an offender",
+          "ru": "Предполагается, что этот человек был преступником",
+          "de": "Es wird vermutet, dass diese Person ein Täter war",
+          "es": "Se presume que esa persona fue un delincuente",
+          "fr": "On présume que cette personne était un délinquant"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Result in being right",
+          "ru": "Результат в том, чтобы быть правым",
+          "de": "Das Ergebnis ist, richtig zu sein",
+          "es": "Resultado en tener razón",
+          "fr": "Avoir raison"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9106,
+    "title": {
+      "en": {
+        "value": "When can the horn sound be used?"
+      },
+      "ru": {
+        "value": "Когда можно использовать звук рога?"
+      },
+      "de": {
+        "value": "Wann kann der Hupenton verwendet werden?"
+      },
+      "es": {
+        "value": "¿Cuándo se puede usar el sonido de la bocina?"
+      },
+      "fr": {
+        "value": "Quand peut-on utiliser le klaxon?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Can be used when the front car drives slowly",
+          "ru": "Может использоваться, когда передний автомобиль едет медленно",
+          "de": "Kann verwendet werden, wenn das vordere Auto langsam fährt",
+          "es": "Se puede usar cuando el automóvil delantero conduce lentamente",
+          "fr": "Peut être utilisé lorsque la voiture avant roule lentement"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Convenient to use",
+          "ru": "Удобно использовать",
+          "de": "Bequem zu bedienen",
+          "es": "Conveniente de usar",
+          "fr": "Pratique à utiliser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Always use",
+          "ru": "Всегда используйте",
+          "de": "Verwenden Sie immer",
+          "es": "Siempre usa",
+          "fr": "Toujours utiliser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Can be used when necessary to prevent accidents",
+          "ru": "Может использоваться при необходимости для предотвращения несчастных случаев",
+          "de": "Kann bei Bedarf verwendet werden, um Unfälle zu vermeiden",
+          "es": "Se puede usar cuando sea necesario para evitar accidentes",
+          "fr": "Peut être utilisé si nécessaire pour prévenir les accidents"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 8870,
+    "title": {
+      "en": {
+        "value": "When driving, how far should the vehicle be spaced?"
+      },
+      "ru": {
+        "value": "Во время вождения, как далеко должно быть транспортное средство?"
+      },
+      "de": {
+        "value": "Wie weit sollte das Fahrzeug während der Fahrt voneinander entfernt sein?"
+      },
+      "es": {
+        "value": "Al conducir, ¿a qué distancia debe espaciarse el vehículo?"
+      },
+      "fr": {
+        "value": "Pendant la conduite, à quelle distance le véhicule doit-il être espacé?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "3 Vehicle range",
+          "ru": "3 Ассортимент автомобилей",
+          "de": "3 Fahrzeugreichweite",
+          "es": "3 gama de vehículos",
+          "fr": "3 Gamme de véhicules"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "In a safe distance",
+          "ru": "На безопасном расстоянии",
+          "de": "In sicherer Entfernung",
+          "es": "En una distancia segura",
+          "fr": "Dans une distance de sécurité"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "13 m",
+          "ru": "13 м",
+          "de": "13 m",
+          "es": "13 m",
+          "fr": "13 m"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "50 m",
+          "ru": "50 м",
+          "de": "50 m",
+          "es": "50 m",
+          "fr": "50 m"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 953,
+    "title": {
+      "en": {
+        "value": "Before turning the car, must enter the lane of turning and turn on the light before turning the car no less than how many meters"
+      },
+      "ru": {
+        "value": "Прежде чем повернуть машину, необходимо войти в полосу поворота и включить свет, прежде чем поворачивать машину не менее, чем на несколько метров"
+      },
+      "de": {
+        "value": "Bevor Sie das Auto abbiegen, müssen Sie in die Abbiegespur einfahren und das Licht einschalten, bevor Sie das Auto mindestens um wie viele Meter drehen"
+      },
+      "es": {
+        "value": "Antes de girar el automóvil, debe ingresar al carril de giro y encender la luz antes de girar el automóvil no menos de cuántos metros"
+      },
+      "fr": {
+        "value": "Avant de tourner la voiture, doit entrer dans la voie de virage et allumer la lumière avant de tourner la voiture pas moins de combien de mètres"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "3 meters",
+          "ru": "3 метра",
+          "de": "3 Meter",
+          "es": "3 metros",
+          "fr": "3 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "15 meters",
+          "ru": "15 метров",
+          "de": "15 Meter",
+          "es": "15 metros",
+          "fr": "15 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "30 meters",
+          "ru": "30 метров",
+          "de": "30 Meter",
+          "es": "30 metros",
+          "fr": "30 mètres"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "10 meters",
+          "ru": "10 метров",
+          "de": "10 Meter",
+          "es": "10 metros",
+          "fr": "10 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1783,
+    "title": {
+      "en": {
+        "value": "Drivers who drink alcohol when measuring alcohol levels in the breath must not exceed how much"
+      },
+      "ru": {
+        "value": "Водители, которые пьют алкоголь при измерении уровня алкоголя в дыхании, не должны превышать сколько"
+      },
+      "de": {
+        "value": "Fahrer, die Alkohol trinken, wenn sie den Alkoholgehalt im Atem messen, dürfen diesen Wert nicht überschreiten"
+      },
+      "es": {
+        "value": "Los conductores que beben alcohol al medir los niveles de alcohol en la respiración no deben exceder la cantidad"
+      },
+      "fr": {
+        "value": "Les conducteurs qui boivent de l'alcool lorsqu'ils mesurent leur taux d'alcool dans l'haleine ne doivent pas dépasser la quantité"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not more than 60 milligrams Percent",
+          "ru": "Не более 60 миллиграмм процентов",
+          "de": "Nicht mehr als 60 Milligramm Prozent",
+          "es": "No más de 60 miligramos por ciento",
+          "fr": "Pas plus de 60 milligrammes Pourcentage"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "No more than 70 milligrams Percent",
+          "ru": "Не более 70 миллиграмм процентов",
+          "de": "Nicht mehr als 70 Milligramm Prozent",
+          "es": "No más de 70 miligramos por ciento",
+          "fr": "Pas plus de 70 milligrammes Pourcentage"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "No more than 80 milligrams Percent",
+          "ru": "Не более 80 миллиграмм процентов",
+          "de": "Nicht mehr als 80 Milligramm Prozent",
+          "es": "No más de 80 miligramos por ciento",
+          "fr": "Pas plus de 80 milligrammes Pourcentage"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "No more than 50 milligrams Percent",
+          "ru": "Не более 50 миллиграмм процентов",
+          "de": "Nicht mehr als 50 Milligramm Prozent",
+          "es": "No más de 50 miligramos por ciento",
+          "fr": "Pas plus de 50 milligrammes Pourcentage"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9736,
+    "title": {
+      "en": {
+        "value": "What is the penalty for driving while detecting alcohol in the body more than the legal limit?"
+      },
+      "ru": {
+        "value": "Какой штраф за вождение автомобиля при обнаружении алкоголя превышает допустимый предел?"
+      },
+      "de": {
+        "value": "Was ist die Strafe für das Fahren beim Erkennen von Alkohol im Körper mehr als die gesetzliche Grenze?"
+      },
+      "es": {
+        "value": "¿Cuál es la penalidad por conducir mientras se detecta alcohol en el cuerpo más allá del límite legal?"
+      },
+      "fr": {
+        "value": "Quelle est la pénalité pour conduite avec détection d'alcool dans le corps supérieure à la limite légale?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Imprisonment of not more than 3 months or a fine of 1,000 to. 50,000 baht",
+          "ru": "Лишение свободы на срок не более 3 месяцев или штраф от 1000 до. 50000 бат",
+          "de": "Freiheitsstrafe von nicht mehr als 3 Monaten oder Geldstrafe von 1.000 bis. 50.000 Baht",
+          "es": "Encarcelamiento de no más de 3 meses o una multa de 1,000 a. 50,000 baht",
+          "fr": "Emprisonnement maximal de 3 mois ou amende de 1 000 à. 50 000 bahts"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Fine not exceeding 10,000 baht",
+          "ru": "Штраф не более 10 000 бат",
+          "de": "Geldstrafe nicht mehr als 10.000 Baht",
+          "es": "Multa no superior a 10,000 baht",
+          "fr": "Amende ne dépassant pas 10 000 bahts"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Imprisonment of not more than 1 year or a fine of 5,000 to. 20,000 baht or both",
+          "ru": "Лишение свободы на срок не более 1 года или штраф в размере от 5000 до. 20000 бат или оба",
+          "de": "Freiheitsstrafe von nicht mehr als 1 Jahr oder Geldstrafe von 5.000 bis. 20.000 Baht oder beides",
+          "es": "Encarcelamiento de no más de 1 año o una multa de 5,000 a. 20,000 baht o ambos",
+          "fr": "Emprisonnement maximal d'un an ou amende de 5 000 à. 20 000 bahts ou les deux"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Fine not more than 5,000 baht",
+          "ru": "Штраф не более 5000 бат",
+          "de": "Geldstrafe nicht mehr als 5.000 Baht",
+          "es": "Bien no más de 5,000 baht",
+          "fr": "Pas plus de 5 000 bahts d'amende"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7699,
+    "title": {
+      "en": {
+        "value": "In Bangkok, Pattaya Or municipality What speed does it have to drive?"
+      },
+      "ru": {
+        "value": "В Бангкоке, Паттайе или муниципалитете На какой скорости он должен ехать?"
+      },
+      "de": {
+        "value": "In Bangkok, Pattaya oder Gemeinde Welche Geschwindigkeit muss es fahren?"
+      },
+      "es": {
+        "value": "En Bangkok, Pattaya o el municipio ¿Qué velocidad tiene que conducir?"
+      },
+      "fr": {
+        "value": "À Bangkok, Pattaya ou la municipalité Quelle vitesse faut-il pour conduire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not more than 90 kilometers per hour",
+          "ru": "Не более 90 километров в час",
+          "de": "Nicht mehr als 90 Stundenkilometer",
+          "es": "No más de 90 kilómetros por hora",
+          "fr": "Pas plus de 90 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 100 kilometers per hour",
+          "ru": "Не более 100 километров в час",
+          "de": "Nicht mehr als 100 Stundenkilometer",
+          "es": "No más de 100 kilómetros por hora",
+          "fr": "Pas plus de 100 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 80 kilometers per hour",
+          "ru": "Не более 80 километров в час",
+          "de": "Nicht mehr als 80 Stundenkilometer",
+          "es": "No más de 80 kilómetros por hora",
+          "fr": "Pas plus de 80 kilomètres par heure"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 60 kilometers per hour",
+          "ru": "Не более 60 километров в час",
+          "de": "Nicht mehr als 60 Stundenkilometer",
+          "es": "No más de 60 kilómetros por hora",
+          "fr": "Pas plus de 60 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9912,
+    "title": {
+      "en": {
+        "value": "Outside Bangkok Pattaya Or municipality What speed does it have to drive?"
+      },
+      "ru": {
+        "value": "За пределами Бангкока Паттайя Или муниципалитет На какой скорости он должен ехать?"
+      },
+      "de": {
+        "value": "Außerhalb von Bangkok Pattaya oder Gemeinde Welche Geschwindigkeit muss es fahren?"
+      },
+      "es": {
+        "value": "Fuera de Bangkok Pattaya o municipio ¿Qué velocidad tiene que conducir?"
+      },
+      "fr": {
+        "value": "En dehors de Bangkok Pattaya ou de la municipalité Quelle vitesse faut-il pour conduire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not more than 120 kilometers per hour",
+          "ru": "Не более 120 километров в час",
+          "de": "Nicht mehr als 120 Stundenkilometer",
+          "es": "No más de 120 kilómetros por hora",
+          "fr": "Pas plus de 120 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 80 kilometers per hour",
+          "ru": "Не более 80 километров в час",
+          "de": "Nicht mehr als 80 Stundenkilometer",
+          "es": "No más de 80 kilómetros por hora",
+          "fr": "Pas plus de 80 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 100 kilometers per hour",
+          "ru": "Не более 100 километров в час",
+          "de": "Nicht mehr als 100 Stundenkilometer",
+          "es": "No más de 100 kilómetros por hora",
+          "fr": "Pas plus de 100 kilomètres par heure"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not more than 90 kilometers per hour",
+          "ru": "Не более 90 километров в час",
+          "de": "Nicht mehr als 90 Stundenkilometer",
+          "es": "No más de 90 kilómetros por hora",
+          "fr": "Pas plus de 90 kilomètres par heure"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 7129,
+    "title": {
+      "en": {
+        "value": "To give a turn signal How far must the driver of other vehicles be able to see?"
+      },
+      "ru": {
+        "value": "Чтобы дать сигнал поворота Как далеко должен видеть водитель других транспортных средств?"
+      },
+      "de": {
+        "value": "Blinker geben Wie weit muss der Fahrer anderer Fahrzeuge sehen können?"
+      },
+      "es": {
+        "value": "Para dar una señal de giro ¿Hasta dónde debe poder ver el conductor de otros vehículos?"
+      },
+      "fr": {
+        "value": "Pour donner un clignotant À quelle distance le conducteur des autres véhicules doit-il pouvoir voir?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Not less than 10 meters",
+          "ru": "Не менее 10 метров",
+          "de": "Nicht weniger als 10 Meter",
+          "es": "No menos de 10 metros",
+          "fr": "Pas moins de 10 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 15 meters",
+          "ru": "Не менее 15 метров",
+          "de": "Nicht weniger als 15 Meter",
+          "es": "No menos de 15 metros",
+          "fr": "Pas moins de 15 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 30 meters",
+          "ru": "Не менее 30 метров",
+          "de": "Nicht weniger als 30 Meter",
+          "es": "No menos de 30 metros",
+          "fr": "Pas moins de 30 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Not less than 60 meters",
+          "ru": "Не менее 60 метров",
+          "de": "Nicht weniger als 60 Meter",
+          "es": "No menos de 60 metros",
+          "fr": "Pas moins de 60 mètres"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 2913,
+    "title": {
+      "en": {
+        "value": "How will the driver who turns the car have to give a hand signal?"
+      },
+      "ru": {
+        "value": "Как водитель, который поворачивает машину, должен подать сигнал рукой?"
+      },
+      "de": {
+        "value": "Wie muss der Fahrer, der das Auto dreht, ein Handzeichen geben?"
+      },
+      "es": {
+        "value": "¿Cómo tendrá que dar una señal de mano el conductor que gira el automóvil?"
+      },
+      "fr": {
+        "value": "Comment le conducteur qui fait tourner la voiture devra-t-il donner un signal de la main?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Give the right hand signal only to the left hand",
+          "ru": "Подайте сигнал правой рукой только левой руке",
+          "de": "Geben Sie das rechte Signal nur an die linke Hand",
+          "es": "Dé la señal de la mano derecha solo a la mano izquierda",
+          "fr": "Donnez le signal de la main droite uniquement à la main gauche"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Giving signals to both the left hand and right hand",
+          "ru": "Подавать сигналы как левой, так и правой руке",
+          "de": "Signale sowohl an die linke als auch an die rechte Hand geben",
+          "es": "Dar señales tanto a la mano izquierda como a la derecha",
+          "fr": "Donner des signaux à la main gauche et à la main droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "No hand signal is required at all",
+          "ru": "Сигнал руки не требуется вообще",
+          "de": "Es ist überhaupt kein Handzeichen erforderlich",
+          "es": "No se requiere señal de mano",
+          "fr": "Aucun signal de la main n'est nécessaire du tout"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Hand signals are only given by the right hand",
+          "ru": "Ручные сигналы даются только правой рукой",
+          "de": "Handzeichen werden nur von der rechten Hand gegeben",
+          "es": "Las señales de mano solo son dadas por la mano derecha",
+          "fr": "Les signaux de la main ne sont donnés que par la main droite"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 3879,
+    "title": {
+      "en": {
+        "value": "The area of ​​the intersection and the sign prohibiting U-turn, but the traffic officer allows to return the driver. What should be done?"
+      },
+      "ru": {
+        "value": "Зона перекрестка и знак, запрещающий разворот, но ГИБДД позволяет вернуть водителю. Что нужно сделать?"
+      },
+      "de": {
+        "value": "Der Bereich der Kreuzung und das Schild verbieten die Kehrtwende, aber der Verkehrsbeamte erlaubt die Rückgabe des Fahrers. Was soll getan werden?"
+      },
+      "es": {
+        "value": "El área de la intersección y la señal que prohíbe el giro en U, pero el oficial de tránsito permite devolver al conductor. ¿Lo que debe hacerse?"
+      },
+      "fr": {
+        "value": "La zone de l'intersection et le panneau interdisant le demi-tour, mais l'agent de la circulation autorise le retour du conducteur. Qu'est-ce qui devrait être fait?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Can make a U-turn if not at a crossroad",
+          "ru": "Может сделать разворот, если не на перекрестке",
+          "de": "Kann eine Kehrtwende machen, wenn nicht an einer Kreuzung",
+          "es": "Puede hacer un cambio de sentido si no está en una encrucijada",
+          "fr": "Peut faire demi-tour s'il n'est pas à un carrefour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Can return the car",
+          "ru": "Можете вернуть машину",
+          "de": "Kann das Auto zurückgeben",
+          "es": "Puede devolver el coche",
+          "fr": "Peut rendre la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Can return the car if there is no mark to make a U-turn",
+          "ru": "Может вернуть автомобиль, если нет отметки, чтобы сделать разворот",
+          "de": "Kann das Auto zurückgeben, wenn es keine Markierung für eine Kehrtwende gibt",
+          "es": "Puede devolver el auto si no hay marca para hacer un cambio de sentido",
+          "fr": "Peut rendre la voiture s'il n'y a pas de marque pour faire demi-tour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Cannot make a U-turn",
+          "ru": "Не могу сделать разворот",
+          "de": "Kann keine Kehrtwende machen",
+          "es": "No se puede hacer un cambio de sentido",
+          "fr": "Impossible de faire demi-tour"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1041,
+    "title": {
+      "en": {
+        "value": "What should a driver do to return a car?"
+      },
+      "ru": {
+        "value": "Что должен сделать водитель, чтобы вернуть машину?"
+      },
+      "de": {
+        "value": "Was sollte ein Fahrer tun, um ein Auto zurückzugeben?"
+      },
+      "es": {
+        "value": "¿Qué debe hacer un conductor para devolver un automóvil?"
+      },
+      "fr": {
+        "value": "Que doit faire un conducteur pour restituer une voiture?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drive in any way",
+          "ru": "Езжай любым способом",
+          "de": "Fahren Sie in irgendeiner Weise",
+          "es": "Conduce de cualquier manera",
+          "fr": "Conduisez de n'importe quelle façon"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Make a U-turn at the yellow diagonal line",
+          "ru": "Сделайте разворот на желтой диагональной линии",
+          "de": "Machen Sie eine Kehrtwende an der gelben diagonalen Linie",
+          "es": "Haga un giro en U en la línea diagonal amarilla",
+          "fr": "Faire demi-tour sur la ligne diagonale jaune"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Look at the traffic signs that allow to make a U-turn and enter the lane correctly",
+          "ru": "Посмотрите на дорожные знаки, которые позволяют сделать разворот и правильно войти в полосу движения",
+          "de": "Schauen Sie sich die Verkehrszeichen an, die eine Kehrtwende ermöglichen, und fahren Sie korrekt auf die Fahrspur",
+          "es": "Mire las señales de tránsito que permiten hacer un cambio de sentido e ingresar al carril correctamente",
+          "fr": "Regardez les panneaux de signalisation qui permettent de faire demi-tour et entrez correctement dans la voie"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Enter the lane with the arrow on the road straight",
+          "ru": "Войдите в переулок со стрелкой на дороге прямо",
+          "de": "Betreten Sie die Fahrspur mit dem Pfeil auf der Straße",
+          "es": "Ingrese al carril con la flecha en el camino recto",
+          "fr": "Entrez dans la voie avec la flèche sur la route tout droit"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 545,
+    "title": {
+      "en": {
+        "value": "Which item is correct?"
+      },
+      "ru": {
+        "value": "Какой пункт является правильным?"
+      },
+      "de": {
+        "value": "Welcher Artikel ist richtig?"
+      },
+      "es": {
+        "value": "¿Qué artículo es correcto?"
+      },
+      "fr": {
+        "value": "Quel élément est correct?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Changing the lane to the right or left. Do not look at the left or right mirror",
+          "ru": "Смена полосы движения направо или налево. Не смотрите на левое или правое зеркало",
+          "de": "Spurwechsel nach rechts oder links. Schauen Sie nicht auf den linken oder rechten Spiegel",
+          "es": "Cambiar el carril a la derecha o izquierda. No mires el espejo izquierdo o derecho",
+          "fr": "Changement de voie à droite ou à gauche. Ne regardez pas le rétroviseur gauche ou droit"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Motorcycles must drive in the left lane of the vehicle",
+          "ru": "Мотоциклы должны ездить по левой полосе транспортного средства",
+          "de": "Motorräder müssen auf der linken Spur des Fahrzeugs fahren",
+          "es": "Las motocicletas deben conducir en el carril izquierdo del vehículo",
+          "fr": "Les motos doivent rouler dans la voie gauche du véhicule"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The passenger truck must drive in the rightmost lane",
+          "ru": "Пассажирский грузовик должен двигаться в крайнем правом ряду",
+          "de": "Der Personenkraftwagen muss auf der rechten Spur fahren",
+          "es": "El camión de pasajeros debe conducir en el carril de la derecha",
+          "fr": "Le camion de passagers doit rouler dans la voie la plus à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "The truck must drive in the rightmost lane",
+          "ru": "Грузовик должен ехать в крайнем правом ряду",
+          "de": "Der LKW muss auf der rechten Spur fahren",
+          "es": "El camión debe conducir en el carril de la derecha",
+          "fr": "Le camion doit rouler dans la voie la plus à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 5264,
+    "title": {
+      "en": {
+        "value": "In two or more traffic lanes in the same direction Motorcycle rider What should be done?"
+      },
+      "ru": {
+        "value": "В двух или более полосах движения в одном направлении Мотоциклист Что нужно сделать?"
+      },
+      "de": {
+        "value": "Auf zwei oder mehr Fahrspuren in die gleiche Richtung Motorradfahrer Was ist zu tun?"
+      },
+      "es": {
+        "value": "En dos o más carriles de tráfico en la misma dirección Motociclista ¿Qué se debe hacer?"
+      },
+      "fr": {
+        "value": "Dans deux ou plusieurs voies de circulation dans la même direction Conducteur de moto Que faire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Must drive at the far right",
+          "ru": "Должен ехать в крайнем правом углу",
+          "de": "Muss ganz rechts fahren",
+          "es": "Debe conducir en el extremo derecho",
+          "fr": "Doit conduire à l'extrême droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must drive in the right direction",
+          "ru": "Должен двигаться в правильном направлении",
+          "de": "Muss in die richtige Richtung fahren",
+          "es": "Debe conducir en la dirección correcta",
+          "fr": "Doit conduire dans la bonne direction"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must drive on the far left",
+          "ru": "Должен ехать далеко слева",
+          "de": "Muss ganz links fahren",
+          "es": "Debe conducir en el extremo izquierdo",
+          "fr": "Doit conduire à l'extrême gauche"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Must drive a car, dividing a lane",
+          "ru": "Нужно водить машину, разделяя полосу движения",
+          "de": "Muss ein Auto fahren und eine Fahrspur teilen",
+          "es": "Debe conducir un automóvil, dividiendo un carril",
+          "fr": "Doit conduire une voiture, divisant une voie"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 5742,
+    "title": {
+      "en": {
+        "value": "Anyone exempted from wearing a helmet while traveling on a motorcycle"
+      },
+      "ru": {
+        "value": "Любой, кто освобожден от ношения шлема во время путешествия на мотоцикле"
+      },
+      "de": {
+        "value": "Jeder, der auf dem Motorrad vom Tragen eines Helms befreit ist"
+      },
+      "es": {
+        "value": "Cualquier persona exenta de usar casco mientras viaja en motocicleta"
+      },
+      "fr": {
+        "value": "Toute personne dispensée de porter un casque lors d'un voyage à moto"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Drivers",
+          "ru": "Драйверы",
+          "de": "Treiber",
+          "es": "Conductores",
+          "fr": "Conducteurs"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Monks, Novices",
+          "ru": "Монахи, Новички",
+          "de": "Mönche, Anfänger",
+          "es": "Monjes, novicios",
+          "fr": "Moines, novices"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Passengers",
+          "ru": "Пассажиры",
+          "de": "Passagiere",
+          "es": "Pasajeros",
+          "fr": "Passagers"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Kids",
+          "ru": "Дети",
+          "de": "Kinder",
+          "es": "Niños",
+          "fr": "Des gamins"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 9570,
+    "title": {
+      "en": {
+        "value": "Which emergency light can be turned on correctly?"
+      },
+      "ru": {
+        "value": "Какое аварийное освещение можно включить правильно?"
+      },
+      "de": {
+        "value": "Welches Notlicht kann richtig eingeschaltet werden?"
+      },
+      "es": {
+        "value": "¿Qué luz de emergencia se puede encender correctamente?"
+      },
+      "fr": {
+        "value": "Quelle lumière de secours peut être allumée correctement?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Through the junction",
+          "ru": "Через перекресток",
+          "de": "Durch die Kreuzung",
+          "es": "A través del cruce",
+          "fr": "Par la jonction"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Broken car or car accident",
+          "ru": "Разбитая машина или автокатастрофа",
+          "de": "Defektes Auto oder Autounfall",
+          "es": "Coche roto o accidente automovilístico",
+          "fr": "Voiture cassée ou accident de voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Open anytime",
+          "ru": "Открыто в любое время",
+          "de": "Jederzeit geöffnet",
+          "es": "Abierto en cualquier momento",
+          "fr": "Ouvert à tout moment"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Fog",
+          "ru": "Туман",
+          "de": "Nebel",
+          "es": "Niebla",
+          "fr": "Brouillard"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 8866,
+    "title": {
+      "en": {
+        "value": "In carrying goods. What should the driver do?"
+      },
+      "ru": {
+        "value": "В перевозке грузов. Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Beim Tragen von Waren. Was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "En el transporte de mercancías. ¿Qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "En transportant des marchandises. Que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Can carry more than 1 meter wide on each side of the vehicle",
+          "ru": "Может нести более 1 метра в ширину с каждой стороны транспортного средства",
+          "de": "Kann auf jeder Seite des Fahrzeugs mehr als 1 Meter breit tragen",
+          "es": "Puede transportar más de 1 metro de ancho a cada lado del vehículo",
+          "fr": "Peut transporter plus d'un mètre de large de chaque côté du véhicule"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Carry on the front of the car. Not over 2.50 meters",
+          "ru": "Носите на передней части автомобиля. Не более 2,50 метра",
+          "de": "Tragen Sie die Vorderseite des Autos. Nicht über 2,50 Meter",
+          "es": "Llevar en la parte delantera del automóvil. No más de 2.50 metros",
+          "fr": "Portez à l'avant de la voiture. Pas plus de 2,50 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Can not exceed 2.50 meters on the back of the car",
+          "ru": "Не может превышать 2,50 метра на задней части автомобиля",
+          "de": "Kann 2,50 Meter auf der Rückseite des Autos nicht überschreiten",
+          "es": "No puede exceder los 2.50 metros en la parte trasera del automóvil",
+          "fr": "Ne peut dépasser 2,50 mètres à l'arrière de la voiture"
+        },
+        "isAnswer": true,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Height of the car measured from the load more than 5 meters",
+          "ru": "Высота автомобиля измеряется от груза более 5 метров",
+          "de": "Höhe des Autos gemessen von der Last mehr als 5 Meter",
+          "es": "Altura del automóvil medida desde la carga de más de 5 metros",
+          "fr": "Hauteur de la voiture mesurée à partir de la charge de plus de 5 mètres"
+        },
+        "isAnswer": false,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 1843,
+    "title": {
+      "en": {
+        "value": "Towing a car that cannot use the steering wheel or brakes, what should be done?"
+      },
+      "ru": {
+        "value": "Что нужно сделать для буксировки автомобиля, на котором нельзя использовать руль или тормоза?"
+      },
+      "de": {
+        "value": "Was ist zu tun, wenn Sie ein Auto abschleppen, das weder Lenkrad noch Bremsen verwenden kann?"
+      },
+      "es": {
+        "value": "Remolcar un automóvil que no puede usar el volante o los frenos, ¿qué se debe hacer?"
+      },
+      "fr": {
+        "value": "Remorquer une voiture qui ne peut pas utiliser le volant ou les freins, que faire?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Use people to push",
+          "ru": "Используйте людей, чтобы подтолкнуть",
+          "de": "Benutze Leute, um zu pushen",
+          "es": "Usa personas para empujar",
+          "fr": "Utiliser les gens pour pousser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Use cars to push",
+          "ru": "Используйте машины, чтобы подтолкнуть",
+          "de": "Verwenden Sie Autos zum Schieben",
+          "es": "Usa autos para empujar",
+          "fr": "Utilisez des voitures pour pousser"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Use towing cables to tow",
+          "ru": "Используйте буксирные тросы для буксировки",
+          "de": "Verwenden Sie zum Abschleppen Kabel",
+          "es": "Use cables de remolque para remolcar",
+          "fr": "Utilisez des câbles de remorquage pour remorquer"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Use the front lifting or trailing lifting methods",
+          "ru": "Используйте методы подъема спереди или сзади",
+          "de": "Verwenden Sie die Methoden zum Heben von vorne oder nach hinten",
+          "es": "Utilice los métodos de elevación frontal o posterior",
+          "fr": "Utilisez les méthodes de levage avant ou arrière"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  },
+  {
+    "id": 4800,
+    "title": {
+      "en": {
+        "value": "Cars with slow speeds What should the driver do?"
+      },
+      "ru": {
+        "value": "Автомобили с низкой скоростью Что должен делать водитель?"
+      },
+      "de": {
+        "value": "Autos mit langsamen Geschwindigkeiten Was soll der Fahrer tun?"
+      },
+      "es": {
+        "value": "Coches con velocidades lentas ¿Qué debe hacer el conductor?"
+      },
+      "fr": {
+        "value": "Voitures à faible vitesse Que doit faire le conducteur?"
+      }
+    },
+    "answers": [
+      {
+        "value": {
+          "en": "Can drive on both the left and right",
+          "ru": "Может ездить как слева, так и справа",
+          "de": "Kann sowohl links als auch rechts fahren",
+          "es": "Puede conducir tanto a la izquierda como a la derecha",
+          "fr": "Peut conduire à gauche et à droite"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive on the right edge",
+          "ru": "Двигайтесь по правому краю",
+          "de": "Fahren Sie am rechten Rand",
+          "es": "Conduce por el borde derecho",
+          "fr": "Conduisez sur le bord droit"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive on the shoulder",
+          "ru": "Водить плечом",
+          "de": "Fahren Sie auf der Schulter",
+          "es": "Conducir en el hombro",
+          "fr": "Conduisez sur l'épaule"
+        },
+        "isAnswer": false,
+        "imageId": null
+      },
+      {
+        "value": {
+          "en": "Drive close to the left edge",
+          "ru": "Двигайтесь близко к левому краю",
+          "de": "Fahren Sie nahe an die linke Kante",
+          "es": "Conduzca cerca del borde izquierdo",
+          "fr": "Conduisez près du bord gauche"
+        },
+        "isAnswer": true,
+        "imageId": null
+      }
+    ],
+    "imageId": null,
+    "isFavourite": false,
+    "theme": "roadTrafficLaw"
+  }
+]

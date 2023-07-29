@@ -4,19 +4,10 @@ import TrafficSigns from '../components/icons/trafficSigns.png'
 import SafeDriving from '../components/icons/safeDriving.png'
 import VehicleMaintenance from '../components/icons/vehicleMaintenance.png'
 import TechniquesOfSafeDriving from '../components/icons/techniquesOfSafeDriving.png'
-import Test from '../components/icons/test.png'
 
 import { ListItem } from 'app/features/components/List/helpers'
 
 export const themesList: ListItem[] = [
-  // {
-  //   title: 'Test',
-  //   description: '4 questions',
-  //   color: '#dedede',
-  //   iconColor: '#ababab',
-  //   icon: Test,
-  //   link: `/theme/test`,
-  // },
   {
     title: 'themes:vehicleLaw',
     description: 'themes:description.vehicleLaw',
@@ -32,7 +23,6 @@ export const themesList: ListItem[] = [
     iconColor: '#FFA6A6',
     icon: RoadTrafficLaw,
     link: `/theme/roadTrafficLaw`,
-    disabled: true,
   },
   {
     title: 'themes:trafficSigns',
@@ -41,7 +31,6 @@ export const themesList: ListItem[] = [
     iconColor: '#FFA6A6',
     icon: TrafficSigns,
     link: `/theme/trafficSigns`,
-    disabled: true,
   },
   {
     title: 'themes:safeDriving',
@@ -50,7 +39,6 @@ export const themesList: ListItem[] = [
     iconColor: '#FFA6A6',
     icon: SafeDriving,
     link: `/theme/safeDriving`,
-    disabled: false,
   },
   {
     title: 'themes:techniquesOfSafeDriving',
